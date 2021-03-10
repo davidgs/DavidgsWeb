@@ -1,0 +1,8 @@
+---
+title: IoT
+menu:
+  sidebar:
+    name: IoT
+    identifier: IoT
+    weight: 300
+---

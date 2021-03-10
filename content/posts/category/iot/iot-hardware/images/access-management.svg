@@ -1,0 +1,36 @@
+<svg id="f37c2179-3d11-4048-a6f6-c82bc3248539" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="66.35676" height="70.66896" viewBox="0 0 66.35676 70.66896">
+  <defs>
+    <style>
+      .a8a6309e-7ccd-42f9-a41e-9a8354a35a7b, .ac4c0b8b-3c2b-4777-b625-3a2d5d32c082, .be834a0a-b9b2-4bbd-af45-86ca1bf0e1d3, .fa98ed06-c6af-47e1-ad81-f4156ef80441 {
+        fill: none;
+        stroke-linejoin: bevel;
+      }
+
+      .be834a0a-b9b2-4bbd-af45-86ca1bf0e1d3 {
+        stroke: #fb9900;
+      }
+
+      .a8a6309e-7ccd-42f9-a41e-9a8354a35a7b {
+        stroke: #2090ce;
+      }
+
+      .fa98ed06-c6af-47e1-ad81-f4156ef80441 {
+        stroke: #cf0033;
+      }
+
+      .ac4c0b8b-3c2b-4777-b625-3a2d5d32c082 {
+        stroke: #f79701;
+      }
+    </style>
+  </defs>
+  <title>Access Management</title>
+  <g id="a2b6a9a1-5326-49cf-b91d-504dfe585691" data-name="Access Management">
+    <g>
+      <polygon class="be834a0a-b9b2-4bbd-af45-86ca1bf0e1d3" points="25.248 44.473 41.074 35.332 25.248 26.197 25.248 12.305 65.138 35.332 25.248 58.365 25.248 44.473"/>
+      <polygon class="a8a6309e-7ccd-42f9-a41e-9a8354a35a7b" points="1.457 58.365 1.457 12.305 25.52 26.197 41.346 35.332 25.52 44.473 1.457 58.365"/>
+      <polygon class="fa98ed06-c6af-47e1-ad81-f4156ef80441" points="1.457 58.364 25.521 26.199 36.676 38.031 20.008 47.654 1.457 33.301 1.457 12.306 41.346 35.335 1.457 58.364"/>
+      <polyline class="ac4c0b8b-3c2b-4777-b625-3a2d5d32c082" points="25.521 26.199 1.457 33.301 1.457 58.738"/>
+      <line class="be834a0a-b9b2-4bbd-af45-86ca1bf0e1d3" x1="20.11226" y1="47.65384" x2="1.56074" y2="12.30638"/>
+    </g>
+  </g>
+</svg>

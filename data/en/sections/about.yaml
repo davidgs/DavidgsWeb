@@ -1,0 +1,72 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Principal Developer Advocate
+# your company information
+company:
+  name: Camunda, Inc.
+  url: "https://www.camunda.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Resume-2021.pdf"
+
+# a summary about you
+summary: "I am David G. Simmons. I am an Internet of Things (IoT) pioneer who has been working in the field for over 15 years. I am now the Principal Develper Advocate at [Camunda](https://camunda.com). Before that, I was Head of Developer Relations at [QuestDB](https://questdb.io). Previously I was the Senior Developer Advocate at [Influx Data](https://influxdata.com). That's 2 Time Series databases in a row. If you're wondering how that's related to IoT, see [this](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "davidgs@davidgs.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/davidgs"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/davidgsimmons"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: DevRel
+  percentage: 95
+  color: blue
+- name: Empathetic
+  percentage: 90
+  color: pink
+- name: Presentations
+  percentage: 90
+  color: green
+- name: Team Work
+  percentage: 80
+  color: yellow
+
+
+- name: Fast Learner
+  percentage: 85
+  color: sky
+- name: Problem Solving
+  percentage: 85
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
