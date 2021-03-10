@@ -1,0 +1,17 @@
+# theme.yaml configuration file
+
+name: Davidgs Website
+license: MIT
+description: Hugo theme component to embed videos
+homepage: https://github.com/davidgs/DavidgsWebsite
+tags:
+  - component
+  - video
+  - embed
+features:
+  - simple video embedding
+min_version: 0.40.0
+
+author:
+  name: David G. Simmons
+  homepage: https://davidgs.com

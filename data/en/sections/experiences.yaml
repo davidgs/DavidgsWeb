@@ -1,0 +1,133 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Camunda, Inc.
+    url: "https://camunda.com"
+    location: Berlin, Germany (remote)
+    # company overview
+    overview: A process automation platform that enables tens of thousands of developers to design, automate and improve processes and provide better customer experiences, deliver projects faster and increase business agility.
+  positions:
+  - designation: Principal Developer Advocate (DR4)
+    start: October 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leading the introduction of Camunda to the IoT Community
+    - Standard DevRel tasks of Blog posts, community interactions and support, contributions to the Camunda Platform Open Source codebase, and support of internal stakeholders.
+    - Mentoring of jr. DevRels both inside the company and in the DevRel Community as a whole.
+    - Support and provide resources to the greater DevRel Community
+
+
+- company:
+    name: QuestDB
+    url: "https://questdb.io"
+    location: London, UK (remote)
+    overview: Time Series Database startup focused on extreme performance with a SQL-based, dependency-free database.
+  positions:
+  - designation: Head of Developer Relations
+    start: May 2020
+    end: October 2020
+    responsibilities:
+    - Community development and management of the open source developer Community
+    - Tooling for community and developer happiness metrics and management
+    - Regular technical contributions to the [company blog](https://questDB.io/blog).
+    - Define and execute the overall Developer Relations strategy.
+    - Regular international public speaking engagements at Meetups, conferences and company events. See my Notist for more.
+
+- company:
+    name: InfluxData
+    url: "https://influxdata.com"
+    location: San Francisco, CA USA (remote)
+    overview: Time Series database company responsible for the Open Source InfluxDB database and Telegraf data ingestion agent
+  positions:
+  - designation: Senior Developer Advocate
+    start: August 2017
+    end: April 2020
+    responsibilities:
+    - Technology leadership on IoT throughout the company in product development and direction.
+    - Development of complex demos highlighting InfluxData technology for IoT.
+    - Recruiting and training of other developer relations staff.
+    - Contributions to company's open source products through GitHub Pull Requests.
+    - Lead efforts for collaboration and inclusion in external Open Source initiatives like EclipseIoT, etc.
+    - Regular technical contributions to the company blog (https://influxdata.com/blog).
+    - Regular international public speaking engagements at Meetups, conferences and company events. See my [Notist](https://noti.st/davidgs) for more
+
+- company:
+    name: Dragonfly IoT
+    url: "https://dragonflyiot.com"
+    location: Holly Springs, NC USA
+    overview: Dragonfly IoT is an IoT consultancy providing hardware and software development resources.
+  positions:
+  - designation: Founder/Chief Technology Officer
+    start: November 2015
+    responsibilities:
+    - I founded Dragonfly IoT to provide technical consulting and contract development services to companies in IoT based on my extensive experience in the field.
+    - Scoped, proposed and built IoT demo applications including hardware acquisition, provisioning and programming, development of middleware and gateway devices and presentation-layer data analysis.
+    - Contributed to open-source IoT projects like Apache MyNewt.
+    - Authored white papers, blog posts and user documentation for demos, projects and open-source software efforts.
+
+- company:
+    name: PsiKick (now Everactive)
+    url: "https://everactive.com"
+    location: Charlottesville, VA USA (remote)
+    overview: Develops ultra low-power chips and SoCs for the IoT.
+  positions:
+  - designation: Chief Technical Evangelist
+    start: February 2015
+    end: October 2015
+    responsibilities:
+    - Led the definition and development of a user and developer platform for a new IoT system-on-chip being developed including defining developer APIs and points of engagement with customers.
+    - Defined developer platform architecture for engaging developers on new IoT SoC.
+    - Tested experimental IoT hardware and developed Demos to showcase capabilities in C, Python and Swift.
+    - Built custom iOS Bluetooth applications for demos and custom (C-based) developer interface for in-house developed hardware.
+    - Ported Linux/Windows drivers to Mac OS X.
+    - Brought in both Fortune 50 and emerging-company partners and customers through direct industry contacts and evangelism efforts.
+    - Engaged new hardware development partner to lower board-level development costs by over 50%.
+
+- company:
+    name: Riverbed Technology
+    url: "https://riverbed.com"
+    location: San Francisco, CA USA (remote)
+    overview: Riverbed provides hardware and services to maximize network performance for remote office and other WAN-based needs.
+  positions:
+  - designation: Technical Evangelist
+    start: October 2012
+    end: February 2015
+    responsibilities:
+    - Responsible for the development and delivery of user groups, technical sessions and webinars to enable the field sales organization to maximize sales opportunities.
+    - Worldwide technical evangelism for the Entire Riverbed platform of products including WAN Optimization, Storage Optimization, Network and Application Performance Management, and Cloud Storage solutions including hundreds of user-group presentations to thousands of customers.
+    - Helped close over $90M in sales per year.
+    - Authored white papers, blog posts and user documentation for demos, projects and open-source software efforts.
+    - Developed and delivered demos for video, web, and major on-stage product launches.
+    - Organized and developed the technical session content for the Riverbed FORCE user conference including 60 Technical Sessions, 20 Hands on Labs, and continuous Certification Testing for over 1,000 attendees.
+    - Developed and delivered webinars to over 2,000 participants annually.
+
+- company:
+    name: Sun Microsystems Labs (now Oracle Labs)
+    url: "https://oracle.com"
+    location: Menlo Park, CA USA (remote)
+    overview: Industry leader in advanced research and devlopment of such technologies as Java.
+  positions:
+  - designation: Staff Engineer
+    start: July 2003
+    end: April 2012
+    responsibilities:
+    - Contributed to the development and overall success of the Sun SPOT IoT Developer Platform project.
+    - Led the development of the on-line developer community.
+    - Research and development for embedded wireless sensor network platform
+    - Developed and grew the user and developer community from zero to over 3,000 participants in 3 years
+    - Developed the installation and maintenance software for entire Sun SPOT Platform including hardware and SDK deployment and upgrades
+    - Developed and delivered Technical Hands On Labs at Java One — the premier Java developer conference — for 3 consecutive years.
+    - Developed the Demonstration Application Suite for Sun SPOT Platform
+    - Maintained a regular high-traffic technical blog (top 50 blogs on blogs.sun.com).

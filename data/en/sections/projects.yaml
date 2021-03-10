@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+# - name: Academic
+#   filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: DevRelCollective
+  logo: /images/sections/projects/DevRel.png
+  role: Moderator
+  timeline: "March 2019 - Present"
+  repo: https://github.com/devrelcollective/awesome-devrel # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: The DevRel Collective. An industry professional group of about 2,000 DevRel professionals.
+  tags: ["professional", "devrel"]
+
+- name: Camunda Halloween
+  logo: /images/sections/projects/DoorbellCam.png
+  role: Developer
+  timeline: "October, 2020"
+  repo: https://github.com/davidgs/CamundaHalloween
+  #url: ""
+  summary: A fun IoT-based Halloween (or dog) treat dispenser using IoT cameras, BPMN, and MQTT.
+  tags: ["professional", "IoT"]
+
+- name: Swift Library for InfluxDB
+  logo: /images/sections/projects/swift.png
+  role: Owner
+  timeline: "Jul 2019 - Present"
+  repo: "https://github.com/davidgs/InfluxData-Swift"
+  summary: A Swift library for writing Data to InfluxDB. Now picked up as an official library for InfluxDB.
+  tags: ["professional","iot"]
+
+- name: IoT Poop Detector
+  logo: /images/sections/projects/poop.jpg
+  role: Nothing
+  timeline: "Oct 2019 - Dec 2019"
+  url: posts/category/iot/this-whole-thing-stinks/
+  #url: ""
+  summary: I said I do dumb IoT Projects, and this is one of the dumbest. A bathroom stench-detector that alerts with a light-up poop-emoji
+  tags: ["hobby", "iot", "fun"]
+
+- name: BME 280 Go Driver
+  logo: /images/sections/skills/go.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/davidgs/bme280_go
+  summary: A driver for the Bosch BME 280 Temperature, humidity and pressure sensor written entirely in Go.
+  tags: ["hobby","IoT", "professional"]

@@ -1,0 +1,23 @@
+title = "Hello, World!"
+
+text = """
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Voluptatibus quia, nulla! Maiores et perferendis eaque,
+exercitationem praesentium nihil.
+"""
+
+[[link]]
+    icon = "fab fa-github"
+    url = "https://github.com/davidgs"
+[[link]]
+    icon = "fab fa-linkedin"
+    url = "https://linkedin.com/in/davidgsimmons"
+[[link]]
+    icon = "fas fa-envelope"
+    url = "mailto:davidgs@davidgs.com"
+[[link]]
+    icon = "fab fa-twitter"
+    url = "https//twitter.com/davidgsIoT"
+[[link]]
+    icon = "fab fa-facebook"
+    url = "#"
