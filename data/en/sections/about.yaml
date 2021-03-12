@@ -26,6 +26,10 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "davidgs@davidgs.com"
 
+- name: Phone
+  icon: "fas fa-phone"
+  url: "919-534-5099"
+
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/davidgs"
@@ -37,6 +41,10 @@ socialLinks:
 - name: Twitter
   icon: "fab fa-twitter"
   url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+
+- name: Reddit
+  icon: "fab fa-reddit"
+  url: "https://www.reddit.com/user/santafen"
 
 
 # your soft skills
