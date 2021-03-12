@@ -47,7 +47,9 @@
     <div class="collapse navbar-collapse" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#home">{{ i18n "home" }}</a>
+          <a class="nav-link" href="#home">
+            <!-- <img class="nav-link" alt="Go To: Home" src="https://img.shields.io/badge/Go%20To%3A-Home-blue"> -->
+            {{ i18n "home" }}</a>
         </li>
         {{ if $sections }}
           {{ range sort $sections "section.weight" }}
@@ -56,6 +58,11 @@
               {{ if .section.id }}
                 {{ $sectionID = .section.id }}
               {{ end }}
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#{{ $sectionID }}">
+                  <img class="nav-link" alt="Go To: {{ .section.name }}"
+                    src="https://img.shields.io/badge/Go%20To%3A-{{ .section.name }}-blue?style=plastic"></a>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#{{ $sectionID }}">{{ .section.name }}</a>
               </li>
@@ -73,12 +80,13 @@
         {{ end }}
         {{ if site.Params.enableBlogPost }}
           <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="{{ "/posts" | relLangURL }}">{{ i18n "posts" }}</a>
+            <a class="nav-link" id="blog-link" href="{{ "/posts" | relLangURL }}"><!--img alt="Go To: Blog" src="https://img.shields.io/badge/Go%20To%3A-Blog-blue" --> {{ i18n "posts" }}</a>
           </li>
         {{ end }}
-        <div class="dropdown-divider" id="top-navbar-divider"></div>
-        <li class="nav-item"><a class="nav-link" id="twitter-link" target="new" href="https://twitter.com/intent/follow?screen_name=davidgsIoT"><img alt="Twitter Follow"
-            src="https://img.shields.io/twitter/follow/davidgsIoT?color=blue&style=plastic"></a></li>
+        <!-- <div class="dropdown-divider" id="top-navbar-divider"></div> -->
+        <!-- <li class="nav-item"><a class="nav-link" id="twitter-link" target="new" href="https://twitter.com/intent/follow?screen_name=davidgsIoT"><img alt="Twitter Follow"
+            src="https://img.shields.io/twitter/follow/davidgsIoT?color=blue&style=plastic"></a>
+          </li> -->
         {{ range  (index site.Data site.Language.Lang).site.customMenus }}
           <li class="nav-item">
             <a class="nav-link" href="{{ .url }}">{{ .name }}</a>

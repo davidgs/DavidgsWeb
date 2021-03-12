@@ -46,7 +46,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/davidgs/website
+  gitRepo: https://github.com/davidgs/DavidgsWeb
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true

@@ -34,7 +34,7 @@ projects:
   logo: /images/sections/projects/DoorbellCam.png
   role: Developer
   timeline: "October, 2020"
-  repo: https://github.com/davidgs/CamundaHalloween
+  repo: https://github.com/camunda-community-hub/CamundaHalloween
   #url: ""
   summary: A fun IoT-based Halloween (or dog) treat dispenser using IoT cameras, BPMN, and MQTT.
   tags: ["professional", "IoT"]
