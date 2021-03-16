@@ -22,7 +22,7 @@ That takes a while.
 
 **Note:** I start with a fresh OS for each of these projects. Thanks to being able to [dump a running system](/posts/category/general/how-to-save-your-artik-520-backup/) back out to mini-SD Card, I just dump what I was working on to a card, burn a fresh card, and start over.
 
-You're going to need that Zulu JVM I talked about [earlier](/posts/gategory/iot/make-your-artik-520-scream/). Installation is quick and easy, but don't skip it! Apparently the open-jdk version of the JVM won't really give you much joy with OpenHAB. I didn't try it, I just installed the Zulu JVM and went on. In case you forgot, once you've [downloaded the Zulu JVM](https://www.azul.com/products/zulu/):
+You're going to need that Zulu JVM I talked about [earlier](/posts/gategory/iot/make-your-artik-520-scream/). Installation is quick and easy, but don't skip it! Apparently the open-jdk version of the JVM won't really give you much joy with OpenHAB. I didn't try it, I just installed the Zulu JVM and went on. In case you forgot, once you've [downloaded the Zulu JVM](https://www.azul.com/products/zulu/)
 
 ```
 [root@localhost ~]# tar xvf ezdk-1.8.0_112-8.19.0.31-eval-linux_aarch32hf.tar
@@ -64,7 +64,7 @@ This is where things got fun! Once the OpenHAB server was started, I connected t
 
 There are a **lot** of them.  I chose the ones for the stuff I have. A Samsung TV, some Nest Stuff and those Wemo switches. As soon as I installed those bindings, stuff started showing up in my "Inbox". Like, instantly! What showed up right away were the Wemo switches. As soon as I fixed the network connection on my Samsung TV, it also showed up right away. The Nest stuff is going to take a bit more work since I had to register as a Nest Developer, and I haven't finished jumping through all their hoops just yet.  But the bindings are installed:
 
-![Safari016](/posts/category/iot/iot-hardware/images/Safari016.jpg) "Safari016.jpg"){width="598" height="208"}
+![Safari016](/posts/category/iot/iot-hardware/images/Safari016.jpg) "Safari016.jpg")
 
 I installed the Z-Wave binging for reasons that now escape me. Deal with it.
 
