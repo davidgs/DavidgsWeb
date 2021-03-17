@@ -1,0 +1,78 @@
+# section information
+section:
+  name: Bezuglich
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Hauptentwickleranwalt
+# your company information
+company:
+  name: Camunda, Inc.
+  url: "https://www.camunda.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Resume-2021.pdf"
+
+# a summary about you
+summary: "Ich bin David G. Simmons. Ich bin ein Pionier des Internet der Dinge (IoT), der seit über 15 Jahren auf diesem Gebiet tätig ist. Ich bin jetzt der Principal Develper Advocate bei [Camunda] (https://camunda.com). Davor war ich Head of Developer Relations bei [QuestDB] (https://questdb.io). Zuvor war ich Senior Developer Advocate bei [Influx Data] (https://influxdata.com). Das sind 2 Zeitreihendatenbanken hintereinander. Wenn Sie sich fragen, wie das mit IoT zusammenhängt, lesen Sie [dies] (https://www.influxdata.com/iot-guy-joined-influxdata/)."
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "davidgs@davidgs.com"
+
+- name: Phone
+  icon: "fas fa-phone"
+  url: "919-534-5099"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/davidgs"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/davidgsimmons"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+
+- name: Reddit
+  icon: "fab fa-reddit"
+  url: "https://www.reddit.com/user/santafen"
+
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: DevRel
+  percentage: 95
+  color: blue
+- name: Einfühlsam
+  percentage: 90
+  color: pink
+- name: Präsentationen
+  percentage: 90
+  color: green
+- name: Zusammenarbeit
+  percentage: 80
+  color: yellow
+- name: Schneller Lerner
+  percentage: 85
+  color: sky
+- name: problemlösende Fähigkeiten
+  percentage: 85
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"

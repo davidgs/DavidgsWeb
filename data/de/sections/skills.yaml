@@ -1,0 +1,56 @@
+# section information
+section:
+  name: Kompetenzen
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Go Entwicklung
+  logo: /images/sections/skills/go.png
+  summary: "Verwendung als Hauptsprache für die berufliche Entwicklung. Kann skalierbare, testbare und wartbare Programme schreiben."
+  url: "https://golang.org/"
+
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "Kann Code in Produktionsqualität und wartbar schreiben. "
+  url: "https://java.com/"
+
+- name: Javascript/Node.js
+  logo: /images/sections/skills/js.png
+  summary: "Haben sowohl clientseitiges als auch serverseitiges JavaScript geschrieben (Node.js)"
+  url: "https://javascript.com/"
+
+- name: PHP
+  logo: /images/sections/skills/php.png
+  summary: "Datenbankkonnektivität, interaktive Formulare usw."
+  url: "https://php.net/"
+
+
+- name: Swift/Objective C
+  logo: /images/sections/skills/swift.png
+  summary: "iOS- und macOS Swift / Objective C-Programmierung einschließlich Bibliotheksentwicklung"
+  url: "https://en.wikipedia.org/wiki/Swift_(programming_language)"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Meistens MicroPython, aber auch andere, größere Programme geschrieben."
+  url: "https://python.org/"
+
+- name: Zeitreihendatenbanken
+  logo: /images/sections/skills/TS.png
+  summary: "Möglicherweise die einzige IoT- und Zeitreihendatenbank DevRel auf dem Planeten. Möglicherweise. Erfahrung in der Entwicklung von IoT-Datenlösungen mit InfluxDB und QuestDB."
+
+- name: IoT
+  logo: /images/sections/skills/IoT.png
+  summary: "Seit 2004 Entwicklung von IoT-Geräten und -Systemen. Unterstützung bei der Entwicklung des allerersten IoT-Entwicklerkits, des SunSPOT"
+  url: "https://github.com/davidgs"
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "Kennen Sie die C / C ++ - Programmierung für eingebettete Umgebungen wie EmbedOS, Arduino usw. Sie haben Arduino-Bibliotheken entwickelt."

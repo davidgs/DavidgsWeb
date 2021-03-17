@@ -1,0 +1,35 @@
+# section information
+section:
+  name: Bildungshintergrund
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: MS Informatik (unvollständig)
+  icon: fa-university
+  timeframe: 1992-1995
+  institution:
+    name: Universität von New Mexico
+    url: "#"
+- name: B.A. technischen Schreiben
+  icon: fa-graduation-cap
+  timeframe: 1985 - 1988
+  institution:
+    name: Columbia University in der Stadt New York
+    url: "#"
+
+- name: B.S Biologische Wissenschaften
+  icon: fa-university
+  timeframe: 1982 - 1985
+  institution:
+    name: Universität von Kalifornien, Santa Barbara
+    url: "#"
+  extracurricularActivities: #(optional)
+  - Undergraduate Teaching Assistant.
+  - Dean's Honours (1983 - 1985).
+

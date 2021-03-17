@@ -18,7 +18,7 @@ skills:
 
 - name: Java
   logo: /images/sections/skills/java.png
-  summary: "Capable of writing production-quality, maintanable code. "
+  summary: "Capable of writing production-quality, maintainable code. "
   url: "https://java.com/"
 
 - name: Javascript/Node.js
@@ -32,7 +32,7 @@ skills:
   url: "https://php.net/"
 
 
-- name: Switf/Objective C
+- name: Swift/Objective C
   logo: /images/sections/skills/swift.png
   summary: "iOS and macOS Swift/Objective C programming including library development"
   url: "https://en.wikipedia.org/wiki/Swift_(programming_language)"
@@ -44,7 +44,7 @@ skills:
 
 - name: Time Series Databases
   logo: /images/sections/skills/TS.png
-  summary: "Possibly the only IoT and Time Sereis Database DevRel on the planet. Possibly. Experienced in architecting IoT Data solutions using InfluxBD and QuestDB."
+  summary: "Possibly the only IoT and Time Series Database DevRel on the planet. Possibly. Experienced in architecting IoT Data solutions using InfluxBD and QuestDB."
 
 - name: IoT
   logo: /images/sections/skills/IoT.png

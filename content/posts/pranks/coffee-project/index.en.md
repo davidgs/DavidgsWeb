@@ -4,6 +4,7 @@ date: 2009-02-02
 description: The Coffee Project
 slug: coffee-project
 hero: images/spill-coffee-beans.jpg
+identifier: pranks
 ---
 
 I took a picture of the Latte I made every day for a month ...

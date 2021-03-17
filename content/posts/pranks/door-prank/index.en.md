@@ -4,6 +4,7 @@ date: 2006-01-01
 description: Door Prank
 slug: door-prank
 hero: images/door.jpg
+identifier: pranks
 ---
 
 # Roger's Door
