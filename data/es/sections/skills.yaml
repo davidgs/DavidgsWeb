@@ -1,0 +1,56 @@
+# section information
+section:
+  name: Habilidades
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Go Desarrollo
+  logo: /images/sections/skills/go.png
+  summary: "Usando como el idioma principal para el desarrollo profesional. Capaz de escribir un programa escalable, comprobable y mantenible."
+  url: "https://golang.org/"
+
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "Capaz de escribir la calidad de la producción, un código mantenible."
+  url: "https://java.com/"
+
+- name: Javascript/Node.js
+  logo: /images/sections/skills/js.png
+  summary: "Han escrito tanto el lado del cliente como el lado del servidor javascript (Node.js)"
+  url: "https://javascript.com/"
+
+- name: PHP
+  logo: /images/sections/skills/php.png
+  summary: "Conectividad de la base de datos, formularios interactivos, etc."
+  url: "https://php.net/"
+
+
+- name: Swift/Objective C
+  logo: /images/sections/skills/swift.png
+  summary: "IOS y MACOS SWIFT / OBJETIVO C Programación, incluido el desarrollo de la biblioteca."
+  url: "https://en.wikipedia.org/wiki/Swift_(programming_language)"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Mayormente Microphthon, pero también han escrito otros programas más grandes."
+  url: "https://python.org/"
+
+- name: Bases de datos de la serie de tiempo
+  logo: /images/sections/skills/TS.png
+  summary: "Posiblemente, la única base de datos de IoT y Time Series Devrel en el planeta. Posiblemente. Experimentado en las soluciones de Datos de IOT de arquitectura que utilizan InfluxBD y QuestDB."
+
+- name: IoT
+  logo: /images/sections/skills/IoT.png
+  summary: "He estado haciendo el desarrollo de dispositivos y sistemas IOT desde 2004. Ayudó a desarrollar el primer kit de desarrolladores de IOT, la SunSPOT."
+  url: "https://github.com/davidgs"
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "Sepa la programación C/C++ para entornos incrustados, incluidos Embedos, Arduino, etc., han desarrollado bibliotecas arduino."

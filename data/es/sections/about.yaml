@@ -1,0 +1,80 @@
+# section information
+section:
+  name: Sobre
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Principal Developer Defensor
+# your company information
+company:
+  name: Camunda, Inc.
+  url: "https://www.camunda.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Resume-2021.pdf"
+
+# a summary about you
+summary: "Soy David G. Simmons. Soy un internet de cosas (IOT) Pioneer que ha estado trabajando en el campo durante más de 15 años. Ahora soy el principal defensor del develper en [Camunda](https://camunda.com). Antes de eso, fui jefe de relaciones de desarrollador en [Questdb](https://questdb.io). Anteriormente, era el defensor del desarrollador principal en [InfluxData](https://influxdata.com). Son 2 bases de datos de series de tiempo seguidas. Si se pregunta cómo está relacionado con IOT, consulte [esto](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "davidgs@davidgs.com"
+
+- name: Phone
+  icon: "fas fa-phone"
+  url: "919-534-5099"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/davidgs"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/davidgsimmons"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+
+- name: Reddit
+  icon: "fab fa-reddit"
+  url: "https://www.reddit.com/user/santafen"
+
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: DevRel
+  percentage: 95
+  color: blue
+- name: Empático
+  percentage: 90
+  color: pink
+- name: Presentaciones
+  percentage: 90
+  color: green
+- name: Trabajador de equipo
+  percentage: 80
+  color: yellow
+
+
+- name: Aprendiz rapido
+  percentage: 85
+  color: sky
+- name: Solucionador de problemas
+  percentage: 85
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
