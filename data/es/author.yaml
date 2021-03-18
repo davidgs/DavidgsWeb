@@ -1,0 +1,20 @@
+# some information about you
+name: "David G. Simmons"
+nickname: "dg"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hola, yo soy"
+image: "/images/author/dg3.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "davidgs@davidgs.com"
+  phone: "+1 (919) 534-5099"
+
+# some summary about what you do
+summary:
+  - Soy un defensor de desarrollador
+  - Soy DevRel
+  - Me encanta IoT
+  - Me encanta open-source
+  - Me encanta construir proyectos IoT inútiles
+  - Enseño a las personas a usar la tecnología
+  - Amo a los perros ... probablemente más que la gente
