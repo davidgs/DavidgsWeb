@@ -1,3 +1,3 @@
 ---
-title: Des Postes
+title: Postes
 ---
