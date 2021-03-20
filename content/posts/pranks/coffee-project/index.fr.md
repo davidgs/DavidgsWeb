@@ -1,12 +1,12 @@
 ---
-title: "Le projet café"
+title: "Le projet Café"
 date: 2009-02-02
-description: Le projet café
+description: Le Projet Café
 slug: coffee-project
 hero: images/spill-coffee-beans.jpg
 identifier: pranks
 ---
 
-J'ai pris une photo du Latte que j'ai fait tous les jours pendant un mois ...
+Je pris une photo de la Latte j'ai fait tous les jours pendant un mois ...
 
-![gif d'un Latte changeant au cours d'un mois](/posts/pranks/images/CoffeeProject.gif)
+![gif d'un Latte changer au cours d'un mois](/posts/pranks/images/CoffeeProject.gif)

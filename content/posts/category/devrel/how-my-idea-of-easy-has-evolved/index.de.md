@@ -1,5 +1,5 @@
 ---
-Title: "Wie sich meine Vorstellung von einfach entwickelt hat"
+Title: "Wie meine Idee von einfacher sich entwickelt hat"
 Date: 2021-03-12
 Category:
   - devrel
@@ -8,53 +8,53 @@ Slug: how-my-idea-of-easy-has-evolved
 hero: images/easy.jpeg
 ---
 
-Es ist einfach! Nun, das ist leicht für * dich * zu sagen! Aber was für mich einfach ist, ist vielleicht nicht einfach für Sie, und es wird sicherlich nicht für alle einfach sein.
+Es ist einfach! Nun, das ist einfach für * Sie zu sagen *! Aber was ist einfach für mich nicht leicht für Sie sein, und es wird sicherlich nicht einfach für jeden etwas dabei.
 
-Ich habe kürzlich meine gesamte Website komplett neu gestaltet und neu bereitgestellt. Es war an der Zeit. Ich wollte unbedingt aus dem aufgeblähten Wordpress-Zug aussteigen, also entschied ich mich für einen statischen Site-Generator. Ich habe anfangs mit Gatsby angefangen, aber ich konnte die Dinge einfach nicht zum Laufen bringen, also bin ich zu [Hugo] (https://gohugo.io) gekommen. Bisher gefällt es mir.
+Ich habe vor kurzem ein komplettes Redesign und Umschichtung meiner gesamten Website. Es war an der Zeit. Ich wollte wirklich von dem Wordpress aufblasen Zuge steigen, so dass ich mit einem statischen Website-Generator beschlossen zu gehen. Ich begann zunächst mit Gatsby aber, na ja, ich konnte einfach nicht die Dinge arbeiten, damit ich mit [Hugo] endete (https://gohugo.io). Bisher Ich mag es.
 
-## Wie ist das einfach?
+## Wie ist das leicht?
 
-Im Rahmen dieser Migration von Wordpress musste ich meine gesamte Site exportieren und dann alles aus HTML in [Markdown] (https://www.markdownguide.org) konvertieren. Es war ehrlich gesagt eine enorme Aufgabe. Ich habe fast 4 Monate gebraucht, um es in meiner "Freizeit" fertig zu stellen.
+Im Zuge dieser Migration von Wordpress weg, ich hatte meine gesamte Website zu exportieren, und dann alles konvertieren [Markdown](https://www.markdownguide.org) von HTML. Es war, ehrlich gesagt, eine enorme Aufgabe. Es hat mir den besseren Teil von 4 Monate gedauert es zu vollenden in meinem `Ersatz Time`.
 
-Als Teil dieses Konvertierungsprozesses musste ich nicht nur jede Seite, sondern jeden Blog-Beitrag durchgehen und nach übrig gebliebenen Formatierungs-Cruft suchen. Ich habe viel davon gefunden. Außerdem musste ich alle Bilder an den richtigen Ort in Hugo usw. verschieben.
+Im Rahmen dieses Umwandlungsprozesses, ich hatte nur jede Seite nicht zu gehen, aber jede Blog-Post, und sucht nach übrig gebliebenen Formatierung hinter cruft links. Ich fand viel davon. Plus Ich hatte alle Bilder an die richtige Stelle in Hugo zu bewegen, usw.
 
-Dies zwang mich, alle meine alten Blog-Beiträge noch einmal zu lesen.
+Dies zwang mich immer wieder alle meine alten Blog-Posts zu lesen.
 
-! [Weinendes Baby mit dem Banner 'Cringeworthy' darüber] (images / Cringe.jpg)
+![Schreiendes Baby mit dem Banner ‚cringeworthy‘ über sie](images/Cringe.jpg)
 
-Sie sehen, ich habe all diese technischen Blogs geschrieben, einschließlich Code usw., und gesagt: "Es ist so einfach wie ..." oder "Es war einfach ...".
+Sie sehen, habe ich alle diese technischen Blogs zu schreiben, einschließlich Code usw. und sagen: „Es ist so einfach wie ...“ oder „Es war leicht zu ...“.
 
-Ich hatte den falschen Eindruck, dass die Leute denken würden, es sei einfach, wenn sie sagen, dass etwas einfach ist, und sie würden es auch tun können. Als ich auf viele dieser älteren Beiträge zurückblickte, erinnerte ich mich daran, dass diese Dinge für mich nicht einmal einfach waren. Ich erinnerte mich an die Stunden und Stunden, die ich damit verbracht hatte, zu recherchieren, zu versuchen, zu scheitern, es erneut zu versuchen, zu googeln, erneut zu googeln usw., bevor ich etwas zum Arbeiten bekam.
+Ich habe den Eindruck, dass fehlgeleitete durch etwas zu sagen war einfach, Leute würden denken, es war einfach, und sie wäre in der Lage, es auch zu tun. Im Rückblick auf viele dieser älteren Beiträge, erinnerte ich mich, wie diese Dinge werenb't sogar leicht _me_ zu tun. Ich erinnerte mich an die Stunden und Stunden, die ich verbrachte die Erforschung und versuchte, in Ermangelung und versuchte wieder, googeln, Wieder googeln usw., bevor ich etwas Arbeit bekam.
 
-Und dann sagte ich, es sei einfach.
+Und dann sagte ich, es war einfach.
 
 ## Es ist nicht einfach
 
-Diese Dinge sind ** nicht ** einfach! In der Tat sind sie schwer. Für jemanden ist alles einfach. Das Gleiche ist für viele andere Menschen schwer.
+Diese Dinge sind ** ** nicht leicht! In der Tat sind sie hart. Alles ist einfach für jemanden. Das Gleiche ist schwer für viele andere Menschen.
 
-Was ich im Laufe der Zeit erkannt habe, ist, dass meine ursprünglichen Gründe, etwas einfach zu sagen, nicht nur falsch, sondern völlig falsch waren. Anstatt den Leuten zu helfen, zu glauben, dass sie es schaffen könnten, haben sie sich meiner Meinung nach meistens schlecht / inkompetent / etc. weil es für sie * nicht * einfach war, obwohl * ich * sagte, dass es das war!
+Was ich im Laufe der Zeit realisiert ist, dass meine ursprünglichen Gründe für die etwas zu sagen war, wurde einfach nicht nur verfehlt, aber völlig falsch. Anstatt den Menschen hilft, zu denken, dass sie es tun könnte, was es meistens tat, glaube ich, war sie fühlen sich schlecht / inkompetent / etc machen. weil es * war für sie nicht * leicht, obwohl * I * sagte, es sei!
 
-Das war natürlich nie meine Absicht. Gute Absichten können aber auch Schaden anrichten. Wenn Ihre guten Absichten Schaden anrichten, sollten Sie Ihre Arbeitsweise immer neu bewerten und ändern. Zumindest glaube ich das.
+Das ist natürlich, war nie meine Absicht. Aber gute Absichten können auch Schaden verursachen, und wenn Sie Ihre guten Absichten Schaden verursachen, sollten Sie immer neu zu bewerten und ändern, wie Sie Dinge tun. Zumindest glaube ich das.
 
 ## Nur ändern
 
-Ich werde nicht mehr sagen, dass die Dinge einfach sind. Tatsächlich mag ich das Wort wirklich nicht. Hier sind einige andere Wörter, die ich aus meinem DevRel-Vokabular entfernen möchte:
+Ich werde nicht sagen Dinge sind einfach nicht mehr. In der Tat habe ich komme wirklich das Wort nicht mögen. Hier sind einige andere Worte, die ich von meinem devrel Vokabular zu entfernen versuchen:
 
 - Einfach
-- Einfach
+- Einfache
 - Gerade
 - Einfach
 
-Es gibt natürlich noch andere. Einer der heimtückischeren ist "Just". Du musst nur ... ja, nur. Sie müssen nur diese unglaublich schwierige Sache tun. Aber ich sagte, du musst es einfach, was es einfach klingen ließ.
+Es gibt andere, natürlich. Einer der heimtückischen ist ‚Just‘. Sie müssen nur ... ja, genau. Sie müssen nur diese unglaublich schwierige Sache tun. Aber ich sagte, Sie ‚nur haben‘, was machte es einfach klingen.
 
-Ich muss einfach aufhören, diese Dinge zu sagen. Und diese Dinge zu schreiben. So einfach ist das.
+Ich muss nur aufhören, diese Dinge zu sagen. Und schreibe diese Dinge. Es ist nur so einfach.
 
 ## Das Internet ist für immer
 
-Ich habe sie alle gelesen, jeden dieser Blog-Beiträge. Aber ich habe sie nicht geändert. Warte was?! Das stimmt, ich habe sie so gelassen, wie sie waren. Weil das Internet für immer ist und Sie die Geschichte nicht neu schreiben können.
+Ich lese sie alle, jeder dieser Blog-Posts. Aber ich habe sie nicht ändern. Warte was?! Das ist richtig, ich ließ sie genau so, wie sie waren. Da das Internet ist für immer und Sie können nicht neu zu schreiben Geschichte.
 
-Ich habe nicht versucht, mein schlechtes Verhalten zu löschen, aber ich bin entschlossen, es zu ändern, wenn ich weitermache. So funktioniert das Leben. Sie können Ihre Vergangenheit nicht löschen, aber Sie können in der Gegenwart und in der Zukunft besser sein.
+Ich versuche nicht, mein schlechtes Verhalten zu löschen, aber ich bin auf veränderte sie begangen, wie ich vorankommen. Das ist, wie das Leben funktioniert. Sie können Ihre Vergangenheit nicht löschen, aber Sie können in der Gegenwart und in der Zukunft besser sein.
 
-Ich habe allerdings * einige * Änderungen vorgenommen. Ich habe einige krasse Rechtschreibfehler korrigiert. Und ich * denke *, ich habe es geschafft, allen alten Bildern Alt-Text hinzuzufügen. Ich habe den Alt-Text hinzugefügt, weil es das Richtige ist. Es hilft Menschen. Das Umschreiben all dieser alten Blog-Beiträge, nun, es könnte den Menschen * helfen *, aber ich denke, es ist ein viel wirkungsvolleres Beispiel, sie so zu lassen, wie sie sind, aber stellen Sie sicher, dass dieser Blog-Beitrag auch verfügbar ist, um mich zu erklären und zur Rechenschaft zu ziehen in der Zukunft.
+Ich machte einige * * Änderungen though. Ich korrigierte einige eklatante Rechtschreibfehler. Und ich denke, * * ich es geschafft, Alt-Text hinzugefügt, um alle alten Bilder zu bekommen. Ich fügte hinzu, die Alt-Text, weil es das Richtige zu tun ist. Es hilft den Menschen. all diese alten Blog-Posts Umschreiben es gut, * könnte * Menschen helfen, aber ich denke, es ist ein viel mächtiges Beispiel ist, sie zu verlassen, wie sie sind, aber stellen Sie sicher, dass diese Blog-Post ist auch verfügbar zu erklären und zu halten, mich zur Rechenschaft in der Zukunft.
 
-Sie können mich auch zur Rechenschaft ziehen. Weisen Sie mich darauf hin, wenn ich diese Dinge noch einmal sage. Ich versuche, mich nur zu ändern, aber wie wir alle wissen, ist es schwierig, Änderungen vorzunehmen.
+Sie können auch halten mich verantwortlich. Zeigen Sie mir, wenn ich wieder diese Dinge sagen. Ich versuche zu ‚nur‘ zu ändern, aber wie wir alle wissen, ändern ist hart.

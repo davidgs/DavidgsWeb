@@ -1,6 +1,6 @@
 ---
 Title: "Woodworking"
-Date: 2012
+Date: 2012-02-02
 Description: Woodworking projects
 Slug: woodworking
 hero: images/IMG_0076.jpg
