@@ -1,7 +1,7 @@
 ---
-title: "Prank de porte"
+title: "Porte Prank"
 date: 2006-01-01
-description: Prank de porte
+description: porte Prank
 slug: door-prank
 hero: images/door.jpg
 identifier: pranks
@@ -9,11 +9,11 @@ identifier: pranks
 
 # Porte de Roger
 
-Nous l'avons fait à la porte de mon patron il y a quelques années alors qu'il était en voyage. Les gens sans humour "Workplace resources" ont essayé de nous faire licencier, mais nous avons réussi à nous en sortir.
+Nous l'avons fait à la porte de mon patron quelques années alors qu'il était sur Voyage. Les ressources en milieu de travail « sans humour » les gens ont essayé de nous ont tous tiré pour elle, mais nous avons réussi à sortir avec elle.
 
-Nous avons d'abord démonté l'ensemble du cadre de la porte, puis l'avons réassemblé à l'envers. Au moment où il a récupéré le "Welcome Mat" que nous avions collé au plafond était tombé, mais c'était toujours super.
+D'abord, nous l'ensemble démonté chambranle, puis réassemblé à l'envers. Au moment où il est revenu le « Welcome Mat » nous avions collé au plafond était tombé, mais il était encore grand.
 
-![Une porte de bureau complète, installée à l'envers](/posts/pranks/images/Door-1.jpg)
+![Une porte de bureau complet, installé vers le bas à l'envers](/posts/pranks/images/Door-1.jpg)
 
-![Roger essayant d'ouvrir la porte à l'envers](/posts/pranks/images/Door-2.jpg)
+![Roger essayant d'ouvrir la porte vers le bas à l'envers](/posts/pranks/images/Door-2.jpg)
 

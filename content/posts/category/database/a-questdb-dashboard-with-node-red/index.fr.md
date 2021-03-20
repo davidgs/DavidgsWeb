@@ -1,5 +1,5 @@
 ---
-title: "Un tableau de bord QuestDB avec Node-Red"
+title: « Un tableau de bord QuestDB avec nœud rouge »
 Date: 2020-06-09
 Author: davidgs
 Category: database, Gadgetry, IoT
@@ -8,54 +8,54 @@ Slug: a-questdb-dashboard-with-node-red
 hero: images/Screen-Shot-2020-06-09-at-7.39.13-AM.png
 ---
 
-C'est vraiment un suivi de mon [post] (/ posts / category / database / iot-on-questdb /) de la semaine dernière où j'ai connecté un Arduino avec un capteur de température et d'humidité à QuestDB.
+Ceci est vraiment une suite à mon [post](/posts/category/database/iot-on-questdb/) de la semaine dernière où je connecté un Arduino avec une température et capteur d'humidité à QuestDB.
 
-C'est une chose d'envoyer des données à votre base de données, mais être capable de visualiser ces données est la prochaine étape logique. Alors, plongeons-nous dans le vif du sujet.
+Il est une chose pour envoyer des données à votre base de données, mais être capable de visualiser ces données est la prochaine étape logique. Alors nous allons droit de plongée pour le faire.
 
-QuestDB est plutôt nouveau et nous n'avons donc pas encore terminé notre plugin Grafana Data Source.Je voulais donc créer un tableau de bord rapide pour afficher les données de température / humidité entrantes (et vous verrez à quel point le capteur est vraiment horrible). Pour ce faire, j'ai choisi Node-Red car, eh bien, cela me semble le choix évident!
+QuestDB est assez nouveau, et donc nous n'avons pas terminé notre Grafana Source de données Plugin, donc je voulais faire un tableau de bord rapide pour afficher les données entrantes température / humidité (et vous verrez à quel point terrible le capteur est vraiment). Pour ce faire, j'ai choisi nœud rouge parce que, eh bien, il semble que le choix évident!
 
-## Construction des nœuds:
+## Construire les nœuds:
 
 ![Capture d'écran du processus NodeRed](/posts/category/database/images/Screen-Shot-2020-06-09-at-7.38.57-AM.png)
 
-Comme vous pouvez le voir, il n'utilise que quelques nœuds, je vais donc les parcourir un par un.
+Comme vous pouvez le voir, il utilise seulement quelques nœuds, donc je vais marcher à travers eux un par un.
 
-Le nœud initial est un nœud d'injecteur qui se déclenche à un intervalle régulier et configurable. La mine se déclenche toutes les 10 secondes juste pour éviter d'être trop bruyante. Il déclenche le nœud `SetQuery` qui construit la requête:
+Le nœud est un nœud initial d'injecteur qui se déclenche à un intervalle régulier, configurable. Mine les incendies toutes les 10 secondes juste pour éviter d'être trop bruyant. Il déclenche le nœud `de SetQuery` qui construit la requête:
 
-`` `js
-var q = {}
-q ["query"] = "sélectionnez temp_c, humidité, horodatage depuis iot où horodatage> (systimestamp () - 5000000)"
-msg.payload = q
-return msg;
-''
+```js
+  var q = {}
+  q["query"] = "select temp_c, humidity, timestamp from iot where timestamp > (systimestamp() - 5000000)"
+  msg.payload = q
+  return msg;
+```
 
-J'ai défini la charge utile sur une requête, dans ce cas, j'obtiens la température et l'humidité des 5 dernières secondes (rappelez-vous, nous avons affaire à des horodatages en microsecondes, donc 5 secondes correspondent à 5 millions de microsecondes). J'envoie ensuite cette requête, en tant que charge utile, à un nœud de requête http que j'ai appelé Query QuestDB. J'ai défini l'hôte comme étant ma machine locale, l'URL du point de terminaison de l'API de requête et j'ajoute le msg.payload entrant à l'URL.
+Je mis la charge utile à une requête, dans ce cas, je reçois la température et l'humidité pendant les 5 dernières secondes (rappelez-vous, nous avons affaire à microsecondes horodatages, donc 5 secondes est de 5 m microsecondes). J'envoie ensuite cette requête, comme la charge utile, à un nœud de requête HTTP que j'ai appelé la requête QuestDB. Je me suis fixé l'hôte d'être ma machine locale, l'URL du point de terminaison API de requête, et je joins le msg.payload entrant à l'URL.
 
-![Modification des paramètres HTTP de Node Red](/posts/category/database/images/Screen-Shot-2020-06-09-at-7.51.26-AM.png "Screen Shot 2020-06-09 at 7.51.26 AM.png")
+![Modification des paramètres HTTP du noeud rouge](/posts/category/database/images/Screen-Shot-2020-06-09-at-7.51.26-AM.png "Screen Shot 2020-06-09 at 7.51.26 AM.png")
 
-La requête renvoie une chaîne JSON, je vais donc devoir l'exécuter via un nœud JSON pour la transformer en objet JSON. J'envoie ensuite le résultat de cette analyse JSON à 2 nœuds supplémentaires, un pour la température et un pour l'humidité. Après l'analyse JSON, je récupère un objet contenant plusieurs éléments que je veux parcourir.
+Les rendements de la requête aa chaîne JSON, donc je vais avoir besoin de l'exécuter par un nœud JSON pour la transformer en un objet JSON. J'envoie ensuite le résultat de cette JSON-analyse syntaxique 2 noeuds supplémentaires, une pour la température et un pour l'humidité. Après la JSON Parsing, je reçois un retour d'objet qui a plusieurs choses dans ce que je veux aller jusqu'au bout.
 
-![Capture d'écran de l'objet JSON renvoyé](/posts/category/database/images/Screen-Shot-2020-06-09-at-7.57.42-AM.png)
+![Capture d'écran de l'objet JSON retourné](/posts/category/database/images/Screen-Shot-2020-06-09-at-7.57.42-AM.png)
 
-La première chose à noter est que la charge utile contient un champ `query` qui montre la requête que j'ai exécutée. Frais! Ensuite, j'obtiens un champ `colonnes` qui est un tableau avec une entrée pour chaque colonne si les données que je récupère. Depuis que j'ai demandé «temp_c», «humidité» et «horodatage», je m'attendrais à ce que ce tableau contienne 3 éléments, et c'est effectivement le cas. Il m'indique également, dans chaque élément, le nom et le type de valeur qu'il a renvoyé, ce qui est une information utile.
+La première chose à noter est que la charge utile contient un champ `query` qui montre la I requête exécutée. Frais! Ensuite, je reçois un champ `columns` qui est un tableau avec une entrée pour chaque colonne si les données je reviens. Depuis que j'interrogé pour `temp_c`,` `humidity` et timestamp` je me attends à ce tableau d'avoir 3 éléments, et cela se fait. Il dit aussi moi, dans chaque élément, le nom et le type de valeur, il est de retour qui est des informations utiles.
 
-Enfin, il y a un champ `dataset` qui contient un tableau de tableaux avec mes données que j'ai demandées. Depuis que j'ai demandé 5 secondes de données, et, si vous vous souvenez du [post précédent] (/ posts / category / database / iot-on-questdb /), j'envoyais des données une fois par seconde, je récupère un tableau avec 5 tableaux dedans, un pour chaque seconde. En développant ces tableaux, je vois que j'ai obtenu 2 doubles et un horodatage dans chacun d'eux correspondant à ce que le champ `colonnes` m'a dit que j'obtiendrais. Joli! Il ne reste donc plus qu'à envoyer ces données à certains éléments du tableau de bord. Enfin, presque.
+Enfin, il y a un champ `dataset` qui contient un tableau de tableaux avec mes données que j'ai demandé. Depuis j'ai demandé 5 secondes de données, et, si vous vous souvenez de la [post précédent](/posts/category/database/iot-on-questdb/), j'envoyais des données une fois par seconde, je reviens un tableau avec 5 tableaux en elle, une pour chaque seconde. En élargissant ces tableaux, je vois que j'ai eu 2 doubles et un horodatage dans chacun correspondant à ce que le champ `columns` m'a dit que je recevrais. Joli! Donc, tout ce qui reste est d'envoyer ces données à certains éléments du tableau de bord. Eh bien, presque.
 
-`` `js
-var f = {}
-f.topic = "Température ºC"
-f.payload = msg.payload.dataset [msg.payload.dataset.length-1] [0]
-f.timestamp = msg.payload.dataset [msg.payload.dataset.length-1] [2]
-retour f
-''
+```js
+  var f = {}
+  f.topic = "Temperature ºC"
+  f.payload = msg.payload.dataset[msg.payload.dataset.length-1][0]
+  f.timestamp = msg.payload.dataset[msg.payload.dataset.length-1][2]
+  return f
+```
 
-Pour le nœud `Set Temp`, je tire le dernier élément de l'ensemble de données et saisis la valeur de température et la valeur d'horodatage. Je les envoie ensuite, en tant que charge utile, aux éléments réels du tableau de bord. Je fais exactement la même chose pour le nœud «Set Humidity». En faisant glisser les nœuds du tableau de bord, Node-Red configure automatiquement un tableau de bord Web avec ces éléments, et je peux y accéder et voir mon nouveau tableau de bord:
+Pour le nœud `Set Temp`, je tire le dernier élément de l'ensemble de données, et de saisir la valeur de la température et la valeur d'horodatage. J'envoie alors ceux, comme la charge utile, aux éléments du tableau de bord réels. Je fais exactement la même chose pour le `Set Humidity` nœud. En faisant glisser dans les nœuds du tableau de bord, nœud rouge définit automatiquement un tableau de bord Web avec ces éléments, et je peux aller et voir mon nouveau tableau de bord:
 
-![Capture d'écran du tableau de bord Node Red](/posts/category/database/images/Screen-Shot-2020-06-09-at-7.39.13-AM.png)
+![Capture d'écran du tableau de bord nœud rouge](/posts/category/database/images/Screen-Shot-2020-06-09-at-7.39.13-AM.png)
 
 
-Maintenant que vous pouvez réellement visualiser les données, vous pouvez voir à quel point les données sont vraiment horribles! Il n'y a aucun moyen qu'il fasse 2,3 ° C dans mon bureau en ce moment! Je suppose que ma prochaine tâche est de configurer un ** vrai ** capteur de température et d'humidité pour envoyer des données plus précises! Heureusement pour moi, j'en ai quelques-uns qui traînent, donc ce sera mon prochain projet, je suppose.
+Maintenant que vous pouvez réellement visualiser les données, vous pouvez voir comment les données est vraiment terrible! Il n'y a aucun moyen il est 2.3º C dans mon bureau en ce moment! Je suppose que ma prochaine tâche est d'obtenir une température réelle ** ** et capteur d'humidité mis en place pour envoyer des données plus précises! Heureusement pour moi, j'ai un peu de ceux qui traînent, de sorte que devront être mon prochain projet, je suppose.
 
-## Nous avons terminé ici
+## Nous sommes ici fait
 
-Comme toujours, visitez notre [GitHub] (https://github.com/questdb/questdb) et donnez-nous une étoile si vous pensez que cela a été utile! Vous pouvez [me suivre] (https://twitter.com/intent/follow?screen_name=davidgsIoT) sur Twitter, mais aussi suivre [QuestDB] (https://twitter.com/intent/follow?screen_name=questdb)!
+Comme toujours, s'il vous plaît visitez notre [GitHub](https://github.com/questdb/questdb) et nous donner une étoile si vous pensez que cela a été utile! Vous pouvez) et nous donner une étoile si vous pensez que cela a été utile! Vous pouvez [me suivre](https://twitter.com/intent/follow?screen_name=davidgsIoT) sur Twitter, mais aussi suivre) sur Twitter, mais aussi suivre [QuestDB](https://twitter.com/intent/follow?screen_name=questdb)!
