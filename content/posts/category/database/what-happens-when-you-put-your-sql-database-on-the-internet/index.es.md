@@ -16,7 +16,7 @@ Lo hicimos, sin embargo, y no estamos ni siquiera un poco mal por ello.
 
 ## La idea
 
-[QuestDB](https://questdb.io/) ha construido lo que creemos que es el más rápido de base de datos SQL Open Source en la existencia. Realmente hacemos. Y estamos muy orgullosos de ella, de hecho. Tanto es así que hemos querido dar a cualquier persona que quería la oportunidad la oportunidad de llevarlo a dar una vuelta. Con datos reales. Hacer consultas reales. Casi cualquier persona puede reunir una demo que funciona muy bien bajo las condiciones ideales, con todos los parámetros estrictamente controlados.
+[QuestDB](https://questdb.io/?ref=davidgsiot) ha construido lo que creemos que es el más rápido de base de datos SQL Open Source en la existencia. Realmente hacemos. Y estamos muy orgullosos de ella, de hecho. Tanto es así que hemos querido dar a cualquier persona que quería la oportunidad la oportunidad de llevarlo a dar una vuelta. Con datos reales. Hacer consultas reales. Casi cualquier persona puede reunir una demo que funciona muy bien bajo las condiciones ideales, con todos los parámetros estrictamente controlados.
 
 ¿Pero qué sucede si rienda suelta a las hordas en él? ¿Qué ocurre si se deja a nadie consultas de ejecución en contra de ella? Bueno, podemos decir que, ahora.
 
@@ -48,7 +48,7 @@ No fue decepcionante!
 >
 > Si está interesado en probar la forma en que lo hicimos, nuestro código está disponible de código abierto [8]. Esperamos con interés recibir sus comentarios sobre nuestro trabajo hasta el momento. Aún mejor, nos gustaría escuchar más ideas para mejorar aún más el rendimiento. Incluso después de décadas en la computación de alto rendimiento, todavía estamos aprendiendo algo nuevo cada día.
 >
-> [1]<https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-b> ...
+> [1]<https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-b?ref=davidgsiot> ...
 >
 > [2]<https://www.agner.org/optimize/vectorclass.pdf>
 >
@@ -60,7 +60,7 @@ No fue decepcionante!
 >
 > [6]<https://github.com/questdb/questdb/blob/master/core/src/main> ...
 >
-> [7]<https://questdb.io/blog/2020/03/15/interthread>
+> [7]<https://questdb.io/blog/2020/03/15/interthread?ref=davidgsiot>
 >
 > [8]<https://github.com/questdb/questdb>
 
