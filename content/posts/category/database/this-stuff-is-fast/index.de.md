@@ -12,7 +12,7 @@ Ich habe eine Menge von Projekten getan InfluxDB in den letzten Jahren mit (na j
 
 ![kolorierte Karte des US-Laden](/posts/category/database/images/slowMap.gif) It worked, but it was pretty slow. So much so that I had to put a 'loading' overlay on it so you knew it was still actually doing something while it was querying the data from the database. I actually sort of thought it was pretty fast, until I started trying to load data from all of Asia, or all of Europe, where that was a *lot* of data and the query got complicated.
 
-Aber, da ich nicht mehr arbeiten bei InfluxData entschied ich mich ein bisschen, verzweigen sich und versuchen, einige andere Lösungen. Ich meine, was ist der Schaden, nicht wahr? Ich dieses kleine Startup fand eine SQL-basierte Zeitreihen-Datenbank namens [QuestDB](https://questdb.io/) tun, damit ich dachte, dass ich es mal geben würde. Wirklich klein (im Grunde integrierbare) und alle in Java geschrieben (hey, ich verwenden Java zu tun! 1995 begann in der Tat!) So was zum Teufel.
+Aber, da ich nicht mehr arbeiten bei InfluxData entschied ich mich ein bisschen, verzweigen sich und versuchen, einige andere Lösungen. Ich meine, was ist der Schaden, nicht wahr? Ich dieses kleine Startup fand eine SQL-basierte Zeitreihen-Datenbank namens [QuestDB](https://questdb.io/?ref=davidgsiot) tun, damit ich dachte, dass ich es mal geben würde. Wirklich klein (im Grunde integrierbare) und alle in Java geschrieben (hey, ich verwenden Java zu tun! 1995 begann in der Tat!) So was zum Teufel.
 
 Ehrlich gesagt, ich bin fassungslos. Die Leistung dieser Sache ist umwerfend. Schauen Sie sich nur diese:
 

@@ -16,7 +16,7 @@ We did it though, and we're not even a little bit sorry about it.
 
 ## The Idea
 
-[QuestDB](https://questdb.io/) has built what we think is the fastest Open Source SQL Database in existence. We really do. And we're pretty proud of it, in fact. So much so that we wanted to give anyone that wanted the opportunity a chance to take it for a spin. With real data. Doing real queries. Almost anyone can pull together a demo that performs great under just the right conditions, with all the parameters tightly controlled.
+[QuestDB](https://questdb.io/?ref=davidgsiot) has built what we think is the fastest Open Source SQL Database in existence. We really do. And we're pretty proud of it, in fact. So much so that we wanted to give anyone that wanted the opportunity a chance to take it for a spin. With real data. Doing real queries. Almost anyone can pull together a demo that performs great under just the right conditions, with all the parameters tightly controlled.
 
 But what happens if you unleash the hordes on it? What happens if you let anyone run queries against it? Well, we can tell you, now.
 
@@ -48,7 +48,7 @@ It was not disappointing!
 >
 > If you are interested in checking out how we did this, our code is available open-source [8]. We look forward to receiving your feedback on our work so far. Even better, we would love to hear more ideas to further improve performance. Even after decades in high performance computing, we are still learning something new every day.
 >
-> [1] <https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-b>...
+> [1] <https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-b?ref=davidgsiot>...
 >
 > [2] <https://www.agner.org/optimize/vectorclass.pdf>
 >
@@ -60,7 +60,7 @@ It was not disappointing!
 >
 > [6] <https://github.com/questdb/questdb/blob/master/core/src/main>...
 >
-> [7] <https://questdb.io/blog/2020/03/15/interthread>
+> [7] <https://questdb.io/blog/2020/03/15/interthread?ref=questdb>
 >
 > [8] <https://github.com/questdb/questdb>
 

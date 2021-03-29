@@ -18,7 +18,7 @@ It turns out that, while there are a number of Time Series Databases on the mark
 
 But it turns out that you can game those rankings pretty heavily if you make an effort at it. Clearly some are better at gaming that system than others -- not that I'm naming names or anything. I wouldn't base my decisions on what is a ***good*** Time Series Database (TSDB) on those ranking though. As always, the answer is "it depends."
 
-That being said, I figured I should announce that I have now joined a new TSDB Startup as their Head of Developer Relations. That company is [QuestDB.io](https://questdb.io/). and, as you may have gathered from [this](/posts/category/database/this-stuff-is-fast/), I'm pretty enthusiastic about their database. Yes, it's got some rough edges, but the performance is stellar, and the rough edges will smooth out nicely in short order. It's a small company, but that just means that there is room to expand and grow!
+That being said, I figured I should announce that I have now joined a new TSDB Startup as their Head of Developer Relations. That company is [QuestDB.io](https://questdb.io/?ref=davidgsiot). and, as you may have gathered from [this](/posts/category/database/this-stuff-is-fast/), I'm pretty enthusiastic about their database. Yes, it's got some rough edges, but the performance is stellar, and the rough edges will smooth out nicely in short order. It's a small company, but that just means that there is room to expand and grow!
 
 I won't be covering exclusively IoT-related topics for them though. They are well positioned for financial markets, DevOps, etc. as well so, since I'm Head of DevRel, I'll be covering it all! 
 

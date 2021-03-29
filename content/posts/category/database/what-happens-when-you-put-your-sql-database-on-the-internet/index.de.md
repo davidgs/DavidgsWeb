@@ -16,7 +16,7 @@ Wir haben es aber, und wir sind nicht einmal ein wenig leid.
 
 ## Die Idee
 
-[QuestDB](https://questdb.io/) gebaut hat, was wir denken, der schnellste Open Source SQL-Datenbank existiert. Wir tun wirklich. Und wir sind ziemlich stolz darauf, in der Tat. So sehr, dass wir jemanden geben wollten, dass die Möglichkeit, es zu wagen es für eine Spritztour wollte. Mit realen Daten. Doing reale Abfragen. Fast jeder kann eine Demo an einem Strang ziehen, dass führt groß unter genau die richtigen Bedingungen, mit allen Parametern streng kontrolliert.
+[QuestDB](https://questdb.io/?ref=davidgsiot) gebaut hat, was wir denken, der schnellste Open Source SQL-Datenbank existiert. Wir tun wirklich. Und wir sind ziemlich stolz darauf, in der Tat. So sehr, dass wir jemanden geben wollten, dass die Möglichkeit, es zu wagen es für eine Spritztour wollte. Mit realen Daten. Doing reale Abfragen. Fast jeder kann eine Demo an einem Strang ziehen, dass führt groß unter genau die richtigen Bedingungen, mit allen Parametern streng kontrolliert.
 
 Aber was passiert, wenn man die Horden auf sie entfesseln? Was passiert, wenn Sie jemand laufen Abfragen dagegen lassen? Nun, wir können Ihnen sagen, jetzt.
 
@@ -48,7 +48,7 @@ Es war enttäuschend, nicht!
 >
 > Wenn Sie bei der Prüfung interessiert sind, wie wir das getan haben, ist unser Code zur Verfügung Open-Source [8]. Wir freuen uns auf Ihr Feedback zu unserer bisherigen Arbeit zu erhalten. Noch besser ist, würden wir gerne mehr Ideen hören um die Leistung weiter zu verbessern. Auch nach Jahrzehnten in High Performance Computing, lernen wir etwas noch täglich neu.
 >
-> [1]<https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-b> ...
+> [1]<https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-b?ref=davidgsiot> ...
 >
 > [2]<https://www.agner.org/optimize/vectorclass.pdf>
 >
@@ -60,7 +60,7 @@ Es war enttäuschend, nicht!
 >
 > [6]<https://github.com/questdb/questdb/blob/master/core/src/main> ...
 >
-> [7]<https://questdb.io/blog/2020/03/15/interthread>
+> [7]<https://questdb.io/blog/2020/03/15/interthread?ref=davidgsiot>
 >
 > [8]<https://github.com/questdb/questdb>
 

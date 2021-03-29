@@ -12,7 +12,7 @@ He hecho un montón de proyectos que utilizan InfluxDB en los últimos años (bu
 
 ![Mapa coloreado de la carga de EE.UU.](/posts/category/database/images/slowMap.gif) It worked, but it was pretty slow. So much so that I had to put a 'loading' overlay on it so you knew it was still actually doing something while it was querying the data from the database. I actually sort of thought it was pretty fast, until I started trying to load data from all of Asia, or all of Europe, where that was a *lot* of data and the query got complicated.
 
-Pero, puesto que ya no funcionan en InfluxData que decidió diversificarse un poco y probar otras soluciones. Es decir, cuál es el daño, ¿verdad? He encontrado este pequeño inicio haciendo una base de datos basada en SQL Time Series llamada [QuestDB](https://questdb.io/), así que pensé que le daría una oportunidad. Muy pequeño (básicamente integrable) y todo lo escrito en Java (hey, yo solía hacer de Java! Comenzado en 1995, de hecho!) Así que demonios.
+Pero, puesto que ya no funcionan en InfluxData que decidió diversificarse un poco y probar otras soluciones. Es decir, cuál es el daño, ¿verdad? He encontrado este pequeño inicio haciendo una base de datos basada en SQL Time Series llamada [QuestDB](https://questdb.io/?ref=davidgsiot), así que pensé que le daría una oportunidad. Muy pequeño (básicamente integrable) y todo lo escrito en Java (hey, yo solía hacer de Java! Comenzado en 1995, de hecho!) Así que demonios.
 
 Francamente, estoy aturdido. El rendimiento de esta cosa es alucinante. Basta con mirar a esto:
 

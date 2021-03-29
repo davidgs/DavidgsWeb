@@ -16,7 +16,7 @@ Nous l'avons fait bien, et nous ne sommes même pas un peu désolé à ce sujet.
 
 ## L'idée
 
-[QuestDB](https://questdb.io/) a construit ce que nous pensons est le plus rapide Open Source base de données SQL dans l'existence. Nous faisons vraiment. Et nous sommes très fiers, en fait. Tant et si bien que nous voulions donner quelqu'un qui voulait l'occasion une chance de le prendre pour un spin. Avec des données réelles. Faire des requêtes réelles. Presque tout le monde peut rassembler une démo qui fonctionne très sous juste les bonnes conditions, avec tous les paramètres contrôlés étroitement.
+[QuestDB](https://questdb.io/?ref=davidgsiot) a construit ce que nous pensons est le plus rapide Open Source base de données SQL dans l'existence. Nous faisons vraiment. Et nous sommes très fiers, en fait. Tant et si bien que nous voulions donner quelqu'un qui voulait l'occasion une chance de le prendre pour un spin. Avec des données réelles. Faire des requêtes réelles. Presque tout le monde peut rassembler une démo qui fonctionne très sous juste les bonnes conditions, avec tous les paramètres contrôlés étroitement.
 
 Mais ce qui se passe si vous lâchez les hordes là-dessus? Qu'advient-il si vous laissez quelqu'un requêtes d'exécution contre elle? Eh bien, nous pouvons vous dire, maintenant.
 
@@ -48,7 +48,7 @@ Il n'a pas été décevant!
 >
 > Si vous êtes intéressé à vérifier la façon dont nous l'avons fait, notre code est disponible open-source [8]. Nous sommes impatients de recevoir vos commentaires sur notre travail jusqu'à présent. Mieux encore, nous aimerions entendre plus d'idées pour améliorer encore les performances. Même après des décennies en calcul haute performance, nous sommes toujours en train d'apprendre quelque chose de nouveau chaque jour.
 >
-> [1]<https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-b> ...
+> [1]<https://questdb.io/blog/2020/04/02/using-simd-to-aggregate-b?ref=davidgsiot> ...
 >
 > [2]<https://www.agner.org/optimize/vectorclass.pdf>
 >
@@ -60,7 +60,7 @@ Il n'a pas été décevant!
 >
 > [6]<https://github.com/questdb/questdb/blob/master/core/src/main> ...
 >
-> [7]<https://questdb.io/blog/2020/03/15/interthread>
+> [7]<https://questdb.io/blog/2020/03/15/interthread?ref=davidgsiot>
 >
 > [8]<https://github.com/questdb/questdb>
 
