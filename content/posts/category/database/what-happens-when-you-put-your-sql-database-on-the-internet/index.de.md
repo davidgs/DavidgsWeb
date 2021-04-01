@@ -84,7 +84,7 @@ Jemand in den HN Kommentare vorgeschlagen, dass Spalte speichert schlecht sind b
 
 Das Ergebnis war ... nicht, was sie erwartet hatten:
 
-![](/posts/category/database/images/join.png)
+![detail showing the billions of rows returned](/posts/category/database/images/join.png)
 
 Ja, das ist 2.671.914.914.060.072.000 Reihen. In 69ms (einschließlich Netzwerk-Transferzeit). Das ist eine Menge von Ergebnissen in einer sehr kurzen Zeit. Auf jeden Fall nicht das, was sie erwartet haben.
 

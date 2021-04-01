@@ -1,0 +1,56 @@
+# section information
+section:
+  name: Vaardigheden
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Go Development
+  logo: /images/sections/skills/go.jpg
+  summary: "Gebruiken als de belangrijkste taal voor professionele ontwikkeling. Geschikt voor het schrijven van schaalbare, testbare en onderhoudbare programma's."
+  url: "https://golang.org/"
+
+- name: Java
+  logo: /images/sections/skills/java.jpg
+  summary: "Capable of writing production-quality, maintainable code. "
+  url: "https://java.com/"
+
+- name: Javascript/Node.js
+  logo: /images/sections/skills/js.jpg
+  summary: "Zowel JavaScript aan de clientzijde als aan de serverzijde hebben geschreven (Node.js)"
+  url: "https://javascript.com/"
+
+- name: PHP
+  logo: /images/sections/skills/php.jpg
+  summary: "Database-connectiviteit, interactieve formulieren, etc."
+  url: "https://php.net/"
+
+
+- name: Swift/Objective C
+  logo: /images/sections/skills/swift.jpg
+  summary: "iOS en macOS Swift / Objective C-programmering inclusief bibliotheekontwikkeling"
+  url: "https://en.wikipedia.org/wiki/Swift_(programming_language)"
+
+- name: Python
+  logo: /images/sections/skills/python.jpg
+  summary: "Meestal MicroPython, maar heb ook andere, grotere programma's geschreven."
+  url: "https://python.org/"
+
+- name: Tijdreeksdatabases
+  logo: /images/sections/skills/TS.jpg
+  summary: "Mogelijk de enige IoT- en Time Series Database DevRel ter wereld. Mogelijk. Ervaren in het ontwerpen van IoT-data-oplossingen met behulp van InfluxDB en QuestDB."
+
+- name: IoT
+  logo: /images/sections/skills/IoT.jpg
+  summary: "Ontwikkelt sinds 2004 IoT-apparaten en -systemen. Helpt bij het ontwikkelen van de allereerste IoT Developer Kit, de SunSPOT"
+  url: "https://github.com/davidgs"
+
+- name: C++
+  logo: /images/sections/skills/c++.jpg
+  summary: "Ken C / C ++ -programmering voor embedded omgevingen, waaronder EmbedOS, Arduino, enz. Arduino-bibliotheken hebben ontwikkeld."

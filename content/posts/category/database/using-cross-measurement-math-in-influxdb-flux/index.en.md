@@ -37,7 +37,7 @@ Tmeas = from(bucket: "telegraf")
 
 First I’ve defined my reference temperature and pressure values. The reference temperature is usually 25ºC, converted to Kelvin, and the reference Pressure is sea level. I then query values of the Measured Temperature Values and store it in a table called ‘Tmeas’. If I `yield()` on this table, I’ll see my temperature values:
 
-![](/posts/category/database/images/Screen-Shot-2019-03-19-at-4.21.00-PM.png)
+![Graph showing peaks of actual CO2 and adjusted CO levels](/posts/category/database/images/Screen-Shot-2019-03-19-at-4.21.00-PM.png)
 
 I then repeat this for the CO2 and Pressure values:
 
@@ -98,6 +98,6 @@ Since this is my final table, I call `yield()` at the end so that the values wi
 
 And now I have a graph that shows the raw, measured CO2 value and the compensated CO2 value! All done on-the-fly using Flux’s cross-measurement math!
 
-![](/posts/category/database/images/Screen-Shot-2019-03-18-at-3.56.28-PM.png)
+![Graph showing peaks of actual CO2 and adjusted CO levels](/posts/category/database/images/Screen-Shot-2019-03-18-at-3.56.28-PM.png)
 
 I've actually been wanting to do this sensor compensation for a **long** time and I'm thrilled that I can now do it quickly and easily using Flux! So what will you do with cross-measurement math in Flux? Feel free to tweet me your ideas, solutions, etc. [@davidgsIoT](https://twitter.com/davidgsIoT)!

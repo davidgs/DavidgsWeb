@@ -4,10 +4,10 @@ Date: 2020-12-18
 Author: davidgs
 Category: BPMN, DevRel
 Slug: letters-to-santa-automating-joy-to-the-world-at-scale
-hero: images/santa.png
+hero: images/santa.jpg
 ---
 
-![Santa on a water bike](/posts/category/camunda/slack-imgs.com-2-1024x639.jpeg)
+![Santa on a water bike](/posts/category/camunda/slack-imgs.com-2-1024x639.jpg)
 
 It’s that time of year again. The time when the world’s largest order fulfillment operation experiences its heaviest load. No, not Amazon - we’re talking about Santa Claus, Inc. - the largest logistics company in the world, with a 24-hour global delivery window at peak load.
 
@@ -57,7 +57,7 @@ Handling a letter by just forwarding it to the parents as-is seemed a little too
 
 Here's what that process looks like:
 
-![Letter to Santa Business Process](/posts/category/camunda/santa-1024x270.png)
+![Letter to Santa Business Process](/posts/category/camunda/santa-1024x270.jpg)
 
 And here's the flow:
 
@@ -211,10 +211,10 @@ This part of the process is where the Elves come into play. They didn't all lose
 Let's say Leon had written a letter that just said "I want world peace. And I'd love harmony". While those are lofty ideals, they aren't really things that can be ordered from Amazon (at least not yet).
 
 Here's the form the Elves get when a letter gets routed to them for intervention:
-![When the form arrives](/posts/category/camunda/form1-1024x257.png)
+![When the form arrives](/posts/category/camunda/form1-1024x257.jpg)
 
 And then after the Elves have given it some thought, checked the Naughty/Nice list, they can update the items:
-![Updated Items form](/posts/category/camunda/form2-1024x250.png)
+![Updated Items form](/posts/category/camunda/form2-1024x250.jpg)
 
 The form is then routed back into the process.
 
@@ -456,4 +456,4 @@ If you can think of other areas for improvement -- and there must be a lot! -- p
 
 [Write your own letter!](https://write-a-letter-to-santa.org)
 
-![Write your own letter](/posts/category/camunda/santa.png)
+![Write your own letter](/posts/category/camunda/santa.jpg)

@@ -84,7 +84,7 @@ Quelqu'un dans les commentaires de HN a suggéré que les magasins de colonne so
 
 Le résultat était ... pas ce qu'ils attendaient:
 
-![](/posts/category/database/images/join.png)
+![detail showing the billions of rows returned](/posts/category/database/images/join.png)
 
 Ouais, c'est 2,671,914,914,060,072,000 lignes. En 69ms (y compris le temps de transfert de réseau). Cela fait beaucoup de résultats dans un très court laps de temps. Certainement pas ce qu'ils attendaient.
 

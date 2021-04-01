@@ -10,11 +10,11 @@ hero: images/techEvangelism.jpg
 
 A bunch of people I know have been writing their “Journey into Tech” blogs lately, and a few of them have been pestering me to write mine, so here it is. It’s non-traditional, and filled with detours and missteps, so if you’re trying to get into tech, take heart!
 
-![](https://media.giphy.com/media/l0MYGeMQjSqhQ3UaI/giphy.gif)
+![multicolor animation of a head exploding](https://media.giphy.com/media/l0MYGeMQjSqhQ3UaI/giphy.gif)
 
 Oddly enough, I was actually born into ‘tech’ at some level. My mother was a [highly respected](https://www.researchgate.net/scientific-contributions/34878680_Margaret_L_Simmons) computer scientist for all of my life. I never wanted to follow in her footsteps. It was not something I had the least interest in. At first I wanted to be a Doctor, but then I met all the pre-med students in my classes at UCSB and decided that there was no way I wanted to spend the rest of my life with **those** assholes as friends and co-workers, so I switched majors to English and transferred to Columbia University in New York City. I’ll probably never tell you the whole story of *that* move, but it’s a real barn-burner! It was while I was at UCSB in 1984 that I got my first computer: A Machintosh with all of 128kb of RAM! I still have it, un-upgraded and original. Someday it might be worth what I paid for it.
 
-![](https://media.giphy.com/media/GoYG4cCQ21z9K/giphy.gif)
+![Animation of an original Macintosh with the 'hello' on screen](https://media.giphy.com/media/GoYG4cCQ21z9K/giphy.gif)
 
 Once in New York I set to work to become a writer. My first job was actually ghost-writing a weekly medical column in *The New York Post.* [Dr. Stuart Berger](https://www.independent.co.uk/life-style/dr-stuart-m-berger-was-thin-rich-and-famous-his-business-diet-and-staying-younger-longer-he-died-1430928.html) was, I can tell you straight up, a fraud. I know. I did the medical research and wrote the columns. Even still, as a first job in NYC, that was a pretty phenomenal gig! But they wanted me to ghost-write his next book (his first was a best seller) but wouldn’t give me any by-line credit or share of the royalties, so I walked away.
 
@@ -28,13 +28,13 @@ I ended up writing an entire ERP program. In [HyperCard](https://www.google.com/
 
 Los Alamos National Lab then hired me as a “Graduate Research Assistant” (GRA) to organize that High Performance Computing Conference again for them. I was responsible for setting up and managing the network of Sun SPARCStations, coordinating the incoming applications, and pretty much handling everything. That was the very first Computer Science conference to ever accept electronic submissions, and the following year we went to electronic-**only** submissions — the first conference to ever do that as well. But I was bored, so I began to teach myself C. By the end of the second year of that conference, I managed to get moved to a new GRA position writing the [Network Event Recording Device](https://ieeexplore.ieee.org/document/390643/authors#authors), or NERD.
 
-![](https://media.giphy.com/media/yODVOeMxWBwBO/giphy.gif)
+![Austin Powers: Nerd Alert](https://media.giphy.com/media/yODVOeMxWBwBO/giphy.gif)
 
 After a year or that, they told me that if I wanted to keep working as a GRA, I would really have to be a Graduate Student in Computer Science, so I talked my way into the Masters program at UNM — again, there’s a whole story there for another time. I did manage to get in, and worked on that project for several years. But when I tried to convince the Lab to hire me as an actually Staff Member, they balked. But just at that time Sun Microsystems came calling. Everybody has their price, and sun seriously over-estimated mine! I couldn’t say no to a 148% raise, so I left the Lab and went to work at Sun as a Pre-Sales Field Systems Engineer. Bu now, I’m fully “in tech”, as you can see, and I loved it all!
 
 But again, I was bored as an SE, and I started playing around with this little project that was going on in Sun Labs. It was a new web-programming language that eventually became known as Java! By the time it was released, I was already writing Applets and doing fun stuff with it, so I got promoted to be what they called a “Java Technologist.” This was, essentially, Developer Relations. That was in May of 1996. I spent the next 2 years or so flying about 300,000 miles per year promoting, talking about, and presenting Java to customers, Java Users Groups, and pretty much anyone that would listen. I was hooked on DevRel (even though we weren’t calling it that yet).
 
-![](https://media.giphy.com/media/k1ivKz9Odrm92/giphy.gif)
+![Tumbling Java 'Duke' Mascot](https://media.giphy.com/media/k1ivKz9Odrm92/giphy.gif)
 
 I also spent the next 15 years at Sun doing much the same thing for a host of other technologies — the JavaStation (what a disaster that was!), the SunRay, a massive storage system, and finally for [Project Sun SPOT](http://sunspotdev.org/), the very first IoT Developer Kit. I was actively doing full-time engineering, and research into Wireless Sensor Networks (as we were calling them at the time), but I was simultaneously building a community of users and developers — and fans — of Sun SPOTs. I did what my boss would call “Stupid SPOT Tricks.” I’d order some sensor or part, figure out how to hook it up to a Sun SPOT, then write a blog post about how to do it, and post the code so that anyone could do it. I must have integrated hundreds of sensors and other devices with Sun SPOTs over the years, and shared all the code.
 

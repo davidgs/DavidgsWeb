@@ -63,12 +63,10 @@ softSkills:
 - name: Team Work
   percentage: 80
   color: yellow
-
-
 - name: Fast Learner
   percentage: 85
   color: sky
-- name: Problem Solving
+- name: Problem Solver
   percentage: 85
   color: orange
 # you can also provide color code instead of pre-defined color name

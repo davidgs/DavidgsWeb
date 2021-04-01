@@ -1,0 +1,78 @@
+# section information
+section:
+  name: Over mij
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Principal Developer Advocate
+# your company information
+company:
+  name: Camunda, Inc.
+  url: "https://www.camunda.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Resume-2021.pdf"
+
+# a summary about you
+summary: "Ik ben David G. Simmons. Ik ben een Internet of Things (IoT) -pionier die al meer dan 15 jaar in het veld werkt. Ik ben nu de Principal Develper Advocate bij [Camunda](https://camunda.com). Daarvoor was ik hoofd Developer Relations bij [QuestDB](https://questdb.io). Voorheen was ik Senior Developer Advocate bij [Influx Data](https://influxdata.com). Dat zijn 2 Time Series-databases op een rij. Als je je afvraagt hoe dat met IoT te maken heeft, ga dan naar [this](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "davidgs@davidgs.com"
+
+- name: Phone
+  icon: "fas fa-phone"
+  url: "919-534-5099"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/davidgs"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/davidgsimmons"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+
+- name: Reddit
+  icon: "fab fa-reddit"
+  url: "https://www.reddit.com/user/santafen"
+
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: DevRel
+  percentage: 95
+  color: blue
+- name: Empathisch
+  percentage: 90
+  color: pink
+- name: Presentaties
+  percentage: 90
+  color: green
+- name: Teamwerk
+  percentage: 80
+  color: yellow
+- name: Snelle leerling
+  percentage: 85
+  color: sky
+- name: Probleemoplosser
+  percentage: 85
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"

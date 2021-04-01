@@ -4,10 +4,10 @@ Date: 2020-12-18
 Author: davidgs
 Category: BPMN, DevRel
 Slug: letters-to-santa-automating-joy-to-the-world-at-scale
-hero: images/santa.png
+hero: images/santa.jpg
 ---
 
-![Père Noël sur un vélo d'eau](/posts/category/camunda/slack-imgs.com-2-1024x639.jpeg)
+![Père Noël sur un vélo d'eau](/posts/category/camunda/slack-imgs.com-2-1024x639.jpg)
 
 Il est cette période de l'année. Le moment où la plus grande opération expériences d'exécution des commandes sa charge la plus lourde du monde. Non, pas Amazon - nous parlons du Père Noël, Inc. - la plus grande entreprise de logistique dans le monde, avec une fenêtre de livraison globale de 24 heures à charge de pointe.
 
@@ -57,7 +57,7 @@ Manipulation d'une lettre par tout le transmettre aux parents est-semblait un pe
 
 Voici ce que les regards de processus comme:
 
-![Lettre au Père Noël Business Process](/posts/category/camunda/santa-1024x270.png)
+![Lettre au Père Noël Business Process](/posts/category/camunda/santa-1024x270.jpg)
 
 Et voici le flux:
 
@@ -211,10 +211,10 @@ Cette partie du processus est l'endroit où les elfes entrent en jeu. Ils ne son
 Disons que Léon avait écrit une lettre qui vient d'être dit: « Je veux la paix mondiale. Et j'aimerais l'harmonie ». Alors que ce sont des idéaux élevés, ils ne sont pas vraiment des choses qui peuvent être commandés à partir Amazon (du moins pas encore).
 
 Voici la forme des Elfes obtenez lorsque une lettre leur est acheminé vers une intervention:
-![Lorsque le formulaire arrive](/posts/category/camunda/form1-1024x257.png)
+![Lorsque le formulaire arrive](/posts/category/camunda/form1-1024x257.jpg)
 
 Et puis après les Elfes ont donné une pensée, vérifié la liste vilaine / Nice, ils peuvent mettre à jour les éléments:
-![Articles mises à jour forment](/posts/category/camunda/form2-1024x250.png)
+![Articles mises à jour forment](/posts/category/camunda/form2-1024x250.jpg)
 
 Le formulaire est ensuite acheminé dans le processus.
 
@@ -456,4 +456,4 @@ Si vous pouvez penser à d'autres domaines d'amélioration - et il doit y avoir 
 
 [Écrivez votre propre lettre!](https://write-a-letter-to-santa.org)
 
-![Écrivez votre propre lettre](/posts/category/camunda/santa.png)
+![Écrivez votre propre lettre](/posts/category/camunda/santa.jpg)

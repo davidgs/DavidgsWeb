@@ -58,13 +58,13 @@ This will create the proper table structure for your device. A couple of things 
 
 You can then refresh your Tables view in the console, and you should see your table laid out:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.03.20-PM.png)
+![Table layout of the database](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.03.20-PM.png)
 
 Once you have your table, it's a matter of getting data into it. You'll notice that, while the Particle on-device code uses fields like "air-quality" I have removed the hyphens from those names. The database likes that better.
 
 Go to the Integrations tab of your [Particle Console](https://console.particle.io/) and click on New Integration, and then click on Web Hook
 
-![](https://docs.particle.io/assets/images/particleNewWebhook.png)
+![The 'New Webhook' Panel in the Particle Console](/posts/category/iot/iot-hardware/quickly-connect-an-argon-iot-device-to-questdb/images/particleNewWebhook.png)
 
 Once there, we'll fill in the form. According to the tutorial, our event is called `env-vals`, so enter that under **Event Name**.
 
@@ -96,7 +96,7 @@ Finally the PARTICLE_PUBLISHED_AT timestamp is sent, along with the formatting s
 
 Your integration screen should look like this:
 
-![](https://docs.particle.io/assets/images/particleQuestIntegration1.png)
+![web integration screen from Particle](/posts/category/iot/iot-hardware/quickly-connect-an-argon-iot-device-to-questdb/images/particleQuestIntegration1.png)
 
 Don't forget to scroll to the bottom and _un_ check the **Enforce SSL** box, and then save your integration.
 
@@ -104,7 +104,7 @@ At this point, if your Air Quality Device is sending data to the Particle Cloud,
 
 My database now looks like this:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.10.21-PM-1024x181.png)
+![Table of results from the query](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.10.21-PM-1024x181.png)
 
 Pretty spiffy. But it's still not the nice dashboard I want.
 
@@ -116,13 +116,13 @@ Guess what? It worked!
 
 So, to configure the Postgres plugin for QuestDB:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.59-PM.png)
+![Grafana connection panel showing Postgres settings](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.59-PM.png)
 
 Just fill in the defaults from the [QuestDB pgwire](https://questdb.io/docs/guide/postgres-wire) protocol settings.
 
 Once you've done that, you can build out your dashboard:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.33-PM.png)
+![Grafana Dashboard with Temperature, Humidity, and Pressure](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.33-PM.png)
 
 And there you have it!
 

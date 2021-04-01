@@ -4,10 +4,10 @@ Date: 2020-12-18
 Author: davidgs
 Category: BPMN, DevRel
 Slug: letters-to-santa-automating-joy-to-the-world-at-scale
-hero: images/santa.png
+hero: images/santa.jpg
 ---
 
-![Sankt auf einem Wasserfahrrad](/posts/category/camunda/slack-imgs.com-2-1024x639.jpeg)
+![Sankt auf einem Wasserfahrrad](/posts/category/camunda/slack-imgs.com-2-1024x639.jpg)
 
 Wieder ist es diese Zeit des Jahres. Die Zeit, in der größten Auftragserfüllung Betrieb der Welt erlebt seine schwerste Last. Nein, nicht Amazon - wir sprechen von Santa Claus, Inc. - der größten Logistikunternehmen der Welt, mit einer 24-Stunden-globalen Lieferfenster bei Spitzenlast.
 
@@ -57,7 +57,7 @@ die Routing der Buchstaben einen Brief Handhabung von nur sie an die Eltern weit
 
 Hier ist, was dieser Prozess aussieht:
 
-![Brief an den Weihnachts Business Process](/posts/category/camunda/santa-1024x270.png)
+![Brief an den Weihnachts Business Process](/posts/category/camunda/santa-1024x270.jpg)
 
 Und hier ist der Fluss:
 
@@ -211,10 +211,10 @@ Dieser Teil des Prozesses ist, wo die Elfen ins Spiel kommen. Sie haben nicht al
 Sagen wir, Leon einen Brief geschrieben hatte, dass gerade gesagt hat: „Ich Weltfrieden wollen. Und ich würde Harmonie lieben“. Während die hohen Idealen sind, sind sie nicht wirklich Dinge, die bei Amazon bestellt werden kann (zumindest noch nicht).
 
 Hier ist die Form der Elfen bekommen, wenn ein Brief an sie für die Intervention geleitet wird:
-![Wenn die Form ankommt](/posts/category/camunda/form1-1024x257.png)
+![Wenn die Form ankommt](/posts/category/camunda/form1-1024x257.jpg)
 
 Und dann, nachdem die Elfen es einige Gedanken gegeben haben, die Frech / Nizza Liste überprüft, können sie die Artikel aktualisieren:
-![Aktualisiert Artikel bilden](/posts/category/camunda/form2-1024x250.png)
+![Aktualisiert Artikel bilden](/posts/category/camunda/form2-1024x250.jpg)
 
 Die Form wird dann in den Prozess zurückgeführt.
 
@@ -456,4 +456,4 @@ Wenn Sie denken, andere Bereiche für Verbesserungen können - und es muss eine 
 
 [Schreiben Sie Ihren eigenen Brief!](https://write-a-letter-to-santa.org)
 
-![Schreiben Sie Ihren eigenen Brief](/posts/category/camunda/santa.png)
+![Schreiben Sie Ihren eigenen Brief](/posts/category/camunda/santa.jpg)

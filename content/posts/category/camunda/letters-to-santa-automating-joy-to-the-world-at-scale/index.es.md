@@ -4,10 +4,10 @@ Date: 2020-12-18
 Author: davidgs
 Category: BPMN, DevRel
 Slug: letters-to-santa-automating-joy-to-the-world-at-scale
-hero: images/santa.png
+hero: images/santa.jpg
 ---
 
-![Santa en una moto de agua](/posts/category/camunda/slack-imgs.com-2-1024x639.jpeg)
+![Santa en una moto de agua](/posts/category/camunda/slack-imgs.com-2-1024x639.jpg)
 
 Es esa época del año otra vez. El momento en el que la mayor operación de cumplimiento de la orden del mundo experimenta su carga más pesada. No, no es Amazon - estamos hablando de Santa Claus, Inc. - la empresa de logística más grande en el mundo, con una ventana de entrega global de 24 horas a carga máxima.
 
@@ -57,7 +57,7 @@ Manejo de una carta con sólo reenviarlo a los padres-se parecía un poco demasi
 
 Esto es lo que se ve que el proceso como:
 
-![Carta a los Reyes de Procesos de Negocio](/posts/category/camunda/santa-1024x270.png)
+![Carta a los Reyes de Procesos de Negocio](/posts/category/camunda/santa-1024x270.jpg)
 
 Y aquí está el flujo:
 
@@ -211,10 +211,10 @@ Esta parte del proceso es donde los Elfos entran en juego. Que no todos pierden 
 Digamos que León había escrito una carta que acaba de decir "yo quiero la paz mundial. Y me encantaría armonía". Mientras que los que son elevados ideales, en realidad no son cosas que se pueden pedir de Amazon (al menos por ahora).
 
 Aquí está la forma de los Elfos obtiene cuando una carta se dirige a ellos para la intervención:
-![Cuando llega el formulario](/posts/category/camunda/form1-1024x257.png)
+![Cuando llega el formulario](/posts/category/camunda/form1-1024x257.jpg)
 
 Y luego, después de los Elfos han dado un poco de pensamiento, verificado la lista traviesa / Niza, que puedan actualizar los artículos:
-![Los productos que forman actualizados](/posts/category/camunda/form2-1024x250.png)
+![Los productos que forman actualizados](/posts/category/camunda/form2-1024x250.jpg)
 
 El formulario se encamina entonces de nuevo en el proceso.
 
@@ -456,4 +456,4 @@ Si usted puede pensar en otras áreas de mejora - y debe haber un montón! - no 
 
 [Escriba su propia carta!](https://write-a-letter-to-santa.org)
 
-![Escribir su propia carta](/posts/category/camunda/santa.png)
+![Escribir su propia carta](/posts/category/camunda/santa.jpg)

@@ -37,7 +37,7 @@ Tmeas = from(bucket: "telegraf")
 
 Zuerst habe ich meine Referenztemperatur und Druckwerte definiert. Die Referenztemperatur beträgt in der Regel 25 ° C, zu Kelvin umgewandelt, und der Referenzdruck ist Meeresspiegel. Ich habe dann Abfrage Werte der gemessenen Temperaturwerte und speichert sie in einer Tabelle ‚Tmess‘ genannt. Wenn ich `ergeben ()` auf diesem Tisch, werde ich meine Temperaturwerte sehen:
 
-![](/posts/category/database/images/Screen-Shot-2019-03-19-at-4.21.00-PM.png)
+![Graph showing peaks of actual CO2 and adjusted CO levels](/posts/category/database/images/Screen-Shot-2019-03-19-at-4.21.00-PM.png)
 
 Ich wiederhole dies dann für die CO2- und Druckwerte:
 
@@ -98,6 +98,6 @@ Da dies meine letzte Tabelle ist, nenne ich `Ausbeute ()` am Ende so, dass die W
 
 Und jetzt habe ich ein Diagramm, das zeigt die rohe, gemessen CO2-Wert und der kompensierte CO2-Wert! Alle Quer Messung Mathematik mit Flux on-the-fly getan!
 
-![](/posts/category/database/images/Screen-Shot-2019-03-18-at-3.56.28-PM.png)
+![Graph showing peaks of actual CO2 and adjusted CO levels](/posts/category/database/images/Screen-Shot-2019-03-18-at-3.56.28-PM.png)
 
 Ich habe will eigentlich schon seit ** ** langer Zeit, um diese Sensorkompensation tun und ich bin begeistert, dass ich es jetzt schnell tun können und einfach mit Flux! Also, was werden Sie tun, mit Cross-Messung Mathe in Flux? Fühlen Sie sich frei twittern Sie mir Ihre Ideen, Lösungen, usw. [@davidgsIoT](https://twitter.com/davidgsIoT)!

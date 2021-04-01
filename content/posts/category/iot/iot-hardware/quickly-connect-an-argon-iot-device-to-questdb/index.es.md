@@ -58,13 +58,13 @@ Esto creará la estructura de tabla correcto para su dispositivo. Un par de cosa
 
 A continuación, puede actualizar sus tablas de vistas en la consola, y debería ver su mesa expuso:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.03.20-PM.png)
+![Table layout of the database](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.03.20-PM.png)
 
 Una vez que tenga su mesa, es una cuestión de conseguir datos en él. Se dará cuenta de que, aunque la partícula en el dispositivo de código utiliza campos como "calidad del aire" He quitado los guiones de esos nombres. La base de datos que le gusta mejor.
 
 Ir a la pestaña Integraciones de su [Consola de partículas](https://console.particle.io/) y haga clic en Nueva Integración y haga clic sobre el Hook Web
 
-![](https://docs.particle.io/assets/images/particleNewWebhook.png)
+![The 'New Webhook' Panel in the Particle Console](/posts/category/iot/iot-hardware/quickly-connect-an-argon-iot-device-to-questdb/images/particleNewWebhook.png)
 
 Una vez allí, vamos a rellenar el formulario. De acuerdo con el tutorial, nuestro evento se llama `env-vals`, por lo que bajo ingresar ** ** Nombre del evento.
 
@@ -96,7 +96,7 @@ Por último, la marca de tiempo PARTICLE_PUBLISHED_AT se envía, junto con el fo
 
 Su pantalla de integración, debe tener este aspecto:
 
-![](https://docs.particle.io/assets/images/particleQuestIntegration1.png)
+![web integration screen from Particle](/posts/category/iot/iot-hardware/quickly-connect-an-argon-iot-device-to-questdb/images/particleQuestIntegration1.png)
 
 No se olvide de desplazarse a la parte inferior y _un_ comprobar el SSL ** ** Hacer cumplir caja, y luego guardar su integración.
 
@@ -104,7 +104,7 @@ En este punto, si el dispositivo de Calidad del Aire está enviando datos a la n
 
 Mi base de datos ahora se ve así:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.10.21-PM-1024x181.png)
+![Table of results from the query](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.10.21-PM-1024x181.png)
 
 Bastante spiffy. Pero todavía no es el buen tablero que quiero.
 
@@ -116,13 +116,13 @@ QuestDB aún está esperando su Grafana plugin de ser aprobada, pero simplemente
 
 Por lo tanto, para configurar los plugins de Postgres QuestDB:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.59-PM.png)
+![Grafana connection panel showing Postgres settings](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.59-PM.png)
 
 Rellene los valores por defecto de los [QuestDB pgwire] configuración del protocolo (https://questdb.io/docs/guide/postgres-wire).
 
 Una vez que hayas hecho esto, usted puede construir su tablero de instrumentos:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.33-PM.png)
+![Grafana Dashboard with Temperature, Humidity, and Pressure](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.33-PM.png)
 
 ¡Y ahí lo tienes!
 
