@@ -3,7 +3,11 @@ name: "David G. Simmons"
 nickname: "dg"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
-image: "/images/author/dg3.jpg"
+image:
+  one: "/images/author/dg4.jpg"
+  two: "/images/author/dg7.jpg"
+  three: "/images/author/dg5.jpg"
+  four: "/images/author/dg6.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "davidgs@davidgs.com"

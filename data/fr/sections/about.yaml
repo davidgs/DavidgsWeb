@@ -18,7 +18,7 @@ company:
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Je suis David G. Simmons. Je suis un pionnier de l'Internet des objets (IoT) qui travaille dans le domaine depuis plus de 15 ans. Je suis maintenant l'avocat principal du développement chez [Camunda] (https://camunda.com). Avant cela, j'étais responsable des relations avec les développeurs chez [QuestDB] (https://questdb.io). Auparavant, j'étais Senior Developer Advocate chez [Influx Data] (https://influxdata.com). C'est 2 bases de données de séries chronologiques d'affilée. Si vous vous demandez comment cela est lié à l'IoT, consultez [this] (https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Je suis un internet de choses (iot) pionnier qui travaillent sur le terrain depuis plus de 15 ans. Je suis maintenant le principal develeur défenseur de [Camunda](https://camunda.com). Auparavant, j'étais responsable des relations de développeur à [QuestDB](https://quesdb.io) et le développeur principal préconisez-le sur [InfluxData](https://influxdata.com). C'est 2 bases de données de série horaire d'affilée. Si vous vous demandez comment cela est lié à IOT, lisez-vous sur [pourquoi un iot fait des données de série chronologique](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:

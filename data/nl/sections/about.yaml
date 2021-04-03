@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Principal Developer Advocate
+designation: Belangrijkste Developer Advocaat
 # your company information
 company:
   name: Camunda, Inc.
@@ -18,7 +18,7 @@ company:
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Ik ben David G. Simmons. Ik ben een Internet of Things (IoT) -pionier die al meer dan 15 jaar in het veld werkt. Ik ben nu de Principal Develper Advocate bij [Camunda](https://camunda.com). Daarvoor was ik hoofd Developer Relations bij [QuestDB](https://questdb.io). Voorheen was ik Senior Developer Advocate bij [Influx Data](https://influxdata.com). Dat zijn 2 Time Series-databases op een rij. Als je je afvraagt hoe dat met IoT te maken heeft, ga dan naar [this](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Ik ben een internet van dingen (IoT) Pioneer die al meer dan 15 jaar in het veld werkt. Ik ben nu de belangrijkste develper-advocaat in [Camunda](https://camunda.com). Eerder was ik hoofd van de ontwikkelaarsrelaties op [QuestDB](https://questdb.io) en de Senior Developer Advocate op [InfluxData](https://influxdata.com). Dat is 2 tijdsreeksdatabases op een rij. Als u zich afvraagt hoe dat gerelateerd is aan IOT, lees dan over [Wssrom een IOT doen Tijdserie-Gegevens](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
