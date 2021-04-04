@@ -12,45 +12,45 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Go Development
-  logo: /images/sections/skills/go.png
+  logo: /images/sections/skills/go.jpg
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
 
 - name: Java
-  logo: /images/sections/skills/java.png
+  logo: /images/sections/skills/java.jpg
   summary: "Capable of writing production-quality, maintainable code. "
   url: "https://java.com/"
 
 - name: Javascript/Node.js
-  logo: /images/sections/skills/js.png
+  logo: /images/sections/skills/js.jpg
   summary: "Have written both client-side and server-side JavaScript (Node.js)"
   url: "https://javascript.com/"
 
 - name: PHP
-  logo: /images/sections/skills/php.png
+  logo: /images/sections/skills/php.jpg
   summary: "Database connectivity, interactive forms, etc."
   url: "https://php.net/"
 
 
 - name: Swift/Objective C
-  logo: /images/sections/skills/swift.png
+  logo: /images/sections/skills/swift.jpg
   summary: "iOS and macOS Swift/Objective C programming including library development"
   url: "https://en.wikipedia.org/wiki/Swift_(programming_language)"
 
 - name: Python
-  logo: /images/sections/skills/python.png
+  logo: /images/sections/skills/python.jpg
   summary: "Mostly MicroPython but have written other, larger programs as well."
   url: "https://python.org/"
 
 - name: Time Series Databases
-  logo: /images/sections/skills/TS.png
-  summary: "Possibly the only IoT and Time Series Database DevRel on the planet. Possibly. Experienced in architecting IoT Data solutions using InfluxBD and QuestDB."
+  logo: /images/sections/skills/TS.jpg
+  summary: "Possibly the only IoT and Time Series Database DevRel on the planet. Possibly. Experienced in architecting IoT Data solutions using InfluxDB and QuestDB."
 
 - name: IoT
-  logo: /images/sections/skills/IoT.png
+  logo: /images/sections/skills/IoT.jpg
   summary: "Been doing IoT device and systems development since 2004. Helped develop the very first IoT Developer Kit, the SunSPOT"
   url: "https://github.com/davidgs"
 
 - name: C++
-  logo: /images/sections/skills/c++.png
+  logo: /images/sections/skills/c++.jpg
   summary: "Know C/C++ programming for embedded environments including EmbedOS, Arduino, etc. Have developed Arduino libraries."

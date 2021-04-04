@@ -84,7 +84,7 @@ Alguien en los comentarios HN sugirió que las tiendas de columna son malos en u
 
 El resultado fue ... no es lo que esperaban:
 
-![](/posts/category/database/images/join.png)
+![detail showing the billions of rows returned](/posts/category/database/images/join.png)
 
 Sí, eso es 2,671,914,914,060,072,000 filas. En 69ms (incluyendo el tiempo de transferencia de la red). Eso es un montón de resultados en un lapso muy corto de tiempo. Definitivamente no es lo que esperaban.
 

@@ -8,7 +8,7 @@ Slug: heres-why-im-giving-up-on-mynewt-for-now
 hero: images/logo.png
 ---
 
-![](/posts/category/iot/iot-software/images/IMG_3724-300x293.jpg)
+![Large collection of microcontrollers and sensors](/posts/category/iot/iot-software/images/IMG_3724-300x293.jpg)
 
 Avec tous ces capteurs et plates-formes qui traînent, je voulais simplement choisir un et de construire une démonstration rapide du capteur. Il devrait être facile, non?
 

@@ -16,14 +16,14 @@ degrees:
   institution:
     name: University of New Mexico
     url: "#"
-- name: B.A. in Technical Writing
+- name: B.A. Technical Writing
   icon: fa-graduation-cap
   timeframe: 1985 - 1988
   institution:
     name: Columbia University in the City of New York
     url: "#"
 
-- name: B.S Biological Sciences
+- name: B.S. Biological Sciences
   icon: fa-university
   timeframe: 1982 - 1985
   institution:

@@ -44,13 +44,10 @@ Processing File: ../../COVID-19/csse_covid_19_data/csse_covid_19_daily_reports/0
 ```
 
 And you should see data flowing into your InfluxDB instance as well.
-<p>{{< video "/posts/category/database/images/COVID-19-graph" "COVID Data Graphing" >}}</p>
-<p>&nbsp;</p>
+{{< video "/posts/category/database/images/COVID-19-graph" "COVID Data Graphing" >}}
 
 And here is is coming in to a scatter plot:
-<p>&nbsp;</p>
 
-<p>{{< video "/posts/category/database/images/Covid-19-2" "COVID Data Scatter-plot" >}}</p>
-<p>&nbsp;</p>
+{{< video "/posts/category/database/images/Covid-19-2" "COVID Data Scatter-plot" >}}
 
 Feel free to play around with it and let me know what you think!

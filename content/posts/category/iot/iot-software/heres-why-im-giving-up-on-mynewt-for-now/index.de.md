@@ -8,7 +8,7 @@ Slug: heres-why-im-giving-up-on-mynewt-for-now
 hero: images/logo.png
 ---
 
-![](/posts/category/iot/iot-software/images/IMG_3724-300x293.jpg)
+![Large collection of microcontrollers and sensors](/posts/category/iot/iot-software/images/IMG_3724-300x293.jpg)
 
 Mit all diesen Sensoren und Plattformen herumliegen, wollte ich nur eine auswählen und eine schnelle Sensor Demo zu bauen. Es sollte einfach sein, nicht wahr?
 

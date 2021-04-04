@@ -37,7 +37,7 @@ Tmeas = from(bucket: "telegraf")
 
 D'abord, je l'ai défini mes valeurs de température de référence et de pression. La température de référence est généralement 25 ° C, converti en Kelvin, et la pression de référence est le niveau de la mer. Ì requête valeurs des valeurs de température mesurées et le stocker dans une table appelée « Tmeas ». Si je `rendement ()` sur ce tableau, je vais voir mes valeurs de température:
 
-![](/posts/category/database/images/Screen-Shot-2019-03-19-at-4.21.00-PM.png)
+![Graph showing peaks of actual CO2 and adjusted CO levels](/posts/category/database/images/Screen-Shot-2019-03-19-at-4.21.00-PM.png)
 
 Je répète donc cela pour le CO2 et les valeurs de pression:
 
@@ -98,6 +98,6 @@ Puisque c'est ma table finale, j'appelle `rendement ()` à la fin afin que les v
 
 Et maintenant, j'ai un graphique qui montre la valeur de CO2 brute, mesurée et la valeur de CO2 compensée! Tout est fait sur la volée en utilisant les mathématiques cross-mesure de flux!
 
-![](/posts/category/database/images/Screen-Shot-2019-03-18-at-3.56.28-PM.png)
+![Graph showing peaks of actual CO2 and adjusted CO levels](/posts/category/database/images/Screen-Shot-2019-03-18-at-3.56.28-PM.png)
 
 Je suis en fait eu envie de faire cette compensation du capteur pendant un certain temps ** à long ** et je suis ravi que je peux maintenant le faire rapidement et facilement Flux! Alors, que ferez-vous avec les mathématiques cross-mesure dans Flux? Ne hésitez pas à me gazouiller vos idées, solutions, etc. [@davidgsIoT](https://twitter.com/davidgsIoT)!

@@ -37,7 +37,7 @@ Tmeas = from(bucket: "telegraf")
 
 En primer lugar he definido mis valores de temperatura y presión de referencia. La temperatura de referencia es generalmente de 25ºC, convertido a Kelvin, y la presión de referencia es el nivel del mar. Entonces consulta valores de los valores de temperatura medidos y almacenarlo en una tabla llamada 'Tmeas'. Si `Rendimiento ()` en esta mesa, voy a ver mis valores de temperatura:
 
-![](/posts/category/database/images/Screen-Shot-2019-03-19-at-4.21.00-PM.png)
+![Graph showing peaks of actual CO2 and adjusted CO levels](/posts/category/database/images/Screen-Shot-2019-03-19-at-4.21.00-PM.png)
 
 a continuación, repito esto para los valores de CO2 y de presión:
 
@@ -98,6 +98,6 @@ Dado que este es mi mesa final, llamo `rendimiento ()` al final por lo que hará
 
 Y ahora tengo un gráfico que muestra el valor de CO2 medida en bruto y el valor de CO2 compensado! Todo hecho en la marcha usando matemáticas cruzada de medición de flujo!
 
-![](/posts/category/database/images/Screen-Shot-2019-03-18-at-3.56.28-PM.png)
+![Graph showing peaks of actual CO2 and adjusted CO levels](/posts/category/database/images/Screen-Shot-2019-03-18-at-3.56.28-PM.png)
 
 De hecho, he estado queriendo hacer esta compensación del sensor por un tiempo largo ** ** y estoy muy contento de que ahora puedo hacerlo rápida y fácilmente usando Flux! Entonces, ¿qué vas a hacer con las matemáticas cruzada de medición de flujo? No dude en pia sus ideas, soluciones, etc. [@davidgsIoT](https://twitter.com/davidgsIoT)!

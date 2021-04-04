@@ -1,0 +1,344 @@
+.home {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: #f9fafc;
+  overflow: hidden;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  background-position: center;
+  transform: scale(1.1);
+  filter: blur(3px);
+  background-size: cover;
+}
+
+/*
+  Resolves https://github.com/hossainemruz/toha/issues/70
+
+  fixed attached images use the whole <body> size. On mobile this can get really
+  tall which blows your image out. Setting the attachment back to scroll allows
+  your cover image to stretch within its own container
+*/
+@supports (-webkit-touch-callout: none) {
+  .background {
+    background-attachment: scroll;
+  }
+}
+
+.content {
+  position: relative;
+  top: -65%;
+  height: 60%;
+}
+
+.home img {
+  width: 148px;
+  height: 148px;
+  background-color: #e7e7ef;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.home .greeting {
+  color: #f9fafc;
+}
+
+.home .typing-carousel {
+  font-size: 14pt;
+  color: #f0f0f0;
+}
+
+#typing-carousel-data {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  color: #f9fafc;
+  font-size: 1.5rem;
+  bottom: 0;
+}
+
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+          animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* ============= Device specific fixes ======= */
+
+/* Large screens such as TV */
+@media only screen and (min-width: 1824px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+/* IPad Pro */
+@media (max-width: 1024px) {
+}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 576px) {
+  .content {
+    position: relative;
+    top: -75%;
+    height: 65%;
+  }
+
+  .home img {
+    width: 140px;
+    max-width: 50%;
+    height: auto;
+  }
+
+  .home .greeting {
+    font-size: 24pt;
+  }
+}
+
+/* iPhoneX, iPhone 6,7,8 */
+@media only screen and (max-width: 375px) {
+}
+
+/* Galaxy S5, Moto G4 */
+@media only screen and (max-width: 360px) {
+}
+
+/* iPhone 5 or before */
+@media only screen and (max-width: 320px) {
+}
+
+
+
+.typewriter {
+/* #  background-color: #fff; */
+  min-width: 500px;
+  padding: 1em 2em 1em 1.5em;
+  border: solid 1px #e6e6e6;
+  border-radius: 2.8em;
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.25);
+  margin: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.typewriter svg {
+  padding-right: 2em;
+}
+
+.typewriter h1 {
+  color: #000;
+  font-size: 1.5em;
+  font-weight: 500;
+  width: 0;
+  max-width: max-content;
+  overflow: hidden;
+  border-right: .05em solid #464545; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0; /* Gives that scrolling effect as the typing happens */
+}
+
+.typing-erase {
+  animation:
+    5s typing-erase 5s steps(50, end) infinite,
+    blink-caret .5s step-end infinite;
+}
+
+/* The type and erase effect */
+@keyframes typing-erase {
+  0% { width: 0 }
+  80% { width: 100% }
+  90%, 100% { width: 0 }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray }
+}
+
+
+@-webkit-keyframes cf4FadeInOut {
+
+  0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-moz-keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-o-keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@keyframes cf4FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+/* #cf4a {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+  background-color: #FFFFF;
+} */
+/* #cf4a img {
+  position:absolute;
+  left:0;
+} */
+
+#cf4a img {
+  -webkit-animation-name: cf4FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+
+  -moz-animation-name: cf4FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 8s;
+
+  -o-animation-name: cf4FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 8s;
+
+  animation-name: cf4FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+#cf4a img:nth-of-type(1) {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  animation-delay: 6s;
+}
+#cf4a img:nth-of-type(2) {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
+#cf4a img:nth-of-type(3) {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+#cf4a img:nth-of-type(4) {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}

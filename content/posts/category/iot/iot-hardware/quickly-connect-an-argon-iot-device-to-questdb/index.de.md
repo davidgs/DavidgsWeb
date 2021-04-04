@@ -58,13 +58,13 @@ Dadurch wird die richtige Tabellenstruktur für Ihr Gerät erstellen. Ein paar D
 
 Anschließend können Sie aktualisieren Sie Ihre Tabellen in der Konsole zu sehen, und Sie sollten Ihre Tabelle sehen gelegt:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.03.20-PM.png)
+![Table layout of the database](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.03.20-PM.png)
 
 Sobald Sie Ihren Tisch haben, ist es eine Frage der Daten in diese zu bekommen. Sie werden bemerken, dass, während die Partikel-On-Device-Code verwenden Felder wie „Luftqualität“ habe ich die Bindestriche von diesem Namen entfernt. Die Datenbank mag das besser.
 
 Gehen Sie auf die Register Integrationen Ihrer [Particle Konsole](https://console.particle.io/) und klicken Sie auf New Integration, und klicken Sie dann auf Web-Haken
 
-![](https://docs.particle.io/assets/images/particleNewWebhook.png)
+![The 'New Webhook' Panel in the Particle Console](/posts/category/iot/iot-hardware/quickly-connect-an-argon-iot-device-to-questdb/images/particleNewWebhook.png)
 
 Dort angekommen, werden wir in dem Formular ausfüllen. Nach dem Tutorial wird unsere Veranstaltung `env-vals` genannt, eingeben, so dass unter ** Event Namen **.
 
@@ -96,7 +96,7 @@ Schließlich wird der PARTICLE_PUBLISHED_AT Zeitstempel gesendet wird, zusammen 
 
 Ihre Integration Bildschirm sollte wie folgt aussehen:
 
-![](https://docs.particle.io/assets/images/particleQuestIntegration1.png)
+![web integration screen from Particle](/posts/category/iot/iot-hardware/quickly-connect-an-argon-iot-device-to-questdb/images/particleQuestIntegration1.png)
 
 Vergessen Sie nicht, nach unten zu scrollen und _un_ überprüfen ** SSL Erzwingen ** Box, und dann speichern Sie Ihre Integration.
 
@@ -104,7 +104,7 @@ An diesem Punkt werden, wenn Ihre Luftqualität Gerätedaten an die Partikelwolk
 
 Meine Datenbank sieht nun wie folgt aus:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.10.21-PM-1024x181.png)
+![Table of results from the query](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.10.21-PM-1024x181.png)
 
 Ziemlich spiffy. Aber es ist noch nicht das schöne Armaturenbrett ich will.
 
@@ -116,13 +116,13 @@ Erraten Sie, was? Es funktionierte!
 
 Also, um das Postgres für QuestDB Plugin zu konfigurieren:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.59-PM.png)
+![Grafana connection panel showing Postgres settings](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.59-PM.png)
 
 Füllen Sie einfach die Standardwerte aus den [QuestDB pgwire](https://questdb.io/docs/guide/postgres-wire) Protokolleinstellungen.
 
 Sobald Sie das getan haben, können Sie Ihr Armaturenbrett bauen aus:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.33-PM.png)
+![Grafana Dashboard with Temperature, Humidity, and Pressure](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.33-PM.png)
 
 Und dort haben Sie es!
 

@@ -58,13 +58,13 @@ Cela va créer la structure de table appropriée pour votre appareil. Quelques c
 
 Vous pouvez ensuite rafraîchir vos tableaux voir dans la console, et vous devriez voir votre table aménagé:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.03.20-PM.png)
+![Table layout of the database](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.03.20-PM.png)
 
 Une fois que vous avez votre table, il est une question d'obtenir des données en elle. Vous remarquerez que, alors que le code de particules sur l'appareil utilise des champs comme « qualité de l'air » J'ai enlevé les traits d'union de ces noms. La base de données qui aime mieux.
 
 Allez à l'onglet Intégrations de votre [Console de particules](https://console.particle.io/) et cliquez sur Nouvelle intégration, puis cliquez sur le crochet Web
 
-![](https://docs.particle.io/assets/images/particleNewWebhook.png)
+![The 'New Webhook' Panel in the Particle Console](/posts/category/iot/iot-hardware/quickly-connect-an-argon-iot-device-to-questdb/images/particleNewWebhook.png)
 
 Une fois là-bas, nous allons remplir le formulaire. Selon le tutoriel, notre événement est appelé `env-vals`, entrez donc que sous ** Nom de l'événement **.
 
@@ -96,7 +96,7 @@ Enfin, l'horodatage de PARTICLE_PUBLISHED_AT est envoyé, ainsi que la chaîne m
 
 Votre écran d'intégration devrait ressembler à ceci:
 
-![](https://docs.particle.io/assets/images/particleQuestIntegration1.png)
+![web integration screen from Particle](/posts/category/iot/iot-hardware/quickly-connect-an-argon-iot-device-to-questdb/images/particleQuestIntegration1.png)
 
 Ne pas oublier de faire défiler vers le bas et _un_ cocher la case ** ** SSL Appliquer, puis enregistrez votre intégration.
 
@@ -104,7 +104,7 @@ Ne pas oublier de faire défiler vers le bas et _un_ cocher la case ** ** SSL Ap
 
 Ma base de données ressemble maintenant à ceci:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.10.21-PM-1024x181.png)
+![Table of results from the query](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.10.21-PM-1024x181.png)
 
 Assez épatant. Mais il est toujours pas le beau tableau de bord que je veux.
 
@@ -116,13 +116,13 @@ Devinez quoi? Ça a marché!
 
 Donc, pour configurer le plugin pour Postgres QuestDB:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.59-PM.png)
+![Grafana connection panel showing Postgres settings](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.59-PM.png)
 
 Il suffit de remplir les valeurs par défaut des paramètres de protocole [QuestDB pgwire](https://questdb.io/docs/guide/postgres-wire).
 
 Une fois que vous avez fait cela, vous pouvez construire votre tableau de bord:
 
-![](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.33-PM.png)
+![Grafana Dashboard with Temperature, Humidity, and Pressure](/posts/category/iot/iot-hardware/images/Screen-Shot-2020-09-08-at-2.19.33-PM.png)
 
 Et voila!
 

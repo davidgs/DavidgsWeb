@@ -18,7 +18,7 @@ company:
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "I am David G. Simmons. I am an Internet of Things (IoT) pioneer who has been working in the field for over 15 years. I am now the Principal Develper Advocate at [Camunda](https://camunda.com). Before that, I was Head of Developer Relations at [QuestDB](https://questdb.io). Previously I was the Senior Developer Advocate at [Influx Data](https://influxdata.com). That's 2 Time Series databases in a row. If you're wondering how that's related to IoT, see [this](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "I am an Internet of Things (IoT) pioneer who has been working in the field for over 15 years. I am now the Principal Develper Advocate at [Camunda](https://camunda.com). Previously, I was Head of Developer Relations at [QuestDB](https://questdb.io) and the Senior Developer Advocate at [Influx Data](https://influxdata.com). That's 2 Time Series databases in a row. If you're wondering how that's related to IoT, read about [Why an IoT does Time Series Data](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -63,12 +63,10 @@ softSkills:
 - name: Team Work
   percentage: 80
   color: yellow
-
-
 - name: Fast Learner
   percentage: 85
   color: sky
-- name: Problem Solving
+- name: Problem Solver
   percentage: 85
   color: orange
 # you can also provide color code instead of pre-defined color name

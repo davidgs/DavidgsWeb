@@ -84,7 +84,7 @@ Someone in the HN comments suggested that column stores are bad at joins, which 
 
 The result was ... not what they were expecting:
 
-![](/posts/category/database/images/join.png)
+![detail showing the billions of rows returned](/posts/category/database/images/join.png)
 
 Yeah, that's 2,671,914,914,060,072,000 rows. In 69ms (including network transfer time). That's a lot of results in a very short amount of time. Definitely not what they were expecting.
 
