@@ -2,6 +2,6 @@
 
 USER=davidgs
 HOST=davidgs.com
-DIR=www/
+DIR=www
 
 hugo && rsync -avz public/ ${USER}@${HOST}:~/${DIR}

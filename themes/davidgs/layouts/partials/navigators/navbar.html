@@ -31,9 +31,12 @@
 <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
   <div class="container">
     <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
-      <img src="{{ $invertedLogo }}" id="logo">
+      <img src="{{ $invertedLogo }}" id="logo" class="rounded-circle">
       {{- site.Title -}}
     </a>
+    <!-- div>
+      <button id="theme" onclick="toggleTheme()"><i id=themeName class="fas fa-lightbulb"></i></button>
+    </div -->
     <button
       class="navbar-toggler navbar-dark"
       id="navbar-toggler"

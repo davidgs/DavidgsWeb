@@ -79,7 +79,7 @@
 {{ end }}
 
 <div class="container-fluid home" id="home">
-  <style>
+  <style nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=">
     /* 0 to 299 */
     #homePageBackgroundImageDivStyled {
       /*background-image: url('{{ $tiny.RelPermalink }}'); This does not work on https://themes.gohugo.io/ */
@@ -106,20 +106,27 @@
           background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ $src.RelPermalink }}');
         }
     }
+    #cf4a {
+      width: 148px;
+      height: 148px;
+      display: inline-block;
+      margin-left: -126px;
+      background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/author/white-bg.jpg"}}');
+}
     </style>
     <span class="on-the-fly-behavior"></span>
   <div
     id="homePageBackgroundImageDivStyled"
     class="background container-fluid"
   ></div>
-  <div  id= "cf4a" class="container content text-center">
-    <!-- div id="cf4a" -->
+  <div class="container content text-center">
+      <div id="cf4a">
       {{ range $num, $res :=  $author.image }}
         {{ $im := $scratch.Get $num }}
-        <img src="{{ $im.RelPermalink }}" class="rounded-circle mx-auto d-block img-fluid"
+        <img src="{{ $im.RelPermalink }}" class="cf4a rounded-circle "
     />
       {{ end }}
-    <!-- /div -->
+</div>
     <h1 class="greeting"> {{ $author.greeting }} {{ $name }}</h1>
     <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>

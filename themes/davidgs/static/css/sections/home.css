@@ -285,17 +285,17 @@
  }
 }
 
-/* #cf4a {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
-  background-color: #FFFFF;
-} */
-/* #cf4a img {
+
+
+#cf4a img {
   position:absolute;
-  left:0;
-} */
+  width: 148px;
+  height: 148px;
+  background-color: #e7e7ef;
+  padding: 5px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
 
 #cf4a img {
   -webkit-animation-name: cf4FadeInOut;

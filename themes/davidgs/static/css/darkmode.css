@@ -1,0 +1,6 @@
+[data-theme='fas'] {
+  filter: invert(1) hue-rotate(180deg);
+}
+[data-theme='far'] {
+  filter: invert(0) hue-rotate(0deg);
+}
