@@ -16,6 +16,7 @@ degrees:
   institution:
     name: University of New Mexico
     url: "https://www.unm.edu"
+
 - name: B.A. Technical Writing
   icon: fa-graduation-cap
   timeframe: 1985 - 1988
