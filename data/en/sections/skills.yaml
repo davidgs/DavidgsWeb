@@ -28,18 +28,18 @@ skills:
 
 - name: PHP
   logo: /images/sections/skills/php.jpg
-  summary: "Database connectivity, interactive forms, etc."
+  summary: "Database connectivity, interactive forms, etc. I've written large, complex PHP-based web applications. I've also written custom functions for Worppress."
   url: "https://php.net/"
 
 
 - name: Swift/Objective C
   logo: /images/sections/skills/swift.jpg
-  summary: "iOS and macOS Swift/Objective C programming including library development"
+  summary: "iOS and macOS Swift/Objective C programming, including library development. I've only released 2 apps on the AppStore (no longer there) but I have developed a number of internal apps for various projects."
   url: "https://en.wikipedia.org/wiki/Swift_(programming_language)"
 
 - name: Python
   logo: /images/sections/skills/python.jpg
-  summary: "Mostly MicroPython but have written other, larger programs as well."
+  summary: "Mostly MicroPython but have written other, larger programs as well. It's not a first-level language for me, but I am fairly competent in it nonetheless."
   url: "https://python.org/"
 
 - name: Time Series Databases

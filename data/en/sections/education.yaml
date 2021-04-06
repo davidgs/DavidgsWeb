@@ -15,20 +15,21 @@ degrees:
   timeframe: 1992-1995
   institution:
     name: University of New Mexico
-    url: "#"
+    url: "https://www.unm.edu"
+
 - name: B.A. Technical Writing
   icon: fa-graduation-cap
   timeframe: 1985 - 1988
   institution:
     name: Columbia University in the City of New York
-    url: "#"
+    url: "https://columbia.edu"
 
-- name: B.S. Biological Sciences
+- name: B.S. Biological Sciences (incomplete)
   icon: fa-university
   timeframe: 1982 - 1985
   institution:
     name: University of California, Santa Barbara
-    url: "#"
+    url: "https://uscb.edu"
   extracurricularActivities: #(optional)
   - Undergraduate Teaching Assistant.
   - Dean's Honors (1983 - 1985).
