@@ -39,15 +39,42 @@
         .heroImageStyled {
           background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ partial "helpers/get-hero.html" . }}');
         }
+        #cf4a-sm {
+          background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/author/white-bg.jpg"}}')
+        } 
       </style>
       <div class="hero-area col-sm-12 heroImageStyled" style="heroImageStyled" id="hero-area" >
 
       </div>
+      {{ $author:= site.Data.author }}
+      {{ if (index site.Data site.Language.Lang).author }}
+        {{ $author = (index site.Data site.Language.Lang).author }}
+      {{ end }}
+      {{ $authorImage:= "/images/default-avatar.png" }}
+      {{ if $author.image }}
+        {{ $authorImage = $author.image }}
+      {{ end }}
+      {{ $authorRotation := $author.image }}
+      {{ $scratch := newScratch }}
+      {{ range $num, $pt := $authorRotation }}
+        {{ $authorImage := resources.Get $pt }}
+        {{ $authorImage := $authorImage.Fit "120x120" }}
+        {{ $scratch.Set $num $authorImage }}
+
+      {{ end }}
+{{/* $authorImage := resources.Get $authorImage */}}
+{{/* $authorImage := $authorImage.Fit "120x120" */}}
 
       <!--Content Start-->
       <div class="page-content">
         <div class="author-profile ml-auto align-self-lg-center">
-          <img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}'/>
+          <div id="cf4a-sm" >
+            {{ range $num, $res := $author.image }}
+            {{ $im := $scratch.Get $num }}
+            <img src="{{ $im.RelPermalink }}" class="cf4a-sm rounded-circle" />
+            {{ end }}
+          </div>
+          <!--img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}'/ -->
           <h5 class="author-name">{{ partial "helpers/get-author-name.html" . }}</h5>
           <p>{{ .Page.Date.Format "January 2, 2006" }}</p>
         </div>

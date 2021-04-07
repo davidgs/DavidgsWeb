@@ -15,15 +15,17 @@ languages:
   de:
     languageName: Deutsche
     weight: 2
-  fr:
-    languageName: Français
-    weight: 3
+  nl:
+    languageName: Dutch
+    weigth: 3
   es:
     languageName: Español
     weight: 4
-  nl:
-    languageName: Dutch
-    weigth: 5
+  fr:
+    languageName: Français
+    weight: 5
+
+
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
