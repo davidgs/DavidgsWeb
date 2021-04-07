@@ -1,30 +1,30 @@
 # More documentation here: https://github.com/nicksnyder/go-i18n
 [home]
-other = "Home"
+other = "Huis"
 
 [posts]
 other = "Blog"
 
 [toc_heading]
-other = "Table of Contents"
+other = "Inhoudsopgave"
 
 [at]
-other = "at"
+other = "bij"
 
 [resume]
-other = "My resume"
+other = "Mijn CV"
 
 [navigation]
-other = "Navigation"
+other = "Navigatie"
 
 [contact_me]
-other = "Social:"
+other = "Sociaal:"
 
 [email]
 other = "Email"
 
 [phone]
-other = "Phone"
+other = "Telefoon"
 
 [newsletter_text]
 other = "Stay up to date with email notification"
@@ -36,46 +36,46 @@ other = "Enter email"
 other = "We'll never share your email with anyone else."
 
 [submit]
-other = "Submit"
+other = "Verzenden"
 
 [hugoAttributionText]
-other = "Powered by"
+other = "Aangedreven door"
 
 [prev]
-other = "Prev"
+other = "Vorig"
 
 [next]
-other = "Next"
+other = "Volgende"
 
 [improve_this_page]
-other = "Improve this page"
+other = "Verbeter deze pagina"
 
 [out_of]
-other = "out of"
+other = "uit"
 
 [publications]
-other = "Publications"
+other = "Publicaties"
 
 [taken_courses]
-other = "Taken Courses"
+other = "Cursussen Gevolgd"
 
 [course_name]
-other = "Course Name"
+other = "Cursus Naam"
 
 [total_credit]
-other = "Total Credit"
+other = "Totaal Krediet"
 
 [obtained_credit]
-other = "Obtained Credit"
+other = "Krediet Verkregen"
 
 [extracurricular_activities]
-other = "Extracurricular Activities"
+other = "Buitenschoolse Activiteiten"
 
 [see_more]
-other = "See More"
+other = "Bekijk Meer"
 
 [responsibilities]
-other = "Responsibilities:"
+other = "Verantwoordelijkheden:"
 
 [present]
-other = "Present"
+other = "Het Heden"
