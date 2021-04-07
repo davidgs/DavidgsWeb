@@ -2,6 +2,7 @@
 title: "Ok, So Test-Driven Development is a Thing"
 Date: 2021-04-06
 Author: davidgs
+Description: Where I admit what a crappy developer I've been, and how I'm trying to get better. 
 Category: Programming
 Slug: ok-so-test-driven-development-is-a-thing
 hero: images/test-driven-development-TDD.jpg
