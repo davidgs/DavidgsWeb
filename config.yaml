@@ -35,6 +35,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    style: dracula
+    noClasses: false
   tableOfContents:
     startLevel: 2
     endLevel: 6
