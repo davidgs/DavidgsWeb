@@ -31,6 +31,13 @@
 {{ end }}
 
 {{ define "content" }}
+{{ $bgcontent := "/images/author/white-bg.jpg" }}
+{{ $bgImage := resources.Get $bgcontent }}
+{{ if $bgImage }}
+  {{ $bgImage := $bgImage.Fit "120x120" }}
+{{ else }}
+  {{ $bgImage := $bgcontent }}
+{{ end }}
 <section class="content-section" id="content-section">
   <div class="content">
     <div class="container p-0 read-area">
@@ -40,8 +47,8 @@
           background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ partial "helpers/get-hero.html" . }}');
         }
         #cf4a-sm {
-          background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/author/white-bg.jpg"}}')
-        } 
+          background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{ "/images/author/white-bg.jpg" }}')
+        }
       </style>
       <div class="hero-area col-sm-12 heroImageStyled" style="heroImageStyled" id="hero-area" >
 
@@ -50,7 +57,7 @@
       {{ if (index site.Data site.Language.Lang).author }}
         {{ $author = (index site.Data site.Language.Lang).author }}
       {{ end }}
-      {{ $authorImage:= "/images/default-avatar.png" }}
+      {{ $authorImage := "/images/default-avatar.png" }}
       {{ if $author.image }}
         {{ $authorImage = $author.image }}
       {{ end }}
