@@ -13,11 +13,12 @@ This is my [personal website](https://davidgs.com)
 
 I have moved off of Wordpress to using a Hugo Static Site generator for my website. This is the repository for that effort.
 
-It is currently offered in 4 languages:
+It is currently offered in 5 languages:
 - English (native)
-- French (translated)
-- German (translated)
-- Spanish (translated)
+- French (ML translated)
+- German (ML translated)
+- Spanish (ML translated)
+- Dutch (ML translated)
 
 The translations are all done automatically using my own [Translator](https://github.com/davidgs/Translator) project which relies on Google Translate for the translations.
 
