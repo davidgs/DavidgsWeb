@@ -5,7 +5,8 @@ title: "David G. Simmons"
 theme:
   - davidgs
   - toha
-
+## Enable comments
+DisqusShortname: davidgsIoT
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
@@ -76,3 +77,4 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: false
+

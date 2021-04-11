@@ -138,10 +138,10 @@
 {{ define "scripts" }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
 <script src="{{ "/js/single.js" | relURL }}"></script>
-<script>
+<script nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=">
   hljs.initHighlightingOnLoad();
 </script>
-{{ if .Params.math }}
+  {{ if .Params.math }}
     {{ partial "math.html" . }}
-{{ end }}
+  {{ end }}
 {{ end }}
