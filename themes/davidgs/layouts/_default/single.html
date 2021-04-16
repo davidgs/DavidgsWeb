@@ -31,7 +31,7 @@
 {{ end }}
 
 {{ define "content" }}
-{{ $bgcontent := "/images/author/white-bg.jpg" }}
+{{ $bgcontent := "/images/white-bg.jpg" }}
 {{ $bgImage := resources.Get $bgcontent }}
 {{ if $bgImage }}
   {{ $bgImage := $bgImage.Fit "120x120" }}
@@ -47,7 +47,7 @@
           background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ partial "helpers/get-hero.html" . }}');
         }
         #cf4a-sm {
-          background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{ "/images/author/white-bg.jpg" }}')
+          background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{ "/images/white-bg.jpg" }}')
         }
       </style>
       <div class="hero-area col-sm-12 heroImageStyled" style="heroImageStyled" id="hero-area" >
