@@ -124,7 +124,7 @@
   height: 120px;
   display: inline-block;
   margin-left: -126px;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/author/white-bg.jpg"}}');
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img {
   position:absolute;
@@ -134,6 +134,7 @@
   padding: 5px;
   margin-bottom: 10px;
   vertical-align: middle;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img {
   -webkit-animation-name: cf4FadeInOut;
@@ -155,30 +156,35 @@
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 8s;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img:nth-of-type(1) {
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
   animation-delay: 6s;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img:nth-of-type(2) {
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
   -o-animation-delay: 4s;
   animation-delay: 4s;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img:nth-of-type(3) {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -o-animation-delay: 2s;
   animation-delay: 2s;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img:nth-of-type(4) {
   -webkit-animation-delay: 0;
   -moz-animation-delay: 0;
   -o-animation-delay: 0;
   animation-delay: 0;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 
 #cf4a-sm img {
@@ -201,28 +207,33 @@
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 8s;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img:nth-of-type(1) {
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
   animation-delay: 6s;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img:nth-of-type(2) {
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
   -o-animation-delay: 4s;
   animation-delay: 4s;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img:nth-of-type(3) {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -o-animation-delay: 2s;
   animation-delay: 2s;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
 #cf4a-sm img:nth-of-type(4) {
   -webkit-animation-delay: 0;
   -moz-animation-delay: 0;
   -o-animation-delay: 0;
   animation-delay: 0;
+  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
 }
