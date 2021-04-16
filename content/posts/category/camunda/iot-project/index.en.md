@@ -2,6 +2,7 @@
 title: "IoTProject"
 date: 2021-04-16T11:46:12-04:00
 Author: davidgs
+Description: "An integration of Camunda Platform and IoT for Greenhouse Automation"
 Category: Camunda, IoT
 Slug: iot-project
 hero: images/growhouse.jpg
