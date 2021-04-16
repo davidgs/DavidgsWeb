@@ -10,7 +10,7 @@
 
     <!-- ADD GOOGLE ANALYTICS IF ENABLED -->
     {{ if site.GoogleAnalytics }}
-      {{ template "_internal/google_analytics_async.html" . }}
+      {{- partial "helpers/google-analytics.html" . -}}
     {{ end }}
   </head>
 

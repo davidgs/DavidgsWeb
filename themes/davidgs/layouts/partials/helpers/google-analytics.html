@@ -1,0 +1,10 @@
+{{- with .Site.GoogleAnalytics -}}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}" nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q="></script>
+{{- end -}}
