@@ -1,12 +1,13 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/hugo,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,macos
+# Created by https://www.toptal.com/developers/gitignore/api/macos,hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,hugo
 
 ### Hugo ###
 # Generated files by hugo
 /public/
 /resources/_gen/
 hugo_stats.json
+/node_modules/
 
 # Executable may be added to repository
 hugo.exe
@@ -42,4 +43,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.toptal.com/developers/gitignore/api/hugo,macos
+# End of https://www.toptal.com/developers/gitignore/api/macos,hugo

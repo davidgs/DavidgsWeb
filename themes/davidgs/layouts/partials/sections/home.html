@@ -129,7 +129,7 @@
     <div id="cf4a">
       {{ range $num, $res := $author.image }}
       {{ $im := $scratch.Get $num }}
-      <img src="{{ $im.RelPermalink }}" class="cf4a rounded-circle " />
+      <img src="{{ $im.RelPermalink }}" loading="lazy" class="cf4a rounded-circle " />
       {{ end }}
     </div>
 

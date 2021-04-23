@@ -1,0 +1,16 @@
+.flag-icon-us {
+  height: 24px;
+  background-image: url(/flags/us.svg);
+}
+.flag-icon-nl {
+  background-image: url(/flags/nl.svg);
+}
+.flag-icon-es {
+  background-image: url(/flags/es.svg);
+}
+.flag-icon-de {
+  background-image: url(/flags/de.svg);
+}
+.flag {
+  height: 15px;
+}
