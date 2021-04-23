@@ -78,7 +78,7 @@
           <div id="cf4a-sm" >
             {{ range $num, $res := $author.image }}
             {{ $im := $scratch.Get $num }}
-            <img src="{{ $im.RelPermalink }}" class="cf4a-sm rounded-circle" />
+            <img src="{{ $im.RelPermalink }}" loading="lazy" class="cf4a-sm rounded-circle" />
             {{ end }}
           </div>
           <!--img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}'/ -->

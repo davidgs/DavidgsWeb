@@ -47,7 +47,7 @@
                 {{ $sectionID = .section.id }}
               {{ end }}
               <li class="nav-item">
-                <a class="smooth-scroll" href="/index.html#{{ $sectionID }}"><img alt="Go To: {{ .section.name }}" src="https://img.shields.io/badge/Go%20To%3A-{{ .section.name }}-blue?style=plastic"></a>
+                <a class="smooth-scroll" href="/index.html#{{ $sectionID }}"><img alt="Go To: {{ .section.name }}" src="https://img.shields.io/badge/Go%20To%3A-{{ .section.name }}-blue?style=plastic" loading="lazy"></a>
               </li>
             {{ end }}
           {{- end }}
@@ -61,18 +61,18 @@
         <ul>
           {{ range $key,$value:= $author.contactInfo }}
           {{ if eq $key "email"}}
-            <li><span><a class="smooth-scroll" href="mailto:{{ $value }}"><img alt="email me" src="https://img.shields.io/badge/Email-{{ $value }}-blue?style=plastic"></a></span></li>
+            <li><span><a class="smooth-scroll" href="mailto:{{ $value }}"><img alt="email me" src="https://img.shields.io/badge/Email-{{ $value }}-blue?style=plastic" loading="lazy"></a></span></li>
             {{ end }}
           {{ if eq $key "phone" }}
             <li><span><a class="smooth-scroll" href="tel:{{ $value }}"><img
-                    alt="call me" src=" https://img.shields.io/badge/Phone-(919)%20534--5099-blue?style=plastic"></a></span></li>
+                    alt="call me" src=" https://img.shields.io/badge/Phone-(919)%20534--5099-blue?style=plastic" loading="lazy"></a></span></li>
           {{ end }}
           {{ end }}
           <li><span><a target="new" href="https://twitter.com/intent/follow?screen_name=davidgsIoT"><img alt="Twitter Follow"
-            src="https://img.shields.io/twitter/follow/davidgsIoT?color=blue&label=%40davidgsIoT&style=plastic"></a></span></li>
+            src="https://img.shields.io/twitter/follow/davidgsIoT?color=blue&label=%40davidgsIoT&style=plastic" loading="lazy"></a></span></li>
           <li><span><a target="new" href="https://www.reddit.com/user/santafen"><img alt="Reddit User Karma"
-            src="https://img.shields.io/reddit/user-karma/combined/santafen?color=blue&label=Reddit%20Karma&style=plastic"></a></span></li>
-          <li><span><a target="new" href="https://keybase.io/davidgs"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/davidgs?label=Keybase%20PGP&style=plastic"></a></span></li>
+            src="https://img.shields.io/reddit/user-karma/combined/santafen?color=blue&label=Reddit%20Karma&style=plastic" loading="lazy"></a></span></li>
+          <li><span><a target="new" href="https://keybase.io/davidgs"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/davidgs?label=Keybase%20PGP&style=plastic" loading="lazy"></a></span></li>
 
         </ul>
       </div>
@@ -81,17 +81,17 @@
         <h5>Site Details:</h5>
         <ul>
           <li><span><img alt="Uptime Robot ratio (30 days)"
-            src="https://img.shields.io/uptimerobot/ratio/m787463895-589280acd7cdefd56db8e6e6?color=blue&style=plastic"></span></li>
+            src="https://img.shields.io/uptimerobot/ratio/m787463895-589280acd7cdefd56db8e6e6?color=blue&style=plastic" loading="lazy"></span></li>
           <li><span><img alt="Mozilla HTTP Observatory Grade"
-            src="https://img.shields.io/mozilla-observatory/grade-score/davidgs.com?color=blue&publish&style=plastic"></span></li>
+            src="https://img.shields.io/mozilla-observatory/grade-score/davidgs.com?color=blue&publish&style=plastic" loading="lazy"></span></li>
             <li><span><img alt="Security Headers"
-              src="https://img.shields.io/security-headers?color=blue&style=plastic&url=https%3A%2F%2Fdavidgs.com"></span></li>
+              src="https://img.shields.io/security-headers?color=blue&style=plastic&url=https%3A%2F%2Fdavidgs.com" loading="lazy"></span></li>
           <li><span><img alt="GitHub User's stars"
-            src="https://img.shields.io/github/stars/davidgs?color=blue&label=GitHub%20Stars&style=plastic"></span></li>
+            src="https://img.shields.io/github/stars/davidgs?color=blue&label=GitHub%20Stars&style=plastic" loading="lazy"></span></li>
             <li><span><img alt="GitHub last commit"
-              src="https://img.shields.io/github/last-commit/davidgs/DavidgsWeb?color=blue&style=plastic"></span></li>
+              src="https://img.shields.io/github/last-commit/davidgs/DavidgsWeb?color=blue&style=plastic" loading="lazy"></span></li>
           <li><span><img alt="GitHub closed pull requests"
-            src="https://img.shields.io/github/issues-pr-closed/davidgs/DavidgsWeb?color=blue&style=plastic"></span></li>
+            src="https://img.shields.io/github/issues-pr-closed/davidgs/DavidgsWeb?color=blue&style=plastic" loading="lazy"></span></li>
         </ul>
       </div>
       {{ if site.Params.newsletter.enable }}
@@ -122,7 +122,7 @@
     <div class="row text-left">
       <div class="col-md-4">
         <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
-          <img alt="Toho Theme Logo" src="{{ $themeLogo }}">
+          <img alt="Toho Theme Logo" src="{{ $themeLogo }}" loading="lazy">
           Toha
         </a>
       </div>
@@ -133,6 +133,7 @@
           src="{{ $hugoLogo }}"
           alt="Hugo Logo"
           height="18"
+          loading="lazy"
         />
         </a>
       </div>
