@@ -34,11 +34,13 @@ jobs:
           go-version: '1.16.3'
       - name: Build Translator
         run: cd ./translate; go build translate.go
-      - name: Secrets
-        run: cd ./translate;echo '"$TRANSLATE_KEY" > google-secret.json';ls -l
-        shell: bash
-        env:
-          TRANSLATE_KEY: ${{secrets.TRANSLATE_SECRET}}
+      - name: Create Secret
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          name: "./translate/google-secret.json"
+          json: ${{ secrets.TRANSLATE_KEY }}
+      - name: Show Secrets
+        run: ls -l translate
       - name: Translate
         run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
       - name: Build
