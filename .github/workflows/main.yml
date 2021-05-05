@@ -29,10 +29,10 @@ jobs:
         uses: cedrickring/golang-action@1.6.0
         env:
           GO111MODULE: "on"
-      - name: setup-secrets
-        run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
-      - name: translate
-        run: ./Translate/translate /content/posts/
+#      - name: setup-secrets
+#        run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
+#      - name: translate
+#        run: ./Translate/translate /content/posts/
  #     - name: Build
 #        run: hugo --minify
  #     - name: rsync deployments
