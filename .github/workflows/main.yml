@@ -35,7 +35,7 @@ jobs:
       - name: Build Translator
         run: cd ./translate; go build translate.go
       - name: Secrets
-        run: cd ./translate;'echo "$TRANSLATE_KEY" > google-secret.json';ls -l
+        run: cd ./translate;echo '"$TRANSLATE_KEY" > google-secret.json';ls -l
         shell: bash
         env:
           TRANSLATE_KEY: ${{secrets.TRANSLATE_SECRET}}
