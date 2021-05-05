@@ -4,4 +4,4 @@ USER=davidgs
 HOST=davidgs.com
 DIR=www
 
-hugo && rsync -avz public/ ${USER}@${HOST}:~/${DIR}
+hugo --minify && rsync -avz public/ ${USER}@${HOST}:~/${DIR}

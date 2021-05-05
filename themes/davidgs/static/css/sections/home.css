@@ -1,3 +1,5 @@
+/* David's CSS! */
+
 .home {
   height: 100vh;
   padding: 0;
@@ -295,7 +297,6 @@
   padding: 5px;
   margin-bottom: 10px;
   vertical-align: middle;
-    background-image: url("/images/white-bg.jpg");
 
 }
 
@@ -304,7 +305,6 @@
   height: 148px;
   display: inline-block;
   margin-left: -126px;
-  background-image: url("/images/white-bg.jpg");
 }
 /* #cf4a img {
   position:absolute;
@@ -316,13 +316,12 @@
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-duration: 8s;
-  -webkit-background-image: url("/images/white-bg.jpg");
+  background-color: white;
 
   -moz-animation-name: cf4FadeInOut;
   -moz-animation-timing-function: ease-in-out;
   -moz-animation-iteration-count: infinite;
   -moz-animation-duration: 8s;
-  -moz-background-image: url("/images/white-bg.jpg");
 
   -o-animation-name: cf4FadeInOut;
   -o-animation-timing-function: ease-in-out;
@@ -333,7 +332,6 @@
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 8s;
-    background-image: url("/images/white-bg.jpg");
 
 }
 #cf4a img:nth-of-type(1) {
@@ -341,7 +339,7 @@
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
   animation-delay: 6s;
-    background-image: url("/images/white-bg.jpg");
+  background-color: white;
 
 }
 #cf4a img:nth-of-type(2) {
@@ -349,7 +347,7 @@
   -moz-animation-delay: 4s;
   -o-animation-delay: 4s;
   animation-delay: 4s;
-    background-image: url("/images/white-bg.jpg");
+  background-color: white;
 
 }
 #cf4a img:nth-of-type(3) {
@@ -357,7 +355,7 @@
   -moz-animation-delay: 2s;
   -o-animation-delay: 2s;
   animation-delay: 2s;
-    background-image: url("/images/white-bg.jpg");
+  background-color: white;
 
 }
 #cf4a img:nth-of-type(4) {
@@ -365,6 +363,6 @@
   -moz-animation-delay: 0;
   -o-animation-delay: 0;
   animation-delay: 0;
-    background-image: url("/images/white-bg.jpg");
+  background-color: white;
 
 }

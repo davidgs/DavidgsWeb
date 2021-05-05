@@ -23,16 +23,16 @@
 
 {{ $authorImage:= "/images/default-avatar.png" }}
 {{ if $author.image }}
-{{ $authorImage = $author.image }}
+  {{ $authorImage = $author.image }}
 {{ end }}
 {{ $authorRotation := $author.image }}
 {{ $scratch := newScratch }}
 {{ range $num, $pt := $authorRotation }}
-{{ $authorImage := resources.Get $pt }}
-{{ $authorImage := $authorImage.Fit "148x148" }}
-{{ $scratch.Set $num $authorImage }}
-
+  {{ $authorImage := resources.Get $pt }}
+  {{ $authorImage := $authorImage.Fit "148x148" }}
+  {{ $scratch.Set $num $authorImage }}
 {{ end }}
+{{ $authorBG := "/images/white-bg.jpg"}}
 {{/* $authorImage := resources.Get $authorImage */}}
 {{/* $authorImage := $authorImage.Fit "148x148" */}}
 
@@ -119,9 +119,9 @@
       }
     }
 
-    #cf4a {
-      background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}')
-    }
+    /* #cf4a {
+      background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{$authorBG}}')
+    } */
   </style>
   <span class="on-the-fly-behavior"></span>
   <div id="homePageBackgroundImageDivStyled" class="background container-fluid"></div>
