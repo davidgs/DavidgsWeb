@@ -24,7 +24,7 @@ jobs:
       - name: setup go
         uses: actions/setup-go@v1
         with: 
-          GO111MODULE: true
+          go-version: latest
       - name: Translate 
         uses: actions/checkout@v2
         with:
