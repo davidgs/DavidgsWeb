@@ -22,3 +22,13 @@ jobs:
 
       - name: Build
         run: hugo --minify
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@4.1
+        with:
+          switches: -avzr --delete
+          path: public/
+          remote_path: /home/${{ secrets.SSH_USER }}/www
+          remote_host: ${{ secrets.SSH_HOST }}
+          remote_port: ${{ secrets.SSH_PORT }}
+          remote_user: ${{ secrets.SSH_USER }}
+          remote_key: ${{ secrets.WEBSITE_DEPLOY_KEY }}
