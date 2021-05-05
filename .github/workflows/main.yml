@@ -19,6 +19,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
       - name: Checkout
       - uses: actions/checkout@v2
         with:
@@ -27,11 +29,6 @@ jobs:
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
-      - name: Checkout
-        uses: actions/checkout@v2
-        
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
