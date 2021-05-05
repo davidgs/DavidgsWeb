@@ -49,7 +49,7 @@ jobs:
         uses: burnett01/rsync-deployments@4.1
         with:
           switches: -avzr
-          path: public/
+          path: ./DavidgsWeb/public/
           remote_path: /home/${{ secrets.SSH_USER }}/www
           remote_host: ${{ secrets.SSH_HOST }}
           remote_port: ${{ secrets.SSH_PORT }}
