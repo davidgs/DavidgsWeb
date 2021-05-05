@@ -32,7 +32,7 @@ jobs:
       - name: Build Translator
         run: go build translate.go
       - name: Secrets
-        run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
+        run: echo '${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json'
       - name: Where Are We
         run: pwd; ls -l
       - name: Translate
