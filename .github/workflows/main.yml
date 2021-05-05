@@ -29,14 +29,15 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: 'davidgs/Translator' 
+          clean: false
       - name: Build Translator
         run: go build translate.go
       - name: Secrets
         run: echo '${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json'
       - name: Where Are We
         run: pwd; ls -l
-      - name: Translate
-        run: ./Translate/translate /content/posts/
+ #     - name: Translate
+ #       run: ./Translate/translate /content/posts/
  #     - name: Build
 #        run: hugo --minify
  #     - name: rsync deployments
