@@ -38,10 +38,10 @@ jobs:
         run: echo '${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json'
       - name: Where Are We
         run: pwd; ls -l; cd ..; ls -l
- #     - name: Translate
- #       run: ./Translate/translate /content/posts/
- #     - name: Build
-#        run: hugo --minify
+      - name: Translate
+        run: ./translate/translate ./DavidgsWeb/content/posts/
+      - name: Build
+        run: hugo --minify
  #     - name: rsync deployments
 #        uses: burnett01/rsync-deployments@4.1
  #       with:
