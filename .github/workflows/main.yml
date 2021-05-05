@@ -39,7 +39,7 @@ jobs:
       - name: Where Are We
         run: pwd; ls -l; cd ..; ls -l
       - name: Translate
-        run: ./translate/translate ./DavidgsWeb/content/posts/
+        run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
       - name: Build
         run: hugo --minify
  #     - name: rsync deployments
