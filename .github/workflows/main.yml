@@ -19,16 +19,29 @@ jobs:
         with:
           hugo-version: '0.81.0'
           # extended: true
-
-      - name: Build
-        run: hugo --minify
-      - name: rsync deployments
-        uses: burnett01/rsync-deployments@4.1
+      - name: Translate 
+      - uses: actions/checkout@v2
         with:
-          switches: -avzr
-          path: public/
-          remote_path: /home/${{ secrets.SSH_USER }}/www
-          remote_host: ${{ secrets.SSH_HOST }}
-          remote_port: ${{ secrets.SSH_PORT }}
-          remote_user: ${{ secrets.SSH_USER }}
+    # Repository name with owner. For example, actions/checkout
+    # Default: ${{ github.repository }}
+          repository: 'davidgs/Translator'
+      - name: Go Modules
+        uses: cedrickring/golang-action@1.6.0
+        env:
+          GO111MODULE: "on"
+      - name: setup-secrets
+        run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
+      - name: translate
+        run: ./Translate/translate /content/posts/
+ #     - name: Build
+#        run: hugo --minify
+ #     - name: rsync deployments
+#        uses: burnett01/rsync-deployments@4.1
+ #       with:
+ #         switches: -avzr
+ #         path: public/
+ #         remote_path: /home/${{ secrets.SSH_USER }}/www
+ #         remote_host: ${{ secrets.SSH_HOST }}
+ #         remote_port: ${{ secrets.SSH_PORT }}
+ #         remote_user: ${{ secrets.SSH_USER }}
           remote_key: ${{ secrets.WEBSITE_DEPLOY_KEY }}
