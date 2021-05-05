@@ -24,13 +24,11 @@ jobs:
       - name: setup go
         uses: actions/setup-go@v1
       - name: Translate 
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
         with:
-    # Repository name with owner. For example, actions/checkout
-    # Default: ${{ github.repository }}
           repository: 'davidgs/Translator' 
-#      - name: build
-#         run: go build translate.go
+      - name: build
+        run: go build translate.go
 #      - name: setup-secrets
 #        run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
 #      - name: translate
