@@ -19,8 +19,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
       - name: Checkout
       - uses: actions/checkout@v2
         with:
@@ -29,20 +27,20 @@ jobs:
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-      - name: Build
-        run: hugo --minify
-      - name: rsync deployments
-        uses: burnett01/rsync-deployments@4.1
-        with:
-          switches: -avzr
-          path: public/
-          remote_path: /home/${{ secrets.SSH_USER }}/www
-          remote_host: ${{ secrets.SSH_HOST }}
-          remote_port: ${{ secrets.SSH_PORT }}
-          remote_user: ${{ secrets.SSH_USER }}
-          remote_key: ${{ secrets.WEBSITE_DEPLOY_KEY }}
+#      - name: Setup Hugo
+#        uses: peaceiris/actions-hugo@v2
+#        with:
+#          hugo-version: 'latest'
+#      - name: Build
+#        run: hugo --minify
+#      - name: rsync deployments
+#        uses: burnett01/rsync-deployments@4.1
+#        with:
+#          switches: -avzr
+#          path: public/
+#          remote_path: /home/${{ secrets.SSH_USER }}/www
+#          remote_host: ${{ secrets.SSH_HOST }}
+#          remote_port: ${{ secrets.SSH_PORT }}
+#          remote_user: ${{ secrets.SSH_USER }}
+#          remote_key: ${{ secrets.WEBSITE_DEPLOY_KEY }}
       
