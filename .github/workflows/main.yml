@@ -28,9 +28,9 @@ jobs:
         with:
           repository: 'davidgs/Translator' 
       - name: build
-        run: go build translate.go
-#      - name: setup-secrets
-#        run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
+        run: go get; go build translate.go
+      - name: setup-secrets
+        run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
 #      - name: translate
 #        run: ./Translate/translate /content/posts/
  #     - name: Build
