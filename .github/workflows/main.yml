@@ -19,16 +19,18 @@ jobs:
         with:
           hugo-version: '0.81.0'
           # extended: true
+      - name: Golang
+        uses: actions/checkout@master
+      - name: setup go
+        uses: actions/setup-go@v1
       - name: Translate 
       - uses: actions/checkout@v2
         with:
     # Repository name with owner. For example, actions/checkout
     # Default: ${{ github.repository }}
-          repository: 'davidgs/Translator'
-      - name: Golang
-      - uses: actions/checkout@master
-      - uses: actions/setup-go@v1
-      - run: go build translate.go
+          repository: 'davidgs/Translator' 
+      - name: build
+        run: go build translate.go
 #      - name: setup-secrets
 #        run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
 #      - name: translate
