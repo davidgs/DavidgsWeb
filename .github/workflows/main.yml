@@ -25,7 +25,7 @@ jobs:
       - name: rsync deployments
         uses: burnett01/rsync-deployments@4.1
         with:
-          switches: -avzr --delete
+          switches: -avzr
           path: public/
           remote_path: /home/${{ secrets.SSH_USER }}/www
           remote_host: ${{ secrets.SSH_HOST }}
