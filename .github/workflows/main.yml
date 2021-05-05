@@ -44,7 +44,7 @@ jobs:
       - name: Translate
         run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
       - name: Build
-        run: hugo --minify
+        run: cd DavidgsWeb; hugo --minify
  #     - name: rsync deployments
 #        uses: burnett01/rsync-deployments@4.1
  #       with:
