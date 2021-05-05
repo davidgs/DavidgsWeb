@@ -1,5 +1,5 @@
 /* This is empty CSS file intended to be overwritten by user's custom CSS file */
-
+/* This is David's Custom css file!  */
 /* ============= Device specific fixes ======= */
 
 /* Large screens such as TV */
@@ -123,24 +123,32 @@
   width: 120px;
   height: 120px;
   display: inline-block;
-  margin-left: -126px;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  /* margin-left: -126px; */
+  margin-bottom: 30px;
+  border-radius: 50%;
+  background-color: white;
+  padding-top: -10px;
+  
+  border-width: 10px;
 }
 #cf4a-sm img {
   position:absolute;
   width: 120px;
   height: 120px;
-  background-color: #e7e7ef;
   padding: 5px;
   margin-bottom: 10px;
   vertical-align: middle;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  background-color: white;
+
+    margin-top: -7px;
+
 }
 #cf4a-sm img {
   -webkit-animation-name: cf4FadeInOut;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-duration: 8s;
+  margin-top: -7px;
 
   -moz-animation-name: cf4FadeInOut;
   -moz-animation-timing-function: ease-in-out;
@@ -156,35 +164,39 @@
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 8s;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+    background-color: white;
 }
 #cf4a-sm img:nth-of-type(1) {
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
   animation-delay: 6s;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  background-color: white;
+  margin-top: -7px;
 }
 #cf4a-sm img:nth-of-type(2) {
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
   -o-animation-delay: 4s;
   animation-delay: 4s;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  background-color: white;
+  margin-top: -7px;
 }
 #cf4a-sm img:nth-of-type(3) {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -o-animation-delay: 2s;
   animation-delay: 2s;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  margin-top: -7px;
+  background-color: white;
 }
 #cf4a-sm img:nth-of-type(4) {
   -webkit-animation-delay: 0;
   -moz-animation-delay: 0;
   -o-animation-delay: 0;
   animation-delay: 0;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  margin-top: -7px;
+  background-color: white;
 }
 
 #cf4a-sm img {
@@ -192,6 +204,7 @@
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-duration: 8s;
+  margin-top: -7px;
 
   -moz-animation-name: cf4FadeInOut;
   -moz-animation-timing-function: ease-in-out;
@@ -207,33 +220,37 @@
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 8s;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  background-color: white;
 }
 #cf4a-sm img:nth-of-type(1) {
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
   animation-delay: 6s;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  margin-top: -7px;
+  background-color: white;
 }
 #cf4a-sm img:nth-of-type(2) {
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
   -o-animation-delay: 4s;
   animation-delay: 4s;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  margin-top: -7px;
+  background-color: white;
 }
 #cf4a-sm img:nth-of-type(3) {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -o-animation-delay: 2s;
   animation-delay: 2s;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  margin-top: -7px;
+  background-color: white;
 }
 #cf4a-sm img:nth-of-type(4) {
   -webkit-animation-delay: 0;
   -moz-animation-delay: 0;
   -o-animation-delay: 0;
   animation-delay: 0;
-  background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{"/images/white-bg.jpg"}}');
+  margin-top: -7px;
+  background-color: white;
 }

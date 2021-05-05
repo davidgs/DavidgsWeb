@@ -6,6 +6,7 @@
 />
 <link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
 <link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/sections/posts.css" | relURL }}">
 {{ end }}
 
 {{ define "navbar" }}
@@ -46,9 +47,9 @@
         .heroImageStyled {
           background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ partial "helpers/get-hero.html" . }}');
         }
-        #cf4a-sm {
+        /* #cf4a-sm {
           background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{ "/images/white-bg.jpg" }}')
-        }
+        } */
       </style>
       <div class="hero-area col-sm-12 heroImageStyled" style="heroImageStyled" id="hero-area" >
 
