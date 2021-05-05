@@ -23,12 +23,14 @@ jobs:
         uses: actions/checkout@master
       - name: setup go
         uses: actions/setup-go@v1
+        with: 
+          GO111MODULE: true
       - name: Translate 
         uses: actions/checkout@v2
         with:
           repository: 'davidgs/Translator' 
       - name: build
-        run: go get; go build translate.go
+        run: go build translate.go
       - name: setup-secrets
         run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
 #      - name: translate
