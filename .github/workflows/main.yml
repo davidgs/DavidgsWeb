@@ -35,9 +35,7 @@ jobs:
       - name: Build Translator
         run: cd ./translate; go build translate.go
       - name: Secrets
-        run: echo '${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json'
-      - name: Where Are We
-        run: pwd; ls -l; cd ..; ls -l
+        run: cd ./translate; echo '${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json'; ls -la
       - name: Translate
         run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
       - name: Build
