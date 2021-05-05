@@ -35,7 +35,10 @@ jobs:
       - name: Build Translator
         run: cd ./translate; go build translate.go
       - name: Secrets
-        run: cd ./translate; echo '${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json'; ls -la
+        run: 'echo "$TRANSLATE_KEY" > google-secret.json'
+        shell: bash
+        env:
+          TRANSLATE_KEY: ${{secrets.TRANSLATE_SECRET}}
       - name: Translate
         run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
       - name: Build
