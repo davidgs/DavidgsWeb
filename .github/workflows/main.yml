@@ -25,10 +25,10 @@ jobs:
     # Repository name with owner. For example, actions/checkout
     # Default: ${{ github.repository }}
           repository: 'davidgs/Translator'
-      - name: Go Modules
-        uses: cedrickring/golang-action@1.6.0
-        env:
-          GO111MODULE: "on"
+      - name: Golang
+      - uses: actions/checkout@master
+      - uses: actions/setup-go@v1
+      - run: go build translate.go
 #      - name: setup-secrets
 #        run: echo ${{ secrets.TRANSLATE_SECRET }} > ./google-secret.json
 #      - name: translate
