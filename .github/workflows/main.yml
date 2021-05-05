@@ -44,4 +44,4 @@ jobs:
  #         remote_host: ${{ secrets.SSH_HOST }}
  #         remote_port: ${{ secrets.SSH_PORT }}
  #         remote_user: ${{ secrets.SSH_USER }}
-          remote_key: ${{ secrets.WEBSITE_DEPLOY_KEY }}
+ #         remote_key: ${{ secrets.WEBSITE_DEPLOY_KEY }}
