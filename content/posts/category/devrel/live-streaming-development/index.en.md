@@ -5,7 +5,7 @@ Author: davidgs
 Category: DevRel, General
 Tags: Live-streaming, Twitch.tv, IoT
 Slug: live-streaming-development
-hero: images/livestream.png
+hero: images/livestream.jpg
 ---
 
 I'm working on this massive IoT project this quarter (you can [read about it](/posts/category/camunda/iot-project) if you're interested) which is going to be a big hardware build, lots of software, and a bunch of [Camunda Platform BPMN](https://camunda.com?ref=davidgsiot). I've never really live-streamed before because, you know, who wants to watch me do stupid stuff?
