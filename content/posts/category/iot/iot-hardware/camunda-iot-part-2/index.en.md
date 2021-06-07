@@ -107,6 +107,7 @@ I could then slide the lid on, and plug in the weather station connectors and it
 
 ![The box all closed up with all the wires coming out](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-18.png)
 
+
 So that's the hardware portion, but what about the software to make it all work? Well, read on for that!
 
 ## Weather Station Software

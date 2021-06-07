@@ -6,7 +6,7 @@ theme:
   - davidgs
   - toha
 ## Enable comments
-DisqusShortname: davidgsIoT
+# DisqusShortname: davidgsIoT
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
