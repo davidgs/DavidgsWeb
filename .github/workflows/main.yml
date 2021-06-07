@@ -47,7 +47,7 @@ jobs:
           # Optional, but recommended
           # Defaults to "Apply automatic changes"
           commit_message: Auto-Translations
-          branch: main
+          # branch: main
           file_pattern: index.*.md
           repository: ./DavidgsWeb
       - name: Build
