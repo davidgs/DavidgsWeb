@@ -48,7 +48,7 @@ jobs:
           # Defaults to "Apply automatic changes"
           commit_message: Auto-Translations
           branch: main
-          file_pattern: *index.*.md
+          file_pattern: index.*.md
           repository: ./DavidgsWeb
       - name: Build
         run: cd DavidgsWeb; hugo --minify
