@@ -97,15 +97,16 @@ If you look closely at the open top on that model you can see that I designed th
 
 I put pins in so the board can be secured to the box (just melt the pins with the soldering iron) so there won't be any rattling around, and the box is complete.
 
-![the completed 3D print of the box](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-13.jpg)
+![the completed 3D print of the box](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-13.png)
 
 Everything then fits neatly inside the box without too much crowding (again, we need airflow!), but in minimal space.
 
-![The box with all the sensors inside and ready to deploy](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-16.jpg)
+![The box with all the sensors inside and ready to deploy](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-16.png)
 
 I could then slide the lid on, and plug in the weather station connectors and it's all ready to go outside!
 
-![The box all closed up with all the wires coming out](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-18.jpg)
+![The box all closed up with all the wires coming out](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-18.png)
+
 
 So that's the hardware portion, but what about the software to make it all work? Well, read on for that!
 
@@ -533,4 +534,4 @@ The next step is to build and deploy all the sensors for the greenhouse (the int
 
 After the database is properly triggering events, it will be time (finally!) to define some BPMN processes around those events so that I can properly control the environment inside my greenhouse based on conditions both inside and outside the greenhouse. I'm really excited about that last part.
 
-I'd love to [hear from you](mailto:davidgs@davidgs.com) about how you think I can use [Camunda](https://camunda.com?ref=davidgsIoT) to control the greenhouse conditions. I have my own ideas, but I'd love to hear yours! 
+I'd love to [hear from you](mailto:davidgs@davidgs.com) about how you think I can use [Camunda](https://camunda.com?ref=davidgsIoT) to control the greenhouse conditions. I have my own ideas, but I'd love to hear yours!

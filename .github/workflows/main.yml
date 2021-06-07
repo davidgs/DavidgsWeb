@@ -41,6 +41,15 @@ jobs:
           json: ${{ secrets.TRANSLATE_SECRET }}
       - name: Translate
         run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
+      - name: ReCommit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Optional, but recommended
+          # Defaults to "Apply automatic changes"
+          commit_message: Auto-Translations
+          branch: main
+          file_pattern: *index.*.md
+          repository: ./DavidgsWeb
       - name: Build
         run: cd DavidgsWeb; hugo --minify
       - name: rsync deployments
