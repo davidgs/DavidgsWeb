@@ -1,5 +1,5 @@
 ---
-title: "Camunda IoT Project, Part II"
+title: "Projet Camunda IoT, Partie II"
 Date: 2021-06-02
 Author: davidgs
 Category: IoT
@@ -8,115 +8,115 @@ Slug: camunda-iot-part-2
 hero: images/header.jpg
 ---
 
-This is Part II in the series covering a Proof of Concept (PoC) project I'm working on as part of my job as Principal Developer Advocate at [Camunda](https://camunda.com?ref=davidgsIoT). I'm not sure how many posts will be in the series, but, well, at least two? If you missed [Part I](/posts/category/camunda/iot-project), you might want to catch up on it before continuing.
+Il s'agit de la deuxième partie de la série couvrant un projet de preuve de concept (PoC) sur lequel je travaille dans le cadre de mon travail en tant qu'avocat principal des développeurs chez [Camunda] (https://camunda.com?ref=davidgsIoT). Je ne sais pas combien de messages seront dans la série, mais bon, au moins deux ? Si vous avez manqué la [Partie I](/posts/category/camunda/iot-project), vous voudrez peut-être la rattraper avant de continuer.
 
-This part of the project was the first hardware build of the project. I have now built and deployed a complete outdoor weather station to gather data about current weather conditions outside the greenhouse. This will allow me to compare conditions inside the greenhouse with conditions outside the greenhouse, and compensate accordingly.
+Cette partie du projet était la première version matérielle du projet. J'ai maintenant construit et déployé une station météo extérieure complète pour recueillir des données sur les conditions météorologiques actuelles à l'extérieur de la serre. Cela me permettra de comparer les conditions à l'intérieur de la serre avec les conditions à l'extérieur de la serre et de compenser en conséquence.
 
-## Parts List
+## Liste des pieces
 
-Here is the complete parts list that I used. This differs slightly from the parts list in [Part I](/posts/category/camunda/iot-project). This is due mostly to my not being aware of a slightly different part that will make things a *lot* easier. It also already incorporates the lightning sensor, the BME280 for temperature, pressure and humidity, and the soil moisture input.
+Voici la liste complète des pièces que j'ai utilisé. Cela diffère légèrement de la liste des pièces dans [Partie I](/posts/category/camunda/iot-project). Cela est principalement dû au fait que je ne suis pas au courant d'une partie légèrement différente qui rendra les choses *beaucoup* plus faciles. Il intègre également déjà le capteur de foudre, le BME280 pour la température, la pression et l'humidité, et l'entrée d'humidité du sol.
 
-| Sensor | Price |
+| Capteur | Prix |
 |--------|-------|
-| [Weather Station](https://www.sparkfun.com/products/15901) | $79.95 |
-| [MicroMod ESP32](https://www.sparkfun.com/products/16781) | $14.95 |
-| [MicroMod Weather Carrier Board](https://www.sparkfun.com/products/16794)| $44.95 |
-| [LiPo Battery](https://www.sparkfun.com/products/13856) | $26.95 |
-| [Solar Charger](https://www.sparkfun.com/products/12885) | $26.95 |
-| [Solar Panel](https://www.sparkfun.com/products/13783) | $59.00 |
-| [Soil Moisture](https://www.sparkfun.com/products/13637) | $6.95 |
-| [CO<sub>2</sub> Sensor](https://www.sparkfun.com/products/15112) | $59.95 |
-| **Total** | **$319.65** |
+| [Station météo](https://www.sparkfun.com/products/15901) | 79,95 $ |
+| [MicroMod ESP32](https://www.sparkfun.com/products/16781) | 14,95 $ |
+| [Carte porteuse météo MicroMod](https://www.sparkfun.com/products/16794)| 44,95 $ |
+| [Batterie LiPo](https://www.sparkfun.com/products/13856) | 26,95 $ |
+| [Chargeur solaire](https://www.sparkfun.com/products/12885) | 26,95 $ |
+| [Panneau solaire](https://www.sparkfun.com/products/13783) | 59,00 $ |
+| [Humidité du sol](https://www.sparkfun.com/products/13637) | 6,95 $ |
+| [ <sub>Capteur de CO 2</sub> ](https://www.sparkfun.com/products/15112) | 59,95 $ |
+| **Total** | **319,65 $** |
 
 
-I also had an Adafruit [PM2.5](https://www.adafruit.com/product/4632) sensor hanging around (it's $44.95) so I added that too.
+J'avais aussi un capteur Adafruit [PM2.5](https://www.adafruit.com/product/4632) qui traînait (c'est 44,95 $), donc je l'ai ajouté aussi.
 
-## Building the Weather Station
+## Construire la station météo
 
-Now that I had all the parts, it was time to start assembling them, and designing and printing some enclosures to hold everything. I could have made a single box to hold it all, but that would mean designing a **very** large box, with the requisite long print-time.
+Maintenant que j'avais toutes les pièces, il était temps de commencer à les assembler, de concevoir et d'imprimer des boîtiers pour tout contenir. J'aurais pu faire une seule boîte pour tout contenir, mais cela signifierait concevoir une **très** grande boîte, avec le long temps d'impression requis.
 
-Let's start with the power supply. Since this is going to be an outside deployment, I decided to make it solar-powered, with a battery, of course.
+Commençons par l'alimentation. Comme il s'agira d'un déploiement extérieur, j'ai décidé de le faire fonctionner à l'énergie solaire, avec une batterie, bien sûr.
 
-### Powering the whole thing
+### Alimenter le tout
 
-The first problem was that the Solar Buddy board does not have a USB-out. It only has a `load` with `+` and `-` on it. The weather station, of course, has no `vcc` and `G` pins, but *only* works with USB-C. So I had to fix that. Luckily I bought a boat-load of weather-proof connector wires, so I ordered some USB-C ends, and soldered one up!
+Le premier problème était que la carte Solar Buddy n'a pas de sortie USB. Il n'a qu'un `load` avec `+` et `-` dessus. La station météo, bien sûr, n'a pas de broches `vcc` et `G`, mais *seulement* fonctionne avec USB-C. J'ai donc dû réparer ça. Heureusement, j'ai acheté une cargaison de câbles de connexion résistants aux intempéries, j'ai donc commandé des extrémités USB-C et en ai soudé une !
 
-![2-lead waterproof connector](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-7.png)
+![Connecteur étanche à 2 fils](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-7.png)
 
-![2-lead waterproof connector with USB-C connector](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-8.png)
+![Connecteur étanche à 2 fils avec connecteur USB-C](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-8.png)
 
-![USB-C connector with shrink-tubing](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-9.png)
+![Connecteur USB-C avec gaine thermorétractable](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-9.png)
 
-Once that was built, it was time to design a box to hold it all. Since this was going to be an outdoor device, I tried to make it waterproof by making very tight, beveled edges on the lid. The board looks small in the box:
+Une fois que cela a été construit, il était temps de concevoir une boîte pour tout contenir. Comme il s'agissait d'un appareil d'extérieur, j'ai essayé de le rendre étanche en créant des bords biseautés très serrés sur le couvercle. La planche a l'air petite dans la boîte :
 
-![Custom printed box with solar board in it](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-1.png)
+![Boîte imprimée personnalisée avec panneau solaire dedans](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-1.png)
 
-I had to solder the newly-fashioned USB-C connector on *after* I put the board in. And it looks small in the box, but once the battery is in, it's a pretty full box!
+J'ai dû souder le nouveau connecteur USB-C *après* avoir inséré la carte. Et elle a l'air petite dans la boîte, mais une fois la batterie insérée, c'est une boîte assez pleine !
 
-![custom printed box with battery in it](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-3.png)
+![boîte imprimée personnalisée avec batterie dedans](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-3.png)
 
-You can see the beveled edges on the lid as it is slid in:
+Vous pouvez voir les bords biseautés sur le couvercle lorsqu'il est glissé :
 
-![Lid being pushed onto the box](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-4.png)
+![Couvercle poussé sur la boîte](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-4.png)
 
-The lid is a nice tight fit, which hopefully will keep it dry!
+Le couvercle est bien ajusté, ce qui, espérons-le, le gardera au sec!
 
-![tightly fitting lid on the box](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-5.png)
+![couvercle bien ajusté sur la boîte](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-5.png)
 
-And I even made it water-tight where the cables come out:
+Et j'ai même rendu étanche la sortie des câbles :
 
-![shrink-wrapped cables coming out of the box](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-6.png)
+![câbles sous film rétractable sortant de la boîte](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-6.png)
 
-Hopefully the solar panel will keep the battery topped-off so the weather station will run continuously. I'll need to make adjustments to the time spent sleeping in order to maximize data and minimize battery draining.
+Espérons que le panneau solaire gardera la batterie remplie afin que la station météo fonctionne en continu. Je devrai ajuster le temps passé à dormir afin de maximiser les données et de minimiser l'épuisement de la batterie.
 
-### Building the Sensors
+### Construire les capteurs
 
-One of the advantages of using this Weather Carrier board over my previous approach is that many of the sensors I wanted to incorporate are included on the carrier board, so I had very little to actually build.
+L'un des avantages de l'utilisation de cette carte Weather Carrier par rapport à mon approche précédente est que la plupart des capteurs que je voulais incorporer sont inclus sur la carte Carrier, donc j'avais très peu de choses à construire.
 
-Adding the Adafruit [PM2.5](https://www.adafruit.com/product/4632) was a matter of plugging in a QWIIC cable between the carrier board and the sensor. Yes, it really was that easy.
+L'ajout de l'Adafruit [PM2.5](https://www.adafruit.com/product/4632) consistait à brancher un câble QWIIC entre la carte porteuse et le capteur. Oui, c'était vraiment si facile.
 
-Since the QWIIC system allows pass-through, and the PM2.5 board has such a pass-through, I decided to make myself a cable for the [CO<sub>2</sub> Sensor](https://www.sparkfun.com/products/15112). It involved cutting a QWIIC connector wire in half, and soldering the wires into the correct holes (I2C only requires 4 wires) on the sensor. I could then plug the CO<sub>2</sub> sensor into the PM2.5 sensor, with minimal soldering.
+Étant donné que le système QWIIC permet le pass-through et que la carte PM2.5 a un tel pass-through, j'ai décidé de me fabriquer un câble pour le [ <sub>capteur CO 2</sub> ](https://www.sparkfun.com/products/15112). Cela impliquait de couper un fil de connecteur QWIIC en deux et de souder les fils dans les bons trous (I2C ne nécessite que 4 fils) sur le capteur. Je pourrais alors brancher le <sub>capteur de CO 2</sub> dans le capteur PM2.5, avec un minimum de soudure.
 
-> For those that are curious, the [SparkFun QWIIC Connect System](https://www.sparkfun.com/qwiic) uses 4-pin JST connectors to connect `VCC`, `GND`, `SDA` and `SDC` on devices with the proper connector. It's very useful and makes sensor hookups a breeze.
+> Pour ceux qui sont curieux, le [SparkFun QWIIC Connect System](https://www.sparkfun.com/qwiic) utilise des connecteurs JST à 4 broches pour connecter `VCC`, `GND`, `SDA` et `SDC` sur les appareils avec le connecteur approprié. C'est très utile et rend les branchements de capteurs un jeu d'enfant.
 
-I now had a complete sensor system that would collect *all* of the outdoor environmental data I wanted on one board, with only 2 externally attached sensors. And all of *that* with only having to solder 4 wires.
+J'avais maintenant un système de capteurs complet qui collectait *toutes* les données environnementales extérieures que je voulais sur une seule carte, avec seulement 2 capteurs externes. Et tout cela avec seulement 4 fils à souder.
 
-## The Sensor Enclosure
+## Le boîtier du capteur
 
-This box was going to be a bit trickier. It had to be water-tight, like the battery box, but it had to allow for constant free airflow through the device in order to get accurate readings. This sensor was nit just being deployed outside, but basically it has to be outside and *unsheltered* so that it can get the best readings.
+Cette boîte allait être un peu plus délicate. Il devait être étanche, comme le boîtier de la batterie, mais il devait permettre un flux d'air libre constant à travers l'appareil afin d'obtenir des lectures précises. Ce capteur n'était pas simplement déployé à l'extérieur, mais fondamentalement, il doit être à l'extérieur et * sans abri * afin qu'il puisse obtenir les meilleures lectures.
 
-Luckily I had previously come up with a design for just such deployments. It's a box with upward-facing louvers so that air can flow through, but rain and water cannot get in because it generally doesn't rain *up*.
+Heureusement, j'avais déjà proposé une conception pour de tels déploiements. C'est une boîte avec des persiennes orientées vers le haut pour que l'air puisse circuler, mais la pluie et l'eau ne peuvent pas entrer car il ne pleut généralement pas *.
 
-Here's how they look in the 3D model rendering:
+Voici à quoi ils ressemblent dans le rendu du modèle 3D :
 
 {{< video "Box detail" "/posts/category/iot/iot-hardware/camunda-iot-part-2/images/model.mp4" >}}
 
-If you look closely at the open top on that model you can see that I designed the top as a slide-in with back-beveled grooves in the hopes of keeping the thing free of leaks. Where the top of the lid meets the top of the box I also back-beveled it for the same reason.
+Si vous regardez de près le dessus ouvert de ce modèle, vous pouvez voir que j'ai conçu le dessus comme une glissière avec des rainures biseautées à l'arrière dans l'espoir de garder la chose exempte de fuites. Là où le haut du couvercle rencontre le haut de la boîte, je l'ai également biseauté en arrière pour la même raison.
 
-![Detail of the box showing the back-beveled grooves for the top](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/lids.jpg)
+![Détail de la boîte montrant les rainures en biseau arrière pour le dessus](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/lids.jpg)
 
-I put pins in so the board can be secured to the box (just melt the pins with the soldering iron) so there won't be any rattling around, and the box is complete.
+J'ai mis des broches pour que la carte puisse être fixée à la boîte (il suffit de faire fondre les broches avec le fer à souder) pour qu'il n'y ait pas de cliquetis, et la boîte est complète.
 
-![the completed 3D print of the box](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-13.png)
+![l'impression 3D terminée de la boîte](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-13.png)
 
-Everything then fits neatly inside the box without too much crowding (again, we need airflow!), but in minimal space.
+Tout s'intègre alors parfaitement à l'intérieur de la boîte sans trop d'encombrement (encore une fois, nous avons besoin d'un flux d'air !), mais dans un espace minimal.
 
-![The box with all the sensors inside and ready to deploy](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-16.png)
+![La boîte avec tous les capteurs à l'intérieur et prête à déployer](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-16.png)
 
-I could then slide the lid on, and plug in the weather station connectors and it's all ready to go outside!
+Je pourrais alors faire glisser le couvercle, brancher les connecteurs de la station météo et tout est prêt pour sortir dehors !
 
-![The box all closed up with all the wires coming out](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-18.png)
+![La boîte toute fermée avec tous les fils qui sortent](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/camunda-iot-18.png)
 
 
-So that's the hardware portion, but what about the software to make it all work? Well, read on for that!
+C'est donc la partie matérielle, mais qu'en est-il du logiciel pour que tout fonctionne ? Eh bien, lisez la suite pour ça!
 
-## Weather Station Software
+## Logiciel de station météo
 
-Having all that hardware in a nice compact (and hopefully waterproof) box is great and all, but without a fair amount of software, it would all be a waste of time. So let's dive in to some code!
+Avoir tout ce matériel dans une belle boîte compacte (et, espérons-le, étanche) est génial et tout, mais sans une bonne quantité de logiciels, ce serait une perte de temps. Alors plongeons-nous dans un peu de code !
 
-### Accessing the sensors
+### Accéder aux capteurs
 
-As luck would have it, SparkFun provides a nice little `test` program for the Weather Carrier Board which was a fantastic jumping off place for making everything work.
+Par chance, SparkFun fournit un joli petit programme de "test" pour le Weather Carrier Board, qui était un point de départ fantastique pour que tout fonctionne.
 
 ```cpp
 \*
@@ -154,9 +154,9 @@ As luck would have it, SparkFun provides a nice little `test` program for the We
 #include <WiFiMulti.h>
 ```
 
-That gives me access to all the sensors, the wifi, and InfluxDB where I'll be storing the data for now.
+Cela me donne accès à tous les capteurs, au wifi et à InfluxDB où je vais stocker les données pour le moment.
 
-I will need to define a few things as well:
+Je vais aussi devoir définir certaines choses :
 
 ```cpp
 #define INDOOR 0x12
@@ -173,9 +173,9 @@ I will need to define a few things as well:
 #define TZ_INFO "EST5EDT"
 #define SENSOR_ID "WEA-001"
 ```
-I use the `SENSOR_ID` as a tag in InfluxDB, and since that tag never changes, I use a `#define` for it.
+J'utilise le `SENSOR_ID` comme balise dans InfluxDB, et comme cette balise ne change jamais, j'utilise un `#define` pour cela.
 
-Some variables:
+Quelques variables :
 
 ```cpp
 WiFiMulti wifiMulti;
@@ -210,7 +210,7 @@ Point aqiPoint("weather_aqi");
 
 ```
 
-Since my InfluxDBv2 instance is running via TLS, I will also need to include a certificate from the cert-chain:
+Étant donné que mon instance InfluxDBv2 s'exécute via TLS, je devrai également inclure un certificat de la chaîne de certification :
 
 ```cpp
 const char AlphaSSLCA[] PROGMEM =  R"EOF(
@@ -243,7 +243,7 @@ Uw==
 )EOF";
 ```
 
-Then I can get everything set up in my `setup()` function:
+Ensuite, je peux tout configurer dans ma fonction `setup()` :
 
 ```cpp
 void setup() {
@@ -352,9 +352,9 @@ void setup() {
 }
 ```
 
-At this point, the entire system is now set up, connected to all the sensors, connected to WiFi, and connected to InfluxDB. From here on out it's a matter of handling the interrupts, reading the sensors, and writing the data.
+À ce stade, l'ensemble du système est maintenant configuré, connecté à tous les capteurs, connecté au WiFi et connecté à InfluxDB. À partir de maintenant, il s'agit de gérer les interruptions, de lire les capteurs et d'écrire les données.
 
-In order to handle the interrupts, we have to have functions to deal with them:
+Afin de gérer les interruptions, nous devons avoir des fonctions pour les gérer :
 
 ```cpp
 //Function is called every time the rain bucket tips
@@ -368,7 +368,7 @@ void wspeedIRQ() {
 }
 ```
 
-Now we can write our main `loop()` to collect and send data.
+Maintenant, nous pouvons écrire notre `loop()` principale pour collecter et envoyer des données.
 
 ```cpp
 void loop() {
@@ -444,7 +444,7 @@ void loop() {
 }
 ```
 
-The only thing that isn't covered in there is the reading of the PM2.5 sensor, which I moved to the `read_aqi()` function, the reading of the soil moisture, which is in the `readSoil()` function, and getting the wind direction which is in the  `getWindDirection()` function:
+La seule chose qui n'est pas couverte ici est la lecture du capteur PM2.5, que j'ai déplacé dans la fonction `read_aqi()`, la lecture de l'humidité du sol, qui est dans la fonction `readSoil()`, et obtenir la direction du vent qui est dans la fonction `getWindDirection()` :
 
 ```cpp
 void read_aqi() {
@@ -518,20 +518,20 @@ int getWindDirection() {
 }
 ```
 
-And that gives me everything I need. All the sensor data is collected, and written to InfluxDB.
+Et cela me donne tout ce dont j'ai besoin. Toutes les données du capteur sont collectées et écrites dans InfluxDB.
 
-All I have to do is take it all outside and let it rip! Then login to my InfluxDB instance and see if data is coming in:
+Tout ce que j'ai à faire, c'est de tout sortir dehors et de le laisser déchirer ! Connectez-vous ensuite à mon instance InfluxDB et voyez si des données arrivent :
 
-![Graph of incoming Temperature Data](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/dashboard.jpg)
+![Graphique des données de température entrantes](/posts/category/iot/iot-hardware/camunda-iot-part-2/images/dashboard.jpg)
 
-Yep, that's the temperature data coming in alright!
+Oui, ce sont bien les données de température qui arrivent !
 
 ## Conclusion
 
-I now have a fully functioning weather station that collects temperature, pressure and humidity data, lightning strike data, CO<sub>2</sub> data, and air particulate data and stores it all in a database.
+J'ai maintenant une station météorologique entièrement fonctionnelle qui collecte des données sur la température, la pression et l'humidité, les données sur les coups de foudre, les données sur le CO <sub>2</sub> et les données sur les particules atmosphériques et stocke le tout dans une base de données.
 
-The next step is to build and deploy all the sensors for the greenhouse (the interior sensors). Once I have all of those deployed, I can start triggering events from the database.
+L'étape suivante consiste à construire et à déployer tous les capteurs de la serre (les capteurs intérieurs). Une fois que tous ces éléments sont déployés, je peux commencer à déclencher des événements à partir de la base de données.
 
-After the database is properly triggering events, it will be time (finally!) to define some BPMN processes around those events so that I can properly control the environment inside my greenhouse based on conditions both inside and outside the greenhouse. I'm really excited about that last part.
+Une fois que la base de données aura correctement déclenché les événements, il sera temps (enfin !) de définir des processus BPMN autour de ces événements afin que je puisse contrôler correctement l'environnement à l'intérieur de ma serre en fonction des conditions à la fois à l'intérieur et à l'extérieur de la serre. Je suis vraiment excité à propos de cette dernière partie.
 
-I'd love to [hear from you](mailto:davidgs@davidgs.com) about how you think I can use [Camunda](https://camunda.com?ref=davidgsIoT) to control the greenhouse conditions. I have my own ideas, but I'd love to hear yours!
+J'aimerais [avoir de vos nouvelles](mailto:davidgs@davidgs.com) sur la façon dont vous pensez que je peux utiliser [Camunda](https://camunda.com?ref=davidgsIoT) pour contrôler les conditions de la serre. J'ai mes propres idées, mais j'aimerais entendre les vôtres!

@@ -1,19 +1,21 @@
-<div class="container"style="height:400px; width:680px; align-items: center;">
-  <div id="player-wrapper" class="{{ .Get 1 }}"></div>
+<div class="video">
+
+
+<link href="/css/video.css" rel="stylesheet" />
+
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+
+  <video id="{{ .Get 0 }}" class="video" controls preload="auto"
+    width=640 height=320 responsive=true>
+    <source src="{{ .Get 1 }}" type="video/mp4" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+
+  <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
 </div>
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js">
-</script>
-
-<script nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=">
-  var playerElement = document.getElementById("player-wrapper");
-
-  var player = new Clappr.Player({
-    source: {{ .Get 0 }},
-  mute: true,
-    height: 360,
-      width: 640
-  });
-
-  player.attachTo(playerElement);
-</script>
