@@ -2,7 +2,8 @@
 title: "Camunda IoT-project, deel II"
 Date: 2021-06-08
 Author: davidgs
-Category: Tags: connectivity, Internet Anywhere, IoT, Camunda
+Category: IoT
+Tags: connectivity, Internet Anywhere, IoT, Camunda
 Slug: camunda-iot-part-2
 hero: images/header.jpg
 ---
