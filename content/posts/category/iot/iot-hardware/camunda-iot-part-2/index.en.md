@@ -89,7 +89,7 @@ Luckily I had previously come up with a design for just such deployments. It's a
 
 Here's how they look in the 3D model rendering:
 
-{{< video "/posts/category/iot/iot-hardware/camunda-iot-part-2/images/model.mp4" >}}
+{{< video "Box detail" "/posts/category/iot/iot-hardware/camunda-iot-part-2/images/model.mp4" >}}
 
 If you look closely at the open top on that model you can see that I designed the top as a slide-in with back-beveled grooves in the hopes of keeping the thing free of leaks. Where the top of the lid meets the top of the box I also back-beveled it for the same reason.
 
