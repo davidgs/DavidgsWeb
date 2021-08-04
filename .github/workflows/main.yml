@@ -1,10 +1,12 @@
 name: Hugo pages
 
 on:
-  merge:
+  push:
     branches:
       - main  # Set a branch to deploy
-
+# Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
 jobs:
   deploy:
     runs-on: ubuntu-18.04
