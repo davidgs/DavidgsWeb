@@ -1,8 +1,7 @@
 name: Hugo pages
 
 on:
-  push:
-  pull_request:
+  merge:
     branches:
       - main  # Set a branch to deploy
 
