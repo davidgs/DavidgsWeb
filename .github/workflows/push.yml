@@ -57,5 +57,3 @@ jobs:
           # branch: main
           file_pattern: index.*.md
           repository: .
-      - name: Build
-        run: cd DavidgsWeb; hugo --minify
