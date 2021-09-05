@@ -48,7 +48,7 @@ jobs:
       - name: Translate
         run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
       - name: ReCommit
-        run: cd ./DavidgsWeb
+        # run: cd ./DavidgsWeb
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           # Optional, but recommended
@@ -56,4 +56,4 @@ jobs:
           commit_message: Auto-Translations
           # branch: main
           file_pattern: index.*.md
-          repository: .
+          repository: ./DavidgsWeb
