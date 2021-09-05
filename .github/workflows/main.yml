@@ -6,7 +6,7 @@ on:
       - main  # Set a branch to deploy
 # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  
+
 jobs:
   deploy:
     runs-on: ubuntu-18.04
@@ -18,11 +18,11 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           path: ./DavidgsWeb
-      - name: Checkout Translate
-        uses: actions/checkout@v2
-        with:
-          repository: davidgs/Translator
-          path: ./translate
+      # - name: Checkout Translate
+      #   uses: actions/checkout@v2
+      #   with:
+      #     repository: davidgs/Translator
+      #     path: ./translate
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -30,28 +30,28 @@ jobs:
           # extended: true
  #     - name: Golang
  #       uses: actions/checkout@master
-      - name: Setup go
-        uses: actions/setup-go@v1
-        with:
-          go-version: '1.16.3'
-      - name: Build Translator
-        run: cd ./translate; go build translate.go
-      - name: Create Secret
-        uses: jsdaniell/create-json@1.1.2
-        with:
-          name: "./translate/google-secret.json"
-          json: ${{ secrets.TRANSLATE_SECRET }}
-      - name: Translate
-        run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
-      - name: ReCommit
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          # Optional, but recommended
-          # Defaults to "Apply automatic changes"
-          commit_message: Auto-Translations
-          # branch: main
-          # file_pattern: index.*.md
-          repository: ./DavidgsWeb
+      # - name: Setup go
+      #   uses: actions/setup-go@v1
+      #   with:
+      #     go-version: '1.16.3'
+      # - name: Build Translator
+      #   run: cd ./translate; go build translate.go
+      # - name: Create Secret
+      #   uses: jsdaniell/create-json@1.1.2
+      #   with:
+      #     name: "./translate/google-secret.json"
+      #     json: ${{ secrets.TRANSLATE_SECRET }}
+      # - name: Translate
+      #   run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
+      # - name: ReCommit
+      #   uses: stefanzweifel/git-auto-commit-action@v4
+      #   with:
+      #     # Optional, but recommended
+      #     # Defaults to "Apply automatic changes"
+      #     commit_message: Auto-Translations
+      #     # branch: main
+      #     # file_pattern: index.*.md
+      #     repository: ./DavidgsWeb
       - name: Build
         run: cd DavidgsWeb; hugo --minify
       - name: rsync deployments
