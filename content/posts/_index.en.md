@@ -1,3 +1,3 @@
 ---
-title: Publicación
+title: Publications
 ---
