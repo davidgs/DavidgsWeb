@@ -129,10 +129,13 @@
     {{ if site.Params.enableTOC }}
     <div class="toc-holder">
       <h5 class="text-center pl-3">{{ i18n "toc_heading" }}</h5>
+      <div class="reading-time"><strong>Reading Time:</strong> {{ .ReadingTime }} minutes</div>
       <hr>
       <div class="toc">
         {{ .TableOfContents }}
-      </div>
+
+    </div>
+
     </div>
     {{ end }}
   </section>
