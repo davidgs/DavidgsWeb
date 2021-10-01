@@ -5,6 +5,7 @@ Author: davidgs
 Category: Databases, InfluxDB
 Slug: hiding-complexity-with-custom-functions-calculating-heat-index
 hero: images/HeatIndex.png
+reading_time: 6 minutes
 ---
 
 Haben Sie schon einmal das lokale Wetter beobachtet - oder The Weather Channel - und hören, wie sie die Temperatur melden, und dann dem „Heat Index“? Oder, wie heiß es ** ** fühlt sich außerhalb? Zumindest hier in den Vereinigten Staaten, und vor allem im Süden, es ist Teil jeden Wetter Sendung im Sommer. Aber haben Sie sich jemals gefragt, wie sie tatsächlich * berechnen * the Heat Index? Da ich Temperatur- und Feuchtedaten sammeln, beschloss ich einen Tag würde ich es gehen und herauszufinden. Nach allem, wie schwer kann es wirklich sein? Hinweis: nie selbst diese Frage stellen!

@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: IoT
 Slug: making-a-button
 hero: images/bttn_how.png
+reading_time: 2 minutes
 ---
 
 Ik kan het niet laten. Ik meen het echt. Wie **niet** behoefte aan een grote rode knop die u kunt programmeren om ... te handelen als een grote rode knop? Maar het is zo veel meer dan alleen een knop! Ik bedoel, een knop is gewoon iets wat je duwen, toch? Deze? Dit is zo veel meer!

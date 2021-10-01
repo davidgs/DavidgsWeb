@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: Bluetooth, gadgets, IoT
 Slug: why-im-switching-from-tile-to-trakr
 hero: images/trackr_bravo_1_pack.png
+reading_time: 3 minutes
 ---
 
 ![Remote pdp](/posts/category/iot/images/remote_pdp.jpg "remote_pdp.jpg") ![Trackr bravo 1 pack](/posts/category/iot/images/trackr_bravo_1_pack.png "trackr_bravo_1_pack.png")

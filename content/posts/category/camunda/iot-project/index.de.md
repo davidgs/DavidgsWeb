@@ -112,7 +112,8 @@ Da es sich um ein IoT-Projekt handelt, ist offensichtlich IoT-Hardware erforderl
 Dieser ist ein bisschen wie ein Joker. Ich begann zu überlegen, was funktionieren könnte. Ich möchte, dass das Gewächshaus Sensoren enthält (sie sind klein) und mindestens einen „Aktuator“ zum Öffnen eines Fensters oder etwas anderem und wahrscheinlich auch einen Ventilator. Wir reden hier realistisch.
 
 | Gewächshaus-Typ | Kosten |
-| ----------------- | ------ |
+| ----------------- | ---reading_time: 7 minutes
+--- |
 | [Outdoor](https://www.worldofgreenhouses.com/products/hybrid-greenhouse-series) | $ 650 |
 | [Indoor](https://www.hpotter.com/buy-terrariums/h-potter-terrarium-classic-wardian-case-for-plants) | $ 140 |
 | [Indoor - klein](https://www.amazon.com/Purzest-Terrarium-Geometric-Tabletop-Succulent) | $ 36.00 |

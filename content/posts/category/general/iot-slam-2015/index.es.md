@@ -6,6 +6,7 @@ Category: IoT
 Tags: Conferences, IoT
 Slug: iot-slam-2015
 hero: images/IoTSlam2015-2.png
+reading_time: 2 minutes
 ---
 
 En caso de que no haya oído hablar de él, sin embargo, no va a ser una gran conferencia virtual de la IO este año denominado [IO Golpe '15](http://iotslam.com). Si no ha presentado un tema para una sesión aún así, ya es demasiado tarde. La convocatoria cerró la semana pasada. Pensé en la presentación de un tema, pero estaba demasiado ocupado con el trabajo de ingeniería, en el momento, para llevarlo a cabo. Como ya saben, todo lo que). Si no ha presentado un tema para una sesión aún así, ya es demasiado tarde. La convocatoria cerró la semana pasada. Pensé en la presentación de un tema, pero estaba demasiado ocupado con el trabajo de ingeniería, en el momento, para llevarlo a cabo. Como ya saben, todo lo que [cambiado](/posts/category/work/a-shock-to-the-system/). Y a continuación, los organizadores de la conferencia llamaron y me pidieron que hiciera una charla invitada, por lo que parece que voy a estar hablando en ella después de todo!

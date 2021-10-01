@@ -6,6 +6,7 @@ Category: IoT
 Tags: Batteries, IoT, power
 Slug: minor-iot-calculations
 hero: images/Critical-Battery-Icon-old-laptop.jpg
+reading_time: 5 minutes
 ---
 
 ## Les piles seront un facteur limitant dans les déploiements IdO

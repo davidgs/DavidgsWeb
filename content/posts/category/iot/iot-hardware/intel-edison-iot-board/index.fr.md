@@ -6,6 +6,7 @@ Category: IoT
 Tags: development, gadgets, hardware, IoT
 Slug: intel-edison-iot-board
 hero: images/Edison-module.jpg
+reading_time: 3 minutes
 ---
 
 J'ai lu sur le conseil de développement Intel Edison pendant un certain temps. Je fais plus de choses IdO à nouveau - purement pour le plaisir, puisque personne ne me payer pour le faire - et je l'ai récemment acquis le kit électrique de développement de ce kit et diablotin Intel Edison, ainsi qu'un kit Arduino. Le conseil d'administration d'Intel Edison est de loin le plus puissant du groupe. Il est un dispositif SoC IdO qui semblait être extrêmement capable.

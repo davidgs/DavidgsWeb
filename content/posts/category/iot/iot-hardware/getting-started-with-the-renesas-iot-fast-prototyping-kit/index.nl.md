@@ -6,6 +6,7 @@ Category: Evangelism, Gadgetry, IoT
 Tags: IoT, Prototyping, Renesas
 Slug: getting-started-with-the-renesas-iot-fast-prototyping-kit
 hero: images/Safari041.jpg
+reading_time: 5 minutes
 ---
 
 Ik heb zin om deze te krijgen voor een paar weken, en belaagd zijn door een heleboel andere dingen die steeds weer opdoken, maar ik ben al weg werken met deze, en dacht dat ik zou kunnen plaatsen op zijn minst een initiële post over deze kits. [Renesas](https://www.renesas.com/en-us/) was zo vriendelijk om me geven zowel de [S3 IoT Fast Prototyping Kit] (https://www.renesas.com/en-us/products /software-tools/boards-and-kits/renesas-synergy-kits/renesas-synergy-s3a7-prototyping-kit.html) en [S7 Starter Kit] (https://www.renesas.com/en-us /products/software-tools/boards-and-kits/renesas-synergy-kits/renesas-synergy-sk-s7g2.html), die beide zijn echt **echt** leuk boards voor het doen van ivd prototyping. Ik zal beginnen met de S3 IoT FPT (Fast Prototyping Kit). In de eerste plaats is natuurlijk de unboxing!

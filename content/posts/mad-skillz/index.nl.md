@@ -9,6 +9,7 @@ menu:
     identifier: mad-skillz
     weight: 11
 
+reading_time: 2 minutes
 ---
 
 # David G. Simmons

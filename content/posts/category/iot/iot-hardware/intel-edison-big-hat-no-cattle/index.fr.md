@@ -5,6 +5,7 @@ Author: davidgs
 Category: IoT
 Slug: intel-edison-big-hat-no-cattle
 hero: images/NewImage.png
+reading_time: 4 minutes
 ---
 
 Il était presque exactement il y a un an que je l'ai acheté mon premier kit de développement Intel Edison. Je suis tout excité par les perspectives de celui-ci, comme vous pouvez le voir [ici](/posts/category/iot/iot-hardware/intel-edison-iot-board/). Il est un beau, petit, puissant (si avide de pouvoir) du conseil IdO qui a tenu beaucoup de promesses pour le développement et le prototypage.

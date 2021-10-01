@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: here-comes-iot-ready-or-not
 hero: images/IoT.jpg
+reading_time: 5 minutes
 ---
 
 Zoals ik al heb [gezegd] (/ berichten / category / iot / whos-going-to-drive-iot-innovatie), iedereen heeft het over het internet van de dingen (ivd). Het is het modewoord du jour. Het gaat ** enorm zijn, [HUGE](/posts/category/iot/whos-going-to-drive-iot-innovation) ** Ik zeg u !! Miljarden en miljarden apparaten verbinding met het internet in de komende 6 jaar. En dat is nog maar de apparaten kant van de zaak. Dan is er de software kant. De API-services. De data analytics kant van de zaak. De Authentication and Identity Management gebieden. Om maar te zwijgen van de cloud storage-eisen te zeggen. Deze markt is klaar om te exploderen in de komende tien jaar op een manier die we nog nooit eerder gezien - denk aan de late jaren '90 internet-zeepbel was een explosie? Het zal maar een popping graanpit in vergelijking met het Internet of Things explosie. En het is niet alleen mij dit te zeggen. Forrester Research is [zeggen dat](http://postscapes.com/internet-of-things-market-size) voor de komende jaren.

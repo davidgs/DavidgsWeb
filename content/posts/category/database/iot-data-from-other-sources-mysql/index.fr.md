@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT, Work
 Slug: iot-data-from-other-sources-mysql
 hero: images/Screen-Shot-2019-11-14-at-12.12.19-PM.png
+reading_time: 7 minutes
 ---
 
 Si vous avez déployé une solution IdO, vous avez dû décider où et comment, pour stocker toutes vos données. Au moins de mon point de vue, le meilleur bien sûr, [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) et le plus de place pour stocker les données du capteur est. Mon disant ne peut pas venir comme une surprise pour vous. Mais les autres données * * dont vous avez besoin pour stocker? Les données sur les * * les capteurs? Des choses comme le fabricant du capteur, la date a été mis en service, le numéro de client, quel type de plate-forme, il est en cours d'exécution sur. Vous savez, toutes les métadonnées du capteur.

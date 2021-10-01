@@ -6,6 +6,7 @@ Category: Evangelism, IoT, Misc
 Tags: Big Data, IoT
 Slug: you-havent-seen-big-data-yet
 hero: images/JuvenileGraySquirrel_ChristineHaines.jpg
+reading_time: 5 minutes
 ---
 
 Sí, lo sé, "Big Data" como una palabra de moda es tan hace 5 minutos. El mundo de la tecnología se AÑADIR crónicos y con tendencia a la distracción por el siguiente objeto brillante (Oh! Mira, la IO !, Espere, AI! ARDILLA !!) Pero estancia conmigo en esto. Todo está conectado. He estado diciendo desde al menos 2005 (espalda cuando grandes volúmenes de datos fue la moda) que usted no ha visto datos realmente grandes hasta la IO realmente se pone en marcha con toda su fuerza. Los medios sociales es bastante prolífica - una media de 6.000 tweets por segundo, o la mitad de mil millones de tweets por día. Eso es una gran cantidad de datos. Pero es cacahuetes. Digamos que tiene una implementación IO industrial seguimiento de 1.000 máquinas. Cada máquina está proporcionando telemetría en 7 u 8 parámetros. Es el registro que telemetría 2 - 3 veces por segundo. Eso es de 16.000 por segundo. De ** ** Una fábrica. Ahora digamos que usted tiene 10 fábricas en todo el mundo. 160.000 por segundo. Trata de estar al corriente. No, en serio, sólo tratar.

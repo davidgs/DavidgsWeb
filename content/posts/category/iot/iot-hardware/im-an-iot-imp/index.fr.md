@@ -6,6 +6,7 @@ Category: IoT
 Tags: development, electric imp, hacking, IoT
 Slug: im-an-iot-imp
 hero: images/IMG_1554.jpg
+reading_time: 5 minutes
 ---
 
 Je suis mon [diablotin électrique](http://electricimp.com/) et diablotin SFE de) et diablotin SFE de [SparkFun](http://www.sparkfun.com) la semaine dernière, et j'ai décidé de le vérifier aujourd'hui et voir ce que Je pouvais le faire avec elle dans une heure. Je re-bas de mon internet des objets (IdO) sac de trucs, et c'est le premier appareil que j'ai eu dans un certain temps, donc voici comment ** ** qui est allé.

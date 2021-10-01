@@ -6,6 +6,7 @@ Category: databse, DevRel, Jobs
 Tags: Big Data, coronavirus, COViD-19, Database, IoT
 Slug: this-stuff-is-fast
 hero: images/NewMap-1.gif
+reading_time: 3 minutes
 ---
 
 Ich habe eine Menge von Projekten getan InfluxDB in den letzten Jahren mit (na ja, habe ich dort Arbeit, nachdem alle) so vielleicht ich ein bisschen eine Vorspannung entwickelt, oder einen blinden Fleck. Wenn Sie [Follow-me](https://twitter.com/intent/follow?screen_name=davidgsIoT) auf Twitter, dann können Sie mich gesehen einige schnelle Videos eines Projekts poste ich arbeitete für die Visualisierung COVID-19-Daten auf eine Karte.

@@ -17,7 +17,8 @@ Mon amie [Rain](https://twitter.com/rainleander) commençait à s'intéresser au
 Nous avons décidé de mettre en ligne tous les vendredis à 8h30 HAE et de nous lancer dans cette version matérielle et logicielle. Voici notre calendrier actuel:
 
 | Date | Sujet | Lien |
-| ------ | ------- | ------ |
+| ------ | ------- | ---reading_time: 2 minutes
+--- |
 | 4 avril 2021 | Construction de matériel | [relecture](https://www.twitch.tv/videos/1005977038) |
 | 7 mai 2021 | Logiciel pour un capteur | [regarder en direct](https://twitch.tv/davidgsiot) |
 | 14 mai 2021 | Piratage de matériel | [regarder en direct](https://twitch.tv/davidgsiot) |

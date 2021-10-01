@@ -6,6 +6,7 @@ Category: Jobs, Misc, Work
 Tags: jobs, Resume, Work
 Slug: the-art-of-the-resume
 hero: images/res.png
+reading_time: 2 minutes
 ---
 
 Si vous demandez à 100 personnes sur ce qu'est un CV doit être, vous obtiendrez probablement près de 100 réponses.

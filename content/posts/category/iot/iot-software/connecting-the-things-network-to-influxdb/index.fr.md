@@ -4,6 +4,7 @@ Date: 2019-03-10
 Category: IoT, TTN, The Things Network
 Slug: connecting-the-things-network-to-influxdb
 hero: images/Screen-Shot-2019-10-09-at-12.08.22-PM.png
+reading_time: 13 minutes
 ---
 
 Il y a plusieurs façons de connecter vos capteurs au réseau dans l'IdO. Pour les connexions à courte portée, il est Bluetooth LE, ou Zigbee, ou 802.15.4, ou ZWave. Pour des distances plus longues (bien que toujours assez court), il y a toujours WiFi. Mais quand vous avez besoin de plus longues distances, parfois très longues distances, il y a lorawan. Il est un sous-ensemble gigahertz des fréquences qui sont disponibles pour les petits bits de données. Ceux-ci sont généralement que quelques octets de données, mais peuvent être envoyées sur des distances plus longues - jusqu'à 2 km ou plus dans certains cas! Ils sont très faible puissance, donc ils sont parfaits pour les applications de télédétection.

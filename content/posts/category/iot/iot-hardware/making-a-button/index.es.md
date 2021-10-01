@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: IoT
 Slug: making-a-button
 hero: images/bttn_how.png
+reading_time: 2 minutes
 ---
 
 No puedo resistir. En serio. Quién ** ** no necesita un gran botón rojo que se puede programar a ... actuar como un gran botón rojo? Pero es mucho más que simplemente un botón! Es decir, un botón es sólo algo que empujar, ¿verdad? ¿Esta? Esto es mucho más!

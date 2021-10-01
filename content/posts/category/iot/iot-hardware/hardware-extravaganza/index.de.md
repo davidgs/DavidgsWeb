@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: ARTIK, IoT, mynewt
 Slug: hardware-extravaganza
 hero: images/IMG_2653.jpg
+reading_time: 3 minutes
 ---
 
 Es ist eine Minute her, dass ich etwas Neues geschrieben habe, und ich entschuldige mich für jeden, der hier folgt zusammen und hat mein Posting verpasst. Ich habe für das Internet der Dinge ein bisschen beschäftigt in letzter Zeit mit dem [MyNewt Betriebssystem](http://mynewt.apache.org). Es ist neu, es ist cool, und es ist eine Menge Arbeit, gerade jetzt.

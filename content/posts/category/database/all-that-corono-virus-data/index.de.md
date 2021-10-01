@@ -5,6 +5,7 @@ Author: davidgs
 Category: corona, General
 Slug: all-that-corona-virus-data
 hero: images/Covid-hero.png
+reading_time: 2 minutes
 ---
 
 Viele Leute haben das raffinierte Dashboard der Johns Hopkins University gesehen, in dem Sie die Anzahl der COVID-19-Fälle usw. auf der ganzen Welt sehen können. Es ist wirklich schön und alles, aber was ist, wenn Sie die Daten selbst in Scheiben schneiden und würfeln möchten? Wie sich herausstellt, veröffentlichen sie auch alle zugrunde liegenden Daten in einem [GitHub-Repository](https://github.com/CSSEGISandData/COVID-19)! Es wird alles als tägliche CSV-Datei (Comma Separated Values) veröffentlicht. Das Importieren in Excel-Tabellen ist sehr einfach, aber die Tabellen sind so vorbei. Alle coolen Kids visualisieren ihre Daten in InfluxDB.

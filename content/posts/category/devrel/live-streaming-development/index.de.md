@@ -17,7 +17,8 @@ Meine Freundin [Rain](https://twitter.com/rainleander) begann sich mit IoT-Hardw
 Wir haben uns entschlossen, jeden Freitag um 8:30 Uhr EDT live zu gehen und uns mit diesem Hardware- und Software-Build zu beschäftigen. Hier ist unser aktueller Zeitplan:
 
 | Datum | Thema | Link |
-| ------ | ------- | ------ |
+| ------ | ------- | ---reading_time: 2 minutes
+--- |
 | 4. April 2021 | Hardware-Aufbau | [Wiederholung](https://www.twitch.tv/videos/1005977038) |
 | 7. Mai 2021 | Software für einen Sensor | [live ansehen](https://twitch.tv/davidgsiot) |
 | 14. Mai 2021 | Hardware-Hacking | [live ansehen](https://twitch.tv/davidgsiot) |

@@ -6,6 +6,7 @@ Category: General, IoT, Jobs
 Tags: IoT, jobs, startups
 Slug: so-whats-with-all-the-jobs
 hero: images/pointofsale_jobs.jpg
+reading_time: 2 minutes
 ---
 
 If you’ve been following along lately, you’ll notice that a bunch of stuff has been happening with me. First, I [lost my job](/posts/work/a-shock-to-the-system/), Then I [started a company](/posts/work/gulp-im-really-doing-this/), [Dragonfly IoT](https://dragonflyiot.com/), and made myself the CTO of it (because I could, you know). And yesterday I was [appointed the new CTO](https://www.chimeraiot.com/chimera/default/leadership) of another startup, [Chimera IoT](https://www.chimeraiot.com/chimera/default/index). So that’s a lot of jobs, and a lot of CTO jobs, for just one person. And yet I’m *still* looking for a job??!! Well, yes.

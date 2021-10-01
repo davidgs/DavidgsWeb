@@ -7,6 +7,7 @@ Tags: Evangelism, IoT
 Slug: why-dont-you-have-an-evangelist-yet
 hero: images/evangelist-boy.jpg
 
+reading_time: 8 minutes
 ---
 
 To far too many people in the high tech world "Evangelism" is a dirty word. It smacks of marketing and sales and isn't technical. Companies want technical engineers, they want marketing professionals. They want sales professionals. They overlook the importance of evangelism. 

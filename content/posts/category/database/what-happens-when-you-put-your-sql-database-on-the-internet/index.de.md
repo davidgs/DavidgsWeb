@@ -6,6 +6,7 @@ Category: database
 Tags: Database, QuestDB, SQL
 Slug: what-happens-when-you-put-your-sql-database-on-the-internet
 hero: images/join.png
+reading_time: 8 minutes
 ---
 
 Und dann konnten wir es zu Hacker News.

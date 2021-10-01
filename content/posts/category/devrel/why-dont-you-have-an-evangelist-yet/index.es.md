@@ -7,6 +7,7 @@ Tags: Evangelism, IoT
 Slug: why-dont-you-have-an-evangelist-yet
 hero: images/evangelist-boy.jpg
 
+reading_time: 8 minutes
 ---
 
 Para demasiadas personas en el mundo de alta tecnología "Evangelismo" es una palabra sucia. Huele a marketing y ventas y no es técnico. Las empresas quieren ingenieros técnicos, que quieren los profesionales del marketing. Desean los profesionales de ventas. Pasan por alto la importancia de la evangelización.

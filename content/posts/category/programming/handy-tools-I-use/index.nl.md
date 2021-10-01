@@ -3,6 +3,7 @@ title: "Handige tools die ik gebruik"
 description: "Een heleboel handige tools voor het omgaan met json, yaml, etc. in Golang"
 date: 2021-04-08T17:18:53-04:00
 hero: images/regex2.png
+reading_time: 10 minutes
 ---
 
 Dit begon als een eenvoudig bericht naar een interne Slack-groep. Toen werd ik gevraagd om het op een ander kanaal in die Slack te plaatsen. Toen besloot ik het op de [DevRel Collective](https://devrelcollective.fun) Slack te plaatsen. Op dat moment werd mij gevraagd om er een blogpost van te maken, zodat het niet verloren ging in het terugscrollen (DevRel Collective gebruikt een gratis Slack-account, dus we kunnen maar 10.000 berichten terugscrollen. Met meer dan 2.000 leden gaat dat sneller dan je denkt. Maar ik dwaal af.)

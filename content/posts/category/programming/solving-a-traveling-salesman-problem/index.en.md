@@ -5,6 +5,7 @@ Author: davidgs
 Category: General, Misc, Work
 Slug: solving-a-traveling-salesman-problem
 hero: images/Safari039.jpg
+reading_time: 11 minutes
 ---
 
 It’s not IoT, but still … Here’s the background on this project, and why I undertook it.

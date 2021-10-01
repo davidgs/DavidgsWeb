@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT
 Slug: playing-with-distance
 hero: images/3317-03.jpg
+reading_time: 5 minutes
 ---
 
 Ik heb gespeeld met een bos van verschillende sensoren de laatste tijd (zie [hier] (/ berichten / category / iot / iot-software / het bouwen van een-app-met-apache-mynewt /)) dus ik dacht dat ik zou doen een andere kleine write-up ervan. Ik mijn [Particle](/posts/category/iot/iot-software/building-an-app-with-apache-mynewt/) Photon gegraven om het afspelen mee na te zijn geïnspireerd op een [NC Riot] (https://www.meetup.com/NC-RIoT-Regional-Internet-of -Things /) evenement een paar weken geleden en het was een [lange tijd] (/ berichten / category / iot / iot-hardware / new-hardware /) sinds ik het had gehad uit. Ik ben niet van plan om het exacte probleem dat ik probeerde op te lossen met deze kleine applicatie te delen, want het is nog steeds een work in progress en kan heel goed uiteindelijk een product snel, maar ik zal je vertellen hoe ik het doe .

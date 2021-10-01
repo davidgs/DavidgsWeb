@@ -3,6 +3,7 @@ title: "Gadget-Freak"
 date: 2014-11-14T19:06:25+06:00
 description: Gadget-Freak
 hero: images/watch.jpg
+reading_time: 3 minutes
 ---
 
 <p>Ich gebe offen zu, dass ich ein Gadget-Freak bin. Ich werde auch (manchmal) zugeben, dass es ein Problem ist. Ich kaufte eine <a href="http://www.cookoo2.com">Cookoo Uhr</a> als <a href="http://www.kickstarter.com/">Kickstarter</a> Backer des Projekts. Ich besitze eine <a href="http://www.fitbit.com/">FitBit</a> - Ich bin auf dem dritten, nicht fragen. Ich werde wahrscheinlich eine Apple-Uhr kaufen. Aber eines der Probleme , die ich mit den <strong>meisten</strong> ‚Wearable Tech‘ ist , dass, na ja, es wie Tech zu viel sieht.</p>

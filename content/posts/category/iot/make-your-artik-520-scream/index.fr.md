@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, ARTIK-520, IoT, Java
 Slug: make-your-artik-520-scream
 hero: images/Zulu-Duke200.png
+reading_time: 2 minutes
 ---
 
 Si vous lisez [post de la semaine dernière](/posts/category/general/making-artik-5-iot-gateway-kura/) de faire un dispositif passerelle IdO ARTIK-520 en utilisant le) de faire un dispositif passerelle IdO ARTIK-520 en utilisant le [projet Eclipse Kura](http://www.eclipse.org/kura/), alors ce sera une amélioration notable pour vous si vous allez essayer vous-même (et pourquoi pas vous? il était un excellent petit Comment la prise en main ARTIK- 520 et IdO!)

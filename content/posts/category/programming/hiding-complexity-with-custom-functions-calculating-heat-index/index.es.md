@@ -5,6 +5,7 @@ Author: davidgs
 Category: Databases, InfluxDB
 Slug: hiding-complexity-with-custom-functions-calculating-heat-index
 hero: images/HeatIndex.png
+reading_time: 6 minutes
 ---
 
 ¿Alguna vez ha visto el clima local - o el canal del tiempo - y oído les anuncian la temperatura, y luego el "índice de calor"? O el calor que se siente fuera ** **? Por lo menos aquí en los Estados Unidos, y especialmente en el sur, que es parte de cada emisión tiempo en el verano. Pero alguna vez se preguntó cómo en realidad * * Calcular el índice de calor? Desde que recopilar datos de temperatura y humedad, decidí un día me gustaría ir y averiguarlo. Después de todo, lo difícil que podría ser realmente? Un consejo: Nunca hágase esta pregunta!

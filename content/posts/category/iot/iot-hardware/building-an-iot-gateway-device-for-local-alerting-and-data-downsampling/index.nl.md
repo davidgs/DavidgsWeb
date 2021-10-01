@@ -6,6 +6,7 @@ Category: IoT
 Tags: Data Downsampling, IoT, IoT Data, IoT Gateway
 Slug: building-an-iot-gateway-device-for-local-alerting-and-data-downsampling
 hero: images/SafariScreenSnapz005-1.png
+reading_time: 9 minutes
 ---
 
 Er zijn allerlei manieren om architect uw ivd Deployment, en wat goed is voor een onderneming zal niet noodzakelijkerwijs gelijk te hebben voor een ander. Afhankelijk van de grootte en complexiteit van uw ivd project, kan er natuurlijk veel componenten. Een van de meer algemene architectuur is sensor hubs of gateway inrichtingen voor het verzamelen van gegevens vanuit een aantal sensor nodes en dan naar voren te implementeren die gegevens aan een stroomopwaarts gegevensverzameling voor de onderneming. Deze gateway of hub apparaten meestal toestaan dat een Z-Wave-apparaat om verbinding met het internet voor het uploaden van gegevens, of brug tussen Bluetooth-apparaten met een WiFi of andere netwerkverbinding.

@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: IoT
 Slug: the-updated-big-board-of-iot
 hero: images/IoT-1-sm.png
+reading_time: 2 minutes
 ---
 
 You may recall that at one point a year ago I posted a picture of my "[Big Board of IoT Development](/posts/category/iot/the-big-board-of-iot-devices/)". I had a half dozen or so IoT development nodes and some sensors on it that I was working on. Since then, things have gotten significantly worse -- or better, depending on your point of view. So I thought I'd drop another picture on you. 

@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: development, IoT
 Slug: the-big-board-of-iot-devices
 hero: images/breadboard.jpg
+reading_time: 1 minute
 ---
 
 Net voor toekomstig gebruik, hier is de ontwikkeling boord die zit op mijn bureau:

@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: IoT
 Slug: new-hardware
 hero: images/IMG_2029.png
+reading_time: 3 minutes
 ---
 
 Debería haber publicado esto de nuevo en octubre, pero unos pocos [cosas](/posts/category/work/2015/a-shock-to-the-system/) sucedido. Así que les dejo ahora.

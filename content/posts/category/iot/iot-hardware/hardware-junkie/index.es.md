@@ -3,6 +3,7 @@ title: "Hardware del drogadicto"
 date: 2014-11-14T19:06:25+06:00
 description: drogadicto del hardware
 hero: images/access-management.svg
+reading_time: 3 minutes
 ---
 
 Ok, por lo que además de ser un [aparato monstruo](/posts/category/iot/iot-hardware/gadget-freak), soy un drogadicto de hardware. Ha sido un hackery hardware mucho tiempo desde que he hecho realidad, pero eso no es debido a una falta de deseo.

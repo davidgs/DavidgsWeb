@@ -7,6 +7,7 @@ Tags: Evangelism, IoT
 Slug: why-dont-you-have-an-evangelist-yet
 hero: images/evangelist-boy.jpg
 
+reading_time: 8 minutes
 ---
 
 Veel te veel mensen in de high-tech wereld "Evangelisatie" is een vies woord. Het riekt naar marketing en verkoop en is niet technisch. Bedrijven willen technische ingenieurs, ze willen marketing professionals. Ze willen sales professionals. Ze kijken uit op het belang van evangelisatie.

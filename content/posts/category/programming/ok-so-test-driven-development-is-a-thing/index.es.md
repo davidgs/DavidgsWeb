@@ -5,6 +5,7 @@ Author: davidgs
 Category: Programming
 Slug: ok-so-test-driven-development-is-a-thing
 hero: images/test-driven-development-TDD.jpg
+reading_time: 5 minutes
 ---
 
 Lo entiendo, llego tarde a la fiesta en este caso. Soy viejo, tengo mis caminos y no me gusta el cambio. Superalo.

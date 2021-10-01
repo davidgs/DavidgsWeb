@@ -11,7 +11,8 @@ hero: images/watch.jpg
 Ich bin nicht in der Regel ein öffentlich ein Unternehmen zu Aufgabe wie diese zu nehmen, aber, na ja, das ist ein ganz besonderer Umstand ist. Ich habe ein begeisterter Withings-Fan und Fürsprecher, jahrelang. Ich war einer der ersten Menschen [Withings Activité Uhr] zu erhalten (/ posts / Kategorie / IOT / IOT-Hardware / Gadget-Freak /). Seitdem habe ich eigentlich ziemlich stark in Withings Gang investiert. Ich kaufte meine Frau eine Withings Pop. Ich ast eine Withings Körperanalysewaage. Ich kaufte eine Withings Wireless-Blutdruckmanschette. Ich kaufte mich und meine Frau ein Withings Stahl HR. Dieses Zeug summiert sich!
 
 | Modell | Kosten |
-| ---- | ---- |
+| ---- | -reading_time: 4 minutes
+--- |
 | Aktivität | $ 450.00 |
 | Pop | $ 129.00 |
 | Körperanalysewaage | $ 129.00 |

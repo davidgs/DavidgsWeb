@@ -4,6 +4,7 @@ Date: 2019-03-10
 Category: IoT, TTN, The Things Network
 Slug: connecting-the-things-network-to-influxdb
 hero: images/Screen-Shot-2019-10-09-at-12.08.22-PM.png
+reading_time: 13 minutes
 ---
 
 Er zijn vele manieren om uw sensoren aan te sluiten op het netwerk in het internet der dingen. Voor de korte afstand verbindingen, is er Bluetooth LE, of Zigbee, of 802.15.4, of Z-Wave. Voor langere afstanden (hoewel nog steeds vrij kort) is er altijd WiFi. Maar als je langere afstanden, soms zeer lange afstanden nodig, er is LoRaWAN. Het is een sub-gigahertz reeks van frequenties die beschikbaar zijn voor kleine stukjes van gegevens. Deze zijn meestal slechts een paar bytes van gegevens, maar kan worden verzonden over veel langere afstanden - tot 2 km of meer in sommige gevallen! Ze zijn zeer low-power, dus ze zijn zeer geschikt voor remote-sensing-toepassingen.

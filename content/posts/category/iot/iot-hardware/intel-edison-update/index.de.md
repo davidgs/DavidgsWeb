@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: Edison, IoT
 Slug: intel-edison-update
 hero: images/SparkFun_Edison_Boards-16.jpg
+reading_time: 3 minutes
 ---
 
 Ich brauche meinen [vorherigen Beitrag](/posts/category/iot/iot-hardwareintel-edison-big-hat-no-cattle/) über den Intel Edison zu ändern. Es stellt sich heraus, dass es nicht das Edison-Modul selbst sein kann, sondern die Intel Mini-Breakout Board, das fehlerhaft ist, wenn t zumindest der I2C Ausfall kommt. Ich habe immer noch über die SPI-Ausfälle zu sehen. Hier ist, warum ich zu diesem Ergebnis erreicht haben:

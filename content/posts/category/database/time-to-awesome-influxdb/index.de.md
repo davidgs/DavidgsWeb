@@ -5,6 +5,7 @@ Author: davidgs
 Category: Evangelism, General, Work
 Slug: time-to-awesome-influxdb
 hero: images/A-platform-for-Builders.png
+reading_time: 3 minutes
 ---
 
 [InfluxData](https://influxdata.com/) eine Sache, über Zeit zu Super ™. So sehr, dass sie es Trademarked. Nein, im Ernst, sie taten. Und sie meint es ernst. Lassen Sie sich also von Null auf Ehrfürchtig gehen!

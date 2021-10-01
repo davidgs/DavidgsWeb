@@ -6,6 +6,7 @@ Category: IoT
 Tags: innovation, IoT, Makers
 Slug: whos-going-to-drive-iot-innovation
 hero: images/Carnac.jpg
+reading_time: 4 minutes
 ---
 
 Laten we eerlijk zijn, het Internet of Things (IoT) is hot op dit moment. En het wordt alleen maar heter. Iedereen wil in op de vermeende komst goudkoorts dat het internet der dingen zal zijn. En een goudkoorts is zeker voorspeld! Gartner heeft gezegd [even](http://www.gartner.com/newsroom/id/2688717) en [hier](http://www.gartner.com/newsroom/id/2688717). IDC [zegt](http://www.zdnet.com/internet-of-things-market-to-hit-7-1-trillion-by-2020-idc-7000030236/), ook. Ik kon gaan en de lijst hoeveel analisten en media experts, enz. Mee eens, maar dat zou gewoon overbodig. Het volstaat te zeggen dat in principe*iedereen* denkt zo. En ze zijn allemaal waarschijnlijk gelijk.

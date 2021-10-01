@@ -113,7 +113,8 @@ Este es un proyecto de IoT, por lo que obviamente requerirá algo de hardware de
 Este es un poco comodín. Empecé a ver qué podría funcionar. Quiero que el invernadero pueda tener sensores (son pequeños) y al menos un 'actuador' para abrir una ventana o algo, y probablemente también un ventilador. Estamos hablando de realismo aquí.
 
 | Tipo de invernadero | Costo |
-| ----------------- | ------ |
+| ----------------- | ---reading_time: 8 minutes
+--- |
 | [Exterior](https://www.worldofgreenhouses.com/products/hybrid-greenhouse-series) | $ 650 |
 | [Interior](https://www.hpotter.com/buy-terrariums/h-potter-terrarium-classic-wardian-case-for-plants) | $ 140 |
 | [Interior - pequeño](https://www.amazon.com/Purzest-Terrarium-Geometric-Tabletop-Succulent) | $ 36.00 |

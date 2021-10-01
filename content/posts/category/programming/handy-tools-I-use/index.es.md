@@ -3,6 +3,7 @@ title: "Herramientas útiles que uso"
 description: "Un montón de herramientas útiles para lidiar con json, yaml, etc. en Golang"
 date: 2021-04-08T17:18:53-04:00
 hero: images/regex2.png
+reading_time: 10 minutes
 ---
 
 Esto comenzó como una simple publicación en un grupo interno de Slack. Luego me pidieron que lo publicara en otro canal de ese Slack. Luego decidí publicarlo en [DevRel Collective](https://devrelcollective.fun) Slack. En ese momento, me pidieron que lo convirtiera en una publicación de blog para que no se perdiera en el retroceso (DevRel Collective usa una cuenta gratuita de Slack, por lo que solo podemos retroceder 10,000 mensajes. Con más de 2000 miembros, eso sucede más rápido de lo que piensas. Pero estoy divagando.)

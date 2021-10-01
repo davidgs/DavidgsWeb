@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: the-iot-ecosystem
 hero: images/Keynote0011.jpg
+reading_time: 1 minute
 ---
 
 Was ist das Internet der Dinge (IoT) überhaupt? Und was macht das IoT Ökosystem? Ja, das ist das Internet der Dinge das Schlagwort des Jahres. Ja, jeder denkt, alles IoT ist in diesen Tagen. Aber nur weil etwas mit dem Internet verbindet, bedeutet nicht, es ist das Internet der Dinge.

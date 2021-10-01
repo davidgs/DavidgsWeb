@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: Edison, IoT
 Slug: intel-edison-update
 hero: images/SparkFun_Edison_Boards-16.jpg
+reading_time: 3 minutes
 ---
 
 Je dois modifier mon [post précédent](/posts/category/iot/iot-hardwareintel-edison-big-hat-no-cattle/) sur l'Intel Edison. Il se trouve qu'il ne peut pas être le module Edison lui-même, mais plutôt la carte mère Intel Mini-Breakout qui est en faute quand t vient au moins l'échec I2C. Je dois encore voir sur les échecs de SPI. Voici pourquoi je suis arrivé à cette conclusion:

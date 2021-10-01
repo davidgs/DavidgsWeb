@@ -6,6 +6,7 @@ Category: IoT
 Tags: Conferences, IoT
 Slug: iot-slam-2015
 hero: images/IoTSlam2015-2.png
+reading_time: 1 minute
 ---
 
 In het geval u nog niet gehoord, daar gaat dit jaar genaamd [IoT Slam '15] een groot virtueel ivd Conferentie (http://iotslam.com). Als u nog niet een onderwerp voor een sessie, maar goed heeft ingediend, is het te laat. De call for papers gesloten vorige week. Ik dacht over het indienen van een onderwerp, maar ik was gewoon te druk met technische werkzaamheden, op het moment, om het af te trekken. Zoals u weet, dat alles [veranderd] (/ berichten / category / werk / a-shock-to-the-system /). En dan de organisatoren van de conferentie belde en vroeg me of ik een gesprek uitgenodigd te doen, zodat het lijkt alsof ik zal spreken op het na allemaal!

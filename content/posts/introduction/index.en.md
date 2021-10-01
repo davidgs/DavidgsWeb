@@ -8,6 +8,7 @@ menu:
     name: Introduction
     identifier: introduction
     weight: 10
+reading_time: 7 minutes
 ---
 
 I said a bit about myself on my home-page, but apparently you want more information. So OK, here's more information.

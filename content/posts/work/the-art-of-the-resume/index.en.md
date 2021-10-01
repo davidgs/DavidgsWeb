@@ -6,6 +6,7 @@ Category: Jobs, Misc, Work
 Tags: jobs, Resume, Work
 Slug: the-art-of-the-resume
 hero: images/res.png
+reading_time: 2 minutes
 ---
 
 If you ask 100 people about what a resume should be, you’ll likely get close to 100 answers.

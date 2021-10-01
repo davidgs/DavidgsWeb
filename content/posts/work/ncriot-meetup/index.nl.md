@@ -6,6 +6,7 @@ Category: Evangelism, Gadgetry, IoT
 Tags: IoT, Meetup
 Slug: ncriot-meetup
 hero: images/RIoT-Logo-2016-200x100.png
+reading_time: 3 minutes
 ---
 
 Als u [me volgen op Twitter](https://twitter.com/davidgsIoT), dan weet je al dat ik bij de [NCRIoT](http://www.ncriot.org) IoT [Meetup] (https : //www.meetup.com/NC-RIoT-Regional-Internet-of-Things/) gisteren op de NASCAR Hall of Fame in Charlotte, NC. U mag niet weten wat NC Riot is. Hell, tot voor kort, heb ik ook niet, dat is een misdrijf echt, want het is een geweldige groep van ivd*fanatici* doen wat werkelijk koel materiaal met ivd. Ik heb zelfs ontmoette een man die doet zoveel gekke dingen met ivd als ik - je [@LogicalDan](https://www.meetup.com/NC-RIoT-Regional-Internet-of-Things/) moeten volgen op Twitter en tweet naar hem in het geval dat hij het dragen van zijn overhemd dat licht op wanneer je tweet naar hem. Nee echt, zijn shirt knippert als een gek als je hem tweet. Heb ik je niet vertellen dat ik ontmoet * mijn volk gisteren *?

@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: IoT
 Slug: making-a-button
 hero: images/bttn_how.png
+reading_time: 2 minutes
 ---
 
 Je ne peux pas résister. Je veux dire vraiment. ** Qui n'a pas besoin d'un ** gros bouton rouge que vous pouvez programmer pour ... agir comme un gros bouton rouge? Mais il est tellement plus qu'un simple bouton! Je veux dire, un bouton est juste quelque chose que vous pousser, non? Ce? Il en est ainsi bien plus encore!

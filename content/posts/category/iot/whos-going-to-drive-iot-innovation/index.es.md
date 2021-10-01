@@ -6,6 +6,7 @@ Category: IoT
 Tags: innovation, IoT, Makers
 Slug: whos-going-to-drive-iot-innovation
 hero: images/Carnac.jpg
+reading_time: 5 minutes
 ---
 
 Seamos realistas, la Internet de los objetos (IO) es popular en estos momentos. Y que sólo va a conseguir más caliente. Todo el mundo quiere participar en la próxima fiebre del oro se percibe que será la Internet de las cosas. Y una fiebre del oro está definitivamente predijo! Gartner ha dicho hasta [aquí](http://www.gartner.com/newsroom/id/2688717), y), y [aquí](http://www.gartner.com/newsroom/id/2688717). IDC). IDC [lo dice](http://www.zdnet.com/internet-of-things-market-to-hit-7-1-trillion-by-2020-idc-7000030236/), también. Podría seguir y la lista de la cantidad de analistas y expertos de los medios, etc. están de acuerdo, pero eso sería redundante. Baste decir que, básicamente, todo el mundo * * cree que sí. Y todos probablemente tengan razón.

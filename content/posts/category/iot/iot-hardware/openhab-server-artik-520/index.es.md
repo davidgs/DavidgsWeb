@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, ARTIK-520, IoT, openHAB
 Slug: openhab-server-artik-520
 hero: images/logo-2.png
+reading_time: 6 minutes
 ---
 
 Como he dicho antes, cuando se tiene un martillo ... Así que decidió crear la IO Sin embargo, otro Gateway. Esta vez me tomó un vistazo a [OpenHAB](http://www.openhab.org) el "proveedor y la tecnología agnóstica software de automatización de código abierto para su hogar." ¿Por qué no, ¿verdad? Ya he creado un) el "proveedor y la tecnología agnóstica software de automatización de código abierto para su hogar." ¿Por qué no, ¿verdad? Ya he creado un [servidor del borde Droplit.io](/posts/category/iot/iot-software/artik-520-droplit-io-edge-device), y un), y un [servidor Eclipse Kura](/posts/category/general/making-artik-5-iot-gateway-kura/), ¿por qué no dar una más a la derecha intentarlo? Correcto. Así que vamos a bucear en.

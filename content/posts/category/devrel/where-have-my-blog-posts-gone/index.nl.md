@@ -5,6 +5,7 @@ Author: davidgs
 Category: Evangelism, General, Misc
 Slug: where-have-my-blog-posts-gone
 hero: images/blogPost.jpg
+reading_time: 2 minutes
 ---
 
 Ik was bloggen vrij regelmatig hier voor enige tijd, en opeens niet zo veel. Waarom is dat? Nou, als je me volgen op [Twitter](https://twitter.com/davidgsIoT) of [LinkedIn](https://linkedin.com/in/davidgsimmons), dan weet je dat als gevolg van de ( nou ja, min of meer) een paar van mijn recente blog posts (in het bijzonder [deze] (/ berichten / category / iot / iot-hardware / running-influxdb-on-an-artik-520 /) en [deze] (/ berichten / category / iot / iot-hardware / influxdb-on-artik-520-redux /)) ik werd ingehuurd als Senior Developer Evangelist bij [InfluxData](/posts/category/iot/iot-hardware/running-influxdb-on-an-artik-520/). En ik moet zeggen, het is*geweldig*. Werkelijk. Fantastisch bedrijf. Geweldige mensen om mee te werken. Echt cool product - en ja, een database kan een IoT product.

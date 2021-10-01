@@ -4,6 +4,7 @@ date: 2014-10-23T08:06:25+06:00
 description: nouveau Blog
 hero: "images/newblog.png"
 
+reading_time: 2 minutes
 ---
 # Nouveau Blog!
 

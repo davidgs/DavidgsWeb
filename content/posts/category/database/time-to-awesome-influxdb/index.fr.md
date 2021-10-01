@@ -5,6 +5,7 @@ Author: davidgs
 Category: Evangelism, General, Work
 Slug: time-to-awesome-influxdb
 hero: images/A-platform-for-Builders.png
+reading_time: 4 minutes
 ---
 
 [InfluxData](https://influxdata.com/) a une chose à propos de Time to ™ impressionnant. Tant et si bien qu'ils Trademarked il. Non, sérieusement, ils l'ont fait. Et ils veulent dire ce. Donc, nous allons aller de zéro à Awesome!

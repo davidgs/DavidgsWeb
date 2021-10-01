@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, ARTIK-520, IoT, Samsung
 Slug: how-to-save-your-artik-520-backup
 hero: images/Samsung-ARTIK-IoT-710x364.jpg
+reading_time: 8 minutes
 ---
 
 laten we zeggen Let's, voor argument's sake, dat u een [Samsung ARTIK-520](https://www.artik.io/modules/artik-520/) (ik neem aan dat dit zal werken op andere ARTIK modules afgezien van de ARTIK- 0 zijn) en je hebt het allemaal geconfigureerd zoals u dat wilt, en niet willen verliezen niets. Of misschien wilt u gewoon om het te repliceren een tiental keer op een dozijn verschillende ARTIK-520s. Zoals het nu staat, blijkbaar, is het antwoord "goed geluk met dat" aangezien er geen mechanisme om daadwerkelijk te dumpen een lopend ARTIK-520 naar een Mini-SD-kaart die vervolgens kan worden gebruikt om het opnieuw te installeren.

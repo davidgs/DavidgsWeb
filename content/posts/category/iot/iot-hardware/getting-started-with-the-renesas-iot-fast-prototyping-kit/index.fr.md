@@ -6,6 +6,7 @@ Category: Evangelism, Gadgetry, IoT
 Tags: IoT, Prototyping, Renesas
 Slug: getting-started-with-the-renesas-iot-fast-prototyping-kit
 hero: images/Safari041.jpg
+reading_time: 6 minutes
 ---
 
 Je voulais pour arriver à ce pendant deux ou trois semaines, et ont été assailli par un tas d'autres choses qui ont gardé d'apparaître, mais je travaille loin avec ces derniers, et je pensais que je poste au moins une première poster sur ces kits. [Renesas](https://www.renesas.com/en-us/) a eu la gentillesse de me donner à la fois le ([S3 IdO rapide Prototypage Kit] https://www.renesas.com/en-us/products /software-tools/boards-and-kits/renesas-synergy-kits/renesas-synergy-s3a7-prototyping-kit.html) et le) a eu la gentillesse de me donner à la fois le ([S3 IdO rapide Prototypage Kit] https://www.renesas.com/en-us/products /software-tools/boards-and-kits/renesas-synergy-kits/renesas-synergy-s3a7-prototyping-kit.html) et le [S7 Kit de démarrage](https://www.renesas.com/en-us/products/software-tools/boards-and-kits/renesas-synergy-kits/renesas-synergy-s3a7-prototyping-kit.html), vraiment ** qui sont tous deux vraiment ** belles planches pour faire le prototypage IdO. Je vais commencer par le peak S3 IdO (Fast Kit Prototyping). Tout d'abord, bien sûr, est le unboxing!

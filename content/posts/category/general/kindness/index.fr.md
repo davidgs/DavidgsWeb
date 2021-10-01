@@ -6,6 +6,7 @@ Category: General
 Tags: kindness, empathy, joy
 Slug: kindness
 hero: images/kelly-sikkema-XX2WTbLr3r8-unsplash.jpg
+reading_time: 3 minutes
 ---
 
 Avez-vous déjà entendu quelqu'un vous dire quelque chose qui vous a obligé à réévaluer entièrement tout ce que vous avez pensé de vous-même ? Cela ne m'est arrivé que quelques fois dans ma vie, mais cela a changé ma vie à chaque fois.

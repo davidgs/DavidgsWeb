@@ -3,6 +3,7 @@ title: "Umgang mit mir"
 date: 2021-04-09T17:16:44-04:00
 description: "Ein Leitfaden für die Arbeit mit mir, die Kommunikation mit mir und die allgemeine Interaktion mit mir"
 hero: images/davidgs-pix-1.jpeg
+reading_time: 12 minutes
 ---
 
 Schauen Sie, wir sind alle verschieden und das ist eine gute Sache ™! Wir alle denken, handeln und kommunizieren vor allem anders. Zu diesem Zweck dachte ich, ich würde diesen kurzen Leitfaden für die Arbeit mit und die Kommunikation mit mir schreiben.

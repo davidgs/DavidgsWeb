@@ -6,6 +6,7 @@ Category: Dogs, Misc
 Tags: dogs, gartner
 Slug: gartner-magic-quadrant-for-dogs
 hero: images/dog_chart_2.01.png
+reading_time: 1 minute
 ---
 
 Es como el Cuadrante Mágico de Gartner para los perros.

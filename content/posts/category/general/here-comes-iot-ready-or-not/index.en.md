@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: here-comes-iot-ready-or-not
 hero: images/IoT.jpg
+reading_time: 5 minutes
 ---
 
 As I’ve [said before](/posts/category/iot/whos-going-to-drive-iot-innovation), everyone is talking about the Internet of things (IoT). It’s the buzzword du jour. It’s going to be **huge, [HUGE](http://postscapes.com/internet-of-things-market-size)** I tell you!! Billions and billions of devices connecting to the internet over the next 6 years. And that’s just the devices side of things. Then there's the software side. The API services. The data analytics side of things. The Authentication and Identity Management areas. To say nothing of the cloud storage requirements. This market is poised to explode over the next decade in ways that we have never seen before — think the late 90s Internet Bubble was an explosion? It will be but a popping corn kernel in comparison to the IoT explosion. And it’s not just me saying this. Forrester Research has been [saying it](https://www.forrester.com/Prepare+IO+For+The+Internet+Of+Things/fulltext/-/E-RES93301) for years.

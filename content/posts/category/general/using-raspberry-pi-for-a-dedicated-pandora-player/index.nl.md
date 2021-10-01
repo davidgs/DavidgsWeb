@@ -6,6 +6,7 @@ Category: Gadgetry, IoT, Misc
 Tags: IoT, Raspberry Pi
 Slug: using-raspberry-pi-for-a-dedicated-pandora-player
 hero: images/raspberry-pi-logo.png
+reading_time: 2 minutes
 ---
 
 Laten we noemen het een Pandora Pi, zullen we?

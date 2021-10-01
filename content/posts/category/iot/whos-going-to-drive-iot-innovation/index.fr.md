@@ -6,6 +6,7 @@ Category: IoT
 Tags: innovation, IoT, Makers
 Slug: whos-going-to-drive-iot-innovation
 hero: images/Carnac.jpg
+reading_time: 5 minutes
 ---
 
 Avouons-le, l'Internet des objets (IdO) est chaud en ce moment. Et il va seulement pour obtenir plus chaud. Tout le monde veut dedans sur la ruée vers l'or à venir perçu qui sera l'Internet des objets. Et une ruée vers l'or est certainement prédit! Gartner l'a dit [ici](http://www.gartner.com/newsroom/id/2688717), et), et [ici](http://www.gartner.com/newsroom/id/2688717). IDC). IDC [le dit](http://www.zdnet.com/internet-of-things-market-to-hit-7-1-trillion-by-2020-idc-7000030236/), aussi. Je pourrais continuer la liste combien d'analystes et experts des médias, etc. sont d'accord, mais ce serait juste être redondant. Qu'il suffise de dire que, fondamentalement, tout le monde * * pense. Et ils sont tous probablement raison.

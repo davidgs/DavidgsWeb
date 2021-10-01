@@ -6,6 +6,7 @@ Category: General
 Tags: kindness, empathy, joy
 Slug: kindness
 hero: images/kelly-sikkema-XX2WTbLr3r8-unsplash.jpg
+reading_time: 3 minutes
 ---
 
 Have you ever had someone say something to you that forced you to entirely re-evaluate everything you've thought about yourself? It's only happened to me a couple of times in my life, but it has been life-altering every time.

@@ -3,6 +3,7 @@ title: "Hobby's"
 date: 2017-03-20T08:06:25+06:00
 description: Hobby's
 hero: images/hero.jpg
+reading_time: 1 minute
 ---
 
 # Sommige van mijn Houtbewerking Projects

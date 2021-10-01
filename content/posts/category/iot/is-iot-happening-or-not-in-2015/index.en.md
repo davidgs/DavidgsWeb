@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: is-iot-happening-or-not-in-2015
 hero: images/p954_buzzword.jpg
+reading_time: 3 minutes
 ---
 
 It’s clear that IoT is the buzzword of the minute. Maybe the buzzword of the year. Everyone’s [talking](https://twitter.com/search?q=%23IoT&src=tyah) about it, mentioning it, making predictions about it and claiming to be a player in it. I am among those, but I have the background and the [history](/posts/category/iot/whos-going-to-drive-iot-innovation/) to back it up. But after reading this article  from [Electronics Weekly.com](http://www.electronicsweekly.com/news/design/embedded-systems/iot-happening-says-arm-2014-12/), I’m just aggravated. It is annoyingly titled “The Internet of Things is Not Happening” which is just plain wrong. It then quotes an ARM Senior Executive who says:

@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: ARTIK, ARTIK-053, IoT, Samsung
 Slug: programming-the-artik-0-iot-devices
 hero: images/bazaar493520_2.jpg
+reading_time: 7 minutes
 ---
 
 Als je hebt gelezen dit blog veel helemaal zul je hebben gemerkt dat ik een vrij grote fan van de ARTIK lijn van ivd boards (zie [hier] (/ berichten / category / iot / winter-vakantie-IOT- zijn geweest artik-5 /), [hier] (/ berichten / category / iot / iot-hardware / making-artik-5-iot-gateway-kura /), [hier] (/ berichten / category / iot / make-uw- artik-520-schreeuw /), [hier] (/ berichten / category / algemeen / how-to-save-your-artik-520-backup /), [hier] (/ berichten / category / iot / iot-software / artik-520-droplit-io-edge-apparaat /), [hier] (/ berichten / categorie / iot / iot hardware / openhab-server-artik-520 /), [hier] (/ berichten / categorie / iot / iot-hardware / running-influxdb-on-an-artik-520 /) en [hier] (/ berichten / category / iot / iot-hardware / influxdb-on-artik-520-redux /)), maar ik moet echt verduidelijken dat nu een beetje. Ik hou van mijn ARTIK-520 board. Het loopt de hele InfluxData stack mooi en is een solide, betrouwbare plek om te ivd-Edge software implementeren. Ik vind het erg leuk.

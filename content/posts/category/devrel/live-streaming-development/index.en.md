@@ -17,7 +17,8 @@ My friend [Rain](https://twitter.com/rainleander) was starting to dabble in IoT 
 We've decided to go live every Friday at 8:30am EDT and bang away at this hardware and software build. Here's our current schedule:
 
 | Date | Topic | Link |
-|------|-------|------|
+|------|-------|---reading_time: 2 minutes
+---|
 | April 4, 2021| Hardware building | [replay](https://www.twitch.tv/videos/1005977038) |
 | May 7, 2021 | Software for a sensor | [watch live](https://twitch.tv/davidgsiot) |
 | May 14, 2021 | Hardware Hacking | [watch live](https://twitch.tv/davidgsiot) |

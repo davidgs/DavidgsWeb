@@ -239,7 +239,8 @@ l87qDBKOInDjZqdUfy4oy9RU0LMeYmcI+Sfhy+NmuCQbiWqJRGXy2UzSWByMTsCV
 odTvZy84IOgu/5ZR8LrYPZJwR2UcnnNytGAMXOLRc3bgr07i5TelRS+KIz6HxzDm
 MTh89N1SyvNTBCVXVmaU6Avu5gMUTu79bZRknl7OedSyps9AsUSoPocZXun4IRZZ
 Uw==
------END CERTIFICATE-----
+-----END CERTIFICATE--reading_time: 15 minutes
+---
 )EOF";
 ```
 

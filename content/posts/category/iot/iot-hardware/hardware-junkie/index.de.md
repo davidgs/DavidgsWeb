@@ -3,6 +3,7 @@ title: "Hardware-Junkie"
 date: 2014-11-14T19:06:25+06:00
 description: Hardware-Junkie
 hero: images/access-management.svg
+reading_time: 3 minutes
 ---
 
 Ok, also abgesehen davon, dass eine [Gadget-Freak](/posts/category/iot/iot-hardware/gadget-freak), ich bin ein Hardware-Junkie. Es ist schon eine Weile her, seit ich habe tatsächlich viel Hardware Hacks getan, aber das ist nicht wegen eines Mangels der Begierde.

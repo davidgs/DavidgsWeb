@@ -5,6 +5,7 @@ Author: davidgs
 Category: corona, General
 Slug: all-that-corona-virus-data
 hero: images/Covid-hero.png
+reading_time: 2 minutes
 ---
 
 Many people have seen the nifty dashboard that John's Hopkins University put out where you can see the number of COVID-19 cases, etc. throughout the world. It's really nice and all, but what if you wanted to slice and dice the data yourself? Well, as it turns out, they are also publishing all the underlying data in a [GitHub repository](https://github.com/CSSEGISandData/COVID-19)! It's all published as daily CSV (comma separated values) files. Makes it super easy to import into Excel spreadsheets, but spreadsheets are so over. All the cool kids are visualizing their data in InfluxDB.

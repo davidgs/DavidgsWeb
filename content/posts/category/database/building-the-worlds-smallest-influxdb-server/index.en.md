@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT, Work
 Slug: building-the-worlds-smallest-influxdb-server
 hero: images/giant-board-pin-out-1024x690.png
+reading_time: 4 minutes
 ---
 
 I've built a lot of [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) servers in my time here, and I've built some pretty esoteric ones at that, but I think I've finally pulled off what can only be described as the World's Smallest InfluxDB Server! Back in the summer of 2019, I saw a project on [CrowdSupply.com](https://www.crowdsupply.com/groboards/giant-board) for something called the 'Giant Board'. It looked really, really cool! A complete Single Board Computer (SBC) that ran Linux, all in a Feather form factor. I immediately backed it! Then, thinking about it for a second, I backed it *again*! So I got 2 of these things. Total accident, I swear.

@@ -6,6 +6,7 @@ Category: database, Gadgetry, IoT
 Tags: IoT, Particle, QuestDB, TSDB
 Slug: quickly-connect-an-argon-iot-device-to-questdb
 hero: images/rawPower.svg
+reading_time: 10 minutes
 ---
 
 Je suis de retour à [Particle.io](https://particle.io) à nouveau. J'ai vu qu'ils avaient 30% de vente sur le nouveau Argon et des kits de développement, donc je devais sauter dessus, puisque je ne l'ai pas obtenu tout nouveau matériel de particules dans les années. Donc, ce qui suit est un guide complet pour connecter un de ces kits à) à nouveau. J'ai vu qu'ils avaient 30% de vente sur le nouveau Argon et des kits de développement, donc je devais sauter dessus, puisque je ne l'ai pas obtenu tout nouveau matériel de particules dans les années. Donc, ce qui suit est un guide complet pour connecter un de ces kits à [QuestDB](https://questdb.io) afin de stocker les données, et puis la construction d'un tableau de bord sur le dessus de celui-ci avec Grafana. Attachez vos ceintures!

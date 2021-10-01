@@ -6,6 +6,7 @@ Category: Gadgetry, General, IoT, Misc
 Tags: Customer Service, IoT, Nokia, Withings
 Slug: how-nokia-has-blown-the-withings-acquisition
 hero: images/watch.jpg
+reading_time: 4 minutes
 ---
 
 Ik ben meestal niet een om in het openbaar te nemen van een bedrijf om de taak als deze, maar goed, dit is een nogal bijzondere omstandigheid. Ik ben een fervent Withings fan, en pleitbezorger, al jaren. Ik was een van de eerste mensen die een [Withings Activité watch] (/ berichten / category / iot / iot-hardware / gadget-buitenissig /) te krijgen. Sindsdien heb ik eigenlijk geïnvesteerd vrij zwaar in Withings versnelling. Ik kocht mijn vrouw een Withings Pop. Ik tak een Withings Body Analyzer Scale. Ik kocht een Withings draadloos Bloeddruk manchet. Ik kocht zowel ikzelf en mijn vrouw een Withings Steel HR. Dit spul voegt up!

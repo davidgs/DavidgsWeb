@@ -365,7 +365,8 @@ void displaySensorDetails(void) {
         Serial.print ("Max Value: "); Serial.print(sensor.max_value); Serial.println(" lux");
         Serial.print ("Min Value: "); Serial.print(sensor.min_value); Serial.println(" lux");
         Serial.print ("Resolution: "); Serial.print(sensor.resolution); Serial.println(" lux");
-        Serial.println("------------------------------------");
+        Serial.println("---------------------------------reading_time: 38 minutes
+---");
         Serial.println("");
         delay(500);
     }

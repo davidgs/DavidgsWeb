@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT, Work
 Slug: iot-data-from-other-sources-mysql
 hero: images/Screen-Shot-2019-11-14-at-12.12.19-PM.png
+reading_time: 7 minutes
 ---
 
 Wenn Sie eine IoT-Lösung im Einsatz haben, haben Sie zu entscheiden haben, wo und wie alle Ihre Daten zu speichern. Zumindest aus meiner Sicht der beste und einfachste Ort, um die Sensordaten zu speichern, ist natürlich, [InfluxDB](https://www.influxdata.com/products/influxdb-overview/). Mein dass sagen kann als eine Überraschung für Sie nicht kommen. Aber was ist mit den anderen * * Daten müssen Sie speichern? Die Daten * über * die Sensoren? Dinge wie die Sensorhersteller wurden das Datum es in Betrieb genommen, der Kunden-ID, welche Art von Plattform, auf es läuft. Sie wissen, alle Sensor-Metadaten.

@@ -6,6 +6,7 @@ Category: IoT
 Tags: development, gadgets, hardware, IoT
 Slug: intel-edison-iot-board
 hero: images/Edison-module.jpg
+reading_time: 3 minutes
 ---
 
 He estado leyendo sobre la placa de desarrollo de Intel Edison por un tiempo. Estoy haciendo más cosas IO nuevo - puramente por diversión, ya que nadie me está pagando para hacerlo - y recientemente he adquirido el kit de desarrollo eléctrica IMP y este kit Intel Edison, así como un kit Arduino. La placa Intel Edison es, con mucho, el más poderoso de todos. Es un dispositivo IO SoC que parecía ser muy capaz.

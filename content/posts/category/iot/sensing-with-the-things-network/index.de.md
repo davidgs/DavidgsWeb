@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT, Work
 Slug: sensing-with-the-things-network
 hero: images/TheThings.jpg
+reading_time: 12 minutes
 ---
 
 Es gibt viele Möglichkeiten, um Ihre Sensoren an das Netzwerk im Internet der Dinge zu verbinden. Für Kurzstrecken-Verbindungen gibt es Bluetooth LE oder Zigbee oder 802.15.4 oder Z-Wave. Für längere Strecken (wenn auch noch recht kurz) gibt es immer WiFi. Aber wenn man längere Strecken benötigen, manchmal ** sehr ** lange Strecken gibt es LoRaWAN. Es ist ein Sub-Gigahertz-Satz von Frequenzen, die für kleine Datenmengen zur Verfügung stehen. Diese sind in der Regel nur wenige Bytes von Daten, sondern können viel größere Entfernungen geschickt werden - bis zu 2 km oder mehr in einigen Fällen! Sie sind sehr niedrige Leistung, so dass sie groß sind für Fernerkundung.

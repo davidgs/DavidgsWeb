@@ -3,6 +3,7 @@ title: "Gadget Freak"
 date: 2014-11-14T19:06:25+06:00
 description: Gadget Freak
 hero: images/watch.jpg
+reading_time: 3 minutes
 ---
 
 <p>I freely admit that I am a gadget freak. I’ll also (sometimes) admit that it’s a problem. I bought a <a href="http://www.cookoo2.com">Cookoo Watch</a> as a <a href="http://www.kickstarter.com/">Kickstarter</a> Backer of the project. I own a <a href="http://www.fitbit.com/">FitBit</a> — I’m on my third one, don’t ask. I’ll probably buy an Apple Watch. But one of the problems I have with <strong>most</strong> ‘wearable tech’ is that, well, it looks too much like tech. </p>

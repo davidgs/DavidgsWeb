@@ -6,6 +6,7 @@ Category: Evangelism, IoT, Misc
 Tags: Big Data, IoT
 Slug: you-havent-seen-big-data-yet
 hero: images/JuvenileGraySquirrel_ChristineHaines.jpg
+reading_time: 4 minutes
 ---
 
 Ja, ik weet het, "Big Data" als een buzz-woord is zo 5 minuten geleden. De tech wereld is chronisch ADD en gevoelig voor afgeleid te worden door de volgende glimmende object (OOh! Kijk, ivd !, Wacht, AI! EEKHOORN !!) Maar verblijf met me op dit punt. Het is allemaal met elkaar verbonden. Ik heb gezegd ten minste sinds 2005 (toen Big Data was al de woede) dat je niet echt big data hebben gezien tot het internet van de dingen echt op gang komt in volle kracht. Social media is vrij productief - een gemiddelde van 6.000 tweets per seconde, of een half miljard tweets per dag. Dat is een grote hoeveelheid gegevens. Maar het is peanuts. Laten we zeggen dat je een industriële IoT inzet monitoren van 1.000 machines. Elke machine is het verschaffen van telemetrie on 7 of 8 parameters. Het is logging dat telemetrie 2 - 3 keer per seconde. Dat is 16.000 per seconde. Van **ONE** fabriek. Laten we nu zeggen dat je 10 fabrieken wereldwijd. 160.000 per seconde. Proberen te houden. Nee, echt, gewoon proberen.

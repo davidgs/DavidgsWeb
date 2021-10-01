@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: the-iot-ecosystem
 hero: images/Keynote0011.jpg
+reading_time: 2 minutes
 ---
 
 Qu'est-ce que l'Internet des objets (IdO) de toute façon? Et ce qui fait l'écosystème IdO? Oui, l'IdO est le mot à la mode de l'année. Oui, tout le monde pense que tout est IdO ces jours-ci. Mais juste parce qu'une chose se connecte à Internet ne signifie pas qu'il est IdO.

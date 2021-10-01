@@ -5,6 +5,7 @@ Author: davidgs
 Category: corona, General
 Slug: all-that-corona-virus-data
 hero: images/Covid-hero.png
+reading_time: 2 minutes
 ---
 
 Veel mensen hebben de handige dashboard dat John Hopkins University stak waar u het aantal COVID-19 gevallen, enz. Kunt zien over de hele wereld gezien. Het is echt leuk en al, maar wat als je wilde Kneden en de gegevens zelf? Nou, zo blijkt, ze zijn ook het publiceren van alle onderliggende gegevens in een [GitHub repository](https://github.com/CSSEGISandData/COVID-19)! Het is allemaal gepubliceerd als dagelijkse CSV (comma separated values) bestanden. Maakt het super eenvoudig te importeren in Excel spreadsheets, maar spreadsheets zijn zo voorbij. Alle koel kind het visualiseren van hun gegevens in InfluxDB.

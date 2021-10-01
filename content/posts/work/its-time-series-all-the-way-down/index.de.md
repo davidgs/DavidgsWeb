@@ -6,6 +6,7 @@ Category: DevRel, Evangelism, IoT, Jobs
 Tags: Developer Relations, DevRel, IoT, QuestDB, Time Series
 Slug: its-time-series-all-the-way-down
 hero: images/ea103521-time-series.png
+reading_time: 2 minutes
 ---
 
 ![Katy Farmer Hand gezeichnetes Bild](/posts/work/images/ea103521-time-series.png)

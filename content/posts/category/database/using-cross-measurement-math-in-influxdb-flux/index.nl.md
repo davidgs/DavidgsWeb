@@ -5,6 +5,7 @@ Author: davidgs
 Category: IoT
 Slug: using-cross-measurement-math-in-influxdb-flux
 hero: images/Screen-Shot-2019-03-18-at-3.56.28-PM.png
+reading_time: 5 minutes
 ---
 
 Ik heb de uitgaven veel tijd de laatste tijd met de 2.0 Alpha releases en ik ben hier om u te vertellen: een aantal van de nieuwe dingen te komen zijn echt, echt cool! Speciaal voor ivd. Degene die ik heb de laatste tijd het gebruik is de mogelijkheid om wiskunde te doen over metingen, dat is echt een game-changer voor ivd data in InfluxDB geweest.

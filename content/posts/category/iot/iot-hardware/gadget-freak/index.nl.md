@@ -3,6 +3,7 @@ title: "Gadget Freak"
 date: 2014-11-14T19:06:25+06:00
 description: gadget Freak
 hero: images/watch.jpg
+reading_time: 3 minutes
 ---
 
 <p>Ik geef graag toe dat ik een gadget freak. Ik zal ook (soms) toegeven dat het een probleem is. Ik kocht een <a href="http://www.cookoo2.com">Cookoo Kijk</a> als een <a href="http://www.kickstarter.com/">Kickstarter</a> Backer van het project. Ik heb een <a href="http://www.fitbit.com/">FitBit</a> - Ik ben op mijn derde, niet vragen. Ik zal waarschijnlijk kopen een Apple Watch. Maar een van de problemen die ik heb met <strong>de meeste</strong> 'wearable tech' is dat, nou ja, het lijkt te veel op tech.</p>

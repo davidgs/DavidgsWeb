@@ -5,6 +5,7 @@ Author: davidgs
 Category: General, Misc, Work
 Slug: solving-a-traveling-salesman-problem
 hero: images/Safari039.jpg
+reading_time: 11 minutes
 ---
 
 Het is geen internet van de dingen, maar toch ... Hier is de achtergrond aan dit project, en waarom ik het op zich.

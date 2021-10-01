@@ -6,6 +6,7 @@ Category:
   - evangelism
 Slug: how-my-idea-of-easy-has-evolved
 hero: images/easy.jpeg
+reading_time: 4 minutes
 ---
 
 Es ist einfach! Nun, das ist einfach für * Sie zu sagen *! Aber was ist einfach für mich nicht leicht für Sie sein, und es wird sicherlich nicht einfach für jeden etwas dabei.

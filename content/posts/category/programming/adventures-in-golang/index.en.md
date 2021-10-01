@@ -6,6 +6,7 @@ Category: General, Golang, IoT, Misc
 Tags: golang, IoT
 Slug: adventures-in-golang
 hero: images/copyPasta.jpg
+reading_time: 5 minutes
 ---
 
 ![Copy/Paste](/posts/category/programming/images/copyPasta.jpg)

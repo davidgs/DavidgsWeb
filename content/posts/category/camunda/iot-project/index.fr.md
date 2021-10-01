@@ -113,7 +113,8 @@ Il s'agit d'un projet IoT, il nécessitera donc évidemment du matériel IoT. Il
 Celui-ci est un peu un joker. J'ai commencé à regarder ce qui pourrait fonctionner. Je veux que la serre puisse contenir des capteurs (ils sont petits), et au moins un «actionneur» pour ouvrir une fenêtre ou quelque chose, et probablement un ventilateur aussi. Nous parlons de réaliste ici.
 
 | Type de serre | Coût |
-| ----------------- | ------ |
+| ----------------- | ---reading_time: 8 minutes
+--- |
 | [Extérieur](https://www.worldofgreenhouses.com/products/hybrid-greenhouse-series) | 650 $ |
 | [Intérieur](https://www.hpotter.com/buy-terrariums/h-potter-terrarium-classic-wardian-case-for-plants) | 140 $ |
 | [Intérieur - petit](https://www.amazon.com/Purzest-Terrarium-Geometric-Tabletop-Succulent) | 36,00 $ |

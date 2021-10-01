@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT, Raspberry Pi
 Slug: accessing-your-raspberry-pi-zero-w
 hero: images/pi_zero_w_board.jpg
+reading_time: 3 minutes
 ---
 
 Si usted ha sido suficiente para conseguir sus manos en un Frambuesa Pi cero W suerte, entonces es posible que disfruten de este. Si usted todavía está esperando a que uno, Marca esta. A menos que le sucede que tiene adicionales HDMI monitores, teclados y ratones por ahí. Yo no, por lo que configurar el mío era un dolor en el culo. He resuelto que el dolor para ti, así que sigue leyendo.

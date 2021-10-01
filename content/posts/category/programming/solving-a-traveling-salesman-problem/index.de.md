@@ -5,6 +5,7 @@ Author: davidgs
 Category: General, Misc, Work
 Slug: solving-a-traveling-salesman-problem
 hero: images/Safari039.jpg
+reading_time: 11 minutes
 ---
 
 Es ist nicht das Internet der Dinge, aber immer noch ... Hier ist der Hintergrund für dieses Projekt, und warum ich übernahm es.

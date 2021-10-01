@@ -7,6 +7,7 @@ Tags: Evangelism, IoT
 Slug: why-dont-you-have-an-evangelist-yet
 hero: images/evangelist-boy.jpg
 
+reading_time: 9 minutes
 ---
 
 Pour beaucoup trop de gens dans le monde de haute technologie « Évangélisation » est un mot sale. Elle relève du marketing et des ventes et n'est pas technique. Les entreprises veulent des ingénieurs techniques, ils veulent des professionnels du marketing. Ils veulent que les professionnels de la vente. Elles donnent sur l'importance de l'évangélisation.

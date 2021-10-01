@@ -6,6 +6,7 @@ Category: IoT
 Tags: development, electric imp, hacking, IoT
 Slug: im-an-iot-imp
 hero: images/IMG_1554.jpg
+reading_time: 5 minutes
 ---
 
 Ich habe meine [elektrische imp](http://electricimp.com/) und imp Breakout-Board von) und imp Breakout-Board von [SparkFun](http://www.sparkfun.com) letzte Woche, und ich beschlossen, es heute zu überprüfen und sehen, was ich könnte in einer Stunde mit ihm zu tun. Ich mein Internet der Dinge (IoT) Tasche von Tricks wieder glatt, und dies ist das erste Gerät, das ich in einer Weile bekommen habe, so ist hier, wie ** dass ** ging.

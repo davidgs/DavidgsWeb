@@ -6,6 +6,7 @@ Category: IoT, Misc, Work
 Tags: IoT, mynewt
 Slug: mynewt-ios-mac-apps
 hero: images/logo.png
+reading_time: 3 minutes
 ---
 
 He estado haciendo un montón de trabajo en la [Mynewt OS](https://mynewt.apache.org) Proyecto sobre la) Proyecto sobre la [Apache](http://apache.org) Software Foundation. Es todavía 'incubar' por lo que aún no es un proyecto de pleno derecho de Apache, pero estamos haciendo un enorme progreso y está saliendo muy bien. De hecho, sólo estamos liberando nuestras primeras versiones beta de la versión 1.0! Si usted es un hacker de la IO, y está buscando un pequeño rápido, altamente configurable (y de código abierto!), RTOS, MyNewt que el billete!

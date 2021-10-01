@@ -5,6 +5,7 @@ Author: davidgs
 Category: IoT
 Slug: using-cross-measurement-math-in-influxdb-flux
 hero: images/Screen-Shot-2019-03-18-at-3.56.28-PM.png
+reading_time: 6 minutes
 ---
 
 J'ai passé beaucoup de temps ces derniers temps avec les 2.0 versions Alpha et je suis ici pour vous dire: quelques-unes des nouvelles choses à venir sont vraiment, vraiment cool! Surtout pour IdO. Celui que je l'ai utilisé ces derniers temps a été la possibilité de faire des mathématiques à travers des mesures, ce qui est vraiment un changeur de jeu pour les données IdO dans InfluxDB.

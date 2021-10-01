@@ -6,6 +6,7 @@ Category: IoT, Work
 Tags: Evangelism, IoT
 Slug: iot-evangelism
 hero: images/psikick4.png
+reading_time: 3 minutes
 ---
 
 Dinge ändern sich. Was sagt, dass in der Informatik? „Variablen nicht. Konstanten sind es nicht.“ Das einzige, was sich nie ändert ist, dass sich alles ändert. Und so sind die Dinge (wieder) für mich zu ändern. Und ich meine in einem guten Weg!

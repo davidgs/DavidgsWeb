@@ -5,6 +5,7 @@ description: El Proyecto Café
 slug: coffee-project
 hero: images/spill-coffee-beans.jpg
 identifier: pranks
+reading_time: 1 minute
 ---
 
 Tomé una foto del café con leche que hace todos los días durante un mes ...

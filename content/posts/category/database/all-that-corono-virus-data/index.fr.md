@@ -5,6 +5,7 @@ Author: davidgs
 Category: corona, General
 Slug: all-that-corona-virus-data
 hero: images/Covid-hero.png
+reading_time: 2 minutes
 ---
 
 Beaucoup de gens ont vu le tableau de bord astucieux que l'Université John's Hopkins a publié sur lequel vous pouvez voir le nombre de cas de COVID-19, etc. dans le monde. C'est vraiment sympa et tout, mais que faire si vous vouliez découper vous-même les données? Eh bien, il s'avère qu'ils publient également toutes les données sous-jacentes dans un [référentiel GitHub](https://github.com/CSSEGISandData/COVID-19)! Tout est publié sous forme de fichiers CSV quotidiens (valeurs séparées par des virgules). Rend très facile l'importation dans des feuilles de calcul Excel, mais les feuilles de calcul sont tellement terminées. Tous les enfants sympas visualisent leurs données dans InfluxDB.

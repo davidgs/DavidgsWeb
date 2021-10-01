@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: the-iot-ecosystem
 hero: images/Keynote0011.jpg
+reading_time: 1 minute
 ---
 
 What is the Internet of Things (IoT)  anyway? And what makes up the IoT ecosystem? Yes, IoT is the buzzword of the year. Yes, everyone thinks everything is IoT these days. But just because a thing connects to the internet doesn’t mean it’s IoT.

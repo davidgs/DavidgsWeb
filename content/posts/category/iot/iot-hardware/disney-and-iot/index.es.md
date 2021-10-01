@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT
 Slug: disney-and-iot
 hero: images/disney.jpg
+reading_time: 5 minutes
 ---
 
 Durante los días de fiesta de un amigo mío se llevó a su familia a Disney World durante unos días. Se alojaron en un complejo en el parque, pagado un suplemento para las líneas más cortas en los paseos, y estaban allí en un grupo de 12. Eso es un viaje épico probablemente digno de su propia entrada en el blog - en otro lugar. No podía imaginar la logística de esa visita, pero por otra parte, han pasado 10 años desde que he estado a Disney World, y al parecer mucho ha cambiado en ese tiempo.

@@ -5,6 +5,7 @@ Author: davidgs
 Category: BPMN, DevRel
 Slug: letters-to-santa-automating-joy-to-the-world-at-scale
 hero: images/santa.jpg
+reading_time: 18 minutes
 ---
 
 ![Père Noël sur un vélo aquatique](/posts/category/camunda/slack-imgs.com-2-1024x639.jpg)

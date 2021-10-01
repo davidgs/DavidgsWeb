@@ -3,6 +3,7 @@ title: "Outils pratiques que j'utilise"
 description: "Un tas d'outils pratiques pour gérer json, yaml, etc. à Golang"
 date: 2021-04-08T17:18:53-04:00
 hero: images/regex2.png
+reading_time: 11 minutes
 ---
 
 Cela a commencé comme une simple publication dans un groupe Slack interne. Ensuite, on m'a demandé de le publier sur une autre chaîne de ce Slack. Ensuite, j'ai décidé de le publier sur Slack [DevRel Collective](https://devrelcollective.fun). À ce stade, on m'a demandé d'en faire un article de blog pour qu'il ne se perde pas dans le défilement arrière (DevRel Collective utilise un compte Slack gratuit, nous ne pouvons donc faire défiler que 10 000 messages. Avec plus de 2000 membres, cela se produit plus rapidement que vous ne le pensez. Mais je m'éloigne du sujet.)

@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT
 Slug: playing-with-distance
 hero: images/3317-03.jpg
+reading_time: 5 minutes
 ---
 
 He estado jugando con un montón de diferentes sensores últimamente (ver [aquí](/posts/category/iot/iot-software/building-an-app-with-apache-mynewt/)), así que pensé que lo haría otro pequeño reportaje de la misma. Cavé mi)), así que pensé que lo haría otro pequeño reportaje de la misma. Cavé mi [partículas](https://particle.io/) de fotones a jugar con después de haber sido inspirado en una) de fotones a jugar con después de haber sido inspirado en una [NC antidisturbios](https://www.meetup.com/NC-RIoT-Regional-Internet-of-Things/) evento de hace unas semanas y que había sido un) evento de hace unas semanas y que había sido un [mucho tiempo](/posts/category/iot/iot-hardware/new-hardware/) desde que había tenido hacia fuera. No voy a compartir el problema exacto que estaba tratando de resolver con esta pequeña aplicación, ya que es todavía un trabajo en progreso y puede muy bien llegar a ser un producto muy pronto, pero voy a decir cómo lo estoy haciendo .

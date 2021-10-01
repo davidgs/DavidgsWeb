@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: the-iot-ecosystem
 hero: images/Keynote0011.jpg
+reading_time: 1 minute
 ---
 
 Wat is het Internet of Things (IoT) eigenlijk? En wat maakt het Internet of Things ecosysteem? Ja, ivd is het modewoord van het jaar. Ja, iedereen denkt dat alles is IoT deze dagen. Maar alleen maar omdat een ding maakt verbinding met het internet betekent niet dat het is ivd.

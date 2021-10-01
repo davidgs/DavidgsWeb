@@ -6,6 +6,7 @@ Category: Evangelism, Gadgetry, IoT
 Tags: IoT, Meetup
 Slug: ncriot-meetup
 hero: images/RIoT-Logo-2016-200x100.png
+reading_time: 3 minutes
 ---
 
 Si [me siguen en Twitter](https://twitter.com/davidgsIoT), ya sabrá que yo estaba en la), ya sabrá que yo estaba en la [NCRIoT](http://www.ncriot.org) IO) IO [Meetup](https://www.meetup.com/NC-RIoT-Regional-Internet-of-Things/) ayer en el Salón de la Fama de NASCAR en Charlotte, Carolina del Norte. Puede que no sepa lo que es NC antidisturbios. Diablos, hasta hace poco, no lo hice bien, que es realmente un crimen porque es un grupo increíble de la IOT *fanáticos* de hacer algunas cosas realmente interesantes con la IO. Incluso me encontré con un tipo que hace tantas cosas locas con la IO como yo - que debe seguir) ayer en el Salón de la Fama de NASCAR en Charlotte, Carolina del Norte. Puede que no sepa lo que es NC antidisturbios. Diablos, hasta hace poco, no lo hice bien, que es realmente un crimen porque es un grupo increíble de la IO * * fanáticos de hacer algunas cosas realmente interesantes con la IO. Incluso me encontré con un tipo que hace tantas cosas locas con la IO como yo - que debe seguir [@LogicalDan](https://twitter.com/LogicalDan) en Twitter y Tweet a él en caso de que él está usando su camisa que se ilumina cuando usted pia en él. No, en serio, con la camisa parpadea como un loco cuando lo tweet. ¿No te digo que me encontré con mi pueblo * * ayer?

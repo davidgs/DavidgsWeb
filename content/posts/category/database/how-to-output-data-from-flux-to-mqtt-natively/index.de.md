@@ -5,6 +5,7 @@ Author: davidgs
 Category: Database
 Slug: how-to-output-data-from-flux-to-mqtt-natively
 hero: images/mqtt.png
+reading_time: 6 minutes
 ---
 
 ## Das Schreiben von Daten von InfluxDB zu MQTT Flux mit

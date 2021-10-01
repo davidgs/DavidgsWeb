@@ -6,6 +6,7 @@ Category: Evangelism, Gadgetry, IoT
 Tags: IoT, Meetup
 Slug: ncriot-meetup
 hero: images/RIoT-Logo-2016-200x100.png
+reading_time: 3 minutes
 ---
 
 Wenn Sie [Follow-me auf Twitter](https://twitter.com/davidgsIoT), wissen Sie schon, dass ich bei der), wissen Sie schon, dass ich bei der [NCRIoT] war (http://www.ncriot.org) IoT [Meetup](http://www.ncriot.org) gestern bei der NASCAR Hall of Fame in Charlotte, NC. Sie können nicht wissen, was NC Riot ist. Hölle, bis vor kurzem, habe ich auch nicht, das ist ein Verbrechen wirklich, weil es eine erstaunliche Gruppe von IoT ist *Fanatiker mit IoT paar wirklich coole Sachen* zu tun. Ich traf sogar einen Mann, der tut so viele verrückte Dinge mit IoT wie ich - Sie sollten folgen) gestern bei der NASCAR Hall of Fame in Charlotte, NC. Sie können nicht wissen, was NC Riot ist. Hölle, bis vor kurzem, habe ich auch nicht, das ist ein Verbrechen wirklich, weil es eine erstaunliche Gruppe von IoT ist * Fanatiker mit IoT paar wirklich coole Sachen * zu tun. Ich traf sogar einen Mann, der tut so viele verrückte Dinge mit IoT wie ich - Sie sollten folgen [@LogicalDan](https://www.meetup.com/NC-RIoT-Regional-Internet-of-Things/) auf Twitter und tweet an ihn, falls er trägt sein Hemd, dass leuchtet auf, wenn Sie ihn an tweet. Nein wirklich, sein Hemd blinkt wie verrückt, wenn man ihn tweet. Habe ich Ihnen nicht sagen, ich traf * mein Volk gestern *?

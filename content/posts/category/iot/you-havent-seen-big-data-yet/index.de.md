@@ -6,6 +6,7 @@ Category: Evangelism, IoT, Misc
 Tags: Big Data, IoT
 Slug: you-havent-seen-big-data-yet
 hero: images/JuvenileGraySquirrel_ChristineHaines.jpg
+reading_time: 4 minutes
 ---
 
 Ja, ich weiß, „Big Data“ als Schlagwort ist so vor 5 Minuten. Die Tech-Welt ist chronisch ADD und anfällig für das nächste glänzende Objekt abgelenkt zu werden (OOh! Schauen Sie, IoT !, Warten, AI! SQUIRREL !!) Aber Aufenthalt mit mir zu diesem Thema. Es ist alles verbunden. Ich habe seit mindestens 2005 gesagt (zurück, wenn Big Data der letzte Schrei war), dass man nicht wirklich große Datenmengen, bis die IoT wirklich in voller Kraft loslegt gesehen haben. Social Media ist ziemlich fruchtbar - durchschnittlich 6.000 Tweets pro Sekunde oder eine halbe Milliarde Tweets pro Tag. Das ist eine Menge von Daten. Aber es ist Erdnüsse. Angenommen, Sie haben einen industriellen IoT Einsatz Überwachung 1.000 Maschinen. Jede Maschine ist die Bereitstellung Telemetrie auf 7 oder 8 Parameter. Es ist die Protokollierung, dass Telemetrie 2 - 3 mal pro Sekunde. Das ist 16.000 pro Sekunde. Von ** ONE ** Fabrik. Jetzt können Sie sagen weltweit 10 Fabriken haben. 160.000 pro Sekunde. Versuche mitzuhalten. Nein, wirklich, nur versuchen.

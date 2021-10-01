@@ -3,6 +3,7 @@ title: "Omgaan met mij"
 date: 2021-04-09T17:16:44-04:00
 description: "Een veldgids voor het werken met, communiceren met en in het algemeen communiceren met mij"
 hero: images/davidgs-pix-1.jpeg
+reading_time: 13 minutes
 ---
 
 Kijk, we zijn allemaal verschillend, en dat is een goede zaak ™! We denken, handelen en vooral communiceren anders. Daartoe dacht ik dat ik deze korte handleiding zou schrijven over het werken met en communiceren met mij.

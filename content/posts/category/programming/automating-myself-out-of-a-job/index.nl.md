@@ -7,6 +7,7 @@ Tags: golang
 Slug: automating-myself-out-of-a-job
 hero: images/alex-knight-2EJCSULRwC8-unsplash-2.jpg
 draft: true
+reading_time: 1 minute
 ---
 
 ![Een kleine witte robot die naar je opkijkt](/posts/category/programming/automating-myself-out-of-a-job/images/alex-knight-2EJCSULRwC8-unsplash-2.jpg)

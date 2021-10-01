@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: the-iot-ecosystem
 hero: images/Keynote0011.jpg
+reading_time: 2 minutes
 ---
 
 ¿Cuál es la Internet de las cosas de todos modos (IO)? Y lo que hace que el ecosistema de la IO? Sí, la IO es la palabra de moda del año. Sí, todo el mundo piensa que todo es la IO en estos días. Pero sólo porque algo se conecta a Internet, no significa que de la IO.

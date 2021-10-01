@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, Eclipse, Kura, Samsung
 Slug: making-artik-5-iot-gateway-kura
 hero: images/kura.jpg
+reading_time: 10 minutes
 ---
 
 Hay alrededor de un millón de maneras de construir o comprar un dispositivo IO Gateway. (En realidad, más como [586,000](https://www.google.com/#newwindow=1&q=iot+gateway+device&*), pero no vamos a objeción). Cada uno tiene sus propios méritos, o trampas. Se podía comprar uno, y el riesgo de quedar atrapados en una solución de un solo proveedor. Se puede construir uno desde cero y luego cargar con tener a la fuente el hardware, el software de la construcción, y luego mantener todo y esperanza de que se tomaron las decisiones correctas y que va a escalar. O bien, puede utilizar una solución de código abierto existentes, al igual que), pero no vamos a objeción). Cada uno tiene sus propios méritos, o trampas. Se podía comprar uno, y el riesgo de quedar atrapados en una solución de un solo proveedor. Se puede construir uno desde cero y luego cargar con tener a la fuente el hardware, el software de la construcción, y luego mantener todo y esperanza de que se tomaron las decisiones correctas y que va a escalar. O bien, puede utilizar una solución de código abierto existentes, al igual que [Kura](http://www.eclipse.org/kura/index.php) de Eclipse Foundation.

@@ -6,6 +6,7 @@ Category: Evangelism, General
 Tags: Developer Relations, DevRel, Evangelism
 Slug: my-journey-into-tech-and-devrel
 hero: images/techEvangelism.jpg
+reading_time: 9 minutes
 ---
 
 Ein Bündel von Menschen, die ich kenne haben schriftlich ihre „Reise in Tech“ Blogs in letzter Zeit, und einige von ihnen bedrängt wurden mir meine zu schreiben, so ist es hier. Es ist nicht-traditionelle und mit Umwegen und Fehltritten gefüllt, so dass, wenn Sie versuchen, in Tech, ein Herz fassen zu bekommen!

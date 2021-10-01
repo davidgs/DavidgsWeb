@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT, Raspberry Pi
 Slug: accessing-your-raspberry-pi-zero-w
 hero: images/pi_zero_w_board.jpg
+reading_time: 3 minutes
 ---
 
 Si vous avez eu la chance de mettre la main sur un Raspberry Pi zéro W, alors vous pourriez profiter de cela. Si vous attendez encore un, ce signet. À moins que vous arrive d'avoir des moniteurs HDMI supplémentaires, des claviers et des souris qui traînent. Je ne suis pas, si le mien était un train de configurer la douleur dans le cul. Je l'ai résolu que la douleur pour vous, alors lisez la suite.

@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, ARTIK-520, IoT, Java
 Slug: make-your-artik-520-scream
 hero: images/Zulu-Duke200.png
+reading_time: 2 minutes
 ---
 
 Wenn Sie lesen [letzte Woche Beitrag](/posts/category/general/making-artik-5-iot-gateway-kura/) über sie ein ARTIK-520 ein IoT Gateway-Gerät des

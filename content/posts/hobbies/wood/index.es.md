@@ -4,6 +4,7 @@ Date: 2012-02-02
 Description: Woodworking projects
 Slug: woodworking
 hero: images/IMG_0076.jpg
+reading_time: 4 minutes
 ---
 ## Algunos de mis proyectos de trabajo de madera
 

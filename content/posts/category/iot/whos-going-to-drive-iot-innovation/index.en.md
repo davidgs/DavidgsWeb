@@ -6,6 +6,7 @@ Category: IoT
 Tags: innovation, IoT, Makers
 Slug: whos-going-to-drive-iot-innovation
 hero: images/Carnac.jpg
+reading_time: 4 minutes
 ---
 
 Let’s face it, the Internet of Things (IoT) is hot right now. And it’s only going to get hotter. Everyone wants in on the perceived coming gold rush that will be the Internet of Things. And a gold rush is most definitely predicted! Gartner has said so [here](http://www.gartner.com/newsroom/id/2688717), and [here](http://www.gartner.com/newsroom/id/2688717). IDC[says so](http://www.zdnet.com/internet-of-things-market-to-hit-7-1-trillion-by-2020-idc-7000030236/), too. I could go on and list how many analysts and media pundits, etc. agree, but that would just be redundant. Suffice to say that basically *everyone* thinks so. And they’re all probably right.

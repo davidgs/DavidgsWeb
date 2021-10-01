@@ -7,6 +7,7 @@ Tags: Evangelism, IoT
 Slug: why-dont-you-have-an-evangelist-yet
 hero: images/evangelist-boy.jpg
 
+reading_time: 8 minutes
 ---
 
 Zu viel zu vielen Menschen in der High-Tech-Welt „Evangelisation“ ist ein schmutziges Wort. Es riecht nach Marketing und Vertrieb und ist nicht technischer Natur. Die Unternehmen wollen Techniker, sie Marketing-Profis wollen. Sie wollen Sales-Profis. Sie übersehen die Bedeutung der Evangelisation.

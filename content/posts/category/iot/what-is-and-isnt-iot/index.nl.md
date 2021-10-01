@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: gadgets, IoT
 Slug: what-is-and-isnt-iot
 hero: images/IheartIOT600.jpg
+reading_time: 4 minutes
 ---
 
 Dus wat precies, **is** het Internet of Things (IoT)? En wat is het niet? Dat hangt af van wie je het vraagt, en wat je bedoelt. Er zijn tonnen en tonnen van 'connected' gadgets die mensen noemen IoT devices.But zijn ze echt ivd apparaten?

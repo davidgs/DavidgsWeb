@@ -58,7 +58,8 @@ Así que aquí es lo que encontré.
 Sí, los zulúes JVM es más rápido. Y no es sólo un poco más rápido. Es mucho más rápido ** **. Me refiero a una porción entera. Tanto es así que me decidí a correr el mismo conjunto de pruebas en mi MacBook Pro solo para las muecas. ¿Adivina qué? En una de las pruebas, Zulu venció la JVM en mi Mac. Whisky. Tango. Fox. Pero sí, los números no mienten.
 
 | ** ** Prueba | ** ** OpenJDK | ** ** Zulu | ** ** Mac OS X |
-| -------- | ----------- | -------- | ------------ |
+| -------- | ----------- | -------- | ---------reading_time: 6 minutes
+--- |
 | ** ** Avrora | 588 264 | 44963 | 6137 |
 | ** ** puntos | 438577 | 41963 | 50066 |
 | ** ** tradesoap | FALLO | 247835 | 51650 |

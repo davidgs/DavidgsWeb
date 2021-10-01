@@ -5,6 +5,7 @@ description: Tür Prank
 slug: door-prank
 hero: images/door.jpg
 identifier: pranks
+reading_time: 1 minute
 ---
 
 # Rogers Tür

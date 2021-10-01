@@ -6,6 +6,7 @@ Category: IoT
 Tags: Arduino, ESP8266, IoT, IoT Data
 Slug: writing-to-influxdb-2-0-from-arduino-esp8266
 hero: images/3686-10.jpg
+reading_time: 3 minutes
 ---
 
 Comme InfluxData se rapproche toujours plus de libérer v2.0, il devient de plus en plus important d'être en mesure d'obtenir des données ** dans ** InfluxDBv2, bien sûr. Fait sens, non? Étant donné que la grande majorité (comme, impossibles à distinguer de 100%) de mes données provient des appareils IdO, j'ai décidé qu'il était temps de commencer à faire de ces appareils v2 capable.

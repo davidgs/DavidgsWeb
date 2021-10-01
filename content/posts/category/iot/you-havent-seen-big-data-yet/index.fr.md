@@ -6,6 +6,7 @@ Category: Evangelism, IoT, Misc
 Tags: Big Data, IoT
 Slug: you-havent-seen-big-data-yet
 hero: images/JuvenileGraySquirrel_ChristineHaines.jpg
+reading_time: 4 minutes
 ---
 
 Ouais, je sais, « Big Data » comme un mot à la mode est si il y a 5 minutes. Le monde de la technologie est AJOUT chronique et sujettes à être distrait par le prochain objet brillant (ooh! Regardez, IdO !, Attendez, AI! ECUREUIL !!) Mais restez avec moi à ce sujet. Il est connecté tout. J'ai dit depuis au moins 2005 (retour lorsque Big Data était à la mode) que vous ne l'avez pas vu des données vraiment grands jusqu'à ce que l'IdO se passe vraiment en pleine force. Les médias sociaux est assez prolifique - une moyenne de 6000 tweets par seconde, ou un demi-milliard de tweets par jour. C'est beaucoup de données. Mais il est des arachides. Disons que vous avez un déploiement industriel IdO surveillance 1000 machines. Chaque machine fournit télémétrie sur 7 ou 8 paramètres. Il de l'exploitation forestière que la télémétrie 2 - 3 fois par seconde. C'est 16 000 par seconde. De ** une usine **. Maintenant, supposons que vous avez 10 usines dans le monde entier. 160 000 par seconde. Essaye de continuer. Non, vraiment, juste essayer.

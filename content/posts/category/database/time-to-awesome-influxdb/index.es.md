@@ -5,6 +5,7 @@ Author: davidgs
 Category: Evangelism, General, Work
 Slug: time-to-awesome-influxdb
 hero: images/A-platform-for-Builders.png
+reading_time: 4 minutes
 ---
 
 [InfluxData](https://influxdata.com/) tiene una cosa sobre la hora de impresionante ™. Tanto es así, que lo registró como marca. No, en serio, lo hicieron. Y lo dicen en serio. Así que vamos a ir de cero a impresionante!

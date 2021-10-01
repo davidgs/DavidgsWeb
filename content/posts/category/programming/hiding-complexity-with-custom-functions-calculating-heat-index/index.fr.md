@@ -5,6 +5,7 @@ Author: davidgs
 Category: Databases, InfluxDB
 Slug: hiding-complexity-with-custom-functions-calculating-heat-index
 hero: images/HeatIndex.png
+reading_time: 6 minutes
 ---
 
 Avez-vous déjà regardé la météo locale - ou The Weather Channel - et entendu les annoncer la température, puis l ' « indice de chaleur »? Ou comment chaud, il se sent ** ** à l'extérieur? Au moins ici, aux États-Unis, et en particulier dans le Sud, il fait partie de chaque émission météo en été. Mais avez-vous déjà demandé comment ils réellement * * calculer l'indice de chaleur? Depuis que je collectionne les données de température et d'humidité, je décidais un jour, j'irais comprendre. Après tout, à quel point pourrait-il vraiment? Astuce: ne posez-vous cette question!

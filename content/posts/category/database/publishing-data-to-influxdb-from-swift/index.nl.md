@@ -6,6 +6,7 @@ Category: Uncategorized
 Tags: Influx, InfluxDB, IoT, Swift
 Slug: publishing-data-to-influxdb-from-swift
 hero: images/2.0CO2-300x269.gif
+reading_time: 4 minutes
 ---
 
 Ik heb een zeer drukke man geweest. Het was slechts een paar dagen geleden dat ik schreef over een nieuwe InfluxDB bibliotheek voor het schrijven van gegevens van Arduino apparaten InfluxDB v2 en hier ben ik weer, schrijven over een **nieuw** bibliotheek voor het schrijven van data naar InfluxDB. Deze keer, het is in Swift. Nu is je moedertaal Apple apps kunnen gegevens te schrijven direct naar InfluxDB v2.0 met gemak.

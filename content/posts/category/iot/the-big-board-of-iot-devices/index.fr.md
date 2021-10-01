@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: development, IoT
 Slug: the-big-board-of-iot-devices
 hero: images/breadboard.jpg
+reading_time: 1 minute
 ---
 
 Juste pour référence, voici la carte de développement qui se trouve sur mon bureau:

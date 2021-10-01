@@ -11,7 +11,8 @@ hero: images/watch.jpg
 I'm not usually one to publicly take a company to task like this, but, well, this is a rather special circumstance. I've been an avid Withings fan, and advocate, for years. I was one of the very first people to get a [Withings Activité watch](/posts/category/iot/iot-hardware/gadget-freak/). Since then, I've actually invested pretty heavily in Withings gear. I bought my wife a Withings Pop. I bough a Withings Body Analyzer Scale. I bought a Withings Wireless Blood pressure Cuff. I bought both myself and my wife a Withings Steel HR. This stuff adds up!
 
 | Model | Cost |
-|----|----|
+|----|-reading_time: 4 minutes
+---|
 | Activité | $450.00 |
 | Pop | $129.00 |
 | Body Analyzer Scale | $129.00 |

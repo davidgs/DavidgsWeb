@@ -6,6 +6,7 @@ Category: IoT
 Tags: Batteries, IoT, power
 Slug: minor-iot-calculations
 hero: images/Critical-Battery-Icon-old-laptop.jpg
+reading_time: 5 minutes
 ---
 
 ## Las baterías serán un factor limitante en los despliegues de la IO

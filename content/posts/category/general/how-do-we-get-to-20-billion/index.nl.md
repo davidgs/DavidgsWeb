@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: how-do-we-get-to-20-billion
 hero: images/Skyscrapers-Mirror-1024x768.jpg
+reading_time: 5 minutes
 ---
 
 Tijdens een interview vandaag, werd ik gevraagd de vraag “Waar komen deze cijfers vandaan? Hoe komen we tot 20 miljard ivd apparaten?” Goede vraag! Hoe precies, **niet** krijgen we [20 miljard](http://www.gartner.com/newsroom/id/2636073) (of 30 miljard of een biljoen) ivd-apparaten? We zijn zeker niet van plan om er te komen met draagbare apparaten en andere persoonlijke gadgets. Nou, we*kunnen* maar het zou een stuk zijn, en de kans is bijna nul. Waarom zeg ik dat het niet gaat gebeuren met wearables, etc.? Nou, [weer] (/ berichten / category / iot / minor-iot-berekeningen), laten we doen wat eenvoudige berekeningen.

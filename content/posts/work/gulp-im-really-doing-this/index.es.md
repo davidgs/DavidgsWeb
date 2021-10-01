@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT, small business
 Slug: gulp-im-really-doing-this
 hero: images/NewLogo-0.png
+reading_time: 2 minutes
 ---
 
 Bueno, como [saber](/posts/work/a-shock-to-the-system/), he estado en el mercado para un nuevo trabajo últimamente. **Realmente** mal momento para estar buscando un trabajo de medio tiempo completo lo que con las vacaciones, al final de los ejercicios fiscales de muchas empresas, etc. gran sincronización.

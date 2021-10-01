@@ -17,7 +17,8 @@ Mijn vriend [Rain](https://twitter.com/rainleander) begon zich te verdiepen in I
 We hebben besloten om elke vrijdag om 8.30 uur EDT live te gaan en weg te knallen bij deze hardware- en software-build. Dit is ons huidige schema:
 
 | Datum | Onderwerp | Link |
-| ------ | ------- | ------ |
+| ------ | ------- | ---reading_time: 2 minutes
+--- |
 | 4 april 2021 | Hardware bouwen | [herhaling](https://www.twitch.tv/videos/1005977038) |
 | 7 mei 2021 | Software voor een sensor | [bekijk live](https://twitch.tv/davidgsiot) |
 | 14 mei 2021 | Hardware hacken | [bekijk live](https://twitch.tv/davidgsiot) |

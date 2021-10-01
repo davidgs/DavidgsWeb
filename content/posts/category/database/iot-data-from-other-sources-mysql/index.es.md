@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT, Work
 Slug: iot-data-from-other-sources-mysql
 hero: images/Screen-Shot-2019-11-14-at-12.12.19-PM.png
+reading_time: 7 minutes
 ---
 
 Si ha implementado una solución de la IO, que ha tenido que decidir dónde y cómo, para almacenar todos sus datos. Al menos desde mi punto de vista, la mejor y más fácil de lugar para almacenar los datos de los sensores es, por supuesto, [InfluxDB](https://www.influxdata.com/products/influxdb-overview/). Mi diciendo que no puede venir como una sorpresa para usted. Pero ¿qué pasa con los otros datos * * que necesita para tienda? * Los datos sobre los sensores *? Cosas como el fabricante del sensor, la fecha en que fue puesto en servicio, el ID de cliente, qué tipo de plataforma que se está ejecutando. Ya sabes, todos los metadatos del sensor.

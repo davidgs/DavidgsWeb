@@ -3,6 +3,7 @@ title: "Passe-temps"
 date: 2017-03-20T08:06:25+06:00
 description: Passe-temps
 hero: images/hero.jpg
+reading_time: 1 minute
 ---
 
 # Certains de mes projets de travail du bois

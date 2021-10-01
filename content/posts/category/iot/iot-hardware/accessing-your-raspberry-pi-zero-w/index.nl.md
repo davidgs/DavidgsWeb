@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT, Raspberry Pi
 Slug: accessing-your-raspberry-pi-zero-w
 hero: images/pi_zero_w_board.jpg
+reading_time: 3 minutes
 ---
 
 Als je het geluk hebt om je handen te krijgen op een Raspberry Pi Zero W bent geweest, dan kun je genieten van deze. Als u nog steeds voor één zit te wachten, bookmark dit. Tenzij je toevallig extra HDMI beeldschermen, toetsenborden en muizen liggen rond te hebben. Ik niet, dus de configuratie van de mijne was een pain in the ass. Ik heb die pijn voor u opgelost, dus lees verder.

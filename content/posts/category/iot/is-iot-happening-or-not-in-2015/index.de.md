@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: is-iot-happening-or-not-in-2015
 hero: images/p954_buzzword.jpg
+reading_time: 3 minutes
 ---
 
 Es ist klar, dass das Internet der Dinge das Schlagwort der Minute. Vielleicht ist das Modewort des Jahres. Jeder [reden](https://twitter.com/search?q=%23IoT&src=tyah) darüber, zu erwähnen es, was die Prognosen darüber und behauptet, ein Spieler drin zu sein. Ich gehöre zu denen, aber ich habe den Hintergrund und die) darüber, zu erwähnen es, was die Prognosen darüber und behauptet, ein Spieler drin zu sein. Ich gehöre zu denen, aber ich habe den Hintergrund und die [Geschichte](/posts/category/iot/whos-going-to-drive-iot-innovation/) um es wieder auf. Aber nach diesem Artikel von

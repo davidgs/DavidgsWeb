@@ -3,6 +3,7 @@ title: „Hobby“
 date: 2017-03-20T08:06:25+06:00
 description: Hobbys
 hero: images/hero.jpg
+reading_time: 1 minute
 ---
 
 # Einige meiner Holzbearbeitung Projekte

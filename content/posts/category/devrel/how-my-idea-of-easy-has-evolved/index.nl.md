@@ -6,6 +6,7 @@ Category:
   - evangelism
 Slug: how-my-idea-of-easy-has-evolved
 hero: images/easy.jpeg
+reading_time: 4 minutes
 ---
 
 Het is makkelijk! Nou, dat is makkelijk voor*u* te zeggen! Maar wat is makkelijk voor mij niet gemakkelijk zijn voor u, en het zal zeker niet makkelijk voor iedereen.

@@ -3,6 +3,7 @@ title: « Matériel Junkie »
 date: 2014-11-14T19:06:25+06:00
 description: matériel Junkie
 hero: images/access-management.svg
+reading_time: 3 minutes
 ---
 
 Ok, donc en plus d'être un (/ messages / catégorie / IOT / IOT-matériel / gadget-freak) [gadget monstre], je suis un drogué de matériel. Cela fait un moment que je l'ai vraiment fait beaucoup de matériel carriole, mais ce n'est pas à cause d'un manque de désir.

@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, ARTIK-520, IoT, Java
 Slug: make-your-artik-520-scream
 hero: images/Zulu-Duke200.png
+reading_time: 2 minutes
 ---
 
 Als je leest [vorige week post] (/ berichten / category / algemeen / making-artik-5-iot-gateway-kura /) over het maken van een ARTIK-520 een IoT gateway-apparaat met behulp van de [Eclipse Kura project] (http: / /www.eclipse.org/kura/), dan zal dit een merkbare verbetering voor je zijn als je gaat om het zelf te (proberen en waarom zou je niet? Het was een uitstekende kleine How To aan de slag met ARTIK- 520 en ivd!)

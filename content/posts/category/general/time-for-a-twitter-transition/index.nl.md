@@ -6,6 +6,7 @@ Category: Evangelism, General, Misc
 Tags: IoT, Twitter
 Slug: time-for-a-twitter-transition
 hero: images/twitter-bird2.jpg
+reading_time: 3 minutes
 ---
 
 Ik heb op Twitter al een lange tijd. Een heel lange tijd. Langer dan mijn echte twitter profiel zou aangeven. (Ik denk dat ik voor het eerst toegetreden tot eind 2006) Op een gegeven moment had ik meer dan 5.000 volgers, maar, nou ja, eigenlijk twitter veiligheids- en politie was zo afschuwelijk dat om redenen van persoonlijke veiligheid, ben ik gestopt met twitter en verwijderd mijn rekening. Ik was gegaan voor ongeveer 2 jaar. Ik kwam terug en begon vers in 2012. Ik terug als “TechEvangelist1” kwam en zijn tweeting sindsdien als zodanig. Ik regelmatig twitter om taak voor hun afschuwelijke record van de behandeling van verslaafden en bots en nep accounts, niet dat het ooit een meetbaar effect op hen heeft gehad.

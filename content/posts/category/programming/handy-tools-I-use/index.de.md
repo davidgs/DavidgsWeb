@@ -3,6 +3,7 @@ title: "Handliche Werkzeuge, die ich benutze"
 description: "Eine Reihe praktischer Werkzeuge für den Umgang mit Json, Yaml usw. in Golang"
 date: 2021-04-08T17:18:53-04:00
 hero: images/regex2.png
+reading_time: 10 minutes
 ---
 
 Dies begann als einfacher Beitrag zu einer internen Slack-Gruppe. Dann wurde ich gebeten, es auf einem anderen Kanal in diesem Slack zu posten. Dann habe ich beschlossen, es im [DevRel Collective](https://devrelcollective.fun) Slack zu veröffentlichen. Zu diesem Zeitpunkt wurde ich gebeten, einen Blog-Beitrag zu erstellen, damit er nicht im Scroll-Back verloren geht (DevRel Collective verwendet ein kostenloses Slack-Konto, sodass wir nur 10.000 Nachrichten zurückblättern können. Bei mehr als 2.000 Mitgliedern geschieht dies schneller als du denkst. Aber ich schweife ab.)

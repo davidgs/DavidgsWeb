@@ -6,6 +6,7 @@ Category: IoT
 Tags: connectivity, Internet Anywhere, IoT
 Slug: drop-a-brick-on-it
 hero: images/render-2.jpg
+reading_time: 3 minutes
 ---
 
 

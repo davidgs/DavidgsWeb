@@ -113,7 +113,8 @@ This is an IoT Project, so it will obviously require some IoT Hardware. This is 
 This one is a bit of a wild-card. I started looking at what might work. I want the greenhouse to be able to have sensors in it (they are small), and at least one 'actuator' to open a window or something, and probably a fan too. We're talking realistic here.
 
 | Greenhouse Type | Cost |
-|-----------------|------|
+|-----------------|---reading_time: 7 minutes
+---|
 | [Outdoor](https://www.worldofgreenhouses.com/products/hybrid-greenhouse-series) | $650 |
 | [Indoor](https://www.hpotter.com/buy-terrariums/h-potter-terrarium-classic-wardian-case-for-plants) | $140 |
 | [Indoor - small](https://www.amazon.com/Purzest-Terrarium-Geometric-Tabletop-Succulent) | $36.00 |

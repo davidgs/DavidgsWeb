@@ -6,6 +6,7 @@ Category: Evangelism, IoT, Misc
 Tags: Big Data, IoT
 Slug: you-havent-seen-big-data-yet
 hero: images/JuvenileGraySquirrel_ChristineHaines.jpg
+reading_time: 4 minutes
 ---
 
 Yeah, I know, "Big Data" as a buzz-word is so 5 minutes ago. The tech world is chronically ADD and prone to being distracted by the next shiny object (OOh! Look, IoT!, Wait, AI! SQUIRREL!!) But stay with me on this. It's all connected. I've been saying since at least 2005 (back when Big Data was all the rage) that you haven't seen truly big data until the IoT truly gets going in full force. Social media is pretty prolific -- an average of 6,000 tweets per second, or half a billion tweets per day. That's a lot of data. But it's peanuts. Let's say you have an industrial IoT deployment monitoring 1,000 machines. Each machine is providing telemetry on 7 or 8 parameters. It's logging that telemetry 2 - 3 times per second. That's 16,000 per second. From **ONE** factory. Now lets say you have 10 factories worldwide. 160,000 per second. Try to keep up. No, really, just try. 

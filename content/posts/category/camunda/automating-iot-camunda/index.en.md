@@ -6,6 +6,7 @@ Description: "Updating an old Camunda IoT demo to be more efficient using AI"
 Category: Camunda, IoT
 Slug: automating-iot-camunda
 hero: images/Camunda-AI.jpg
+reading_time: 16 minutes
 ---
 
 ## Some Background

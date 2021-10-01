@@ -5,6 +5,7 @@ Author: davidgs
 Category: Databases, InfluxDB
 Slug: hiding-complexity-with-custom-functions-calculating-heat-index
 hero: images/HeatIndex.png
+reading_time: 6 minutes
 ---
 
 Heb je ooit keek naar de lokale weer - of The Weather Channel - en hoorde ze de temperatuur aan te kondigen, en dan is de "Heat Index"? Of hoe warm het **voelt** buiten? Tenminste hier in de Verenigde Staten, en vooral in het Zuiden, het is onderdeel van elke weer uitgezonden in de zomer. Maar heb je ooit afgevraagd hoe ze eigenlijk*berekenen* De Warmte Index? Sinds ik temperatuur en vochtigheid gegevens te verzamelen, heb ik besloten ik op een dag zou gaan en figuur is. Immers, hoe moeilijk kan het zijn echt? Tip: nooit jezelf die vraag te stellen!

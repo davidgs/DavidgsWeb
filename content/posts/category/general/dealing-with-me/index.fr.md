@@ -3,6 +3,7 @@ title: "Traiter avec moi"
 date: 2021-04-09T17:16:44-04:00
 description: "Un guide pratique pour travailler avec moi, communiquer avec moi et interagir généralement avec moi"
 hero: images/davidgs-pix-1.jpeg
+reading_time: 14 minutes
 ---
 
 Regardez, nous sommes tous différents, et c'est une bonne chose ™! Nous pensons tous, agissons et, surtout, communiquons différemment. À cette fin, j'ai pensé rédiger ce petit guide pour travailler et communiquer avec moi.

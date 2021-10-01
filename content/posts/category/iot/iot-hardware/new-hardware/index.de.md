@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: IoT
 Slug: new-hardware
 hero: images/IMG_2029.png
+reading_time: 3 minutes
 ---
 
 Ich sollte diese im Oktober gebucht haben, aber ein paar [Dinge](/posts/category/work/2015/a-shock-to-the-system/) passiert ist. Also habe ich es jetzt bin Entsendung.

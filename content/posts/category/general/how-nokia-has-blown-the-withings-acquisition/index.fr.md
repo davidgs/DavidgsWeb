@@ -11,7 +11,8 @@ hero: images/watch.jpg
 Je ne suis pas habituellement un à prendre publiquement une entreprise à la tâche comme celui-ci, mais, eh bien, c'est une circonstance assez particulière. Je suis un grand fan Withings, et avocat, pendant des années. J'étais l'un des tout premiers à obtenir un [Withings montre Activité](/posts/category/iot/iot-hardware/gadget-freak/). Depuis, je suis en fait assez fortement investi dans les engins Withings. Je l'ai acheté ma femme un Withings Pop. Je Bough un analyseur Withings échelle. J'ai acheté un Withings sans fil pression artérielle brassard. Je l'ai acheté moi-même et ma femme un Withings en acier HR. Ce truc ajoute!
 
 | modèle | coût |
-| ---- | ---- |
+| ---- | -reading_time: 4 minutes
+--- |
 | Activité | $450.00 |
 | Pop | 129,00 $ |
 | Analyseur corps échelle | 129,00 $ |

@@ -6,6 +6,7 @@ category: work, evangelism
 description: Retour à l'Evangélisation
 slug: return-evangelism
 hero: images/psikick4.png
+reading_time: 3 minutes
 ---
 
 Les choses changent. Qu'est-ce que dire en informatique? « Les variables ne seront pas. Constantes ne sont pas « . La seule chose qui ne change jamais est que tout change. Et si les choses sont (encore une fois) en train de changer pour moi. Et je ne parle d'une bonne façon!

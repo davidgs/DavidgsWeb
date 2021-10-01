@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: gadgets, IoT
 Slug: what-is-and-isnt-iot
 hero: images/IheartIOT600.jpg
+reading_time: 4 minutes
 ---
 
 Entonces, ¿qué, exactamente, es ** ** Internet de las Cosas (IOT)? Y lo que no es? Eso depende de a quién le pregunte, y lo que quiere decir. Hay toneladas y toneladas de aparatos conectados '' que la gente llama la IO devices.But son realmente dispositivos IO?

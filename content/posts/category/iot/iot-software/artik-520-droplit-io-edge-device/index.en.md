@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, ARTIK-520, Droplit, droplit-edge, IoT
 Slug: artik-520-droplit-io-edge-device
 hero: images/Droplit-Logo1.png
+reading_time: 4 minutes
 ---
 
 Doing some further work with my trusty ARTIK-520 (hey, when you have a hammer, everything looks like a nail! Back up off me! ) I decided to try installing another IoT Gateway framework on it. (I've done that [before](/posts/category/general/making-artik-5-iot-gateway-kura/).) Equal opportunity and all that. And I'll be doing more of them as soon as I get more mini-SD Cards in-house. But I digress.

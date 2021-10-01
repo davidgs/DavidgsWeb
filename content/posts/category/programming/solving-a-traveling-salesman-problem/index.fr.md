@@ -5,6 +5,7 @@ Author: davidgs
 Category: General, Misc, Work
 Slug: solving-a-traveling-salesman-problem
 hero: images/Safari039.jpg
+reading_time: 12 minutes
 ---
 
 Ce n'est pas IdO, mais quand même ... Voici l'arrière-plan sur ce projet, et pourquoi je me suis engagé il.

@@ -58,7 +58,8 @@ So here's what I found.
 Yeah, the Zulu JVM is faster. And it's not just a little bit faster. It's a **LOT** faster. I mean a whole lot. So much so that I decided to run the same Benchmark suite on my MacBook Pro just for grins. Guess what? In one of the tests, Zulu beat the JVM on my Mac. Whiskey. Tango. Foxtrot. But yes, the numbers don't lie.
 
 | **Test** | **OpenJDK** | **Zulu** | **Mac OS X** |
-| -------- | ----------- | -------- | ------------ |
+| -------- | ----------- | -------- | ---------reading_time: 5 minutes
+--- |
 | **avrora** | 588264 | 44963 | 6137 |
 | **xalan** | 438577 | 41963 | 50066 |
 | **tradesoap** | FAIL | 247835 | 51650 |

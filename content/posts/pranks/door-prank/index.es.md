@@ -5,6 +5,7 @@ description: puerta broma
 slug: door-prank
 hero: images/door.jpg
 identifier: pranks
+reading_time: 1 minute
 ---
 
 # Puerta de Roger

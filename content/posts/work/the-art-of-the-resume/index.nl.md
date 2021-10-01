@@ -6,6 +6,7 @@ Category: Jobs, Misc, Work
 Tags: jobs, Resume, Work
 Slug: the-art-of-the-resume
 hero: images/res.png
+reading_time: 2 minutes
 ---
 
 Als je 100 mensen over wat een CV moet vragen, krijgt u waarschijnlijk bijna 100 antwoorden.

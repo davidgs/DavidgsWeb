@@ -5,6 +5,7 @@ Author: davidgs
 Category: Camunda, BPMN, DevRel
 Slug: swagger-api-access-with-camunda-platform
 hero: images/mimi-thian-VEKWzpQu-5M-unsplash-2.jpg
+reading_time: 5 minutes
 ---
 
 Have you ever fired up the Camunda Platform Docker instance and wished you could do live-calls to the API via a [swagger server](https://swagger.io)? We have! And like most things we wish we could do, we go out and make it happen.

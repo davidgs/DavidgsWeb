@@ -6,6 +6,7 @@ Category: General, IoT, Jobs
 Tags: IoT, jobs, startups
 Slug: so-whats-with-all-the-jobs
 hero: images/pointofsale_jobs.jpg
+reading_time: 3 minutes
 ---
 
 Si usted ha estado siguiendo a lo largo de los últimos tiempos, se dará cuenta de que un montón de cosas ha estado ocurriendo conmigo. En primer lugar, [perdido mi trabajo](/posts/work/a-shock-to-the-system/), entonces me), entonces me [comenzado una compañía](/posts/work/gulp-im-really-doing-this/)) [libélula IO](https://dragonflyiot.com/), y el hecho mismo del CTO de ella (porque pude, ya sabes). Y ayer estaba), y el hecho mismo del CTO de ella (porque pude, ya sabes). Y ayer estaba [nombrado nuevo director de tecnología](https://www.chimeraiot.com/chimera/default/leadership) de otro arranque,) de otro arranque, [Quimera IO](https://www.chimeraiot.com/chimera/default/index). Así que eso es una gran cantidad de puestos de trabajo, y una gran cantidad de puestos de trabajo de la CTO, por una sola persona. Y sin embargo, estoy * * Todavía en busca de un trabajo ?? !! Bueno, sí.

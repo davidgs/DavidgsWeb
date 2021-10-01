@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: how-do-we-get-to-20-billion
 hero: images/Skyscrapers-Mirror-1024x768.jpg
+reading_time: 5 minutes
 ---
 
 Durante una entrevista hoy en día, me hizo la pregunta: “Entonces, ¿dónde vienen estos números? ¿Cómo podemos llegar a 20 mil millones de dispositivos IO?” Muy buena pregunta! ¿Cómo, exactamente, qué ** ** llegamos a [20] mil millones (http://www.gartner.com/newsroom/id/2636073) (o 30 mil millones, o un billón de dispositivos IO)? Desde luego, no vamos a llegar con dispositivos portátiles y otros aparatos personales. Bueno, que * puede * Pero sería un tramo, y la probabilidad es cercana a cero. ¿Por qué digo que no va a pasar con dispositivos portátiles, etc.? Bueno, [otra vez](http://www.gartner.com/newsroom/id/2636073), vamos a hacer algunos cálculos sencillos.

@@ -6,6 +6,7 @@ Category: Evangelism, General, IoT
 Tags: ARTIK, ARTIK-520, Influx, InfluxDB, IoT
 Slug: influxdb-on-artik-520-redux
 hero: images/influxdata-social-share-image-square-1.jpg
+reading_time: 3 minutes
 ---
 
 Last week I [wrote a piece](/posts/category/iot/iot-hardware/running-influxdb-on-an-artik-520/) on installing and running the [InfluxDB](http://influxdata.com) time series database, ingestion, dashboard and action packages on your ARTIK-520, but I need to update that post, and it's a bit more than just a few edits. Influx Data supplies the Linux binaries as packages for most of the major distributions, but the ARM distribution is just as a binary, with no package installation scripts, etc. I thought I'd show you how (and why) I fixed that for my ARTIK-520.

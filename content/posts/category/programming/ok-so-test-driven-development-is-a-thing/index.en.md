@@ -6,6 +6,7 @@ Description: Where I admit what a crappy developer I've been, and how I'm trying
 Category: Programming
 Slug: ok-so-test-driven-development-is-a-thing
 hero: images/test-driven-development-TDD.jpg
+reading_time: 5 minutes
 ---
 
 I get it, I'm late to the party on this one. I'm old, I'm set in my ways, and I don't like change. Get over it.

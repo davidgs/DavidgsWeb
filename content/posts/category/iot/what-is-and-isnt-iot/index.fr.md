@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: gadgets, IoT
 Slug: what-is-and-isnt-iot
 hero: images/IheartIOT600.jpg
+reading_time: 4 minutes
 ---
 
 Alors quoi, exactement, ** ** est l'Internet des objets (IdO)? Et ce qui ne l'est pas? Cela dépend de qui vous demandez, et ce que vous voulez dire. Il y a des tonnes et des tonnes de gadgets « connectés » que les gens appellent IdO devices.But sont-ils vraiment des dispositifs IdO?

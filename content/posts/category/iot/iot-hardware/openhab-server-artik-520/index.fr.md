@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, ARTIK-520, IoT, openHAB
 Slug: openhab-server-artik-520
 hero: images/logo-2.png
+reading_time: 6 minutes
 ---
 
 Comme je l'ai dit plus tôt, lorsque vous avez un marteau ... J'ai donc décidé de mettre en place encore une autre passerelle IdO. Cette fois, je pris un coup d'œil à [OpenHAB](http://www.openhab.org) « vendeur et de la technologie agnostique logiciel d'automatisation open source pour votre maison. » Pourquoi ne pas, non? Je l'ai déjà mis en place un) « vendeur et de la technologie agnostique logiciel d'automatisation open source pour votre maison. » Pourquoi ne pas, non? Je l'ai déjà mis en place un [serveur Edge Droplit.io](/posts/category/iot/iot-software/artik-520-droplit-io-edge-device), et un), et un [serveur Eclipse Kura](/posts/category/general/making-artik-5-iot-gateway-kura/), alors pourquoi ne pas donner un plus un droit d'essayer? Droit. Alors nous allons plonger.

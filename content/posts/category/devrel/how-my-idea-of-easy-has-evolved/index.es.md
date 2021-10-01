@@ -6,6 +6,7 @@ Category:
   - evangelism
 Slug: how-my-idea-of-easy-has-evolved
 hero: images/easy.jpeg
+reading_time: 5 minutes
 ---
 
 ¡Es fácil! Bueno, eso es fácil para que * * que decir! Pero lo que es fácil para mí puede no ser fácil para ti, y ciertamente no será fácil para todos.

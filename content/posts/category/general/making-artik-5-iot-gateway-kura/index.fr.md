@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, Eclipse, Kura, Samsung
 Slug: making-artik-5-iot-gateway-kura
 hero: images/kura.jpg
+reading_time: 10 minutes
 ---
 
 Il y a environ un million de façons de construire ou d'acheter un dispositif passerelle IdO. (En fait, plus comme [586000](https://www.google.com/#newwindow=1&q=iot+gateway+device&*), mais il ne faut pas chipoter). Chacun a ses propres mérites, ou les pièges. Vous pouvez en acheter un, et le risque d'être enfermé dans une solution unique fournisseur. Vous pouvez construire un à partir de zéro et être sellé d'avoir à la source du matériel, la construction du logiciel, puis le maintenir tout espoir et que vous avez fait les bons choix et qu'il l'échelle. Ou, vous pouvez utiliser une solution existante Open Source, comme), mais il ne faut pas chipoter). Chacun a ses propres mérites, ou les pièges. Vous pouvez en acheter un, et le risque d'être enfermé dans une solution unique fournisseur. Vous pouvez construire un à partir de zéro et être sellé d'avoir à la source du matériel, la construction du logiciel, puis le maintenir tout espoir et que vous avez fait les bons choix et qu'il l'échelle. Ou, vous pouvez utiliser une solution existante Open Source, comme [Kura](http://www.eclipse.org/kura/index.php) de la Fondation Eclipse.

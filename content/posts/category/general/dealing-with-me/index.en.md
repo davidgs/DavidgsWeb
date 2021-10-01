@@ -4,6 +4,7 @@ title: "Dealing With Me"
 date: 2021-04-09T17:16:44-04:00
 description: "A field guide to working with, comunicating with, and generally interacting with me"
 hero: images/davidgs-pix-1.jpeg
+reading_time: 12 minutes
 ---
 
 Look, we're all different, and that's a Good Thing™! We all think, act, and most importantly, communicate, differently. To that end I thought I'd write up this short guide to working with and communicating with me.

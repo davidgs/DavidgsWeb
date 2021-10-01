@@ -17,7 +17,8 @@ Mi amiga [Rain](https://twitter.com/rainleander) estaba empezando a incursionar 
 Decidimos poner en marcha todos los viernes a las 8:30 a. M. EDT y aprovechar esta compilación de hardware y software. Aquí está nuestro horario actual:
 
 | Fecha | Tema | Enlace |
-| ------ | ------- | ------ |
+| ------ | ------- | ---reading_time: 2 minutes
+--- |
 | 4 de abril de 2021 | Construcción de hardware | [reproducción](https://www.twitch.tv/videos/1005977038) |
 | 7 de mayo de 2021 | Software para un sensor | [ver en vivo](https://twitch.tv/davidgsiot) |
 | 14 de mayo de 2021 | Piratería de hardware | [ver en vivo](https://twitch.tv/davidgsiot) |

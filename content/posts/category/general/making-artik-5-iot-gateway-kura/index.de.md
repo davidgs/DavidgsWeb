@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, Eclipse, Kura, Samsung
 Slug: making-artik-5-iot-gateway-kura
 hero: images/kura.jpg
+reading_time: 9 minutes
 ---
 
 Es gibt etwa eine Million Möglichkeiten, um ein IoT-Gateway Gerät zu bauen oder zu kaufen. (Eigentlich eher wie [586,000](https://www.google.com/#newwindow=1&q=iot+gateway+device&*), aber lasst uns nicht kleinlich). Jeder hat seine eigenen Vorzüge oder Fallen. Sie könnten einen kaufen, und das Risiko in eine Lösung einzige Anbieter gesperrt werden. Sie könnten einer von Grund auf neu zu bauen und dann mit mit gesattelt werden, um die Hardware zu beziehen, um die Software zu bauen, und pflegen sie dann alle und hoffen, dass Sie die richtigen Entscheidungen getroffen und dass es skaliert werden. Oder könnten Sie eine bestehende Open-Source-Lösung, wie

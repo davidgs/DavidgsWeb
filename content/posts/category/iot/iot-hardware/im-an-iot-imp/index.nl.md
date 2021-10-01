@@ -6,6 +6,7 @@ Category: IoT
 Tags: development, electric imp, hacking, IoT
 Slug: im-an-iot-imp
 hero: images/IMG_1554.jpg
+reading_time: 5 minutes
 ---
 
 Ik heb mijn [elektrische imp](http://electricimp.com/) en imp breakout board van [SparkFun](http://www.sparkfun.com) vorige week, en ik besloot om het te proberen vandaag en zie wat ik kon doen met het in een uur. Ik ben re-stocking mijn Internet of Things (IoT) trukendoos, en dit is het eerste apparaat dat ik heb gekregen in een tijdje, dus hier is hoe **dat** ging.

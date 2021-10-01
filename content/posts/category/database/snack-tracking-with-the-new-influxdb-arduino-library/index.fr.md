@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: Arduino, InfluxData, InfluxDB, IoT, IoT Data, Snacks
 Slug: snack-tracking-with-the-new-influxdb-arduino-library
 hero: images/Screen-Shot-2020-03-13-at-2.26.15-PM.png
+reading_time: 7 minutes
 ---
 
 ## Une nouvelle bibliothèque

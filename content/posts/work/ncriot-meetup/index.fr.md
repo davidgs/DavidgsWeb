@@ -6,6 +6,7 @@ Category: Evangelism, Gadgetry, IoT
 Tags: IoT, Meetup
 Slug: ncriot-meetup
 hero: images/RIoT-Logo-2016-200x100.png
+reading_time: 3 minutes
 ---
 
 Si vous [me suivre sur Twitter](https://twitter.com/davidgsIoT), vous savez déjà que j'étais au ([NCRIoT] (http://www.ncriot.org) IdO), vous savez déjà que j'étais au ([NCRIoT](http://www.ncriot.org) IdO) IdO [Meetup] https : //www.meetup.com/NC-RIoT-Regional-Internet-of-Things/) hier au NASCAR hall of Fame à Charlotte, Caroline du Nord. Vous savez peut-être pas ce que NC anti-émeutes. L'enfer, jusqu'à récemment, je ne soit, ce qui est un crime vraiment parce que c'est un groupe incroyable de IdO *fanatiques* faire des trucs vraiment cool avec IdO. J'ai même rencontré un gars qui fait autant de choses folles avec IdO comme je le fais - vous devez suivre [@LogicalDan](https://www.meetup.com/NC-RIoT-Regional-Internet-of-Things/) sur Twitter, et tweetez lui dans le cas où il porte sa chemise que lumières lorsque vous tweet à lui. Pas vraiment, son clignote chemise comme un fou quand vous le tweet. Est-ce que je ne vous dis que je rencontré mon peuple * * hier?

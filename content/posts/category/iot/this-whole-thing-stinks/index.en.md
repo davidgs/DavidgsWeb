@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: InfluxData, InfluxDB, IoT, Poop Detector
 Slug: this-whole-thing-stinks
 hero: images/singing-poop-emoji-sm.png
+reading_time: 14 minutes
 ---
 
 ## First of all, don't ask

@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, ARTIK-520, Droplit, droplit-edge, IoT
 Slug: artik-520-droplit-io-edge-device
 hero: images/Droplit-Logo1.png
+reading_time: 4 minutes
 ---
 
 Haciendo un trabajo más con mi fiel ARTIK-520 (bueno, cuando usted tiene un martillo, todo parece un clavo! Copias de seguridad de encima!), Decidí probar la instalación de otro marco de puerta de enlace IO en él. (He hecho de que [antes](/posts/category/general/making-artik-5-iot-gateway-kura/).) La igualdad de oportunidades y todo eso. Y voy a estar haciendo más de ellos tan pronto como llegue a más mini tarjetas SD de forma interna. Pero yo divago.

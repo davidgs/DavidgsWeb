@@ -6,6 +6,7 @@ Category: IoT
 Tags: Data Downsampling, IoT, IoT Data, IoT Gateway
 Slug: building-an-iot-gateway-device-for-local-alerting-and-data-downsampling
 hero: images/SafariScreenSnapz005-1.png
+reading_time: 11 minutes
 ---
 
 Hay todo tipo de maneras de arquitecto de la implementación de la IO, y lo que es correcto para una empresa no serán necesariamente para otra. Dependiendo del tamaño y la complejidad de su proyecto de la IO, no puede haber, por supuesto, una gran cantidad de componentes. Una de las arquitecturas más universal es el despliegue de las carreras de sensor o dispositivos de puerta de enlace a datos de tomarse de un número de nodos de sensores y luego hacia adelante que los datos sobre a un sistema de recogida de datos en sentido ascendente para la empresa. Estos dispositivos gateway o hub suelen permitir un dispositivo Z-Wave para conectarse a la Internet para la carga de datos, o puente entre los dispositivos Bluetooth a una conexión Wi-Fi u otra conexión de red.

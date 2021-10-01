@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: IoT
 Slug: making-a-button
 hero: images/bttn_how.png
+reading_time: 2 minutes
 ---
 
  I can’t resist. I mean really. Who **doesn’t** need a big red button that you can program to … act like a big red button? But it’s so much more than just a button! I mean, a button is just something you push, right? This? This is so much more!

@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: how-do-we-get-to-20-billion
 hero: images/Skyscrapers-Mirror-1024x768.jpg
+reading_time: 4 minutes
 ---
 
 During an interview today, I was asked the question “So where do these numbers come from? How do we get to 20 billion IoT devices?” Great question! How, exactly, **do** we get to [20 billion](http://www.gartner.com/newsroom/id/2636073) (or 30 billion, or a trillion) IoT devices? We’re certainly not going to get there with wearable devices and other personal gadgets. Well, we *might* but it would be a stretch, and the probability is near-zero. Why do I say it’s not going to happen with wearables, etc.? Well, [again](/posts/category/iot/minor-iot-calculations), let’s do some simple calculations.

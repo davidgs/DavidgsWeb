@@ -6,6 +6,7 @@ Category: Evangelism, IoT
 Tags: Database, IoT
 Slug: running-influxdb-on-an-artik-520
 hero: images/open-data-1_0.png
+reading_time: 9 minutes
 ---
 
 

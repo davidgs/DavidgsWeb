@@ -54,7 +54,8 @@ I’m fairly adept at reading source code. **IF** it’s written clearly and we
 That’s right, that’s **all** the comments from 1158 lines of complicated websocket code. Most of the Demo code is similarly ‘documented.’ This is either pure laziness on the part of the developers of the demo code, or else Samsung just doesn’t care whenever their end users are successful at developing applications on their platform. I’m going to give them the benefit of the doubt and go with laziness. As a developer myself, I try to do as much in-line code documentation as I can reasonably do as it’s just a common courtesy for the developer that comes along behind you. I don’t always do it with code I write purely for myself, but if I’m publishing it, or making it available, I really try to make it easy to follow. Samsung apparently doesn’t care about that.
 
 Conclusions
------------
+--------reading_time: 6 minutes
+---
 
 I’m 9 days in and I’ve now ***finally*** gotten the I2C device to be readable on a fairly consistent and reliable basis. It wasn’t easy, or even remotely pleasurable, but it’s working well enough for me. The next bit is to be able to post the sensor results via http — ideally https — to my InfluxDB server. That’s why I went through 1158 lines of websocket code on a Sunday afternoon. Your Sunday was probably better, I’m assuming.
 

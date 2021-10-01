@@ -6,6 +6,7 @@ Category: General, IoT, Jobs
 Tags: IoT, jobs, startups
 Slug: so-whats-with-all-the-jobs
 hero: images/pointofsale_jobs.jpg
+reading_time: 3 minutes
 ---
 
 Als je de laatste tijd hebt gevolgd, zul je merken dat er een heleboel dingen met mij zijn gebeurd. Eerst [verloor ik mijn baan](/posts/work/a-shock-to-the-system/), daarna [begon ik een bedrijf](/posts/work/gulp-im-really-doing-this/) , [Dragonfly IoT](https://dragonflyiot.com/), en maakte mezelf de CTO ervan (omdat ik het kon, weet je). En gisteren werd ik [benoemd tot de nieuwe CTO](https://www.chimeraiot.com/chimera/default/leadership) van een andere startup, [Chimera IoT](https://www.chimeraiot.com/chimera/default/ inhoudsopgave). Dus dat zijn veel banen, en veel CTO-banen, voor slechts één persoon. En toch ben ik *nog* op zoek naar een baan??!! Wel, ja.

@@ -6,6 +6,7 @@ Category: IoT, Work
 Tags: Evangelism, IoT
 Slug: iot-evangelism
 hero: images/psikick4.png
+reading_time: 3 minutes
 ---
 
 Things change. What’s that saying in Computer Science? “Variables won’t. Constants aren’t.” The only thing that never changes is that everything changes. And so things are (once again) changing for me. And I do mean in a good way!

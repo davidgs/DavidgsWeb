@@ -107,7 +107,8 @@ void setup(){
   // Print temperature sensor details.
   sensor_t sensor;
   dht.temperature().getSensor(&sensor);
-  Serial.println(F("------------------------------------"));
+  Serial.println(F("---------------------------------reading_time: 7 minutes
+---"));
   Serial.println(F("Temperature Sensor"));
   Serial.print (F("Sensor Type: ")); Serial.println(sensor.name);
   Serial.print (F("Driver Ver: ")); Serial.println(sensor.version);

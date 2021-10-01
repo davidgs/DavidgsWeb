@@ -58,7 +58,8 @@ Alors, voici ce que j'ai trouvé.
 Oui, la machine virtuelle Java Zulu est plus rapide. Et ce n'est pas juste un peu plus vite. Il est un ** LOT ** plus rapide. Je veux dire beaucoup. Tant et si bien que j'ai décidé d'exécuter la même suite de benchmarks sur mon MacBook Pro juste pour des grimaces. Devinez quoi? Dans l'un des essais, Zulu a battu la machine virtuelle Java sur mon Mac. Whisky. Tango. Fox-trot. Mais oui, les chiffres ne mentent pas.
 
 | ** Test ** | ** OpenJDK ** | ** Zulu ** | ** Mac OS X ** |
-| -------- | ----------- | -------- | ------------ |
+| -------- | ----------- | -------- | ---------reading_time: 6 minutes
+--- |
 | ** Avrora ** | 588 264 | 44963 | 6137 |
 | ** ** points | 438577 | 41963 | 50066 |
 | ** tradesoap ** | FAIL | 247835 | 51650 |

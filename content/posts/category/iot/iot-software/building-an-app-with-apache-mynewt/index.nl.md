@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: Apache, IoT, mynewt
 Slug: building-an-app-with-apache-mynewt
 hero: images/logo.png
+reading_time: 21 minutes
 ---
 
 Ik heb de uitgaven veel tijd in de afgelopen maanden gewerkt aan de [Apache MyNewt IoT OS](http://mynewt.apache.org). Als je niet weet wat dat is, dan moet je echt moet! Het is een vrij nieuw Apache Project, nog steeds in de 'incubatie' fase, maar ze staan op het punt om hun tweede beta van de 1.0 release (Ik denk dat alle stemmen zijn in het goed te keuren) vrij te geven. Ja, er zijn een aantal dingen nog steeds vermist, en wat ruwe kantjes, maar het samenkomen mooi en als je op zoek bent naar een Open Source IoT OS voor uw apparaat, MyNewt misschien net wat u zoekt. Het is zeer klein (de bootloader Ik bouwde is al 9 KB!), Snelle en zeer flexibel. Ik heb een paar apps geschreven voor het - een UART gebaseerde milieu-sensor app en een analoge sensor app - die ik afzonderlijk zal schrijven hier. Voor vandaag, zal ik beginnen met de analoge sensor met behulp van de Analog-to-Digital (ADC) Converter. Dus laten we beginnen!

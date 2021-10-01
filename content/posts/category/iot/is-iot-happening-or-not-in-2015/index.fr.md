@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: is-iot-happening-or-not-in-2015
 hero: images/p954_buzzword.jpg
+reading_time: 3 minutes
 ---
 
 Il est clair que l'IdO est le mot à la mode de la minute. Peut-être le mot à la mode de l'année. [Parler] Tout le monde (https://twitter.com/search?q=%23IoT&amp;src=tyah) à ce sujet, mentionnant, faire des prédictions à ce sujet et qui prétend être un joueur en elle. Je suis parmi ceux-ci, mais j'ai l'arrière-plan et la [histoire](https://twitter.com/search?q=%23IoT&src=tyah) pour le sauvegarder. Mais après avoir lu cet article de) pour le sauvegarder. Mais après avoir lu cet article de [Electronics Weekly.com](/posts/category/iot/whos-going-to-drive-iot-innovation/), je suis juste aggravait . Il est fâcheusement intitulé « L'Internet des objets ne se produit pas » qui est tout simplement faux. Il cite ensuite un ARM Senior Executive qui dit:

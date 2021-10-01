@@ -3,6 +3,7 @@ title: "Hobbies"
 date: 2017-03-20T08:06:25+06:00
 description: Hobbies
 hero: images/hero.jpg
+reading_time: 1 minute
 ---
 
 # Some of my Wood Working Projects

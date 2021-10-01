@@ -6,6 +6,7 @@ Category: IoT
 Tags: ARTIK, ARTIK-520, IoT, openHAB
 Slug: openhab-server-artik-520
 hero: images/logo-2.png
+reading_time: 5 minutes
 ---
 
 Zoals ik al eerder zei, als je een hamer ... Dus heb ik besloten om het opzetten van Yet Another ivd Gateway. Deze keer nam ik een kijkje op [OpenHAB](http://www.openhab.org) de "vendor en technologie agnostisch open source automatiseringssoftware voor uw huis." Waarom niet, toch? Ik heb al het opzetten van een [Droplit.io randserver] (/ berichten / category / iot / iot-software / artik-520-droplit-io-edge-apparaat), en een [Eclipse Kura server] (/ berichten / categorie / algemeen / making-artik-5-iot-gateway-kura /), dus waarom niet nog een keer te proberen recht te geven? Rechtsaf. Dus laten we duiken in.

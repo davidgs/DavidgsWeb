@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: is-iot-happening-or-not-in-2015
 hero: images/p954_buzzword.jpg
+reading_time: 3 minutes
 ---
 
 Het is duidelijk dat ivd is het modewoord van de minuut. Misschien is het modewoord van het jaar. [Praten] Ieders (https://twitter.com/search?q=%23IoT&amp;src=tyah) over, met vermelding van het, om voorspellingen te doen over en beweert een speler erin. Ik behoor tot degenen, maar ik heb de achtergrond en de [geschiedenis] (/ berichten / category / iot / whos-going-to-drive-iot-innovatie /) om een back-up. Maar na het lezen van dit artikel [Electronics Weekly.com](/posts/category/iot/whos-going-to-drive-iot-innovation/), ik ben gewoon verergerd . Het is irritant getiteld “Het internet van dingen gebeurt niet”, dat is gewoon verkeerd. Het citeert vervolgens een ARM Senior Executive die zegt:

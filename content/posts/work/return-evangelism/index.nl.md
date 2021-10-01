@@ -6,6 +6,7 @@ category: work, evangelism
 description: Terug naar Evangelisatie
 slug: return-evangelism
 hero: images/psikick4.png
+reading_time: 3 minutes
 ---
 
 Dingen veranderen. Wat is dat gezegde in Computer Science? “Variabelen niet. Constanten zijn dat niet.” Het enige dat nooit verandert is dat alles verandert. En dus dingen zijn (wederom) het veranderen voor mij. En dan bedoel ik op een goede manier!

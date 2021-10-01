@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: is-iot-happening-or-not-in-2015
 hero: images/p954_buzzword.jpg
+reading_time: 3 minutes
 ---
 
 Está claro que la IO es la palabra de moda en el momento. Tal vez la palabra de moda del año. [Hablar] de todos (https://twitter.com/search?q=%23IoT&amp;src=tyah) al respecto, mencionando que, haciendo predicciones sobre ella y que dice ser un jugador en el mismo. Soy de los, pero tengo los antecedentes y la [historia](https://twitter.com/search?q=%23IoT&src=tyah) que lo respalde. Pero después de leer este artículo de) que lo respalde. Pero después de leer este artículo de [Electrónica Weekly.com](/posts/category/iot/whos-going-to-drive-iot-innovation/), estoy solo ha empeorado . Es un fastidio que se titula “La Internet de las cosas es no está ocurriendo”, que es simplemente incorrecto llano. A continuación, cita a un alto ejecutivo de ARM, que dice:

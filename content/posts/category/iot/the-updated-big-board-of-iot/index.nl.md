@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: IoT
 Slug: the-updated-big-board-of-iot
 hero: images/IoT-1-sm.png
+reading_time: 2 minutes
 ---
 
 U herinnert zich misschien dat op een gegeven moment een jaar geleden postte ik een foto van mijn "[Big Board of ivd Ontwikkeling] (/ berichten / category / iot / the-big-board-of-iot-devices /)". Ik had een half dozijn of zo ivd ontwikkeling knooppunten en een aantal sensoren op het dat ik bezig was. Sindsdien zijn de dingen gekregen significant slechter - of beter, afhankelijk van uw standpunt. Dus ik dacht dat ik zou een ander beeld laten vallen op je.

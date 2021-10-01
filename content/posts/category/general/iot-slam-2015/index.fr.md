@@ -6,6 +6,7 @@ Category: IoT
 Tags: Conferences, IoT
 Slug: iot-slam-2015
 hero: images/IoTSlam2015-2.png
+reading_time: 2 minutes
 ---
 
 Si vous ne l'avez pas encore entendu parler, il va être une grande conférence virtuelle IdO cette année appelé [Slam IdO '15](http://iotslam.com). Si vous ne l'avez pas soumis un sujet pour une session encore, il est trop tard. L'appel à communications fermé la semaine dernière. Je pensais à soumettre un sujet, mais je suis trop occupé avec le travail d'ingénierie, à l'époque, de le retirer. Comme vous le savez, tout ce qui). Si vous ne l'avez pas soumis un sujet pour une session encore, il est trop tard. L'appel à communications fermé la semaine dernière. Je pensais à soumettre un sujet, mais je suis trop occupé avec le travail d'ingénierie, à l'époque, de le retirer. Comme vous le savez, tout ce qui [changé](/posts/category/work/a-shock-to-the-system/). Et puis les organisateurs de la conférence ont appelé et m'a demandé de faire un exposé invité, il semble que je vais parler à elle, après tout!

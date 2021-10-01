@@ -3,6 +3,7 @@ title: "Handy Tools I Use"
 description: "A bunch of handy tools for dealing with json, yaml, etc. in Golang"
 date: 2021-04-08T17:18:53-04:00
 hero: images/regex2.png
+reading_time: 10 minutes
 ---
 
 This started as a simple post to an internal Slack group. Then I got asked to post it to another channel in that Slack. Then I decided to post it to the [DevRel Collective](https://devrelcollective.fun) Slack. At which point I was asked to make it a blog post so it didn't get lost in the scroll-back (DevRel Collective uses a free Slack account, so we can only scroll back 10,000 messages. With 2,000+ members, that happens faster than you think. But I digress.)

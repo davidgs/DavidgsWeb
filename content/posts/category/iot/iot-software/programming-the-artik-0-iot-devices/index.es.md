@@ -54,7 +54,8 @@ Estoy bastante expertos en la lectura del código fuente. ** ** SI está escrito
 Así es, que de todos ** ** los comentarios de 1158 líneas de código WebSocket complicado. La mayoría del código de demostración es igualmente 'documentados. Esto es pura pereza ya sea por parte de los desarrolladores del código de demostración, o de lo contrario simplemente Samsung no se preocupa cada vez que sus usuarios finales tienen éxito en el desarrollo de aplicaciones en su plataforma. Voy a darles el beneficio de la duda e ir con la pereza. Como desarrollador mí, trato de hacer lo más documentación de código en línea que puedo hacer razonable ya que es sólo una cortesía común para el desarrollador que viene detrás de usted. No siempre lo hago con el código que escribo puramente para mí, pero si estoy publicando, o su puesta a disposición, de verdad lo intento para que sea fácil de seguir. Samsung al parecer, no se preocupa por eso.
 
 conclusiones
------------
+--------reading_time: 7 minutes
+---
 
 Estoy 9 días y ahora he conseguido *** *** finalmente el dispositivo I2C permite su lectura en una base bastante consistente y fiable. No fue fácil, ni siquiera remotamente placentero, pero que está funcionando lo suficientemente bien como para mí. El siguiente bit es ser capaz de publicar los resultados del sensor a través de http - idealmente HTTPS - a mi servidor InfluxDB. Por eso me fui a través de 1158 líneas de código WebSocket en una tarde de domingo. Su Domingo fue probablemente mejor, estoy suponiendo.
 

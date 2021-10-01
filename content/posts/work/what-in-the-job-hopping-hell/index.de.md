@@ -5,6 +5,7 @@ Author: davidgs
 Category: DevRel, Evangelism, Jobs
 Slug: what-in-the-job-hopping-hell
 hero: images/im-gonna-make-5yooa8-250x300.jpg
+reading_time: 3 minutes
 ---
 
 ## Sie was?

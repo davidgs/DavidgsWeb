@@ -6,6 +6,7 @@ Category: IoT
 Tags: Developer, IoT, mynewt
 Slug: heres-why-im-giving-up-on-mynewt-for-now
 hero: images/logo.png
+reading_time: 5 minutes
 ---
 
 ![Grote verzameling van microcontrollers en sensoren](/posts/category/iot/iot-software/images/IMG_3724-300x293.jpg)

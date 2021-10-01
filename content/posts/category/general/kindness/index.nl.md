@@ -6,6 +6,7 @@ Category: General
 Tags: kindness, empathy, joy
 Slug: kindness
 hero: images/kelly-sikkema-XX2WTbLr3r8-unsplash.jpg
+reading_time: 3 minutes
 ---
 
 Heb je ooit iemand iets tegen je laten zeggen dat je dwong om alles wat je over jezelf hebt gedacht opnieuw te evalueren? Het is me maar een paar keer in mijn leven overkomen, maar het is elke keer levensveranderend geweest.

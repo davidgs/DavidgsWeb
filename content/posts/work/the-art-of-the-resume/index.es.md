@@ -6,6 +6,7 @@ Category: Jobs, Misc, Work
 Tags: jobs, Resume, Work
 Slug: the-art-of-the-resume
 hero: images/res.png
+reading_time: 2 minutes
 ---
 
 Si le preguntas a 100 personas acerca de lo que debe ser una hoja de vida, lo más probable es obtener cerca de 100 respuestas.

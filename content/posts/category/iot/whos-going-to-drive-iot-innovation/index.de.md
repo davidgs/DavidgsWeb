@@ -6,6 +6,7 @@ Category: IoT
 Tags: innovation, IoT, Makers
 Slug: whos-going-to-drive-iot-innovation
 hero: images/Carnac.jpg
+reading_time: 5 minutes
 ---
 
 Seien wir ehrlich, ist das Internet der Dinge (IoT) heißen jetzt. Und es wird nur heißer zu bekommen. Jeder will in auf dem empfundene kommenden Goldrausch, die das Internet der Dinge sein werden. Und ein Goldrausch ist definitiv vorhergesagt! Gartner hat gesagt, so [hier](http://www.gartner.com/newsroom/id/2688717) und) und [hier](http://www.gartner.com/newsroom/id/2688717). IDC). IDC [sagt so](http://www.zdnet.com/internet-of-things-market-to-hit-7-1-trillion-by-2020-idc-7000030236/) auch. Ich konnte auf und die Liste gehen, wie viele Analysten und Medienexperten usw. zustimmen, aber das wäre nur überflüssig. Es genügt zu sagen, dass im Grunde * jeder * denkt so. Und sie sind alle wahrscheinlich recht.

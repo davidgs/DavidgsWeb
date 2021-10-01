@@ -6,6 +6,7 @@ Category: database, Gadgetry, IoT
 Tags: Dashboard, Database, IoT, Node-Red, QuestDB
 Slug: a-questdb-dashboard-with-node-red
 hero: images/Screen-Shot-2020-06-09-at-7.39.13-AM.png
+reading_time: 4 minutes
 ---
 
 Dit is echt een vervolg op mijn [post](/posts/category/database/iot-on-questdb/) van vorige week waar ik een Arduino met een temperatuur- en vochtigheidssensor op QuestDB heb aangesloten.

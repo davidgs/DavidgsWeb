@@ -5,6 +5,7 @@ Author: davidgs
 Category: IoT
 Slug: using-cross-measurement-math-in-influxdb-flux
 hero: images/Screen-Shot-2019-03-18-at-3.56.28-PM.png
+reading_time: 6 minutes
 ---
 
 He pasado mucho tiempo últimamente con las 2.0 versiones alfa y estoy aquí para decirle: algunas de las cosas nuevas que viene son muy, muy cool! Especialmente para la IO. El que he estado usando últimamente ha sido la capacidad de hacer operaciones matemáticas a través de mediciones, que es realmente un cambio de juego para los datos de la IO en InfluxDB.

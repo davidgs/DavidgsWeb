@@ -6,6 +6,7 @@ Category: IoT
 Tags: Data Downsampling, IoT, IoT Data, IoT Gateway
 Slug: building-an-iot-gateway-device-for-local-alerting-and-data-downsampling
 hero: images/SafariScreenSnapz005-1.png
+reading_time: 10 minutes
 ---
 
 Il y a toutes sortes de façons d'architecte votre IdO de déploiement, et ce qui est bon pour une entreprise ne sera pas nécessairement bon pour l'autre. En fonction de la taille et de la complexité de votre projet IdO, il peut y avoir, bien sûr, beaucoup de composants. Une des architectures plus universelles consiste à déployer concentrateurs de capteurs ou dispositifs de passerelle pour collecter des données à partir d'un certain nombre de noeuds de capteurs et ensuite vers l'avant que les données relatives à un système de collecte de données en amont pour l'entreprise. Ces dispositifs de passerelle ou un concentrateur permettent généralement un dispositif de ZWave pour se connecter à Internet pour le téléchargement de données ou de pont entre les périphériques Bluetooth à une connexion Wi-Fi ou autre connexion réseau.

@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT, Work
 Slug: sensing-with-the-things-network
 hero: images/TheThings.jpg
+reading_time: 12 minutes
 ---
 
 There are many ways to connect your sensors to the network in the IoT. For short-range connections, there is Bluetooth LE, or Zigbee, or 802.15.4, or ZWave. For longer distances (though still fairly short) there’s always WiFi. But when you need longer distances, sometimes **very** long distances, there’s LoRaWAN. It’s a sub-gigahertz set of frequencies that are available for small bits of data. These are typically only a few bytes of data but can be sent over much longer distances — up to 2 km or more in some instances! They are very low-power, so they are great for remote-sensing applications.

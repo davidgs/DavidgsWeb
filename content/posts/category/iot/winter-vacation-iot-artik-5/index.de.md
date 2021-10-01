@@ -5,6 +5,7 @@ Author: davidgs
 Category: Uncategorized
 Slug: winter-vacation-iot-artik-5
 hero: images/eTapeProject-1-1-225x300.png
+reading_time: 5 minutes
 ---
 
 Ich weiß nicht, über Sie, oder was Sie mit Ihrem Winterurlaub haben (oder wenn Sie auch nur einen bekam, und wenn Sie nicht, tut mir leid), aber eine der Spaß Dinge, die ich mit meiner tat, war ein verbringen wenig Zeit mit meinem [Samsung ARTIK](http://artik.io) Dev Kit. Wenn Sie die) Dev Kit. Wenn Sie die [Hardware Extravaganza Post] lesen (/ posts / Kategorie / IOT / IOT-Hardware / Hardware-Extravaganza /), werden Sie wissen, dass ich ein ARTIK-0 bekam und einen ARTIK-5 Entwickler-Kit nicht vor langer Zeit. Ich habe in meine Ohren gewesen [MyNewt](/posts/category/iot/iot-hardware/hardware-extravaganza/), obwohl und keine Zeit gehabt hat viel zu tun mit ihnen traurig. Das heißt, bis meine Winterpause kam.

@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT
 Slug: how-do-we-get-to-20-billion
 hero: images/Skyscrapers-Mirror-1024x768.jpg
+reading_time: 6 minutes
 ---
 
 Au cours d'une interview aujourd'hui, on m'a demandé la question: « Alors, où ces chiffres ne viennent? Comment pouvons-nous arriver à 20 milliards d'appareils IdO? » Bonne question! Comment, exactement, ** ** ne nous obtenons à [20 milliards](http://www.gartner.com/newsroom/id/2636073) (ou 30 milliards, soit un billion) dispositifs IdO? Nous allons certainement pas y arriver avec des appareils portables et autres gadgets personnels. Eh bien, nous * pourrait * mais il serait exagéré, et la probabilité est proche de zéro. Pourquoi dis-je cela ne va se passer avec wearables, etc.? Eh bien,) (ou 30 milliards, soit un billion) dispositifs IdO? Nous allons certainement pas y arriver avec des appareils portables et autres gadgets personnels. Eh bien, nous * pourrait * mais il serait exagéré, et la probabilité est proche de zéro. Pourquoi dis-je cela ne va se passer avec wearables, etc.? Eh bien, [nouveau](/posts/category/iot/minor-iot-calculations), nous allons faire quelques calculs simples.

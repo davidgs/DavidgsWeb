@@ -6,6 +6,7 @@ category: work, evangelism
 description: Volver al Evangelismo
 slug: return-evangelism
 hero: images/psikick4.png
+reading_time: 3 minutes
 ---
 
 Las cosas cambian. Lo que está diciendo que en informática? “Las variables no lo hará. Las constantes no son “. La única cosa que nunca cambia es que todo cambia. Y así las cosas son (una vez más) cambiando para mí. Y quiero decir de una manera bien!

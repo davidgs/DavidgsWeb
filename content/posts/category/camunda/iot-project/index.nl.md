@@ -111,7 +111,8 @@ Dit is een IoT-project, dus er is uiteraard wat IoT-hardware voor nodig. Dit is 
 Deze is een beetje een wildcard. Ik begon te kijken naar wat zou kunnen werken. Ik wil dat de kas sensoren erin kan hebben (ze zijn klein), en minstens één 'actuator' om een raam of zoiets te openen, en waarschijnlijk ook een ventilator. We hebben het hier realistisch.
 
 | Broeikas Type | Kosten |
-|---------------|--------|
+|---------------|-----reading_time: 7 minutes
+---|
 | ​[Buiten](https://www.worldofgreenhouses.com/products/hybrid-greenhouse-series) | $650 |
 | [Binnen](https://www.hpotter.com/buy-terrariums/h-potter-terrarium-classic-wardian-case-for-plants) | $140 |
 | [Binnen - klein](https://www.amazon.com/Purzest-Terrarium-Geometric-Tabletop-Succulent) | $36,00 |

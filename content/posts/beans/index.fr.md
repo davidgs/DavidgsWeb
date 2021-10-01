@@ -8,6 +8,7 @@ menu:
     name: Coffee Beans
     identifier: beans
     weight: 12
+reading_time: 1 minute
 ---
 
 # Pourquoi les haricots ?

@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: Apache, IoT, mynewt
 Slug: building-an-app-with-apache-mynewt
 hero: images/logo.png
+reading_time: 21 minutes
 ---
 
 J'ai passé beaucoup de temps au cours des derniers mois de travail sur le [Apache MyNewt IdO OS](http://mynewt.apache.org). Si vous ne savez pas ce qui est, alors vous devriez vraiment! Il est un assez nouveau projet Apache, toujours dans la « incubation » phase, mais ils sont sur le point de libérer leur deuxième version bêta de la version 1.0 (Je pense que tous les votes sont pour l'approuver). Oui, il y a certaines choses encore manquantes, et des bords rugueux, mais il vient bien ensemble et si vous êtes à la recherche d'un Open Source IdO OS pour votre appareil, MyNewt peut tout ce que vous cherchez. Il est extrêmement petit (le bootloader I est construit tout 9Ko!), Rapide et très flexible. J'ai écrit quelques applications pour elle - un UART à base app capteur environnement et une application de capteur analogique - que je vais écrire ici séparément. Pour aujourd'hui, je vais commencer par le capteur analogique en utilisant le convertisseur analogique-numérique (ADC) Converter. Alors, commençons!

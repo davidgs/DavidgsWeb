@@ -3,6 +3,7 @@ title: "Freak Gadget"
 date: 2014-11-14T19:06:25+06:00
 description: gadget Freak
 hero: images/watch.jpg
+reading_time: 3 minutes
 ---
 
 <p>Je reconnais volontiers que je suis un monstre gadget. Je vais aussi (parfois) avoue que c'est un problème. Je l' ai acheté une <a href="http://www.cookoo2.com">montre Cookoo</a> comme <a href="http://www.kickstarter.com/">Kickstarter</a> Backer du projet. Je possède un <a href="http://www.fitbit.com/">FitBit</a> - Je suis sur mon troisième, ne demandez pas. Je vais probablement acheter un Apple Watch. Mais l' un des problèmes que j'ai avec le <strong>plus</strong> « tech portable » est que, eh bien, il ressemble trop à la technologie.</p>

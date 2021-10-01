@@ -6,6 +6,7 @@ Category: IoT
 Tags: development, gadgets, hardware, IoT
 Slug: intel-edison-iot-board
 hero: images/Edison-module.jpg
+reading_time: 3 minutes
 ---
 
 Ich habe eine Zeit lang über die Intel Edison Development-Board gelesen. Ich mache mehr IoT Sachen wieder - rein zum Spaß, da niemand der Einzahlung mich, es zu tun - und ich habe vor kurzem den elektrischen imp-Development-Kit und dieses Intel Edison-Kit sowie ein Arduino Kit erworben. Die Intel Edison Board ist mit Abstand der stärksten der Gruppe. Es ist ein IoT SoC-Gerät, das äußerst fähig zu sein schien.

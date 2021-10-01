@@ -5,6 +5,7 @@ Author: davidgs
 Category: IoT, Jobs
 Slug: a-shock-to-the-system
 hero: images/monty-python-s-the-meaning-of-life.jpg
+reading_time: 3 minutes
 ---
 
 Así que era un poco de impacto!

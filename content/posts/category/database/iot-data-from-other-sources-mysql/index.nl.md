@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT, Work
 Slug: iot-data-from-other-sources-mysql
 hero: images/Screen-Shot-2019-11-14-at-12.12.19-PM.png
+reading_time: 7 minutes
 ---
 
 Als u een ivd oplossing hebben geïmplementeerd, heb je moest beslissen waar en hoe, om al uw gegevens op te slaan. Althans vanuit mijn perspectief, de beste en gemakkelijkste plaats om de sensor data op te slaan is natuurlijk, [InfluxDB](https://www.influxdata.com/products/influxdb-overview/). Mijn zeggen dat kan niet komen als een verrassing voor je. Maar hoe zit het*andere* gegevens die u nodig hebt om op te slaan? De gegevens*Over* de sensoren? Dingen zoals de fabrikant sensor, de datum waarop het is geplaatst in dienst, de klant-ID, wat voor soort platform waarop het draait. Je weet wel, alle sensor metadata het.

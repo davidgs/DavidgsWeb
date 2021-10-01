@@ -3,6 +3,7 @@ title: "Gadget Freak"
 date: 2014-11-14T19:06:25+06:00
 description: Gadget Freak
 hero: images/watch.jpg
+reading_time: 3 minutes
 ---
 
 <p>Admito que soy un monstruo gadget. También voy (a veces) admitir que es un problema. He comprado un <a href="http://www.cookoo2.com">reloj Cookoo</a> como un <a href="http://www.kickstarter.com/">pedal de arranque</a> Backer del proyecto. Tengo un <a href="http://www.fitbit.com/">Fitbit</a> - Estoy en mi tercera, no pregunte. Probablemente voy a comprar un reloj de Apple. Pero uno de los problemas que tengo con <strong>la mayoría</strong> 'tecnología ponible' es que, así, se parece demasiado a la tecnología.</p>

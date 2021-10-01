@@ -6,6 +6,7 @@ Category: Jobs, Misc, Work
 Tags: jobs, Resume, Work
 Slug: the-art-of-the-resume
 hero: images/res.png
+reading_time: 2 minutes
 ---
 
 Wenn Sie 100 Leute über fragen, was ein Lebenslauf sein sollte, werden Sie wahrscheinlich nahe kommen 100 Antworten.

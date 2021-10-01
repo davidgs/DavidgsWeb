@@ -6,6 +6,7 @@ Category: General, IoT
 Tags: ARTIK, ARTIK-520, Benchmark, Embedded Systems, IoT, Java
 Slug: just-how-fast-is-faster
 hero: images/Azul.jpg
+reading_time: 6 minutes
 ---
 
 Nadat ik geïnstalleerd en probeerde de [Zulu Embedded JVM](https://www.azul.com/products/zulu-embedded/) op mijn ARTIK-520 [vanochtend] (berichten / category / algemeen / making-artik-5 -iot-gateway-kura) merkte ik dat het **voelde** sneller. Het **leek** sneller. Maar was het echt sneller? En zo ja, hoeveel sneller? Dus ging ik op zoek naar een aantal Java-Benchmark testen uit te voeren.

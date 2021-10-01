@@ -6,6 +6,7 @@ Category: Evangelism, General, Misc
 Tags: IoT, Twitter
 Slug: time-for-a-twitter-transition
 hero: images/twitter-bird2.jpg
+reading_time: 3 minutes
 ---
 
 Je suis sur Twitter depuis longtemps. Un temps très long. Plus que mon profil réel de Twitter indiquerait. (Je pense que je suis arrivé à la fin de 2006.) À un moment donné, j'ai eu plus de 5000 adeptes, mais bien, la sécurité de fond twitter et la police était si atroce que, pour des raisons de sécurité personnelle, je quitter Twitter et supprimé mon compte. Je suis allé pendant environ 2 ans. Je suis revenu et a commencé à nouveau en 2012. Je suis revenu comme « TechEvangelist1 » et ont été tweeting en tant que tel depuis. Je prends régulièrement Twitter pour tâche de leur dossier atroce de traiter les agresseurs et les bots et les comptes de faux, pas qu'il ait jamais eu d'effet mesurable sur eux.

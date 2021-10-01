@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT, small business
 Slug: gulp-im-really-doing-this
 hero: images/NewLogo-0.png
+reading_time: 2 minutes
 ---
 
 Eh bien, comme vous [savoir](/posts/work/a-shock-to-the-system/), je suis sur le marché pour un nouvel emploi ces derniers temps.**Vraiment** mauvais timing à la recherche d'un concert à temps plein ce que les vacances, la fin des exercices de nombreuses entreprises, etc. Grand moment.

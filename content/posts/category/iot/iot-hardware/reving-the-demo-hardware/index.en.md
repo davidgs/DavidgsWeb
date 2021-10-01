@@ -6,6 +6,7 @@ Category: Evangelism, Gadgetry, IoT
 Tags: IoT
 Slug: reving-the-demo-hardware
 hero: images/IMG_5478.jpeg
+reading_time: 3 minutes
 ---
 
 If you’ve been reading me for any length of time at all, you’ll know that I build **lots** of little hardware projects. What better way to highlight the IoT capabilities of InfluxDB than to build hardware that writes data to it constantly! But some of my hardware demos have been getting old, and some of them have been getting abused, so I decided it was time to revamp them with some new hardware, I’m even going to make them fully wireless by adding LiPo batteries so they can go mobile during presentations and demos! 

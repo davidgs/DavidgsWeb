@@ -11,7 +11,8 @@ hero: images/watch.jpg
 Normalmente no soy uno para tomar públicamente una empresa de tarea como esta, pero, bueno, esto es una circunstancia muy especial. He sido un gran fan de Withings, y defensor, por años. Yo era una de las primeras personas a obtener una [reloj Withings Activité](/posts/category/iot/iot-hardware/gadget-freak/). Desde entonces, he hecho bastante invertido fuertemente en el engranaje de Withings. Compré mi esposa un Withings Pop. Me rama de un cuerpo analizador en la escala de Withings. Compré una presión Withings inalámbrica Arterial. Compré tanto yo como mi esposa un acero HR Withings. Este material se suma!
 
 | modelo | costo |
-| ---- | ---- |
+| ---- | -reading_time: 4 minutes
+--- |
 | la actividad | $ 450.00 |
 | Pop | $ 129.00 |
 | Analizador corporal Escala | $ 129.00 |

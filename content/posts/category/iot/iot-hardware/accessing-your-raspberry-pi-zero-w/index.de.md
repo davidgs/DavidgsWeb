@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT, Raspberry Pi
 Slug: accessing-your-raspberry-pi-zero-w
 hero: images/pi_zero_w_board.jpg
+reading_time: 2 minutes
 ---
 
 Wenn Sie Glück haben genug, um Ihre Hände auf einem Raspberry Pi Null W zu bekommen, dann könnten Sie dies genießen. Wenn Sie immer noch für einen warten, setzen Lesezeichen setzen. Es sei denn, Sie zufällig herumliegen zusätzliche HDMI-Monitore, Tastaturen und Mäuse haben. Ich weiß nicht, so zu konfigurieren Mine ein Schmerz im Arsch war. Ich habe diesen Schmerz für Sie gelöst, so lesen Sie weiter.

@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT, small business
 Slug: gulp-im-really-doing-this
 hero: images/NewLogo-0.png
+reading_time: 2 minutes
 ---
 
 Nou, als je [weten] (/ berichten / werk / a-shock-to-the-system /), heb ik in de markt de laatste tijd voor een nieuwe baan. **Echt** slechte timing op zoek naar een full-time optreden wat er met de feestdagen, het einde van het fiscale jaar van veel bedrijven, enz. Grote timing.

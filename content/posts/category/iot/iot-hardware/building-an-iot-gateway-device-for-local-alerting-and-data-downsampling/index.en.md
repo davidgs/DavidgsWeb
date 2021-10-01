@@ -6,6 +6,7 @@ Category: IoT
 Tags: Data Downsampling, IoT, IoT Data, IoT Gateway
 Slug: building-an-iot-gateway-device-for-local-alerting-and-data-downsampling
 hero: images/SafariScreenSnapz005-1.png
+reading_time: 9 minutes
 ---
 
 There are all sorts of ways to architect your IoT Deployment, and what’s right for one enterprise will not necessarily be right for another. Depending on the size and complexity of your IoT project , there can be, of course, a lot of components. One of the more universal architectures is to deploy sensor hubs or gateway devices to collect data from a number of sensor nodes and then forward that data on to an upstream data collection system for the enterprise. These gateway or hub devices typically allow a ZWave device to connect to the internet for data upload, or to bridge between Bluetooth devices to a WiFi or other network connection. 

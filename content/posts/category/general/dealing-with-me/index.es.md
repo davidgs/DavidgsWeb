@@ -3,6 +3,7 @@ title: "Tratar conmigo"
 date: 2021-04-09T17:16:44-04:00
 description: "Una guía de campo para trabajar, comunicarse e interactuar conmigo en general"
 hero: images/davidgs-pix-1.jpeg
+reading_time: 13 minutes
 ---
 
 ¡Mire, todos somos diferentes y eso es algo bueno ™! Todos pensamos, actuamos y, lo más importante, nos comunicamos de manera diferente. Con ese fin, pensé en escribir esta breve guía para trabajar y comunicarse conmigo.

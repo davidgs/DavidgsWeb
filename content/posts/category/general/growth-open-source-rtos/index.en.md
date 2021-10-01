@@ -6,6 +6,7 @@ Category: General, IoT, Work
 Tags: IoT, mynewt, open source, rtos
 Slug: growth-open-source-rtos
 hero: images/Growth.png
+reading_time: 1 minute
 ---
 
 I saw a cool animation someone did on the git activity of an open source project, so I decided to do one of my own. I’ve been contributing to an open source RTOS for IoT called MyNewt (pronounced minute, as in really small) so I decided I’d see what a visualization of the project looked like over the past year. It’s mesmerizing.

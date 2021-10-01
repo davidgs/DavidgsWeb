@@ -6,6 +6,7 @@ Category: Databases, DevRel
 Tags: Database, Python, QuestDB
 Slug: using-python-to-access-questdb
 hero: images/Jupyter-notebook-Definitive-Guide_ul01sa.png.jpg
+reading_time: 2 minutes
 ---
 
 ## Verwenden von Python für den Zugriff auf QuestDB

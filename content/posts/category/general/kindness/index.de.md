@@ -6,6 +6,7 @@ Category: General
 Tags: kindness, empathy, joy
 Slug: kindness
 hero: images/kelly-sikkema-XX2WTbLr3r8-unsplash.jpg
+reading_time: 3 minutes
 ---
 
 Hat Ihnen jemals jemand etwas gesagt, das Sie gezwungen hat, alles, was Sie über sich selbst gedacht haben, völlig neu zu bewerten? Es ist mir nur ein paar Mal in meinem Leben passiert, aber es hat jedes Mal mein Leben verändert.

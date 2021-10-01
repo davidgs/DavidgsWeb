@@ -6,6 +6,7 @@ Category: IoT
 Tags: IoT, small business
 Slug: gulp-im-really-doing-this
 hero: images/NewLogo-0.png
+reading_time: 2 minutes
 ---
 
 Nun, wie Sie [know](/posts/work/a-shock-to-the-system/), ich habe einen neuen Job in letzter Zeit auf dem Markt gewesen. **Wirklich** schlechtes Timing für eine Vollzeit-Gig zu suchen, was mit den Feiertagen, zum Ende des Geschäfts Jahren viele Unternehmen usw. Große Timing.

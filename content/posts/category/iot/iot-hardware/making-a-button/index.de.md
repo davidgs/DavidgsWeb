@@ -6,6 +6,7 @@ Category: Gadgetry, IoT
 Tags: IoT
 Slug: making-a-button
 hero: images/bttn_how.png
+reading_time: 2 minutes
 ---
 
 Ich kann nicht widerstehen. Ich meine es ernst. Wer ** ** ist keine großen roten Knopf müssen, dass Sie ... wirken wie eine große rote Taste programmieren können? Aber es ist so viel mehr als nur eine Taste! Ich meine, ein Knopf ist nur etwas, das Sie drücken, nicht wahr? Dies? Das ist so viel mehr!

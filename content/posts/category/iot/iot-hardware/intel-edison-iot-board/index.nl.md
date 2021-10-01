@@ -6,6 +6,7 @@ Category: IoT
 Tags: development, gadgets, hardware, IoT
 Slug: intel-edison-iot-board
 hero: images/Edison-module.jpg
+reading_time: 3 minutes
 ---
 
 Ik heb gelezen over de Intel Edison ontwikkeling boord voor een tijdje. Ik doe meer ivd spullen weer - puur voor de lol, omdat niemand het betalen van me om het te doen - en ik heb onlangs de elektrische imp development kit en dit Intel Edison kit, evenals een Arduino kit verworven. De Intel Edison bestuur is veruit de meest krachtige van het stel. Het is een ivd SoC apparaat dat lijkt zeer geschikt te zijn.

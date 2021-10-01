@@ -5,6 +5,7 @@ Author: davidgs
 Category: General, Misc, Work
 Slug: solving-a-traveling-salesman-problem
 hero: images/Safari039.jpg
+reading_time: 12 minutes
 ---
 
 No es la IO, pero aún así ... Aquí está el fondo en este proyecto, y por lo que se comprometió él.

@@ -5,6 +5,7 @@ Author: davidgs
 Category: Gadgetry, IoT
 Slug: disney-and-iot
 hero: images/disney.jpg
+reading_time: 4 minutes
 ---
 
 Over the holidays a friend of mine took her family to Disney World for a few days. They stayed at a resort in the park, paid extra for shorter lines at the rides, and were there in a group of 12. That’s a epic trip probably worthy of it’s own blog post — somewhere else. I couldn’t imagine the logistics of such a visit, but then again, it’s been 10 years since I’ve been to Disney World, and apparently a lot has changed in that time.
