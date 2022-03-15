@@ -5,7 +5,7 @@ Author: davidgs
 Description: "An Automated IoT Greenhouse with Camunda"
 Category: Camunda, IoT
 Slug: automated-iot-greenhouse-with-camunda
-hero: images/Camunda-AI.jpg
+hero: images/sub-process.png
 reading_time:
 ---
 
