@@ -5,6 +5,13 @@ title: "David G. Simmons"
 theme:
   - davidgs
   - toha
+
+author:
+  name: David G. Simmons
+copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+  International License.
+languageCode: en-us
+rssLimit: 25
 ## Enable comments
 # DisqusShortname: davidgsIoT
 # Manage languages
