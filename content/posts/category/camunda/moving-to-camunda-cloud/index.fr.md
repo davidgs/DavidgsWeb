@@ -25,15 +25,15 @@ Ce n'était vraiment pas une application compliquée à écrire. Appelez l'API O
 
 Voici à quoi ressemble l'application :
 
-![L'interface de l'application](/images/app-interface.png)
+![L'interface de l'application](images/app-interface.png)
 
 Agréable et simple. Et il y a un petit curseur qui vous montrera la configuration de l'application pour des choses comme les jetons d'authentification, etc.
 
-![La configuration de l'application](/images/app-config.png)
+![La configuration de l'application](images/app-config.png)
 
 En passant, j'ai choisi la violence un jour et j'en ai fait l'interface utilisateur :
 
-![L'interface utilisateur un mauvais jour](/images/orbit.gif)
+![L'interface utilisateur un mauvais jour](images/orbit.gif)
 
 Je ne suis pas fier des choix que j'ai faits ce jour-là.
 
@@ -45,7 +45,7 @@ Le lendemain de la livraison de l'application à ma collègue, elle est revenue 
 
 Mais depuis qu'on m'a demandé _si_ j'utilisais Camunda Cloud, j'ai décidé de voir si je _pouvais_ utiliser Camunda Cloud ! J'ai donc d'abord trouvé ce diagramme BPMN super compliqué :
 
-![Le diagramme](/images/new-bpmn-diagram.png)
+![Le diagramme](images/new-bpmn-diagram.png)
 
 Ça ne devient pas plus simple que ça, n'est-ce pas ?
 
@@ -53,7 +53,7 @@ J'ai déployé ce processus simple sur Camunda Cloud, puis j'ai commencé à éc
 
 ## Gestion de Camunda Cloud
 
-J'étais super content de voir que l'une des librairies disponibles pour Camunda Cloud était une librairie Golang ! Oh Happy Day!!
+J'étais super content de voir que l'une des bibliothèques disponibles pour Camunda Cloud était une bibliothèque Golang ! Oh Happy Day!!
 
 ```go
 import (
@@ -322,7 +322,7 @@ func (a *App) failJob(client worker.JobClient, job entities.Job) {
 }
 ```
 
-C'est à peu près tout ! Je ne vous ennuierai pas avec toutes les manigances que j'ai dû traverser pour obtenir les données d'Orbit et dans Airtable, car cela n'est pas entièrement pertinent pour le processus Camunda Cloud.
+C'est à peu près ça ! Je ne vous ennuierai pas avec toutes les manigances que j'ai dû traverser pour obtenir les données d'Orbit et dans Airtable, car cela n'est pas entièrement pertinent pour le processus Camunda Cloud.
 
 ## Une plainte contre Airtable
 
@@ -347,7 +347,7 @@ curl -v -X DELETE https://api.airtable.com/v0/BASE_ID/TABLE_NAME \
 ```
 Je suppose que vous pouvez voir le problème ici. **Ce n'est pas un tableau d'ID d'enregistrement !!** Vous devez placer chaque ID d'enregistrement sur une ligne distincte, puis envoyer le tout en tant que données `application/x-www-form-urlencoded`. Et pour une raison stupide, le paramètre d'URL **doit** s'appeler `records[]`. Je suppose qu'ils ont décidé d'ajouter le `[]` pour pouvoir l'appeler un tableau. Ce n'est toujours pas un tableau. Ce n'est tout simplement pas le cas. C'est une colline sur laquelle je mourrai.
 
-![Colline étrange où mourir, mais au moins tu es mort](/images/weird-hill.png)
+![Colline étrange où mourir, mais au moins tu es mort](images/weird-hill.png)
 
 J'ai perdu une heure de ma vie là-dessus.
 

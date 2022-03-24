@@ -15,7 +15,7 @@ Ik heb iets geschreven over het gebruik van [Camunda](https://camunda.com?ref=da
 
 In al die projecten heb ik [Camunda](https://camunda.com?ref=davidgsiot) Platform 7 gebruikt om mijn processen te implementeren en uit te voeren, maar het meeste eigenlijke werk werd gedaan door externe taken die ik in Golang schreef . Dit is beslist _niet_ de manier waarop ik de dingen zou moeten doen. De meeste gebruikers van Camunda Platform schrijven alles in Java. Ik gebruik Java al voordat het in 1995 door Sun Microsystems werd uitgebracht (een moment van stilte alstublieft voor een fantastisch bedrijf dat de industrie heeft veranderd, alstublieft).
 
-Ik was een "Java Technologist" in 1996, een baan die we nu een evangelist of een Developer Advocate zouden noemen. Maar daar gaat het niet om. Het punt is dat ik zelfs met die geschiedenis met Java in meer dan 10 jaar geen enkele zinvolle Java-code heb geschreven. Maar ik schrijf nu veel Go-code, dus hier zijn we.
+Ik was een "Java Technologist" in 1996, een baan die we nu een evangelist of een Developer Advocate zouden noemen. Maar daar gaat het niet om. Het punt is dat ik zelfs met die geschiedenis met Java in meer dan 10 jaar geen zinvolle Java-code heb geschreven. Maar ik schrijf nu veel Go-code, dus hier zijn we.
 
 Laatste stukje achtergrond: ik heb mezelf de laatste tijd React.js aangeleerd met enig (meestal beperkt) succes. Dus toen een ander teamlid om hulp vroeg bij het automatiseren van het verplaatsen van gegevens van [Orbit](https://orbit.love) naar [Airtable](https://airtable.com), dacht ik dat ik zou kijken of ik een desktop React kon schrijven App om het te doen.
 
@@ -25,15 +25,15 @@ Het was echt geen ingewikkelde applicatie om te schrijven. Roep de Orbit-API aan
 
 Zo ziet de app eruit:
 
-![De interface van de applicatie](/images/app-interface.png)
+![De interface van de applicatie](images/app-interface.png)
 
 Lekker simpel. En er is een kleine schuifregelaar die u de configuratie van de app laat zien voor zaken als de authenticatietokens, enz.
 
-![De configuratie van de applicatie](/images/app-config.png)
+![De configuratie van de applicatie](images/app-config.png)
 
 Als een kanttekening koos ik op een dag voor geweld en maakte dit de gebruikersinterface:
 
-![De gebruikersinterface op een slechte dag](/images/orbit.gif)
+![De gebruikersinterface op een slechte dag](images/orbit.gif)
 
 Ik ben niet trots op de keuzes die ik die dag heb gemaakt.
 
@@ -45,7 +45,7 @@ Ik had de app oorspronkelijk gemaakt met Camunda Platform 7, maar het was proble
 
 Maar omdat mij werd gevraagd _of_ ik Camunda Cloud gebruikte, besloot ik te kijken of ik Camunda Cloud _kon_ gebruiken! Dus eerst bedacht ik dit supergecompliceerde BPMN-diagram:
 
-![Het diagram](/images/new-bpmn-diagram.png)
+![Het diagram](images/new-bpmn-diagram.png)
 
 Eenvoudiger dan dat wordt het niet, toch?
 
@@ -347,7 +347,7 @@ curl -v -X DELETE https://api.airtable.com/v0/BASE_ID/TABLE_NAME \
 ```
 Ik neem aan dat je het probleem hier kunt zien. **Dat is geen array van record-ID's!!** Je moet elke record-ID op een aparte regel zetten, en het dan allemaal verzenden als `application/x-www-form-urlencoded` data. En om de een of andere domme reden moet de URL-parameter **moet** `records[]` heten. Ik denk dat ze besloten hebben om de `[]` toe te voegen zodat ze het een array konden noemen. Het is nog steeds geen array. Het is gewoon niet. Dit is een heuvel waarop ik zal sterven.
 
-![Rare heuvel om op te sterven, maar je bent tenminste dood](/images/weird-hill.png)
+![Rare heuvel om op te sterven, maar je bent tenminste dood](images/weird-hill.png)
 
 Ik heb hier een uur van mijn leven aan verloren.
 

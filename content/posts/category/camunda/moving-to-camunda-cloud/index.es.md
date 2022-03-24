@@ -17,7 +17,7 @@ En todos esos proyectos, he usado [Camunda](https://camunda.com?ref=davidgsiot) 
 
 Yo era un "Tecnólogo de Java" en 1996, un trabajo que ahora llamaríamos evangelista o Defensor del desarrollador. Pero ese no es el punto. El punto es que incluso con esa historia con Java, en realidad no he escrito ningún código Java significativo en más de 10 años. Pero ahora escribo mucho código Go, así que aquí es donde estamos.
 
-Últimos antecedentes: he estado tratando de enseñarme a mí mismo React.js últimamente con cierto éxito (en su mayoría limitado). Así que cuando otro miembro del equipo pidió ayuda para automatizar el movimiento de datos de [Orbit](https://orbit.love) a [Airtable](https://airtable.com) pensé en ver si podía escribir un escritorio React Aplicación para hacerlo.
+Últimos antecedentes: he estado tratando de enseñarme a mí mismo React.js últimamente con cierto éxito (en su mayoría limitado). Entonces, cuando otro miembro del equipo pidió ayuda para automatizar el movimiento de datos de [Orbit](https://orbit.love) a [Airtable](https://airtable.com), pensé en ver si podía escribir un escritorio React Aplicación para hacerlo.
 
 ## Escribir la aplicación React
 
@@ -25,15 +25,15 @@ Realmente no fue una aplicación complicada de escribir. Llame a la API de Orbit
 
 Así es como se ve la aplicación:
 
-![La interfaz de la aplicación](/images/app-interface.png)
+![La interfaz de la aplicación](images/app-interface.png)
 
 Bonito y sencillo. Y hay un pequeño control deslizante que le mostrará la configuración de la aplicación para cosas como los tokens de autenticación, etc.
 
-![La configuración de la aplicación](/images/app-config.png)
+![La configuración de la aplicación](images/app-config.png)
 
 Como nota al margen, un día elegí la violencia e hice de esta la interfaz de usuario:
 
-![La interfaz de usuario en un mal día](/images/orbit.gif)
+![La interfaz de usuario en un mal día](images/orbit.gif)
 
 No estoy orgulloso de las decisiones que tomé ese día.
 
@@ -45,7 +45,7 @@ Originalmente, había creado la aplicación usando Camunda Platform 7, pero logr
 
 Pero como me preguntaron _si_ estaba usando Camunda Cloud, ¡decidí ver si _podría_ usar Camunda Cloud! Entonces, primero se me ocurrió este diagrama BPMN súper complicado:
 
-![El diagrama](/images/new-bpmn-diagram.png)
+![El diagrama](images/new-bpmn-diagram.png)
 
 No hay nada más simple que eso, ¿verdad?
 
@@ -347,7 +347,7 @@ curl -v -X DELETE https://api.airtable.com/v0/BASE_ID/TABLE_NAME \
 ```
 Supongo que puedes ver el problema aquí. ** ¡Eso no es una matriz de ID de registro! ** Debe colocar cada ID de registro en una línea separada y luego enviarlo todo como datos `application/x-www-form-urlencoded`. Y por alguna tonta razón, el parámetro URL **debe** llamarse `records[]`. Supongo que decidieron agregar el `[]` para poder llamarlo matriz. Todavía no es una matriz. Simplemente no lo es. Esta es una colina en la que moriré.
 
-![Colina extraña para morir, pero al menos estás muerto](/images/weird-hill.png)
+![Colina extraña para morir, pero al menos estás muerto](images/weird-hill.png)
 
 Perdí una hora de mi vida en esto.
 

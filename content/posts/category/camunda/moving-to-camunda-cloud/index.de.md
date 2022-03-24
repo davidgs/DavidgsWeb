@@ -19,21 +19,21 @@ Ich war 1996 ein „Java Technologist“, ein Job, den wir heute entweder als Ev
 
 Letzter Hintergrund: Ich habe in letzter Zeit versucht, mir selbst React.js beizubringen, mit einigem (meistens begrenztem) Erfolg. Als ein anderes Teammitglied um Hilfe bei der Automatisierung des Verschiebens von Daten von [Orbit](https://orbit.love) nach [Airtable](https://airtable.com) bat, dachte ich, ich würde sehen, ob ich eine Desktop-Reaktion schreiben könnte App dazu.
 
-## Die React-App schreiben
+## Schreiben der React-App
 
 Es war wirklich keine komplizierte Bewerbung zu schreiben. Rufen Sie die Orbit-API auf, um die angeforderten Daten abzurufen, formatieren Sie sie ein wenig neu und rufen Sie dann die Airtable-API auf, um sie zu speichern. Ziemlich einfach.
 
 So sieht die App aus:
 
-![Die Benutzeroberfläche der Anwendung](/images/app-interface.png)
+![Die Benutzeroberfläche der Anwendung](images/app-interface.png)
 
 Schön und einfach. Und es gibt einen kleinen Schieberegler, der Ihnen die Konfiguration der App für Dinge wie die Authentifizierungstoken usw. zeigt.
 
-![Die Konfiguration der Anwendung](/images/app-config.png)
+![Die Konfiguration der Anwendung](images/app-config.png)
 
 Als Randnotiz habe ich eines Tages Gewalt gewählt und dies zur Benutzeroberfläche gemacht:
 
-![Die Benutzeroberfläche an einem schlechten Tag](/images/orbit.gif)
+![Die Benutzeroberfläche an einem schlechten Tag](images/orbit.gif)
 
 Ich bin nicht stolz auf die Entscheidungen, die ich an diesem Tag getroffen habe.
 
@@ -43,9 +43,9 @@ Am Tag, nachdem ich meiner Kollegin die App geliefert hatte, kam sie zurück und
 
 Ich hatte die App ursprünglich mit Camunda Platform 7 erstellt, aber es stellte sich als problematisch heraus, die React App direkt auf der Camunda Platform zu posten, also habe ich Camunda einfach komplett umgangen.
 
-Aber da ich gefragt wurde, _ob_ ich Camunda Cloud verwende, entschied ich mich zu sehen, ob ich Camunda Cloud verwenden _könnte_! Also habe ich mir zuerst dieses superkomplizierte BPMN-Diagramm ausgedacht:
+Aber da ich gefragt wurde, _ob_ ich Camunda Cloud verwende, beschloss ich zu sehen, ob ich Camunda Cloud verwenden _könnte_! Also habe ich mir zuerst dieses superkomplizierte BPMN-Diagramm ausgedacht:
 
-![Das Diagramm](/images/new-bpmn-diagram.png)
+![Das Diagramm](images/new-bpmn-diagram.png)
 
 Einfacher geht es nicht, oder?
 
@@ -347,7 +347,7 @@ curl -v -X DELETE https://api.airtable.com/v0/BASE_ID/TABLE_NAME \
 ```
 Ich nehme an, Sie können das Problem hier sehen. **Das ist kein Array von Datensatz-IDs!!** Sie müssen jede Datensatz-ID in eine separate Zeile einfügen und dann alles als `application/x-www-form-urlencoded`-Daten senden. Und aus irgendeinem dummen Grund **muss** der URL-Parameter `records[]` heißen. Ich denke, sie haben beschlossen, das `[]` hinzuzufügen, damit sie es ein Array nennen können. Es ist immer noch kein Array. Es ist einfach nicht. Das ist ein Hügel, auf dem ich sterben werde.
 
-![Seltsamer Hügel zum Sterben, aber wenigstens bist du tot](/images/weird-hill.png)
+![Seltsamer Hügel zum Sterben, aber wenigstens bist du tot](images/weird-hill.png)
 
 Ich habe eine Stunde meines Lebens damit verloren.
 

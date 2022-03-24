@@ -25,15 +25,15 @@ It really wasn't a complicated application to write. Call the Orbit API to get t
 
 Here's what the app looks like:
 
-![The application's interface](/images/app-interface.png)
+![The application's interface](images/app-interface.png)
 
 Nice and simple. And there's a little slider that will show you the configuration of the app for things like the authentication tokens, etc.
 
-![The application's configuration](/images/app-config.png)
+![The application's configuration](images/app-config.png)
 
 As a side note, I chose violence one day and made this the UI:
 
-![The UI on a bad day](/images/orbit.gif)
+![The UI on a bad day](images/orbit.gif)
 
 I'm not proud of the choices I made that day.
 
@@ -45,7 +45,7 @@ I had, originally, made the app using Camunda Platform 7, but getting the React 
 
 But since I was asked _if_ I was using Camunda Cloud, I decided to see if I _could_ use Camunda Cloud! So first I came up with this super-complicated BPMN diagram:
 
-![The Diagram](/images/new-bpmn-diagram.png)
+![The Diagram](images/new-bpmn-diagram.png)
 
 Doesn't get more simple than that, does it?
 
@@ -347,7 +347,7 @@ curl -v -X DELETE https://api.airtable.com/v0/BASE_ID/TABLE_NAME \
 ```
 I'm assuming you can see the problem here. **That is not an array of record IDs!!** You have to put each record ID on a separate line, and then send it all as `application/x-www-form-urlencoded` data. And for some dumb reason, the URL parameter **must** be called `records[]`. I guess they decided to add the `[]` so they could call it an array. It's still not an array. It just isn't. This is a hill I'll die on.
 
-![Weird hill to die on, but at least you're dead](/images/weird-hill.png)
+![Weird hill to die on, but at least you're dead](images/weird-hill.png)
 
 I lost an hour of my life on this.
 
