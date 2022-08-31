@@ -8,6 +8,7 @@ Slug: moving-on
 description: Moving on to a new endeavor
 hero: images/moving-on-header.jpg
 draft: false
+reading_time: 4 minutes
 ---
 
 I know it may seem like this happens all the time, but I've left [Camunda](https://camunda.com) and started a new position. (I'll get to where in a minute.) Though it may seem from [this](/posts/work/its-time-series-all-the-way-down/), and [this](/posts/work/what-in-the-job-hopping-hell/) that I change jobs all the time, that's not entirely true.
