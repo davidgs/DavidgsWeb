@@ -8,17 +8,18 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Hauptentwickleranwalt
+designation: Leiterin der Entwickler Advocacy
 # your company information
 company:
-  name: Camunda, Inc.
-  url: "https://www.camunda.com"
+  name: StarTree
+  url: "https://startree.ai"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Ich bin ein Internet von Dingen (IOT) Pioneer, der seit über 15 Jahren auf dem Feld arbeitet. Ich bin jetzt der wichtigste Entwicklungsanwalt bei [camunda](https://camunda.com). Zuvor war ich Leiter von Entwickler Relations auf [QuestDb](https://questdb.io) und den Senior Developer Advocate bei [InfluxData](https://influxdata.com). Das sind zwei Zeitreihen-Datenbanken in Folge. Wenn Sie sich fragen, wie sich das mit IOT zusammenhängt, lesen Sie über [warum ein IOT tut Time-Seriendaten](https://www.influxdata.com/iot-guy-joined-influxData/)."
+summary: "Ich bin ein Pionier des Internets der Dinge (IoT) und arbeite seit über 15 Jahren in diesem Bereich. Ich bin jetzt Leiter der Entwicklerförderung bei [StarTree] (https://startree.ai). Zuvor war ich Principle Developer Advocate bei [Camunda](https://camunda.com), Head of Developer Relations bei [QuestDB](https://questdb.io) und Senior Developer Advocate bei [Influx Data](https://influxdata.com). Das sind 2 Zeitreihen-Datenbanken in Folge. Wenn Sie sich fragen, was das mit dem IoT zu tun hat, lesen Sie [Warum ein IoT Zeitreihendaten benötigt](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -26,7 +27,7 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "davidgs@davidgs.com"
 
-- name: Phone
+- name: Telefon
   icon: "fas fa-phone"
   url: "919-534-5099"
 

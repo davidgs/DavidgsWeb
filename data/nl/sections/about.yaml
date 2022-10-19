@@ -8,17 +8,19 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Belangrijkste Developer Advocaat
+designation: Hoofd voorstander van ontwikkelaars
 # your company information
 company:
-  name: Camunda, Inc.
-  url: "https://www.camunda.com"
+  name: StarTree
+  url: "https://startree.ai"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Ik ben een internet van dingen (IoT) Pioneer die al meer dan 15 jaar in het veld werkt. Ik ben nu de belangrijkste develper-advocaat in [Camunda](https://camunda.com). Eerder was ik hoofd van de ontwikkelaarsrelaties op [QuestDB](https://questdb.io) en de Senior Developer Advocate op [InfluxData](https://influxdata.com). Dat is 2 tijdsreeksdatabases op een rij. Als u zich afvraagt hoe dat gerelateerd is aan IOT, lees dan over [Wssrom een IOT doen Tijdserie-Gegevens](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Ik ben een Internet of Things (IoT)-pionier die al meer dan 15 jaar op dit gebied werkzaam is. Ik ben nu Head of Developer Advocacy bij [StarTree](https://startree.ai). Daarvoor was ik Principle Developer Advocate bij [Camunda](https://camunda.com), Head of Developer Relations bij [QuestDB](https://questdb.io) en Senior Developer Advocate bij [Influx Data](https://influxdata.com). Dat zijn 2 tijdreeksdatabases op een rij. Als u zich afvraagt hoe dat verband houdt met IoT, lees dan over [Waarom een IoT Time Series Data doet](https://www.influxdata.com/iot-guy-joined-influxdata/).
+
+Vertaald met www.DeepL.com/Translator (gratis versie)"
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:

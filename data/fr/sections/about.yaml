@@ -8,17 +8,19 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Promoteur principal des développeurs
+designation: Responsable de la défense des intérêts des développeurs
 # your company information
 company:
-  name: Camunda, Inc.
-  url: "https://www.camunda.com"
+  name: StarTree
+  url: "https://StarTree.ai"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Je suis un internet de choses (iot) pionnier qui travaillent sur le terrain depuis plus de 15 ans. Je suis maintenant le principal develeur défenseur de [Camunda](https://camunda.com). Auparavant, j'étais responsable des relations de développeur à [QuestDB](https://quesdb.io) et le développeur principal préconisez-le sur [InfluxData](https://influxdata.com). C'est 2 bases de données de série horaire d'affilée. Si vous vous demandez comment cela est lié à IOT, lisez-vous sur [pourquoi un iot fait des données de série chronologique](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Je suis un pionnier de l'Internet des objets (IoT) qui travaille dans ce domaine depuis plus de 15 ans. Je suis actuellement responsable de la défense des intérêts des développeurs chez [StarTree] (https://startree.ai). Auparavant, j'étais Principal Developer Advocate chez [Camunda] (https://camunda.com), Head of Developer Relations chez [QuestDB] (https://questdb.io) et Senior Developer Advocate chez [Influx Data] (https://influxdata.com). Cela fait deux bases de données de séries chronologiques d'affilée. Si vous vous demandez quel est le rapport avec l'IdO, lisez le document [Why an IoT does Time Series Data] (https://www.influxdata.com/iot-guy-joined-influxdata/).
+
+Traduit avec www.DeepL.com/Translator (version gratuite)"
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:

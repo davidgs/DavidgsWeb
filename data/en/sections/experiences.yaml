@@ -11,6 +11,24 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: StarTree
+    url: "https://startree.ai"
+    location: Mountain View, CA (remote)
+    # company overview
+    overview: A Real-Time Analytics company providing Apache Pinot as a service for companies needing high-volume, real-time, customer-facing analytics.
+  positions:
+  - designation: Head of Developer Advocacy
+    start: August 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leading Developer Advocacy team
+    - Standard DevRel tasks of Blog posts, community interactions and support, and support of internal stakeholders.
+    - Mentoring of jr. DevRels both inside the company and in the DevRel Community as a whole.
+    - Support and provide resources to the greater DevRel Community
+
+- company:
     name: Camunda, Inc.
     url: "https://camunda.com"
     location: Berlin, Germany (remote)
@@ -19,6 +37,7 @@ experiences:
   positions:
   - designation: Principal Developer Advocate (DR4)
     start: October 2020
+    end: July 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.

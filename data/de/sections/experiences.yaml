@@ -11,6 +11,25 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: StarTree
+    url: "https://startree.ai"
+    location: Mountain View, CA (remote)
+    # company overview
+    overview: Ein Unternehmen für Echtzeit-Analytik, das Apache Pinot als Service für Unternehmen anbietet, die hochvolumige, kundenorientierte Echtzeit-Analysen benötigen.
+  positions:
+  - designation: Leiterin der Entwickler Advocacy
+    start: August, 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leitung des Developer Advocacy Teams
+    - Standard DevRel Aufgaben wie Blog-Posts, Interaktionen mit der Community und Unterstützung von internen Stakeholdern.
+    - Mentoring von Junior DevRels sowohl innerhalb des Unternehmens als auch in der DevRel Community als Ganzes.
+    - Unterstützung und Bereitstellung von Ressourcen für die größere DevRel Community
+
+
+- company:
     name: Camunda, Inc.
     url: "https://camunda.com"
     location: Berlin, Deutschland (abgelegen)
