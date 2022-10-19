@@ -11,6 +11,24 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: StarTree
+    url: "https://startree.ai"
+    location: Mountain View, CA (op afstand)
+    # company overview
+    overview: Een Real-Time Analytics bedrijf dat Apache Pinot aanbiedt als een dienst voor bedrijven die behoefte hebben aan hoge volumes, real-time, klantgerichte analytics.
+  positions:
+  - designation: Hoofd voorstander van ontwikkelaars
+    start: Augustus 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leiding geven aan Developer Advocacy team
+    - Standaard DevRel taken van Blog posts, community interacties en ondersteuning, en ondersteuning van interne stakeholders.
+    - Mentoring van jr. DevRels zowel binnen het bedrijf als in de DevRel Community als geheel.
+    - Ondersteuning en verstrekken van middelen aan de grotere DevRel-gemeenschap
+
+- company:
     name: Camunda, Inc.
     url: "https://camunda.com"
     location: Berlin, Germany (remote)
