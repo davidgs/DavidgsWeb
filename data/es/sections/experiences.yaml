@@ -14,14 +14,10 @@ experiences:
     name: StarTree
     url: "https://startree.ai"
     location: Mountain View, CA (remoto)
-    # company overview
     overview: Una empresa de análisis en tiempo real que ofrece Apache Pinot como servicio para las empresas que necesitan análisis de gran volumen, en tiempo real y de cara al cliente.
   positions:
   - designation:  Jefe de Promoción de Desarrolladores
     start: Agosto 2022
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
     responsibilities:
     - Dirigir el equipo de Developer Advocacy
     - Tareas estándar de DevRel de publicaciones en el blog, interacciones y apoyo a la comunidad, y apoyo a las partes interesadas internas.
@@ -37,6 +33,7 @@ experiences:
   positions:
   - designation: Principal Developer Defensor (DR4)
     start: Octubre 2020
+    end: Julio 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
