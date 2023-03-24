@@ -12,7 +12,7 @@ In september 2017 woonde ik de ThingMonk-conferentie in Londen bij. Hier is een 
 
 ## Achtergrond
 
-De jaarlijkse <sup>[1]({{</sup><ref "#link-1" > <sup>}})</sup> De ThingMonk IoT-conferentie werd van 11 – 13 september 2017 gehouden in Shoreditch, Londen, waarbij InfluxData de video-opnames sponsorde. Die opnames beginnen nu pas uit te komen, dus zorg ervoor dat je ze allemaal gaat bekijken zodra ze uitkomen! Hieronder vindt u het huidige releaseschema voor de eerste reeks ThingMonk 2017-video's:
+De jaarlijkse <sup>[1]({{<sup><ref "#link-1" > </sup>}})</sup> De ThingMonk IoT-conferentie werd van 11 – 13 september 2017 gehouden in Shoreditch, Londen, waarbij InfluxData de video-opnames sponsorde. Die opnames beginnen nu pas uit te komen, dus zorg ervoor dat je ze allemaal gaat bekijken zodra ze uitkomen! Hieronder vindt u het huidige releaseschema voor de eerste reeks ThingMonk 2017-video's:
 
 > Alle video's zijn vrijgegeven en zijn beschikbaar op het [ThingMonk YouTube-kanaal](https://redmonk.com/?series=thingmonk-2017).
 
