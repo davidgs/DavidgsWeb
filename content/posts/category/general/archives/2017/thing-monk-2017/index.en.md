@@ -4,6 +4,7 @@ Date: 2017-10-20
 Category: general
 Slug: thing-monk-2017
 hero: images/logo-2017-3.png
+reading_time: 8 minutes
 ---
 
 > **Note:** This is a post from my archives. I wrote it in 2017, and it was posted on the [InfluxData Blog](https://www.influxdata.com/blog/thingmonk-iot-insights/).

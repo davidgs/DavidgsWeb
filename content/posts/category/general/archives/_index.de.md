@@ -1,5 +1,5 @@
 ---
-title: Archives
+title: Archiv
 menu:
   sidebar:
     name: Archives

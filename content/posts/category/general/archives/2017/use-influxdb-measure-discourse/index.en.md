@@ -4,6 +4,7 @@ Date: 2022-11-03
 Category: general
 Slug: use-influxdb-measure-discourse
 hero: images/SafariScreenSnapz005.png
+reading_time: 6 minutes
 ---
 
 > This post was originally published on [InfluxData's Blog](https://www.influxdata.com/blog/use-influxdb-measure-community/)

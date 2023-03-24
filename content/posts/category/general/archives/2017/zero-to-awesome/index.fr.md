@@ -7,27 +7,27 @@ hero: images/header.png
 reading_time: 3 minutes
 ---
 
-> This post was originally published on [InfluxData's blog](https://www.influxdata.com/blog/zero-awesome-in-5-minutes/) on 2017-10-20.
+> Cet article a été initialement publié sur [le blog d'InfluxData](https://www.influxdata.com/blog/zero-awesome-in-5-minutes/) le 2017-10-20.
 
-We here at InfluxData have a thing about Time to Awesome™. So much so that we Trademarked it. No, seriously, we did. And we mean it. So let’s go from Zero to Awesome!
+Chez InfluxData, nous avons un faible pour Time to Awesome™. À tel point que nous l'avons déposé. Non, sérieusement, nous l'avons fait. Et nous le pensons. Alors passons de Zéro à Génial !
 
-> We are singularly focused on reducing the Time to Awesome, we truly care about helping developers and businesses get to results faster with less complexity and less code.
+> Nous nous concentrons particulièrement sur la réduction du Time to Awesome, nous nous soucions vraiment d'aider les développeurs et les entreprises à obtenir des résultats plus rapidement avec moins de complexité et moins de code.
 
-That’s directly from the About section of our website and we really do mean it! But just in case, I decided to test it out (again). I actually wrote a whole blog post about how easy it was to set up InfluxDB a while back, but I thought I’d do it again, just for fun. This time, I thought I’d provide proof of how easy it is, and how fast!
+Cela vient directement de la section À propos de notre site Web et nous le pensons vraiment ! Mais juste au cas où, j'ai décidé de le tester (encore). En fait, j'ai écrit tout un article de blog sur la facilité de configuration d'InfluxDB il y a quelque temps, mais j'ai pensé que je le referais, juste pour le plaisir. Cette fois, j'ai pensé que j'allais prouver à quel point c'est facile et rapide !
 
-## The Set Up
+## La mise en place
 
-I have my trusty MacBook Pro on which I do just about everything, so that’s what I’m going to install it on. Here’s what I’m working with:
+J'ai mon fidèle MacBook Pro sur lequel je fais à peu près tout, c'est donc sur cela que je vais l'installer. Voici avec quoi je travaille :
 
-![screenshot](images/MarsEditScreenSnapz001.png)
+![capture d'écran](images/MarsEditScreenSnapz001.png)
 
-I installed and configured InfluxDB, Chronograf, Telegraf and Kapacitor, and set up a quick system-monitoring dashboard to keep track of some system stats, all in under 5 minutes.
+J'ai installé et configuré InfluxDB, Chronograf, Telegraf et Kapacitor, et mis en place un tableau de bord de surveillance rapide du système pour suivre certaines statistiques du système, le tout en moins de 5 minutes.
 
-## Here's the proof
+## Voici la preuve
 
 https://youtu.be/DsVRTI2IgMo
 
-## Here's how I did it
+## Voici comment j'ai procédé
 
 ```bash
 Davids-MacBook-Pro:~ davidgs$ brew install influxdb
@@ -63,6 +63,6 @@ Davids-MacBook-Pro:~ davidgs$ brew services start chronograf
 Davids-MacBook-Pro:~ davidgs$
 ```
 
-That’s it! A total of 7 commands. 3 to install the entire TICK stack – because Chronograf has a dependency on Kapacitor, so it gets installed automatically – and 4 to start all the services and make sure they start across reboots.
+C'est ça! Un total de 7 commandes. 3 pour installer l'intégralité de la pile TICK - car Chronograf dépend de Kapacitor, il s'installe donc automatiquement - et 4 pour démarrer tous les services et s'assurer qu'ils démarrent après les redémarrages.
 
-It just doesn’t get any more simple than that! Add the small number of clicks to build the dashboard and you have an amazingly short Time to Awesome™!
+Il n'y a rien de plus simple que ça ! Ajoutez le petit nombre de clics pour créer le tableau de bord et vous obtenez un Time to Awesome™ incroyablement court !

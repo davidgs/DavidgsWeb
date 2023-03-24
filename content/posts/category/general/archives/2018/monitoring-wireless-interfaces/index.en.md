@@ -4,6 +4,7 @@ Date: 2018-01-16
 Category: general
 Slug: monitoring-wireless-interfaces
 hero: images/header.png
+reading_time: 6 minutes
 ---
 
 > This post was originally posted on the [InfluxData Blog](https://www.influxdata.com/blog/monitoring-wireless-interfaces/).

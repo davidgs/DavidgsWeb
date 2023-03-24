@@ -4,6 +4,7 @@ Date: 2017-12-14
 Category: archives
 Slug: architecting-influxdb-data-downsampling
 hero: images/SafariScreenSnapz005-1.png
+reading_time: 9 minutes
 ---
 
 

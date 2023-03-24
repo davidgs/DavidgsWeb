@@ -4,6 +4,7 @@ Date: 2022-11-14
 Category: archives
 Slug: archives-about
 hero: images/towfiqu-barbhuiya-bwOAixLG0uc-unsplash.jpg
+reading_time: 1 minute
 ---
 
 # Archival posts

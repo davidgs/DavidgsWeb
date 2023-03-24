@@ -4,6 +4,7 @@ Date: 2017-12-18
 Category: general
 Slug: monitoring-openwrt-with-telegraf
 hero: images/SafariScreenSnapz021-1.png
+reading_time: 4 minutes
 ---
 
 > This post was originally published on [InfluxData's blog](https://www.influxdata.com/blog/monitoring-openwrt-with-telegraf/).
