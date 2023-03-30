@@ -39,19 +39,19 @@
       <div class="col-md-4 col-sm-12">
         <h5>{{ i18n "navigation" }}:</h5>
         {{ if $sections }}
-        <ul>
-          {{- range sort $sections "section.weight" }}
-            {{ if and (.section.enable) (.section.showOnNavbar)}}
-              {{ $sectionID := replace (lower .section.name) " " "-"  }}
-              {{ if .section.id }}
-                {{ $sectionID = .section.id }}
+          <ul>
+            {{- range sort $sections "section.weight" "asc" }}
+              {{ if and (.section.enable) (.section.showOnNavbar)}}
+                {{ $sectionID := replace (lower .section.name) " " "-"  }}
+                {{ if .section.id }}
+                  {{ $sectionID = .section.id }}
+                {{ end }}
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/index.html#{{ $sectionID }}"><img alt="Go To: {{ .section.name }}" src="https://img.shields.io/badge/Go%20To%3A-{{ .section.name }}-blue?style=plastic" loading="lazy"></a>
+                </li>
               {{ end }}
-              <li class="nav-item">
-                <a class="smooth-scroll" href="/index.html#{{ $sectionID }}"><img alt="Go To: {{ .section.name }}" src="https://img.shields.io/badge/Go%20To%3A-{{ .section.name }}-blue?style=plastic" loading="lazy"></a>
-              </li>
-            {{ end }}
-          {{- end }}
-        </ul>
+            {{- end }}
+          </ul>
         {{ end }}
 
       </div>
@@ -105,7 +105,7 @@
               class="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
-              placeholder="{{ i18n "newsletter_input_placeholder" }}"
+              placeholder='{{ i18n "newsletter_input_placeholder" }}'
             />
             <small id="emailHelp" class="form-text text-muted"
               >{{ i18n "newsletter_warning" }}</small

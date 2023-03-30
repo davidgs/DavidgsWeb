@@ -1,12 +1,12 @@
 {{ define "header" }}
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-/>
-<link rel="stylesheet" nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=" href="{{ "/css/layouts/single.css" | relURL }}"/>
-<link rel="stylesheet" nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=" href="{{ "/css/navigators/sidebar.css" | relURL }}">
-<link rel="stylesheet" nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=" href="{{ "/css/sections/posts.css" | relURL }}">
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+  />
+  <link rel="stylesheet" nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=" href='{{ "/css/layouts/single.css" | relURL }}'/>
+  <link rel="stylesheet" nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=" href='{{ "/css/navigators/sidebar.css" | relURL }}'>
+  <link rel="stylesheet" nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=" href='{{ "/css/sections/posts.css" | relURL }}'>
 {{ end }}
 
 {{ define "navbar" }}
@@ -32,96 +32,96 @@
 {{ end }}
 
 {{ define "content" }}
-{{ $bgcontent := "/images/white-bg.jpg" }}
-{{ $bgImage := resources.Get $bgcontent }}
-{{ if $bgImage }}
-  {{ $bgImage := $bgImage.Fit "120x120" }}
-{{ else }}
-  {{ $bgImage := $bgcontent }}
-{{ end }}
-<section class="content-section" id="content-section">
-  <div class="content">
-    <div class="container p-0 read-area">
-      <!--Hero Area-->
-      <style nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=">
-        .heroImageStyled {
-          background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ partial "helpers/get-hero.html" . }}');
-        }
-        /* #cf4a-sm {
-          background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{ "/images/white-bg.jpg" }}')
-        } */
-      </style>
-      <div class="hero-area col-sm-12 heroImageStyled" style="heroImageStyled" id="hero-area" >
+  {{ $bgcontent := "/images/white-bg.jpg" }}
+  {{ $bgImage := resources.Get $bgcontent }}
+  {{ if $bgImage }}
+    {{ $bgImage := $bgImage.Fit "120x120" }}
+  {{ else }}
+    {{ $bgImage := $bgcontent }}
+  {{ end }}
+  <section class="content-section" id="content-section">
+    <div class="content">
+      <div class="container p-0 read-area">
+        <!--Hero Area-->
+        <style nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=">
+          .heroImageStyled {
+            background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ partial "helpers/get-hero.html" . }}');
+          }
+          /* #cf4a-sm {
+            background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{ "/images/white-bg.jpg" }}')
+          } */
+        </style>
+        <div class="hero-area col-sm-12 heroImageStyled" style="heroImageStyled" id="hero-area" >
 
-      </div>
-      {{ $author:= site.Data.author }}
-      {{ if (index site.Data site.Language.Lang).author }}
-        {{ $author = (index site.Data site.Language.Lang).author }}
-      {{ end }}
-      {{ $authorImage := "/images/default-avatar.png" }}
-      {{ if $author.image }}
-        {{ $authorImage = $author.image }}
-      {{ end }}
-      {{ $authorRotation := $author.image }}
-      {{ $scratch := newScratch }}
-      {{ range $num, $pt := $authorRotation }}
-        {{ $authorImage := resources.Get $pt }}
-        {{ $authorImage := $authorImage.Fit "120x120" }}
-        {{ $scratch.Set $num $authorImage }}
-
-      {{ end }}
-{{/* $authorImage := resources.Get $authorImage */}}
-{{/* $authorImage := $authorImage.Fit "120x120" */}}
-
-      <!--Content Start-->
-      <div class="page-content">
-        <div class="author-profile ml-auto align-self-lg-center">
-          <div id="cf4a-sm" >
-            {{ range $num, $res := $author.image }}
-            {{ $im := $scratch.Get $num }}
-            <img src="{{ $im.RelPermalink }}" loading="lazy" class="cf4a-sm rounded-circle" />
-            {{ end }}
-          </div>
-          <!--img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}'/ -->
-          <h5 class="author-name">{{ partial "helpers/get-author-name.html" . }}</h5>
-          <p>{{ .Page.Date.Format "January 2, 2006" }}</p>
         </div>
-
-        <div class="title">
-          <h1>{{ .Page.Title }}</h1>
-        </div>
-
-        <div class="post-content" id="post-content">
-          {{ .Page.Content }}
-        </div>
-
-        <!--- Improve this page button --->
-        {{ if site.Params.GitRepo }}
-          <div class="btn-improve-page">
-              <a href="{{ site.Params.GitRepo }}/edit/{{ site.Params.GitBranch }}/content/{{ .File.Path }}">
-                <i class="fas fa-code-branch"></i>
-                {{ i18n "improve_this_page" }}
-              </a>
-          </div>
+        {{ $author:= site.Data.author }}
+        {{ if (index site.Data site.Language.Lang).author }}
+          {{ $author = (index site.Data site.Language.Lang).author }}
         {{ end }}
+        {{ $authorImage := "/images/default-avatar.png" }}
+        {{ if $author.image }}
+          {{ $authorImage = $author.image }}
+        {{ end }}
+        {{ $authorRotation := $author.image }}
+        {{ $scratch := newScratch }}
+        {{ range $num, $pt := $authorRotation }}
+          {{ $authorImage := resources.Get $pt }}
+          {{ $authorImage := $authorImage.Fit "120x120" }}
+          {{ $scratch.Set $num $authorImage }}
 
-        <!---Next and Previous Navigator -->
-      <hr />
-        {{ partial "navigators/next-prev-navigator.html" . }}
-      <hr />
-      <!-- Add Disqus forum  -->
-      <script defer src="https://commento.davidgs.com:8088/js/commento.js"></script>
-      <div id="commento"></div>
-      {{ if site.DisqusShortname }}
-          {{ partial "disqus.html" . }}
-      {{ end }}
+        {{ end }}
+  {{/* $authorImage := resources.Get $authorImage */}}
+  {{/* $authorImage := $authorImage.Fit "120x120" */}}
+
+        <!--Content Start-->
+        <div class="page-content">
+          <div class="author-profile ml-auto align-self-lg-center">
+            <div id="cf4a-sm" >
+              {{ range $num, $res := $author.image }}
+              {{ $im := $scratch.Get $num }}
+              <img src="{{ $im.RelPermalink }}" loading="lazy" class="cf4a-sm rounded-circle" />
+              {{ end }}
+            </div>
+            <!--img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}'/ -->
+            <h5 class="author-name">{{ partial "helpers/get-author-name.html" . }}</h5>
+            <p>{{ .Page.Date.Format "January 2, 2006" }}</p>
+          </div>
+
+          <div class="title">
+            <h1>{{ .Page.Title }}</h1>
+          </div>
+
+          <div class="post-content" id="post-content">
+            {{ .Page.Content }}
+          </div>
+
+          <!--- Improve this page button --->
+          {{ if site.Params.GitRepo }}
+            <div class="btn-improve-page">
+                <a href="{{ site.Params.GitRepo }}/edit/{{ site.Params.GitBranch }}/content/{{ .File.Path }}">
+                  <i class="fas fa-code-branch"></i>
+                  {{ i18n "improve_this_page" }}
+                </a>
+            </div>
+          {{ end }}
+
+          <!---Next and Previous Navigator -->
+        <hr />
+          {{ partial "navigators/next-prev-navigator.html" . }}
+        <hr />
+        <!-- Add Disqus forum  -->
+        <script defer src="https://commento.davidgs.com:8088/js/commento.js"></script>
+        <div id="commento"></div>
+        {{ if site.DisqusShortname }}
+            {{ partial "disqus.html" . }}
+        {{ end }}
+        </div>
       </div>
     </div>
-  </div>
-  {{ if .IsTranslated }}
-    {{ partial "navigators/floating-lang-selector.html" . }}
-  {{ end }}
-</section>
+    {{ if .IsTranslated }}
+      {{ partial "navigators/floating-lang-selector.html" . }}
+    {{ end }}
+  </section>
 {{ end }}
 
 {{ define "toc" }}
@@ -133,21 +133,20 @@
       <hr>
       <div class="toc">
         {{ .TableOfContents }}
-
     </div>
-
     </div>
     {{ end }}
   </section>
 {{ end }}
 
 {{ define "scripts" }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-<script nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=" src="{{ "/js/single.js" | relURL }}"></script>
-<script nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=">
-  hljs.initHighlightingOnLoad();
-</script>
-  {{ if .Params.math }}
-    {{ partial "math.html" . }}
-  {{ end }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+  <script nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=" src='{{ "/js/single.js" | relURL }}'></script>
+  <script nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=">
+    hljs.initHighlightingOnLoad();
+  </script>
+    {{ if .Params.math }}
+      {{ partial "math.html" . }}
+    {{ end }}
 {{ end }}
+

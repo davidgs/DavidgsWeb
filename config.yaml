@@ -25,7 +25,7 @@ languages:
     weight: 2
   nl:
     languageName: Dutch
-    weigth: 3
+    weight: 3
   es:
     languageName: Español
     weight: 4
