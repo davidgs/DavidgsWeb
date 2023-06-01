@@ -4,6 +4,7 @@ Date: 2018-03-27
 Category: IoT
 Slug: chéri-j'ai-instrumenté-les-enfants
 hero: images/header.jpg
+reading_time: 6 minutes
 ---
 
 > **C'est la première fois que j'utilise ChatGPT pour faire des traductions. Veuillez me dire si elles sont meilleures (ou pires) que les versions de Google Translate dans d'autres publications.**

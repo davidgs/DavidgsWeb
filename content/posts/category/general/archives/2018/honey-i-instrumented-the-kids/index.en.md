@@ -4,6 +4,7 @@ Date: 2018-03-27
 Category: IoT
 Slug: honey-i-instrumented-the-kids
 hero: images/header.jpg
+reading_time: 6 minutes
 ---
 
 > **This is my first time using ChatGPT to do translations. Please let me know if they are better (or worse) than the Google Translate versions in other posts**

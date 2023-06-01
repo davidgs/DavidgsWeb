@@ -4,6 +4,7 @@ Datum: 2018-03-27
 Categorie: IoT
 Slug: schat-ik-heb-de-kinderen-geïnstrumenteerd
 hero: images/header.jpg
+reading_time: 6 minutes
 ---
 
 > **Dit is de eerste keer dat ik ChatGPT gebruik om vertalingen te doen. Laat het me weten als ze beter (of slechter) zijn dan de Google Translate versies in andere berichten.**

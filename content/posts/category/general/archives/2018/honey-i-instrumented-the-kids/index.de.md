@@ -4,6 +4,7 @@ Datum: 2018-03-27
 Kategorie: IoT
 Slug: honey-i-instrumented-the-kids
 Held: images/header.jpg
+reading_time: 5 minutes
 ---
 
 > **Dies ist das erste Mal, dass ich ChatGPT für Übersetzungen verwende. Bitte lassen Sie mich wissen, ob sie besser (oder schlechter) sind als die Google Translate-Versionen in anderen Beiträgen.**

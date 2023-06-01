@@ -4,6 +4,7 @@ Fecha: 2018-03-27
 Categoría: IoT
 Slug: carino-instrumente-a-los-ninos
 héroe: images/header.jpg
+reading_time: 6 minutes
 ---
 
 > **Esta es la primera vez que uso ChatGPT para hacer traducciones. Por favor, hágamelo saber si son mejores (o peores) que las versiones de Google Translate en otras publicaciones.**
