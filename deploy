@@ -2,6 +2,6 @@
 
 USER=davidgs
 HOST=davidgs.com
-DIR=www
+DIR=www/staging
 
 hugo --minify && rsync -avz public/ ${USER}@${HOST}:~/${DIR}
