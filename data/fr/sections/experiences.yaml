@@ -11,6 +11,23 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Otterize
+    url: "https://otterize.com"
+    location: Tel Aviv, Israel (remote)
+    overview: Fournir la sécurité et la facilité d'utilisation pour Kubernetes, AWS, GKE, et plus encore.
+  positions:
+  - designation: Responsable des relations avec les développeurs
+    start: Juin 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Diriger les efforts de relations avec les développeurs au sein de cette startup
+    - Création de contenu, y compris des articles de blog, des tutoriels et des vidéos.
+    - Construire la [Communauté Otterize] (https://otrz.md/slack).
+    - Diriger les efforts de documentation à l'échelle de l'entreprise
+    - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel.
+- company:
     name: StarTree
     url: "https://startree.ai"
     location: Mountain View, CA (à distance)
@@ -19,6 +36,7 @@ experiences:
   positions:
   - designation:  Responsable de la défense des intérêts des développeurs
     start: Août 2022
+    end: Juin 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.

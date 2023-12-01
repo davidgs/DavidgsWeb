@@ -11,16 +11,14 @@ section:
 designation: Responsable de la défense des intérêts des développeurs
 # your company information
 company:
-  name: StarTree
-  url: "https://StarTree.ai"
+  name: Otterize
+  url: "https://otterize.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Je suis un pionnier de l'Internet des objets (IoT) qui travaille dans ce domaine depuis plus de 15 ans. Je suis actuellement responsable de la défense des intérêts des développeurs chez [StarTree] (https://startree.ai). Auparavant, j'étais Principal Developer Advocate chez [Camunda] (https://camunda.com), Head of Developer Relations chez [QuestDB] (https://questdb.io) et Senior Developer Advocate chez [Influx Data] (https://influxdata.com). Cela fait deux bases de données de séries chronologiques d'affilée. Si vous vous demandez quel est le rapport avec l'IdO, lisez le document [Why an IoT does Time Series Data] (https://www.influxdata.com/iot-guy-joined-influxdata/).
-
-Traduit avec www.DeepL.com/Translator (version gratuite)"
+summary: "Je suis un pionnier de l'internet des objets (IdO) qui travaille dans ce domaine depuis plus de 20 ans. Je suis actuellement responsable des relations avec les développeurs chez [Otterize] (https://otterize.com). J'ai été brièvement responsable de la défense des intérêts des développeurs chez [StarTree] (https://startree.ai). Auparavant, j'ai été principal défenseur des développeurs chez [Camunda](https://camunda.com), responsable des relations avec les développeurs chez [QuestDB](https://questdb.io) et défenseur principal des développeurs chez [Influx Data](https://influxdata.com). Il s'agit de deux bases de données de séries temporelles d'affilée. Si vous vous demandez quel est le rapport avec l'IdO, lisez [Pourquoi l'IdO utilise des données de séries temporelles] (https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -43,6 +41,10 @@ socialLinks:
 - name: Twitter
   icon: "fab fa-twitter"
   url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+
+- name: Mastodon
+  icon: "fab fa-mastodon"
+  url: "https://davidgs@tty0.social"
 
 - name: Reddit
   icon: "fab fa-reddit"

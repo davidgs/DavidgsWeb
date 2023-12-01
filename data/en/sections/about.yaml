@@ -42,6 +42,10 @@ socialLinks:
   icon: "fab fa-twitter"
   url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
 
+- name: Mastodon
+  icon: "fab fa-mastodon"
+  url: "https://davidgs@tty0.social"
+
 - name: Reddit
   icon: "fab fa-reddit"
   url: "https://www.reddit.com/user/santafen"

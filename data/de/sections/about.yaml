@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Leiterin der Entwickler Advocacy
+designation: Leiter der Abteilung für Entwicklerbeziehungen
 # your company information
 company:
-  name: StarTree
-  url: "https://startree.ai"
+  name: Otterize
+  url: "https://otterize.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Ich bin ein Pionier des Internets der Dinge (IoT) und arbeite seit über 15 Jahren in diesem Bereich. Ich bin jetzt Leiter der Entwicklerförderung bei [StarTree] (https://startree.ai). Zuvor war ich Principle Developer Advocate bei [Camunda](https://camunda.com), Head of Developer Relations bei [QuestDB](https://questdb.io) und Senior Developer Advocate bei [Influx Data](https://influxdata.com). Das sind 2 Zeitreihen-Datenbanken in Folge. Wenn Sie sich fragen, was das mit dem IoT zu tun hat, lesen Sie [Warum ein IoT Zeitreihendaten benötigt](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Ich bin ein Pionier des Internets der Dinge (IoT) und arbeite seit über 20 Jahren in diesem Bereich. Ich bin jetzt Leiter der Entwicklerbeziehungen bei [Otterize](https://otterize.com). Ich war eine kurze Zeit lang Leiter der Developer Advocacy bei [StarTree](https://startree.ai). Zuvor war ich Principle Developer Advocate bei [Camunda](https://camunda.com), Head of Developer Relations bei [QuestDB](https://questdb.io) und der Senior Developer Advocate bei [Influx Data](https://influxdata.com). Das sind 2 Zeitreihen-Datenbanken in Folge. Wenn Sie sich fragen, was das mit IoT zu tun hat, lesen Sie [Why an IoT does Time Series Data](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -42,6 +42,10 @@ socialLinks:
 - name: Twitter
   icon: "fab fa-twitter"
   url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+
+- name: Mastodon
+  icon: "fab fa-mastodon"
+  url: "https://davidgs@tty0.social"
 
 - name: Reddit
   icon: "fab fa-reddit"
