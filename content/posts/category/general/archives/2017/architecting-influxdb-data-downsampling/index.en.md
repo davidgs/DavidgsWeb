@@ -5,6 +5,7 @@ Category: archives
 Slug: architecting-influxdb-data-downsampling
 hero: images/SafariScreenSnapz005-1.png
 reading_time: 9 minutes
+relcanonical: https://www.influxdata.com/blog/architecting-influxdb-data-downsampling/
 ---
 
 
