@@ -12,6 +12,12 @@
     {{ if site.GoogleAnalytics }}
       {{- partial "helpers/google-analytics.html" . -}}
     {{ end }}
+
+    {{ with .Params.relcanonical }}
+      <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />
+    {{ else -}}
+      <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+    {{ end -}}
   </head>
 
   <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
