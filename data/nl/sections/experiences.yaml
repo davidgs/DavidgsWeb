@@ -11,6 +11,24 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Otterize
+    url: "https://otterize.com"
+    location: Tel Aviv, Israel (remote)
+    overview: Biedt beveiliging en gebruiksgemak voor Kubernetes, AWS, GKE en meer.
+  positions:
+  - designation: Hoofd Relaties Ontwikkelaars
+    start: Juni 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leiding geven aan Developer Relations bij deze startup
+    - Content creëren, waaronder blogposts, tutorials en video's.
+    - Opbouwen van de [Otterize-gemeenschap] (https://otrz.md/slack).
+    - Leid de documentatie-inspanningen bedrijfsbreed
+    - Ondersteunen en beschikbaar stellen van middelen aan de grotere DevRel-gemeenschap
+
+- company:
     name: StarTree
     url: "https://startree.ai"
     location: Mountain View, CA (op afstand)
@@ -19,6 +37,7 @@ experiences:
   positions:
   - designation: Hoofd voorstander van ontwikkelaars
     start: Augustus 2020
+    end: Juni 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.

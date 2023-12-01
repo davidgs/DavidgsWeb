@@ -8,19 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Jefe de Promoción de Desarrolladores
+designation: Jefe de Relaciones con los Desarrolladores
 # your company information
 company:
-  name: StarTree
-  url: "https://startree.ai"
+  name: Otterize
+  url: "https://otterize.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Soy un pionero del Internet de las Cosas (IoT) que lleva más de 15 años trabajando en este campo. En la actualidad, soy jefe de promoción de desarrolladores en [StarTree](https://startree.ai). Anteriormente, fui el principal defensor de los desarrolladores en [Camunda](https://camunda.com), jefe de relaciones con los desarrolladores en [QuestDB](https://questdb.io) y el defensor de los desarrolladores senior en [Influx Data](https://influxdata.com). Son dos bases de datos de series temporales seguidas. Si te preguntas cómo se relaciona esto con el IoT, lee sobre [Por qué un IoT hace series temporales de datos](https://www.influxdata.com/iot-guy-joined-influxdata/).
-
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator"
+summary: "Soy un pionero del Internet de las Cosas (IoT) que lleva más de 20 años trabajando en este campo. Actualmente soy responsable de relaciones con los desarrolladores en [Otterize](https://otterize.com). Pasé una breve temporada como responsable de promoción de desarrolladores en [StarTree](https://startree.ai). Anteriormente, fui principal defensor de los desarrolladores en [Camunda](https://camunda.com), jefe de relaciones con los desarrolladores en [QuestDB](https://questdb.io) y defensor principal de los desarrolladores en [Influx Data](https://influxdata.com). Son dos bases de datos de series temporales seguidas. Si te estás preguntando cómo se relaciona esto con el IoT, lee sobre [Por qué un IoT hace Series Temporales de Datos](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -43,6 +41,10 @@ socialLinks:
 - name: Twitter
   icon: "fab fa-twitter"
   url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+
+- name: Mastodon
+  icon: "fab fa-mastodon"
+  url: "https://davidgs@tty0.social"
 
 - name: Reddit
   icon: "fab fa-reddit"

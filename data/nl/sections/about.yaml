@@ -8,19 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Hoofd voorstander van ontwikkelaars
+designation: Hoofd Relaties Ontwikkelaars
 # your company information
 company:
-  name: StarTree
-  url: "https://startree.ai"
+  name: Otterize
+  url: "https://otterize.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Ik ben een Internet of Things (IoT)-pionier die al meer dan 15 jaar op dit gebied werkzaam is. Ik ben nu Head of Developer Advocacy bij [StarTree](https://startree.ai). Daarvoor was ik Principle Developer Advocate bij [Camunda](https://camunda.com), Head of Developer Relations bij [QuestDB](https://questdb.io) en Senior Developer Advocate bij [Influx Data](https://influxdata.com). Dat zijn 2 tijdreeksdatabases op een rij. Als u zich afvraagt hoe dat verband houdt met IoT, lees dan over [Waarom een IoT Time Series Data doet](https://www.influxdata.com/iot-guy-joined-influxdata/).
-
-Vertaald met www.DeepL.com/Translator (gratis versie)"
+summary: "Ik ben een Internet of Things (IoT)-pionier die al meer dan 20 jaar op dit gebied werkt. Ik ben nu Hoofd Relaties met Ontwikkelaars bij [Otterize](https://otterize.com). Ik heb een korte periode gewerkt als Hoofd Developer Advocacy bij [StarTree](https://startree.ai). Daarvoor was ik Principle Developer Advocate bij [Camunda](https://camunda.com), Head of Developer Relations bij [QuestDB](https://questdb.io) en Senior Developer Advocate bij [Influx Data](https://influxdata.com). Dat zijn 2 tijdreeksdatabases op een rij. Als je je afvraagt hoe dat gerelateerd is aan IoT, lees dan over [Waarom een IoT Time Series Data doet](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -43,6 +41,10 @@ socialLinks:
 - name: Twitter
   icon: "fab fa-twitter"
   url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+
+- name: Mastodon
+  icon: "fab fa-mastodon"
+  url: "https://davidgs@tty0.social"
 
 - name: Reddit
   icon: "fab fa-reddit"
