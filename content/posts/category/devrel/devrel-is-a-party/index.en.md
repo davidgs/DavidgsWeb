@@ -7,6 +7,7 @@ Category:
 Slug: devrel-is-a-party-no-its-not
 hero: images/half-house.jpg
 draft: false
+reading_time: 8 minutes
 ---
 
 I've been interviewing a lot lately (and no, I don't want to talk about it). I'm asked almost all the time "How do you define Developer Relations?" and this post is the long-form answer to that question.
