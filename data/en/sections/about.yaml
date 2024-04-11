@@ -8,71 +8,80 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Head of Developer Relations
+designation: I'm available to help your company with your DevRel efforts.
 # your company information
-company:
-  name: Otterize
-  url: "https://otterize.com"
+#company:
+#  name:
+#  url: "https://davidgs.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/Resume-2021.pdf"
+resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "I am an Internet of Things (IoT) pioneer who has been working in the field for over 20 years. I am now the Head of Developer Relations at [Otterize](https://otterize.com). I did a short stint as Head of Developer Advocacy at [StarTree](https://startree.ai). Previously, I was Principle Developer Advocate at [Camunda](https://camunda.com), Head of Developer Relations at [QuestDB](https://questdb.io) and the Senior Developer Advocate at [Influx Data](https://influxdata.com). That's 2 Time Series databases in a row. If you're wondering how that's related to IoT, read about [Why an IoT does Time Series Data](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "I am an Internet of Things (IoT) pioneer who has been working in the field for over 20 years. <p>I have been doing Developer Relations for even longer.<p>I have served as the Head of Developer Relations at [Otterize](https://otterize.com) and [QuestDB](https://questdb.io). I did a short stint as Head of Developer Advocacy at [StarTree](https://startree.ai).<p> Previously, I was Principle Developer Advocate at [Camunda](https://camunda.com), and the Senior Developer Advocate at [Influx Data](https://influxdata.com). <p>If you're wondering Time Series Databases are related to IoT, read about [Why an IoT expert does Time Series Data](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "davidgs@davidgs.com"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "davidgs@davidgs.com"
 
-- name: Phone
-  icon: "fas fa-phone"
-  url: "919-534-5099"
+  - name: Phone
+    icon: "fas fa-phone"
+    url: "919-534-5099"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/davidgs"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/davidgs"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://linkedin.com/in/davidgsimmons"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/davidgsimmons"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+  - name: Twitter
+    icon: "fab fa-twitter"
+    url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
 
-- name: Mastodon
-  icon: "fab fa-mastodon"
-  url: "https://davidgs@tty0.social"
+  - name: Mastodon
+    icon: "fab fa-mastodon"
+    url: "https://davidgs@tty0.social"
 
-- name: Reddit
-  icon: "fab fa-reddit"
-  url: "https://www.reddit.com/user/santafen"
+  - name: Bluesky
+    icon: "fab fa-brands fa-bluesky"
+    url: "https://bluesky.social/@davidgs"
 
+  - name: Reddit
+    icon: "fab fa-reddit"
+    url: "https://www.reddit.com/user/santafen"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: DevRel
-  percentage: 95
-  color: blue
-- name: Empathetic
-  percentage: 90
-  color: pink
-- name: Presentations
-  percentage: 90
-  color: green
-- name: Team Work
-  percentage: 80
-  color: yellow
-- name: Fast Learner
-  percentage: 85
-  color: sky
-- name: Problem Solver
-  percentage: 85
-  color: orange
+  - name: DevRel
+    percentage: 100
+    color: "#00BDFF"
+  - name: Empathy
+    percentage: 95
+    color: pink
+  - name: Public Speaking
+    percentage: 80
+    color: green
+  - name: Team Work & Collaboration
+    percentage: 90
+    color: "#FFCF00"
+  - name: Problem Solving
+    percentage: 85
+    color: "#9D42FF"
+  - name: Writing
+    percentage: 95
+    color: "#4D61FF"
+  - name: Community Building
+    percentage: 65
+    color: "#4A7800"
+  - name: Technical Skills
+    percentage: 90
+    color: "#FF5800"
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
 #   percentage: 75
