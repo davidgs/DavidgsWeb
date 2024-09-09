@@ -10,7 +10,6 @@ author:
   name: David G. Simmons
 copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
   International License.
-languageCode: en-us
 rssLimit: 25
 ## Enable comments
 # DisqusShortname: davidgsIoT
@@ -52,7 +51,7 @@ markup:
     ordered: false
 
 # Enable Google Analytics
-googleAnalytics: UA-10503049-6
+# .Site.Config.Services.GoogleAnalytics.ID: UA-10503049-6
 
 # Enable global emoji support
 enableEmoji: true

@@ -11,23 +11,41 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Zymbit
+    url: "https://zymbit.com"
+    location: Santa Barbara, CA (remote)
+    overview: High security IoT Edge devices.
+  positions:
+  - designation: Head of Developer Relations
+    start: May 2024
+    # end: December 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leading Developer Relations efforts at this IoT startup
+    - Content creation including blog posts, tutorials and videos and tutorials.
+    - Presentations at international IoT conferences and meetups
+    - Support and provide resources to the greater DevRel Community
+    - Define, execute and measure the overall Developer Relations strategy
+- company:
     name: Otterize
     url: "https://otterize.com"
     location: Tel Aviv, Israel (remote)
-    overview: Providing security and ease of use for Kubernetes, AWS, GKE, and more.
+    overview: Simplifying Kubernetes security and compliance.
   positions:
   - designation: Head of Developer Relations
     start: June 2023
+    end: December 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Leading Developer Relations efforts at this startup
-    - Content creation including blog posts, tutorials and videos.
-    - Building the [Otterize Community](https://otrz.md/slack).
+    - Content creation including blog posts, tutorials and videos
+    - Doubled the size of the [Otterize Community](https://otrz.md/slack)
     - Lead the documentation efforts company-wide
     - Support and provide resources to the greater DevRel Community
-
 - company:
     name: StarTree
     url: "https://startree.ai"
@@ -42,8 +60,8 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Leading Developer Advocacy team
-    - Standard DevRel tasks of Blog posts, community interactions and support, and support of internal stakeholders.
-    - Mentoring of jr. DevRels both inside the company and in the DevRel Community as a whole.
+    - Standard DevRel tasks of Blog posts, community interactions and support, and support of internal stakeholders
+    - Mentoring of jr. DevRels both inside the company and in the DevRel Community as a whole
     - Support and provide resources to the greater DevRel Community
 - company:
     name: Camunda, Inc.
@@ -60,8 +78,8 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Leading the introduction of Camunda to the IoT Community
-    - Standard DevRel tasks of Blog posts, community interactions and support, contributions to the Camunda Platform Open Source codebase, and support of internal stakeholders.
-    - Mentoring of jr. DevRels both inside the company and in the DevRel Community as a whole.
+    - Standard DevRel tasks of Blog posts, community interactions and support, contributions to the Camunda Platform Open Source codebase, and support of internal stakeholders
+    - Mentoring of jr. DevRels both inside the company and in the DevRel Community as a whole
     - Support and provide resources to the greater DevRel Community
 
 
@@ -77,7 +95,7 @@ experiences:
     responsibilities:
     - Community development and management of the open source developer Community
     - Tooling for community and developer happiness metrics and management
-    - Regular technical contributions to the [company blog](https://questDB.io/blog?ref=davidgsiot).
+    - Regular technical contributions to the [company blog](https://questDB.io/blog?ref=davidgsiot)
     - Define and execute the overall Developer Relations strategy.
     - Regular international public speaking engagements at Meetups, conferences and company events. See my [Notist](https://noti.st/davidgs) for more.
 
@@ -91,12 +109,12 @@ experiences:
     start: August 2017
     end: April 2020
     responsibilities:
-    - Technology leadership on IoT throughout the company in product development and direction.
-    - Development of complex demos highlighting InfluxData technology for IoT.
-    - Recruiting and training of other developer relations staff.
-    - Contributions to company's open source products through GitHub Pull Requests.
+    - Technology leadership on IoT throughout the company in product development and direction
+    - Development of complex demos highlighting InfluxData technology for IoT
+    - Recruiting and training of other developer relations staff
+    - Contributions to company's open source products through GitHub Pull Requests
     - Lead efforts for collaboration and inclusion in external Open Source initiatives like EclipseIoT, etc.
-    - Regular technical contributions to the company blog (https://influxdata.com/blog).
+    - Regular technical contributions to the company blog (https://influxdata.com/blog)
     - Regular international public speaking engagements at Meetups, conferences and company events. See my [Notist](https://noti.st/davidgs) for more
 
 - company:
@@ -108,10 +126,10 @@ experiences:
   - designation: Founder/Chief Technology Officer
     start: November 2015
     responsibilities:
-    - I founded Dragonfly IoT to provide technical consulting and contract development services to companies in IoT based on my extensive experience in the field.
-    - Scoped, proposed and built IoT demo applications including hardware acquisition, provisioning and programming, development of middleware and gateway devices and presentation-layer data analysis.
-    - Contributed to open-source IoT projects like Apache MyNewt.
-    - Authored white papers, blog posts and user documentation for demos, projects and open-source software efforts.
+    - I founded Dragonfly IoT to provide technical consulting and contract development services to companies in IoT based on my extensive experience in the field
+    - Scoped, proposed and built IoT demo applications including hardware acquisition, provisioning and programming, development of middleware and gateway devices and presentation-layer data analysis
+    - Contributed to open-source IoT projects like Apache MyNewt
+    - Authored white papers, blog posts and user documentation for demos, projects and open-source software efforts
 
 - company:
     name: PsiKick (now Everactive)
@@ -123,13 +141,13 @@ experiences:
     start: February 2015
     end: October 2015
     responsibilities:
-    - Led the definition and development of a user and developer platform for a new IoT system-on-chip being developed including defining developer APIs and points of engagement with customers.
-    - Defined developer platform architecture for engaging developers on new IoT SoC.
-    - Tested experimental IoT hardware and developed Demos to showcase capabilities in C, Python and Swift.
-    - Built custom iOS Bluetooth applications for demos and custom (C-based) developer interface for in-house developed hardware.
-    - Ported Linux/Windows drivers to Mac OS X.
-    - Brought in both Fortune 50 and emerging-company partners and customers through direct industry contacts and evangelism efforts.
-    - Engaged new hardware development partner to lower board-level development costs by over 50%.
+    - Led the definition and development of a user and developer platform for a new IoT system-on-chip being developed including defining developer APIs and points of engagement with customers
+    - Defined developer platform architecture for engaging developers on new IoT SoC
+    - Tested experimental IoT hardware and developed Demos to showcase capabilities in C, Python and Swift
+    - Built custom iOS Bluetooth applications for demos and custom (C-based) developer interface for in-house developed hardware
+    - Ported Linux/Windows drivers to Mac OS X
+    - Brought in both Fortune 50 and emerging-company partners and customers through direct industry contacts and evangelism efforts
+    - Engaged new hardware development partner to lower board-level development costs by over 50%
 
 - company:
     name: Riverbed Technology
@@ -141,13 +159,13 @@ experiences:
     start: October 2012
     end: February 2015
     responsibilities:
-    - Responsible for the development and delivery of user groups, technical sessions and webinars to enable the field sales organization to maximize sales opportunities.
-    - Worldwide technical evangelism for the Entire Riverbed platform of products including WAN Optimization, Storage Optimization, Network and Application Performance Management, and Cloud Storage solutions including hundreds of user-group presentations to thousands of customers.
-    - Helped close over $90M in sales per year.
-    - Authored white papers, blog posts and user documentation for demos, projects and open-source software efforts.
-    - Developed and delivered demos for video, web, and major on-stage product launches.
-    - Organized and developed the technical session content for the Riverbed FORCE user conference including 60 Technical Sessions, 20 Hands on Labs, and continuous Certification Testing for over 1,000 attendees.
-    - Developed and delivered webinars to over 2,000 participants annually.
+    - Responsible for the development and delivery of user groups, technical sessions and webinars to enable the field sales organization to maximize sales opportunities
+    - Worldwide technical evangelism for the Entire Riverbed platform of products including WAN Optimization, Storage Optimization, Network and Application Performance Management, and Cloud Storage solutions including hundreds of user-group presentations to thousands of customers
+    - Helped close over $90M in sales per year
+    - Authored white papers, blog posts and user documentation for demos, projects and open-source software efforts
+    - Developed and delivered demos for video, web, and major on-stage product launches
+    - Organized and developed the technical session content for the Riverbed FORCE user conference including 60 Technical Sessions, 20 Hands on Labs, and continuous Certification Testing for over 1,000 attendees
+    - Developed and delivered webinars to over 2,000 participants annually
 
 - company:
     name: Sun Microsystems Labs (now Oracle Labs)
@@ -159,11 +177,11 @@ experiences:
     start: July 2003
     end: April 2012
     responsibilities:
-    - Contributed to the development and overall success of the Sun SPOT IoT Developer Platform project.
-    - Led the development of the on-line developer community.
+    - Contributed to the development and overall success of the Sun SPOT IoT Developer Platform project
+    - Led the development of the on-line developer community
     - Research and development for embedded wireless sensor network platform
     - Developed and grew the user and developer community from zero to over 3,000 participants in 3 years
     - Developed the installation and maintenance software for entire Sun SPOT Platform including hardware and SDK deployment and upgrades
-    - Developed and delivered Technical Hands On Labs at Java One — the premier Java developer conference — for 3 consecutive years.
+    - Developed and delivered Technical Hands On Labs at Java One — the premier Java developer conference — for 3 consecutive years
     - Developed the Demonstration Application Suite for Sun SPOT Platform
-    - Maintained a regular high-traffic technical blog (top 50 blogs on blogs.sun.com).
+    - Maintained a regular high-traffic technical blog (top 50 blogs on blogs.sun.com)

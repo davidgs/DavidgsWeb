@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Leiter der Abteilung für Entwicklerbeziehungen
+designation:  Ich stehe zur Verfügung, um Ihr Unternehmen bei Ihren DevRel-Bemühungen zu unterstützen.
 # your company information
-company:
-  name: Otterize
-  url: "https://otterize.com"
+#company:
+#  name: Otterize
+#  url: "https://otterize.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume-2021.pdf"
 
 # a summary about you
-summary: "Ich bin ein Pionier des Internets der Dinge (IoT) und arbeite seit über 20 Jahren in diesem Bereich. Ich bin jetzt Leiter der Entwicklerbeziehungen bei [Otterize](https://otterize.com). Ich war eine kurze Zeit lang Leiter der Developer Advocacy bei [StarTree](https://startree.ai). Zuvor war ich Principle Developer Advocate bei [Camunda](https://camunda.com), Head of Developer Relations bei [QuestDB](https://questdb.io) und der Senior Developer Advocate bei [Influx Data](https://influxdata.com). Das sind 2 Zeitreihen-Datenbanken in Folge. Wenn Sie sich fragen, was das mit IoT zu tun hat, lesen Sie [Why an IoT does Time Series Data](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Ich bin ein Pionier des Internets der Dinge (IoT) und arbeite seit über 20 Jahren in diesem Bereich. <p>Ich beschäftige mich sogar noch länger mit den Beziehungen zu Entwicklern.<p>Ich war Leiter der Abteilung für Entwicklerbeziehungen bei [Otterize](https://otterize.com). Ich habe eine kurze Zeit als Head of Developer Advocacy bei [StarTree](https://startree.ai) gearbeitet.<p>Zuvor war ich Principle Developer Advocate bei [Camunda](https://camunda.com) und Senior Developer Advocate bei [Influx Data](https://influxdata.com). <p>Wenn Sie sich fragen, was Zeitreihendatenbanken mit IoT zu tun haben, lesen Sie [Warum ein IoT-Experte Zeitreihendaten macht](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -57,23 +57,30 @@ socialLinks:
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
 - name: DevRel
+  percentage: 100
+  color: "#00BDFF"
+- name: Einfühlungsvermögen
   percentage: 95
-  color: blue
-- name: Einfühlsam
-  percentage: 90
   color: pink
-- name: Präsentationen
-  percentage: 90
-  color: green
-- name: Zusammenarbeit
+- name: Öffentliches Reden
   percentage: 80
-  color: yellow
-- name: Schneller Lerner
+  color: green
+- name: Teamarbeit & Kooperation
+  percentage: 90
+  color: "#FFCF00"
+- name: Problemlösung
   percentage: 85
-  color: sky
-- name: problemlösende Fähigkeiten
-  percentage: 85
-  color: orange
+  color: "#9D42FF"
+- name: Schreiben
+  percentage: "#4D61FF"
+  color: "#4D61FF"
+- name: Gemeinschaftliches Gebäude
+  percentage: 65
+  color: "#4A7800"
+- name: Technische Fertigkeiten
+  percentage: 90
+  color: "#FF5800"
+
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
 #   percentage: 75

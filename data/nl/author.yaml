@@ -7,7 +7,9 @@ image:
   one: "/images/author/dg4.jpg"
   two: "/images/author/dg7.jpg"
   three: "/images/author/dg5.jpg"
-  four: "/images/author/dg6.jpg"
+  four: "/images/author/dg10.jpg"
+  five: "/images/author/dg7.jpg"
+  six: "/images/author/dg11.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "davidgs@davidgs.com"
@@ -18,7 +20,8 @@ summary:
   - Ik ben een Developer Advocate
   - Ik ben DevRel
   - Ik hou van IoT
-  - Ik hou van open source
-  - Ik ben dol op het bouwen van nutteloze IoT-projecten
+  - Ik hou van open-source
+  - Ik bouw graag nutteloze IoT-projecten
   - Ik leer mensen hoe ze technologie moeten gebruiken
   - Ik hou van honden ... waarschijnlijk meer dan van mensen
+  - Had ik al gezegd dat ik van honden hou?

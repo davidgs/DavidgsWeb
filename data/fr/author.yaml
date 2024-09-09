@@ -7,7 +7,9 @@ image:
   one: "/images/author/dg4.jpg"
   two: "/images/author/dg7.jpg"
   three: "/images/author/dg5.jpg"
-  four: "/images/author/dg6.jpg"
+  four: "/images/author/dg10.jpg"
+  five: "/images/author/dg7.jpg"
+  six: "/images/author/dg11.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "davidgs@davidgs.com"
@@ -15,10 +17,11 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - Je suis un promoteur des développeurs
+  - Je suis un défenseur des développeurs
   - Je suis DevRel
-  - J'adore l'IoT
-  - J'adore l'open-source
-  - J'adore construire des projets IoT inutiles
+  - J'aime l'IdO
+  - J'aime l'open-source
+  - J'aime construire des projets IoT inutiles
   - J'enseigne aux gens comment utiliser la technologie
-  - J'adore les chiens ... probablement plus que les gens
+  - J'aime les chiens ... probablement plus que les gens
+  - Ai-je mentionné que j'aime les chiens ?
