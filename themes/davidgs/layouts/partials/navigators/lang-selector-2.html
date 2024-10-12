@@ -1,5 +1,5 @@
 {{ $pageURL:= .RelPermalink }}
-{{ if hugo.IsMultiLingual }}
+{{ if site.IsMultiLingual }}
   {{ $pageURL = strings.TrimPrefix (path.Join "/" .Language.Lang) $pageURL }}
 {{ end }}
 
