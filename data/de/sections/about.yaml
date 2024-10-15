@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation:  Ich stehe zur Verfügung, um Ihr Unternehmen bei Ihren DevRel-Bemühungen zu unterstützen.
+designation:  Ich bin der Leiter der Entwicklerbeziehungen.
 # your company information
-#company:
-#  name: Otterize
-#  url: "https://otterize.com"
+company:
+ name: Zymbit
+ url: "https://zymbit.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/Resume-2021.pdf"
+resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "Ich bin ein Pionier des Internets der Dinge (IoT) und arbeite seit über 20 Jahren in diesem Bereich. <p>Ich beschäftige mich sogar noch länger mit den Beziehungen zu Entwicklern.<p>Ich war Leiter der Abteilung für Entwicklerbeziehungen bei [Otterize](https://otterize.com). Ich habe eine kurze Zeit als Head of Developer Advocacy bei [StarTree](https://startree.ai) gearbeitet.<p>Zuvor war ich Principle Developer Advocate bei [Camunda](https://camunda.com) und Senior Developer Advocate bei [Influx Data](https://influxdata.com). <p>Wenn Sie sich fragen, was Zeitreihendatenbanken mit IoT zu tun haben, lesen Sie [Warum ein IoT-Experte Zeitreihendaten macht](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Ich bin ein Pionier des Internets der Dinge (IoT) und arbeite seit über 20 Jahren in diesem Bereich. <p>Ich bin sogar noch länger im Bereich Developer Relations tätig.<p>Zurzeit bin ich Head of Developer Relations bei [Zymbit](https://zymbit.com) und war auch als Head of Developer Relations bei [Otterize](https://otterize.com) und [QuestDB](https://questdb.io) tätig. Ich habe eine kurze Zeit als Head of Developer Advocacy bei [StarTree](https://startree.ai) gearbeitet.<p> Zuvor war ich Principal Developer Advocate bei [Camunda](https://camunda.com) und Senior Developer Advocate bei [Influx Data](https://influxdata.com). <p>Wenn Sie sich fragen, was Zeitreihendatenbanken mit IoT zu tun haben, lesen Sie [Warum ein IoT-Experte sich mit Zeitreihendaten beschäftigt](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

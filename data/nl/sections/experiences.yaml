@@ -11,15 +11,33 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Zymbit
+    url: "https://zymbit.com"
+    location: Santa Barbara, CA (op afstand)
+    overview: Goed beveiligde IoT Edge-apparaten.
+  positions:
+  - designation: Hoofd Relaties Ontwikkelaars
+    start: May 2024
+    # end: December 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Ontwikkelaarsrelaties leiden bij deze IoT-startup
+    - Content creëren, waaronder blogposts, tutorials en video's en tutorials.
+    - Presentaties op internationale IoT-conferenties en meetups
+    - Ondersteunen en bieden van middelen aan de grotere DevRel-gemeenschap
+    - Definiëren, uitvoeren en meten van de algemene Developer Relations-strategie
+- company:
     name: Otterize
     url: "https://otterize.com"
-    location: Tel Aviv, Israel (remote)
+    location: Tel Aviv, Israel (op afstand)
     overview: Biedt beveiliging en gebruiksgemak voor Kubernetes, AWS, GKE en meer.
   positions:
   - designation: Hoofd Relaties Ontwikkelaars
     start: Juni 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Leiding geven aan Developer Relations bij deze startup
@@ -50,7 +68,7 @@ experiences:
 - company:
     name: Camunda, Inc.
     url: "https://camunda.com"
-    location: Berlin, Germany (remote)
+    location: Berlin, Germany (op afstand)
     # company overview
     overview: Een procesautomatiseringsplatform waarmee tienduizenden ontwikkelaars processen kunnen ontwerpen, automatiseren en verbeteren en betere klantervaringen kunnen bieden, projecten sneller kunnen opleveren en de bedrijfsflexibiliteit kunnen vergroten.
   positions:
@@ -70,7 +88,7 @@ experiences:
 - company:
     name: QuestDB
     url: "https://questdb.io"
-    location: London, UK (remote)
+    location: London, UK (op afstand)
     overview: Opstarten van Time Series Database gericht op extreme prestaties met een op SQL gebaseerde, afhankelijkheidsvrije database.
   positions:
   - designation: Hoofd Developer Relations
@@ -86,7 +104,7 @@ experiences:
 - company:
     name: InfluxData
     url: "https://influxdata.com"
-    location: San Francisco, CA USA (remote)
+    location: San Francisco, CA USA (op afstand)
     overview: Time Series-databasebedrijf verantwoordelijk voor de Open Source InfluxDB-database en Telegraf-agent voor gegevensopname
   positions:
   - designation: Senior Developer Advocate
@@ -118,7 +136,7 @@ experiences:
 - company:
     name: PsiKick (nu Everactive)
     url: "https://everactive.com"
-    location: Charlottesville, VA USA (remote)
+    location: Charlottesville, VA USA (op afstand)
     overview: Ontwikkelt ultra-low-power chips en SoC's voor het IoT.
   positions:
   - designation: Chief Technical Evangelist
@@ -136,7 +154,7 @@ experiences:
 - company:
     name: Riverbed Technology
     url: "https://riverbed.com"
-    location: San Francisco, CA USA (remote)
+    location: San Francisco, CA USA (op afstand)
     overview: Riverbed levert hardware en services om de netwerkprestaties te maximaliseren voor externe kantoren en andere WAN-gebaseerde behoeften.
   positions:
   - designation: Technical Evangelist

@@ -2,7 +2,7 @@
 name: "David G. Simmons"
 nickname: "dg"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Buckle up, Buttercup! I am"
 image:
   one: "/images/author/dg2-1.png"
   two: "/images/author/dg7-1.png"

@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation:  Je suis disponible pour aider votre entreprise dans ses efforts DevRel.
+designation:  Je suis le responsable des relations avec les développeurs.
 # your company information
-#company:
- # name: Otterize
- # url: "https://otterize.com"
+company:
+ name: Zymbit
+ url: "https://zymbit.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/Resume-2021.pdf"
+resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "Je suis un pionnier de l'Internet des objets (IoT) qui travaille dans ce domaine depuis plus de 20 ans. <J'ai été responsable des relations avec les développeurs chez [Otterize] (https://otterize.com) et [QuestDB] (https://questdb.io). J'ai été brièvement responsable de la défense des intérêts des développeurs chez [StarTree] (https://questdb.io). Auparavant, j'étais le principal défenseur des développeurs chez [Camunda] (https://camunda.com) et le défenseur principal des développeurs chez [Influx Data] (https://influxdata.com). <Si vous vous demandez si les bases de données de séries temporelles sont liées à l'IdO, lisez [Pourquoi un expert de l'IdO utilise des données de séries temporelles] (https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Je suis un pionnier de l'Internet des objets (IdO) qui travaille dans ce domaine depuis plus de 20 ans. <Actuellement responsable des relations avec les développeurs chez [Zymbit] (https://zymbit.com), j'ai également été responsable des relations avec les développeurs chez [Otterize] (https://otterize.com) et [QuestDB] (https://questdb.io). Auparavant, j'ai été Principal Developer Advocate chez [Camunda](https://camunda.com), et Senior Developer Advocate chez [Influx Data](https://influxdata.com). <Si vous vous demandez comment les bases de données de séries temporelles sont liées à l'IdO, lisez [Pourquoi un expert de l'IdO utilise des données de séries temporelles] (https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:

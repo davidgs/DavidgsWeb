@@ -11,15 +11,33 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Zymbit
+    url: "https://zymbit.com"
+    location: Santa Barbara, CA (à distance)
+    overview: Dispositifs IoT Edge à haute sécurité.
+  positions:
+  - designation: Responsable des relations avec les développeurs
+    start: May 2024
+    # end: December 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Diriger les efforts de relations avec les développeurs dans cette startup de l'IoT
+    - Création de contenu, y compris des articles de blog, des tutoriels, des vidéos et des didacticiels.
+    - Présentations lors de conférences et de rencontres internationales sur l'IdO
+    - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel
+    - Définir, exécuter et mesurer la stratégie globale des relations avec les développeurs.
+- company:
     name: Otterize
     url: "https://otterize.com"
-    location: Tel Aviv, Israel (remote)
+    location: Tel Aviv, Israel (à distance)
     overview: Fournir la sécurité et la facilité d'utilisation pour Kubernetes, AWS, GKE, et plus encore.
   positions:
   - designation: Responsable des relations avec les développeurs
     start: Juin 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Diriger les efforts de relations avec les développeurs au sein de cette startup
@@ -117,7 +135,7 @@ experiences:
 - company:
     name: PsiKick (now Everactive)
     url: "https://everactive.com"
-    location: Charlottesville, VA USA (remote)
+    location: Charlottesville, VA USA (à distance)
     overview: Développe des puces et des SoC ultra basse consommation pour l'IoT.
   positions:
   - designation: Évangéliste technique en chef
@@ -135,7 +153,7 @@ experiences:
 - company:
     name: Riverbed Technology
     url: "https://riverbed.com"
-    location: San Francisco, CA USA (remote)
+    location: San Francisco, CA USA (à distance)
     overview: Riverbed fournit du matériel et des services pour maximiser les performances du réseau pour les bureaux distants et d'autres besoins basés sur le WAN.
   positions:
   - designation: Évangéliste Technique

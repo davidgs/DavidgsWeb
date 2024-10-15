@@ -20,6 +20,8 @@ buttons:
     filter: "hobby"
   - name: IoT
     filter: "iot"
+  - name: DevRel
+    filter: "devrel"
 
 # your projects
 projects:

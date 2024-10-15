@@ -2,7 +2,7 @@
 name: "David G. Simmons"
 nickname: "dg"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hoi ik ben"
+greeting: "Riemen vast, Boterbloem! Ik ben"
 image:
   one: "/images/author/dg4.jpg"
   two: "/images/author/dg7.jpg"
@@ -21,7 +21,7 @@ summary:
   - Ik ben DevRel
   - Ik hou van IoT
   - Ik hou van open-source
+  - Ik hou van honden ... waarschijnlijk meer dan van mensen
   - Ik bouw graag nutteloze IoT-projecten
   - Ik leer mensen hoe ze technologie moeten gebruiken
-  - Ik hou van honden ... waarschijnlijk meer dan van mensen
-  - Had ik al gezegd dat ik van honden hou?
+  - Heb ik al gezegd dat ik van honden hou?

@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Hoofd Relaties Ontwikkelaars
+designation: Ik ben het hoofd van Relaties met ontwikkelaars
 # your company information
 company:
-  name: Otterize
-  url: "https://otterize.com"
+  name: Zymbit
+  url: "https://zymbit.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/Resume-2021.pdf"
+resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "Ik ben een Internet of Things (IoT)-pionier die al meer dan 20 jaar op dit gebied werkt. Ik ben nu Hoofd Relaties met Ontwikkelaars bij [Otterize](https://otterize.com). Ik heb een korte periode gewerkt als Hoofd Developer Advocacy bij [StarTree](https://startree.ai). Daarvoor was ik Principle Developer Advocate bij [Camunda](https://camunda.com), Head of Developer Relations bij [QuestDB](https://questdb.io) en Senior Developer Advocate bij [Influx Data](https://influxdata.com). Dat zijn 2 tijdreeksdatabases op een rij. Als je je afvraagt hoe dat gerelateerd is aan IoT, lees dan over [Waarom een IoT Time Series Data doet](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Ik ben een Internet of Things (IoT)-pionier die al meer dan 20 jaar op dit gebied werkt. <p>Ik houd me al langer bezig met relaties met ontwikkelaars.<p>Huidig hoofd relaties met ontwikkelaars bij [Zymbit](https://zymbit.com), ik heb ook gediend als hoofd relaties met ontwikkelaars bij [Otterize](https://otterize.com) en [QuestDB](https://questdb.io). Ik heb een korte periode gewerkt als Head of Developer Advocacy bij [StarTree](https://startree.ai). <p> Daarvoor was ik Principal Developer Advocate bij [Camunda](https://camunda.com) en Senior Developer Advocate bij [Influx Data](https://influxdata.com). <p>Als je je afvraagt hoe Time Series Databases gerelateerd zijn aan IoT, lees dan over [Waarom een IoT-expert aan Time Series Data doet](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:

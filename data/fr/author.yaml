@@ -2,7 +2,7 @@
 name: "David G. Simmons"
 nickname: "dg"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Salut je suis"
+greeting: "Attachez vos ceintures, Bouton d'or ! Je suis"
 image:
   one: "/images/author/dg4.jpg"
   two: "/images/author/dg7.jpg"
@@ -21,7 +21,7 @@ summary:
   - Je suis DevRel
   - J'aime l'IdO
   - J'aime l'open-source
+  - J'aime les chiens ... probablement plus que les gens
   - J'aime construire des projets IoT inutiles
   - J'enseigne aux gens comment utiliser la technologie
-  - J'aime les chiens ... probablement plus que les gens
   - Ai-je mentionné que j'aime les chiens ?

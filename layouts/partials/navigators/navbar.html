@@ -49,14 +49,7 @@
 {{ if .IsHome }}
 {{ $logo = $invertedLogo }}
 {{ end }}
-{{ if not .IsHome }}
-  {{ if site.Params.features.theme.services.dark }}
-    {{ $logo = $mainLogo }}
-  {{ else }}
-    {{ $logo = $invertedLogo }}
-  {{ end }}
-{{ end }}
-{{ printf "IsHome: %s" .IsHome }}
+
 {{ $customMenus := site.Params.customMenus }}
 {{ if (index site.Data site.Language.Lang).site.customMenus }}
   {{ $customMenus = (index site.Data site.Language.Lang).site.customMenus }}
@@ -88,7 +81,7 @@
             <img src="{{ $invertedLogo }}" id="logo" alt="Logo">
           {{ end }}
         {{ else }} -->
-          <img src="{{ $logo }}" id="logo" alt="Logo">
+          <img src="{{ if .IsHome }}{{ $invertedLogo }}{{ else }}{{ $mainLogo }}{{end}}" id="logo" alt="Logo">
         <!-- {{ end }} -->
       {{ end }}
       {{- $navBarTitle -}}

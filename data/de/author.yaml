@@ -2,7 +2,7 @@
 name: "David G. Simmons"
 nickname: "dg"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi Ich bin"
+greeting: "Schnall dich an, Butterblume! Ich bin"
 image:
   one: "/images/author/dg4.jpg"
   two: "/images/author/dg7.jpg"
@@ -21,7 +21,7 @@ summary:
   - Ich bin DevRel
   - Ich liebe IoT
   - Ich liebe Open-Source
-  - Ich liebe es, nutzlose IoT-Projekte zu bauen
-  - Ich bringe Menschen bei, wie man Technologie nutzt
   - Ich liebe Hunde ... wahrscheinlich mehr als Menschen
+  - Ich liebe es, nutzlose IoT-Projekte zu bauen
+  - Ich bringe Menschen bei, wie man Technologie benutzt
   - Habe ich schon erwähnt, dass ich Hunde liebe?
