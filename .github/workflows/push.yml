@@ -28,9 +28,10 @@ jobs:
           repository: davidgs/Translator
           path: ./translate
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.133.0+extended'
+          hugo-version: '0.133.0'
+          extended: true
       - name: Setup go
         uses: actions/setup-go@v1
         with:
