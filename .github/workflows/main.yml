@@ -55,11 +55,11 @@ jobs:
       - name: Build
         run: cd DavidgsWeb; hugo mod get && hugo mod npm pack && npm install && hugo --minify
       - name: rsync deployments
-        uses: burnett01/rsync-deployments@4.1
+        uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -avzr
           path: ./DavidgsWeb/public/
-          remote_path: /home/${{ secrets.SSH_USER }}/www
+          remote_path: ${{ secrets.REMOTE_PATH }}
           remote_host: ${{ secrets.SSH_HOST }}
           remote_port: ${{ secrets.SSH_PORT }}
           remote_user: ${{ secrets.SSH_USER }}
