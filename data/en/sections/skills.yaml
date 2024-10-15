@@ -11,15 +11,20 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Go Development
+- name: Golang
   logo: /images/sections/skills/go.jpg
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
 
-- name: Java
-  logo: /images/sections/skills/java.jpg
-  summary: "Capable of writing production-quality, maintainable code. "
-  url: "https://java.com/"
+- name: TypeScript
+  logo: /images/sections/skills/ts-logo-256.png
+  summary: "Frontend and backend work in TypeScript. I've written a number of libraries and applications in TypeScript."
+  url: "https://www.typescriptlang.org"
+
+- name: React.js
+  logo: /images/sections/skills/React-icon.png
+  summary: "User interface development in React.js. I've written multiple applications using React.js and Electron.js."
+  url: "https://react.dev/"
 
 - name: Javascript/Node.js
   logo: /images/sections/skills/js.jpg
@@ -54,3 +59,8 @@ skills:
 - name: C++
   logo: /images/sections/skills/c++.jpg
   summary: "Know C/C++ programming for embedded environments including EmbedOS, Arduino, etc. Have developed Arduino libraries."
+
+- name: Java
+  logo: /images/sections/skills/java.jpg
+  summary: "Capable of writing production-quality, maintainable code. "
+  url: "https://java.com/"

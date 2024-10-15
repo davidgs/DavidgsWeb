@@ -2,12 +2,14 @@
 name: "David G. Simmons"
 nickname: "dg"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Buckle up, Buttercup! I am"
 image:
-  one: "/images/author/dg4.jpg"
-  two: "/images/author/dg7.jpg"
-  three: "/images/author/dg5.jpg"
-  four: "/images/author/dg6.jpg"
+  one: "/images/author/dg2-1.png"
+  two: "/images/author/dg7-1.png"
+  three: "/images/author/dg5-1.png"
+  four: "/images/author/dg10-1.png"
+  five: "/images/author/dg7-1.png"
+  six: "/images/author/dg11-1.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "davidgs@davidgs.com"
@@ -19,6 +21,7 @@ summary:
   - I am DevRel
   - I love IoT
   - I love open-source
+  - I love dogs ... probably more than people
   - I love to build useless IoT projects
   - I teach people how to use technology
-  - I love dogs ... probably more than people
+  - Did I mention I love dogs?

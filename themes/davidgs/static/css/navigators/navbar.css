@@ -48,28 +48,28 @@
 /* --- state after scroll start --- */
 
 .final-navbar {
-  background-color: #f9fafc;
-  color: #1c2d41;
+  background-color: #1c2d41;
+  color: #9fa1a3;
   transition: all 0.3s ease-out;
 }
 
 .final-navbar .navbar-brand {
-  color: #1c2d41;
+  color: #9fa1a3;
   font-weight: 600;
 }
 
 .final-navbar li a {
-  color: #1c2d41;
+  color: #9fa1a3;
   font-weight: 500;
   transition: all 0.3s ease-out;
-  border-bottom: 2px solid#F9FAFC;
+  border-bottom: 2px solid#1c2d41;
 }
 
 .final-navbar .navbar-nav .active,
 .final-navbar li a:hover {
-  color: #2098d1;
+  color: #dde0e2;
   transition: all 0.3s ease-out;
-  border-bottom: 2px solid #2098d1;
+  border-bottom: 2px solid #dde0e2;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,

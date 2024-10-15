@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Jefe de Relaciones con los Desarrolladores
+designation: Soy el Jefe de Relaciones con los Desarrolladores
 # your company information
 company:
-  name: Otterize
-  url: "https://otterize.com"
+  name: Zymbit
+  url: "https://zymbit.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/Resume-2021.pdf"
+resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "Soy un pionero del Internet de las Cosas (IoT) que lleva más de 20 años trabajando en este campo. Actualmente soy responsable de relaciones con los desarrolladores en [Otterize](https://otterize.com). Pasé una breve temporada como responsable de promoción de desarrolladores en [StarTree](https://startree.ai). Anteriormente, fui principal defensor de los desarrolladores en [Camunda](https://camunda.com), jefe de relaciones con los desarrolladores en [QuestDB](https://questdb.io) y defensor principal de los desarrolladores en [Influx Data](https://influxdata.com). Son dos bases de datos de series temporales seguidas. Si te estás preguntando cómo se relaciona esto con el IoT, lee sobre [Por qué un IoT hace Series Temporales de Datos](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Soy un pionero del Internet de las Cosas (IoT) que lleva más de 20 años trabajando en este campo. <p>Actualmente soy el responsable de relaciones con los desarrolladores en [Zymbit](https://zymbit.com), y también he sido responsable de relaciones con los desarrolladores en [Otterize](https://otterize.com) y [QuestDB](https://questdb.io). Anteriormente, fui el principal defensor de los desarrolladores en [Camunda](https://camunda.com) y el principal defensor de los desarrolladores en [Influx Data](https://influxdata.com). <p>Si te estás preguntando cómo se relacionan las Bases de Datos de Series Temporales con IoT, lee sobre [Por qué un experto en IoT hace Datos de Series Temporales](https://www.influxdata.com/iot-guy-joined-influxdata/).."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -67,8 +67,6 @@ softSkills:
 - name: Trabajador de equipo
   percentage: 80
   color: yellow
-
-
 - name: Aprendiz rapido
   percentage: 85
   color: sky

@@ -9,9 +9,9 @@
     {{ block "header" . }} {{ end }}
 
     <!-- ADD GOOGLE ANALYTICS IF ENABLED -->
-    {{ if site.GoogleAnalytics }}
+    <!-- {{ if .Site.Config.Services.GoogleAnalytics.ID }}
       {{- partial "helpers/google-analytics.html" . -}}
-    {{ end }}
+    {{ end }} -->
 
     {{ with .Params.relcanonical }}
       <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />

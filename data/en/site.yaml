@@ -1,10 +1,10 @@
 # Copyright Notice
-copyright: © 2021 Copyright.
+copyright: © 2024 David G. Simmons
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of David G. Simmons.
+description: Portfolio and personal blog of David G. Simmons where I cover topics such as IoT, databases, Developer Relations and others.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
-customMenus: 
+customMenus:
 

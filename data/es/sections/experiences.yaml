@@ -11,15 +11,33 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Zymbit
+    url: "https://zymbit.com"
+    location: Santa Barbara, CA (remoto)
+    overview: Dispositivos IoT Edge de alta seguridad.
+  positions:
+  - designation: Jefe de Relaciones con los Desarrolladores
+    start: May 2024
+    # end: December 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Liderar los esfuerzos de relaciones con desarrolladores en esta startup de IoT.
+    - Creación de contenidos incluyendo entradas de blog, tutoriales y vídeos y tutoriales.
+    - Presentaciones en conferencias y encuentros internacionales de IoT
+    - Apoyar y proporcionar recursos a la gran comunidad DevRel
+    - Definir, ejecutar y medir la estrategia general de relaciones con los desarrolladores.
+- company:
     name: Otterize
     url: "https://otterize.com"
-    location: Tel Aviv, Israel (remote)
+    location: Tel Aviv, Israel (remoto)
     overview: Providing security and ease of use for Kubernetes, AWS, GKE, and more.
   positions:
   - designation: Jefe de Relaciones con los Desarrolladores
     start: Junio 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Liderar los esfuerzos de relaciones con desarrolladores en esta startup.
@@ -114,7 +132,7 @@ experiences:
 - company:
     name: PsiKick (ahora Everactive)
     url: "https://everactive.com"
-    location: Charlottesville, VA USA (remote)
+    location: Charlottesville, VA USA (remoto)
     overview: Desarrolla chips ultra de baja potencia y SOC para el IOT.
   positions:
   - designation: Jefe Técnico Evangelista
@@ -132,7 +150,7 @@ experiences:
 - company:
     name: Riverbed Technology
     url: "https://riverbed.com"
-    location: San Francisco, CA USA (remote)
+    location: San Francisco, CA USA (remoto)
     overview: Riverbed ofrece hardware y servicios para maximizar el rendimiento de la red para la oficina remota y otras necesidades basadas en WAN.
   positions:
   - designation: Evangelista técnico
@@ -150,7 +168,7 @@ experiences:
 - company:
     name: Sun Microsystems Labs (ahora Oracle Labs)
     url: "https://oracle.com"
-    location: Menlo Park, CA USA (remote)
+    location: Menlo Park, CA USA (remoto)
     overview: Líder de la industria en investigación avanzada y desarrollo de tales tecnologías como Java.
   positions:
   - designation: Ingeniero de equipo

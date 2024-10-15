@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Responsable de la défense des intérêts des développeurs
+designation:  Je suis le responsable des relations avec les développeurs.
 # your company information
 company:
-  name: Otterize
-  url: "https://otterize.com"
+ name: Zymbit
+ url: "https://zymbit.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/Resume-2021.pdf"
+resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "Je suis un pionnier de l'internet des objets (IdO) qui travaille dans ce domaine depuis plus de 20 ans. Je suis actuellement responsable des relations avec les développeurs chez [Otterize] (https://otterize.com). J'ai été brièvement responsable de la défense des intérêts des développeurs chez [StarTree] (https://startree.ai). Auparavant, j'ai été principal défenseur des développeurs chez [Camunda](https://camunda.com), responsable des relations avec les développeurs chez [QuestDB](https://questdb.io) et défenseur principal des développeurs chez [Influx Data](https://influxdata.com). Il s'agit de deux bases de données de séries temporelles d'affilée. Si vous vous demandez quel est le rapport avec l'IdO, lisez [Pourquoi l'IdO utilise des données de séries temporelles] (https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Je suis un pionnier de l'Internet des objets (IdO) qui travaille dans ce domaine depuis plus de 20 ans. <Actuellement responsable des relations avec les développeurs chez [Zymbit] (https://zymbit.com), j'ai également été responsable des relations avec les développeurs chez [Otterize] (https://otterize.com) et [QuestDB] (https://questdb.io). Auparavant, j'ai été Principal Developer Advocate chez [Camunda](https://camunda.com), et Senior Developer Advocate chez [Influx Data](https://influxdata.com). <Si vous vous demandez comment les bases de données de séries temporelles sont liées à l'IdO, lisez [Pourquoi un expert de l'IdO utilise des données de séries temporelles] (https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -55,26 +55,30 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: DevRel
-  percentage: 95
-  color: blue
-- name: Empathique
-  percentage: 90
-  color: pink
-- name: Présentations
-  percentage: 90
-  color: green
-- name: Travailleur en équipe
-  percentage: 80
-  color: yellow
-
-
-- name: Apprenant rapide
-  percentage: 85
-  color: sky
-- name: Un résolveur de problèmes
-  percentage: 85
-  color: orange
+  - name: DevRel
+    percentage: 100
+    color: "#00BDFF"
+  - name: Empathie
+    percentage: 95
+    color: pink
+  - name: Prise de parole en public
+    percentage: 80
+    color: green
+  - name: Travail d'équipe et collaboration
+    percentage: 90
+    color: "#FFCF00"
+  - name: Résolution de problèmes
+    percentage: 85
+    color: "#9D42FF"
+  - name: Rédaction
+    percentage: 95
+    color: "#4D61FF"
+  - name: Bâtiment communautaire
+    percentage: 65
+    color: "#4A7800"
+  - name: Compétences techniques
+    percentage: 90
+    color: "#FF5800"
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
 #   percentage: 75

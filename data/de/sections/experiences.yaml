@@ -11,15 +11,33 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Zymbit
+    url: "https://zymbit.com"
+    location: Santa Barbara, CA (abgelegen)
+    overview: Hochsichere IoT-Edge-Geräte.
+  positions:
+  - designation: Leiter der Abteilung für Entwicklerbeziehungen
+    start: May 2024
+    # end: December 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leitung von Developer Relations bei diesem IoT-Startup
+    - Erstellung von Inhalten, einschließlich Blogbeiträgen, Anleitungen, Videos und Anleitungen.
+    - Präsentationen auf internationalen IoT-Konferenzen und Meetups
+    - Unterstützung und Bereitstellung von Ressourcen für die größere DevRel Community
+    - Definieren, Ausführen und Messen der Gesamtstrategie für Entwicklerbeziehungen
+- company:
     name: Otterize
     url: "https://otterize.com"
-    location: Tel Aviv, Israel (remote)
+    location: Tel Aviv, Israel (abgelegen)
     overview: Bietet Sicherheit und Benutzerfreundlichkeit für Kubernetes, AWS, GKE und mehr.
   positions:
   - designation: Leiter der Abteilung für Entwicklerbeziehungen
     start: Juni 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Leitung von Developer Relations bei diesem Startup-Unternehmen
@@ -31,7 +49,7 @@ experiences:
 - company:
     name: StarTree
     url: "https://startree.ai"
-    location: Mountain View, CA (remote)
+    location: Mountain View, CA (abgelegen)
     # company overview
     overview: Ein Unternehmen für Echtzeit-Analytik, das Apache Pinot als Service für Unternehmen anbietet, die hochvolumige, kundenorientierte Echtzeit-Analysen benötigen.
   positions:
@@ -119,7 +137,7 @@ experiences:
 - company:
     name: PsiKick (jetzt Everactive)
     url: "https://everactive.com"
-    location: Charlottesville, VA USA (remote)
+    location: Charlottesville, VA USA (abgelegen)
     overview: Entwickelt Chips und SoCs mit extrem geringem Stromverbrauch für das IoT.
   positions:
   - designation: Chief Technical Evangelist
@@ -137,8 +155,8 @@ experiences:
 - company:
     name: Riverbed Technology
     url: "https://riverbed.com"
-    location: San Francisco, CA USA (remote)
-    overview: Riverbed bietet Hardware und Services zur Maximierung der Netzwerkleistung für Remote-Office- und andere WAN-basierte Anforderungen.
+    location: San Francisco, CA USA (abgelegen)
+    overview: Riverbed bietet Hardware und Services zur Maximierung der Netzwerkleistung für abgelegen-Office- und andere WAN-basierte Anforderungen.
   positions:
   - designation: Technical Evangelist
     start: Oktober 2012
@@ -155,7 +173,7 @@ experiences:
 - company:
     name: Sun Microsystems Labs (jetzt Oracle Labs)
     url: "https://oracle.com"
-    location: Menlo Park, CA USA (remote)
+    location: Menlo Park, CA USA (abgelegen)
     overview: Branchenführer in der fortgeschrittenen Forschung und Entwicklung von Technologien wie Java.
   positions:
   - designation: Staff Engineer
