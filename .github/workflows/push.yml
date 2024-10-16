@@ -7,7 +7,11 @@ on:
   push:
     branches:
       - '!master'   # excludes master
+      - '!main'     # excludes main
       - '**'         # matches every branch
+    branches-ignore:
+      - 'master'     # excludes master
+      - 'main'       # excludes main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
