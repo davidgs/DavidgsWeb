@@ -84,7 +84,7 @@ params:
       enabled: true
       services:
         google:
-          id: UA-10503049-6
+          id: G-EG3Z8Q98FZ
         statcounter:
           project: 10096606
           security: 2eda6207
