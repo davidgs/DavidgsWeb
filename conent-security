@@ -1,0 +1,21 @@
+Header always set Content-Security-Policy: "default-src 'self' https://*.anymod.com;
+script-src 'self' https://*.posthog.com/ https://*.googletagmanager.com nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg https://commento.davidgs.com:8088 https://*.unpkg.com https://apis.google.com https://*.googleapis.com https://cdn.polyfill.io https://buttons.github.io https://cdn.jsdelivr.net https://*.zencdn.net https://cdnjs.cloudflare.com https://*.google-analytics.com https://*.statcounter.com;
+script-src-elem 'self' https://*.posthog.com/ https://*.googletagmanager.com nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg https://commento.davidgs.com:8088 https://*.unpkg.com https://apis.google.com https://*.googleapis.com https://cdn.polyfill.io https://buttons.github.io https://cdn.jsdelivr.net https://*.zencdn.net https://cdnjs.cloudflare.com https://*.google-analytics.com https://*.statcounter.com;
+script-src-attr 'self' https://*.posthog.com/ https://*.googletagmanager.com nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg https://commento.davidgs.com:8088 https://*.unpkg.com https://apis.google.com https://*.googleapis.com https://cdn.polyfill.io https://buttons.github.io https://cdn.jsdelivr.net https://*.zencdn.net https://cdnjs.cloudflare.com https://*.google-analytics.com https://*.statcounter.com;
+style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/ https://fonts.googleapis.com/ https://commento.davidgs.com:8088/css/commento.css; img-src 'self' https://*.viglink.com https://*.google-analytics.com https://*.googletagmanager.com nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg https://*.countryflags.io https://img.shields.io https://media.giphy.com;
+font-src 'self' https://commento.davidgs.com:8088 https://cdnjs.cloudflare.com https://fonts.gstatic.com;
+connect-src https://*.posthog.com https://api.anymod.com/* nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg https://commento.davidgs.com:8088/ wss://commento.davidgs.com:8088/ws https://*.doubleclick.net https://*.google-analytics.com https://*.googletagmanager.com https://api.github.com https://cdnjs.cloudflare.com https://*.statcounter.com;
+object-src 'self' https://cdn.js.cloudflare.com https://*.statcounter.com https://cdn.userfront.com/* https://*.anymod.com nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg https://*.posthog.com https://*.googletagmanager.com;
+frame-ancestors 'none'"
+
+
+Header always set Content-Security-Policy "default-src 'self' *.anymod.com; object-src https://cdn.js.cloudflare.com https://*.statcounter.com https://cdn.userfront.com/* *.anymod.com nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg;
+
+img-src 'self' https://cdn.userfront.com/* *.viglink.com *.google-analytics.com  *.googletagmanager.com nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg *.countryflags.io img.shields.io media.giphy.com;
+
+script-src 'self' https://*.posthog.com/  https://*.googletagmanager.com https://cdn.userfront.com nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg https://commento.davidgs.com:8088  *.unpkg.com apis.google.com *.googleapis.com cdn.polyfill.io https://buttons.github.io  cdn.jsdelivr.net *.zencdn.net https://cdnjs.cloudflare.com https://*.google-analytics.com https://*.statcounter.com;
+
+connect-src  *.posthog.com  api.anymod.com/v2/page nonce-stagsBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg  https://commento.davidgs.com:8088/ https://davidgs.com/4756  wss://commento.davidgs.com:8088/ws  https://*.doubleclick.net https://*.google-analytics.com https://*.googletagmanager.com  https://api.github.com https://cdnjs.cloudflare.com https://*.statcounter.com;
+
+style-src  'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/ https://fonts.googleapis.com/ https://commento.davidgs.com:8088/css/commento.css ; font-src 'self' commento.davidgs.com:8088 https://cdnjs.cloudflare.com fonts.gstatic.com; frame-ancestors 'none';"
+Header set Referrer-Policy "strict-origin-when-cross-origin "
