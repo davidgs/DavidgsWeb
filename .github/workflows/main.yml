@@ -52,7 +52,7 @@ jobs:
       #     # file_pattern: index.*.md
       #     repository: ./DavidgsWeb
       - name: Build
-        run: cd DavidgsWeb; hugo mod get && hugo mod npm pack && npm install && hugo --minify
+        run: cd DavidgsWeb; hugo mod get; hugo mod npm pack; npm install; hugo --minify
       - name: rsync deployments
         uses: burnett01/rsync-deployments@7.0.1
         with:
