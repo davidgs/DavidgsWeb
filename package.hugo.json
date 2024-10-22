@@ -57,7 +57,8 @@
     "plyr": "^3.7.2",
     "popper.js": "^1.16.1",
     "postcss": "^8.4.41",
-    "postcss-cli": "^11.0.0"
+    "postcss-cli": "^11.0.0",
+    "posthog-js": "^1.174.2"
   },
   "name": "DavidgsWeb",
   "version": "0.1.0"
