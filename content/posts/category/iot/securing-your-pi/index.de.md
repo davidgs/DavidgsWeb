@@ -9,7 +9,7 @@ hero: images/pi-hero.jpg
 relcanonical: https://dzone.com/articles/how-to-secure-your-raspberry-pi
 ---
 
-##TL;DR
+## TL;DR
 
 Den ehrwürdigen Raspberry Pi gibt es seit über einem Jahrzehnt (offiziell 2009 entwickelt) und er ist in vielen Bereichen der Robotik, der Heimautomatisierung und anderen Anwendungen zum Standard geworden. Besonders für „Macher“ und andere Bastler. Aber er hat auch ernsthafte Fortschritte in der Berufs- und Unternehmenswelt gemacht – nur eben leiser.
 

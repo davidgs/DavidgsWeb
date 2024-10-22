@@ -9,7 +9,7 @@ hero: images/pi-hero.jpg
 relcanonical: https://dzone.com/articles/how-to-secure-your-raspberry-pi
 ---
 
-##TL;DR
+## TL;DR
 
 De eerbiedwaardige Raspberry Pi bestaat al meer dan een decennium (officieel gecreëerd in 2009) en is een standaard geworden in veel robotica, domotica en andere soorten toepassingen. Vooral voor "makers" en andere knutselaars. Maar het heeft ook serieuze doorbraken gemaakt in de professionele en zakelijke wereld - alleen stiller.
 

@@ -1,7 +1,7 @@
 ---
 title:  "Cómo proteger su Raspberry Pi y habilitar actualizaciones seguras y resistentes"
 date: 2024-10-21T09:45:00
-description:  "Usar una Zymkey como módulo de seguridad de hardware para proteger su Raspberry Pi y asegurarse de que las actualizaciones sean seguras, confiables y recuperables al habilitar la partición A/B y el arranque altamente seguro".
+description:  "Usar una Zymkey como módulo de seguridad de hardware para proteger su Raspberry Pi y asegurarse de que las actualizaciones sean seguras, confiables y recuperables al habilitar la partición A/B y el arranque altamente seguro"
 Category: IoT
 Tags: Security, IoT, Raspberry Pi
 Slug: secure-your-pi
@@ -9,7 +9,7 @@ hero: images/pi-hero.jpg
 relcanonical: https://dzone.com/articles/how-to-secure-your-raspberry-pi
 ---
 
-##TL;RD
+## TL;RD
 
 La venerable Raspberry Pi existe desde hace más de una década (se creó oficialmente en 2009) y se ha convertido en un estándar en muchos ámbitos de la robótica, la automatización del hogar y otros tipos de usos, especialmente para los “creadores” y otros aficionados a la experimentación. Pero también ha hecho importantes incursiones en el mundo profesional y empresarial, aunque de forma más discreta.
 

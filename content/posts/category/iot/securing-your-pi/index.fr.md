@@ -1,7 +1,7 @@
 ---
-title:  « Comment sécuriser votre Raspberry Pi et permettre des mises à jour sûres et résilientes »
+title:  Comment sécuriser votre Raspberry Pi et permettre des mises à jour sûres et résilientes
 date: 2024-10-21T09:45:00
-description:  « Utilisez une clé Zymkey comme module de sécurité matériel pour sécuriser votre Raspberry Pi et garantir que les mises à jour sont sécurisées, fiables et récupérables en activant le partitionnement A/B et le démarrage hautement sécurisé. »
+description:  Utilisez une clé Zymkey comme module de sécurité matériel pour sécuriser votre Raspberry Pi et garantir que les mises à jour sont sécurisées, fiables et récupérables en activant le partitionnement A/B et le démarrage hautement sécurisé.
 Category: IoT
 Tags: Security, IoT, Raspberry Pi
 Slug: secure-your-pi
@@ -9,7 +9,7 @@ hero: images/pi-hero.jpg
 relcanonical: https://dzone.com/articles/how-to-secure-your-raspberry-pi
 ---
 
-##TL;DR
+## TL;DR
 
 Le vénérable Raspberry Pi existe depuis plus d’une décennie (créé officiellement en 2009) et est devenu un standard dans de nombreux domaines de la robotique, de la domotique et d’autres types d’utilisation. Notamment pour les « makers » et autres bricoleurs. Mais il a également fait une percée sérieuse dans le monde professionnel et de l’entreprise – mais plus discrètement.
 
