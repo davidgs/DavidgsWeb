@@ -527,7 +527,8 @@ $ sudo zbcli update
   Endpoint type     LOCAL
   Partition layout  A/B
   Update policy     UPDATE_BOTH
-  ---------
+  ------reading_time: 24 minutes
+---
      Created temporary directory (/etc/zymbit/zboot/update_artifacts/tmp/.tmpCfhm6c)
 ✔ Enter public key file (Pem format) · ./z-image-1_pub_key.pem
      Mounted '/dev/sda1' to '/etc/zymbit/zboot/update_artifacts/tmp/.tmpyKYgR3'
