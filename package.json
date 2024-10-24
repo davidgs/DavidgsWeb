@@ -29,7 +29,7 @@
       "popper.js": "project",
       "postcss": "project",
       "postcss-cli": "project",
-      "posthog-js": "github.com/hugo-toha/toha/v4"
+      "posthog-js": "project"
     }
   },
   "dependencies": {},
