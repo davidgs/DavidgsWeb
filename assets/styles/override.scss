@@ -19,11 +19,15 @@
   filter: blur(3px);
   background-size: cover;
 }
+html[data-theme='light'] .top-navbar .nav-link {
+  color: #003a64 !important;
+}
 
 .top-navbar {
   color: #f1f5f9 !important;
   background-color: #003a64 !important;
 }
+
 
 .top-navbar .navbar-brand {
   color: #f1f5f9 !important;
