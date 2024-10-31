@@ -10,6 +10,8 @@ image:
   four: "/images/author/dg10-1.png"
   five: "/images/author/dg7-1.png"
   six: "/images/author/dg11-1.png"
+card: "/images/author/card-image.png"
+
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "davidgs@davidgs.com"
