@@ -101,7 +101,6 @@ params:
     inverted: /images/site/inverted-logo.png
     favicon: /images/site/dg-white-logo.png
     card: /images/web-card.png
-    card: /images/card-image.png
   # GitHub repo URL of your site
   gitRepo: https://github.com/davidgs/DavidgsWeb
 
