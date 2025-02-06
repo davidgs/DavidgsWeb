@@ -1,6 +1,6 @@
 ---
 title: "My Journey into Tech en devrel"
-Date: 2019-04-29 16:44
+Date: 2019-04-29T16:44:00
 Author: davidgs
 Category: Evangelism, General
 Tags: Developer Relations, DevRel, Evangelism

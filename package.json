@@ -1,6 +1,10 @@
 {
   "comments": {
-    "dependencies": {},
+    "dependencies": {
+      "@atproto/api": "project",
+      "next": "project",
+      "react": "project"
+    },
     "devDependencies": {
       "@fontsource/mulish": "project",
       "@fortawesome/fontawesome-free": "project",
@@ -32,7 +36,11 @@
       "posthog-js": "project"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "@atproto/api": "^0.13.18",
+    "next": "^15.0.3",
+    "react": "^18.3.1"
+  },
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
     "@fortawesome/fontawesome-free": "^6.6.0",

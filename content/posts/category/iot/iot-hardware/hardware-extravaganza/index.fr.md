@@ -1,6 +1,6 @@
 ---
 title: « Matériel Extravaganza »
-Date: 2016-11-18 16:08
+Date: 2016-11-18T16:08:00
 Author: davidgs
 Category: Gadgetry, IoT
 Tags: ARTIK, IoT, mynewt

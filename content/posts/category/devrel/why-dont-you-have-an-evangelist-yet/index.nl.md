@@ -1,6 +1,6 @@
 ---
 title: "Waarom ga je niet een Evangelist Yet?"
-Date: 2017-05-15 13:30
+Date: 2017-05-15T13:30:00
 Author: davidgs
 Category: Evangelism, IoT, Jobs, Work
 Tags: Evangelism, IoT

@@ -10,24 +10,24 @@ section:
 
 # Your experiences
 experiences:
-- company:
-    name: Zymbit
-    url: "https://zymbit.com"
-    location: Santa Barbara, CA (remoto)
-    overview: Dispositivos IoT Edge de alta seguridad.
-  positions:
-  - designation: Jefe de Relaciones con los Desarrolladores
-    start: May 2024
-    # end: December 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Liderar los esfuerzos de relaciones con desarrolladores en esta startup de IoT.
-    - Creación de contenidos incluyendo entradas de blog, tutoriales y vídeos y tutoriales.
-    - Presentaciones en conferencias y encuentros internacionales de IoT
-    - Apoyar y proporcionar recursos a la gran comunidad DevRel
-    - Definir, ejecutar y medir la estrategia general de relaciones con los desarrolladores.
+# - company:
+#     name: Zymbit
+#     url: "https://zymbit.com"
+#     location: Santa Barbara, CA (remoto)
+#     overview: Dispositivos IoT Edge de alta seguridad.
+#   positions:
+#   - designation: Jefe de Relaciones con los Desarrolladores
+#     start: May 2024
+#     # end: December 2023
+#     # don't provide end date if you are currently working there. It will be replaced by "Present"
+#     # end: Dec 2020
+#     # give some points about what was your responsibilities at the company.
+#     responsibilities:
+#     - Liderar los esfuerzos de relaciones con desarrolladores en esta startup de IoT.
+#     - Creación de contenidos incluyendo entradas de blog, tutoriales y vídeos y tutoriales.
+#     - Presentaciones en conferencias y encuentros internacionales de IoT
+#     - Apoyar y proporcionar recursos a la gran comunidad DevRel
+#     - Definir, ejecutar y medir la estrategia general de relaciones con los desarrolladores.
 - company:
     name: Otterize
     url: "https://otterize.com"

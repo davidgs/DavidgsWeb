@@ -90,4 +90,4 @@ Dicho todo esto, DevRel absolutamente *puede* participar en la generación de in
 
 Como he dicho, DevRel es *como* una parte en cuanto a cómo debe planificarse, gestionarse y ejecutarse. Ninguna fiesta verdaderamente épica "sucede simplemente". Se necesita trabajo y todo un equipo para que parezca sencillo. DevRel tampoco es parte porque es una cantidad impía de trabajo. Existe una tremenda responsabilidad y no es algo que se pueda simplemente "improvisar". Esas ideas para blogs y tutoriales no surgen de la nada. Requieren tiempo, investigación y esfuerzo.
 
-Entonces, organicemos todos una fiesta para la gente de DevRel en su empresa. Celebre sus logros y asegúrese de que, si Devrel ha impactado su trabajo, todos lo sepan. 
+Entonces, organicemos todos una fiesta para la gente de DevRel en su empresa. Celebre sus logros y asegúrese de que, si Devrel ha impactado su trabajo, todos lo sepan.

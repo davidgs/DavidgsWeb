@@ -1,0 +1,16 @@
+{{ print "Hello, World!" }}
+{{ if .disqus.shortName }}
+{{ partial "comments/disqus.html" . }}
+{{ else if .valine }}
+{{ partial "comments/valine.html" . }}
+{{ else if .utteranc }}
+{{ partial "comments/utteranc.html" . }}
+{{ else if .giscus }}
+{{ partial "comments/giscus.html" . }}
+{{ else if .commento }}
+{{ partial "comments/commento.html" . }}
+{{ else if .bluesky }}
+  {{ print "Hello, World!" }}
+  <div id="bluesky">Comments From Bluesky Social: </div>
+  {{ partial "comments/bluesky.html" . }}
+{{ end }}

@@ -10,24 +10,24 @@ section:
 
 # Your experiences
 experiences:
-- company:
-    name: Zymbit
-    url: "https://zymbit.com"
-    location: Santa Barbara, CA (remote)
-    overview: High security IoT Edge devices.
-  positions:
-  - designation: Head of Developer Relations
-    start: May 2024
-    # end: December 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Leading Developer Relations efforts at this IoT startup
-    - Content creation including blog posts, tutorials and videos and tutorials.
-    - Presentations at international IoT conferences and meetups
-    - Support and provide resources to the greater DevRel Community
-    - Define, execute and measure the overall Developer Relations strategy
+# - company:
+#     name: Zymbit
+#     url: "https://zymbit.com"
+#     location: Santa Barbara, CA (remote)
+#     overview: High security IoT Edge devices.
+#   positions:
+#   - designation: Head of Developer Relations
+#     start: May 2024
+#     end: January 2025
+#     # don't provide end date if you are currently working there. It will be replaced by "Present"
+#     # end: Dec 2020
+#     # give some points about what was your responsibilities at the company.
+#     responsibilities:
+#     - Leading Developer Relations efforts at this IoT startup
+#     - Content creation including blog posts, tutorials and videos and tutorials.
+#     - Presentations at international IoT conferences and meetups
+#     - Support and provide resources to the greater DevRel Community
+#     - Define, execute and measure the overall Developer Relations strategy
 - company:
     name: Otterize
     url: "https://otterize.com"
@@ -125,6 +125,7 @@ experiences:
   positions:
   - designation: Founder/Chief Technology Officer
     start: November 2015
+    end: January 2025
     responsibilities:
     - I founded Dragonfly IoT to provide technical consulting and contract development services to companies in IoT based on my extensive experience in the field
     - Scoped, proposed and built IoT demo applications including hardware acquisition, provisioning and programming, development of middleware and gateway devices and presentation-layer data analysis

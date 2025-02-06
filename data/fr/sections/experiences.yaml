@@ -10,24 +10,24 @@ section:
 
 # Your experiences
 experiences:
-- company:
-    name: Zymbit
-    url: "https://zymbit.com"
-    location: Santa Barbara, CA (à distance)
-    overview: Dispositifs IoT Edge à haute sécurité.
-  positions:
-  - designation: Responsable des relations avec les développeurs
-    start: May 2024
-    # end: December 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Diriger les efforts de relations avec les développeurs dans cette startup de l'IoT
-    - Création de contenu, y compris des articles de blog, des tutoriels, des vidéos et des didacticiels.
-    - Présentations lors de conférences et de rencontres internationales sur l'IdO
-    - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel
-    - Définir, exécuter et mesurer la stratégie globale des relations avec les développeurs.
+# - company:
+#     name: Zymbit
+#     url: "https://zymbit.com"
+#     location: Santa Barbara, CA (à distance)
+#     overview: Dispositifs IoT Edge à haute sécurité.
+#   positions:
+#   - designation: Responsable des relations avec les développeurs
+#     start: May 2024
+#     # end: December 2023
+#     # don't provide end date if you are currently working there. It will be replaced by "Present"
+#     # end: Dec 2020
+#     # give some points about what was your responsibilities at the company.
+#     responsibilities:
+#     - Diriger les efforts de relations avec les développeurs dans cette startup de l'IoT
+#     - Création de contenu, y compris des articles de blog, des tutoriels, des vidéos et des didacticiels.
+#     - Présentations lors de conférences et de rencontres internationales sur l'IdO
+#     - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel
+#     - Définir, exécuter et mesurer la stratégie globale des relations avec les développeurs.
 - company:
     name: Otterize
     url: "https://otterize.com"

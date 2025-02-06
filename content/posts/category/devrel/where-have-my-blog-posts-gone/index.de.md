@@ -1,6 +1,6 @@
 ---
 title: „Wo habe meine Blogeinträge gegangen?“
-Date: 2017-09-30 14:44
+Date: 2017-09-30T14:44:00
 Author: davidgs
 Category: Evangelism, General, Misc
 Slug: where-have-my-blog-posts-gone

@@ -1,6 +1,6 @@
 ---
 title: "Return to IoT Evangelism"
-Date: 2015-02-21 14:10
+Date: 2015-02-21T14:10:00
 Author: davidgs
 Category: IoT, Work
 Tags: Evangelism, IoT
