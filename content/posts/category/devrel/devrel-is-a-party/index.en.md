@@ -1,6 +1,6 @@
 ---
 title: "Devrel Is a Party (no it's not)"
-date: 2024-02-07T19:18:31-05:00
+date: 2024-02-07T19:18:31
 Category:
   - devrel
   - evangelism
@@ -90,4 +90,4 @@ All of that being said, DevRel absolutely *can* participate in generating signif
 
 As I have said, DevRel is *like* a party in how it has to be planned, managed, and executed. No truly epic party ever "just happens". It takes work, and it takes an entire team to make it look effortless. DevRel is also not a party because it is an unholy amount of work. There is tremendous responsibility, and it's not something that you can just "wing". Those blog ideas and tutorial ideas don't just come out of thin air. They take time and research and effort.
 
-So let's all throw a party for the DevRel folks in your company. Celebrate their accomplishments and make sure that, if Devrel has impacted your work, you make sure everyone knows. 
+So let's all throw a party for the DevRel folks in your company. Celebrate their accomplishments and make sure that, if Devrel has impacted your work, you make sure everyone knows.

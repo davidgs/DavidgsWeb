@@ -90,4 +90,4 @@ Dat gezegd hebbende, *kan* DevRel absoluut bijdragen aan het genereren van aanzi
 
 Zoals ik al zei, is DevRel *als* een partij in de manier waarop het moet worden gepland, beheerd en uitgevoerd. Geen enkel echt episch feest gebeurt ooit ‘gewoon’. Er is werk voor nodig, en er is een heel team voor nodig om het er moeiteloos uit te laten zien. DevRel is ook geen partij omdat het een onheilige hoeveelheid werk is. Er is een enorme verantwoordelijkheid, en het is niet iets dat je zomaar kunt "vluchten". Die blogideeën en tutorialideeën komen niet zomaar uit de lucht vallen. Ze kosten tijd, onderzoek en moeite.
 
-Dus laten we allemaal een feestje geven voor de DevRel-mensen in uw bedrijf. Vier hun prestaties en zorg ervoor dat, als Devrel uw werk heeft beïnvloed, u ervoor zorgt dat iedereen het weet. 
+Dus laten we allemaal een feestje geven voor de DevRel-mensen in uw bedrijf. Vier hun prestaties en zorg ervoor dat, als Devrel uw werk heeft beïnvloed, u ervoor zorgt dat iedereen het weet.

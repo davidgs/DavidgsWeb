@@ -90,4 +90,4 @@ Abgesehen davon *kann* DevRel durchaus dazu beitragen, erhebliche Einnahmen zu g
 
 Wie ich bereits sagte, ist DevRel *wie* eine Partei, wenn es darum geht, wie es geplant, verwaltet und ausgeführt werden muss. Keine wirklich epische Party passiert jemals „einfach so“. Es erfordert Arbeit und ein ganzes Team, damit es mühelos aussieht. DevRel ist auch keine Partei, weil es eine unheilige Menge Arbeit ist. Die Verantwortung ist enorm und man kann sie nicht einfach „beflügeln“. Diese Blog-Ideen und Tutorial-Ideen kommen nicht einfach aus dem Nichts. Sie erfordern Zeit, Recherche und Mühe.
 
-Lassen Sie uns also alle eine Party für die DevRel-Leute in Ihrem Unternehmen veranstalten. Feiern Sie ihre Erfolge und stellen Sie sicher, dass jeder Bescheid weiß, wenn Devrel Ihre Arbeit beeinflusst hat. 
+Lassen Sie uns also alle eine Party für die DevRel-Leute in Ihrem Unternehmen veranstalten. Feiern Sie ihre Erfolge und stellen Sie sicher, dass jeder Bescheid weiß, wenn Devrel Ihre Arbeit beeinflusst hat.

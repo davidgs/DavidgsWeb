@@ -10,24 +10,24 @@ section:
 
 # Your experiences
 experiences:
-- company:
-    name: Zymbit
-    url: "https://zymbit.com"
-    location: Santa Barbara, CA (op afstand)
-    overview: Goed beveiligde IoT Edge-apparaten.
-  positions:
-  - designation: Hoofd Relaties Ontwikkelaars
-    start: May 2024
-    # end: December 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Ontwikkelaarsrelaties leiden bij deze IoT-startup
-    - Content creëren, waaronder blogposts, tutorials en video's en tutorials.
-    - Presentaties op internationale IoT-conferenties en meetups
-    - Ondersteunen en bieden van middelen aan de grotere DevRel-gemeenschap
-    - Definiëren, uitvoeren en meten van de algemene Developer Relations-strategie
+# - company:
+#     name: Zymbit
+#     url: "https://zymbit.com"
+#     location: Santa Barbara, CA (op afstand)
+#     overview: Goed beveiligde IoT Edge-apparaten.
+#   positions:
+#   - designation: Hoofd Relaties Ontwikkelaars
+#     start: May 2024
+#     # end: December 2023
+#     # don't provide end date if you are currently working there. It will be replaced by "Present"
+#     # end: Dec 2020
+#     # give some points about what was your responsibilities at the company.
+#     responsibilities:
+#     - Ontwikkelaarsrelaties leiden bij deze IoT-startup
+#     - Content creëren, waaronder blogposts, tutorials en video's en tutorials.
+#     - Presentaties op internationale IoT-conferenties en meetups
+#     - Ondersteunen en bieden van middelen aan de grotere DevRel-gemeenschap
+#     - Definiëren, uitvoeren en meten van de algemene Developer Relations-strategie
 - company:
     name: Otterize
     url: "https://otterize.com"

@@ -1,6 +1,6 @@
 ---
 title: "Analytics and Comments"
-date: 2021-01-20T06:00:23+06:00
+date: 2021-01-20T06:00:00:23+06:00
 hero: /images/posts/writing-posts/analytics.svg
 description: Adding analytics and disquss comment in hugo
 theme Toha

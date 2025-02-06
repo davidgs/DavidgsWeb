@@ -1,6 +1,6 @@
 ---
 title: "Waar heb mijn blog-berichten gegaan?"
-Date: 2017-09-30 14:44
+Date: 2017-09-30T14:40:00
 Author: davidgs
 Category: Evangelism, General, Misc
 Slug: where-have-my-blog-posts-gone

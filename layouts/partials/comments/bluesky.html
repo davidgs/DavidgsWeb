@@ -1,0 +1,3 @@
+{{ $script := resources.Get "scripts/bsky.js" }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+<div id="bluesky">Comments From Bluesky Social: </div>
