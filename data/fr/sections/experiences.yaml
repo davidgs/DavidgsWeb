@@ -10,163 +10,176 @@ section:
 
 # Your experiences
 experiences:
-# - company:
-#     name: Zymbit
-#     url: "https://zymbit.com"
-#     location: Santa Barbara, CA (à distance)
-#     overview: Dispositifs IoT Edge à haute sécurité.
-#   positions:
-#   - designation: Responsable des relations avec les développeurs
-#     start: May 2024
-#     # end: December 2023
-#     # don't provide end date if you are currently working there. It will be replaced by "Present"
-#     # end: Dec 2020
-#     # give some points about what was your responsibilities at the company.
-#     responsibilities:
-#     - Diriger les efforts de relations avec les développeurs dans cette startup de l'IoT
-#     - Création de contenu, y compris des articles de blog, des tutoriels, des vidéos et des didacticiels.
-#     - Présentations lors de conférences et de rencontres internationales sur l'IdO
-#     - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel
-#     - Définir, exécuter et mesurer la stratégie globale des relations avec les développeurs.
+- company:
+    name: Red Hat
+    url: "https://redhat.com"
+    location: Raleigh, NC
+    overview: Red Hat est un fournisseur leader de solutions logicielles open source, notamment Linux, OpenShift et Kubernetes, avec des offres de premier plan dans l'industrie en IA et LLMs.
+  positions:
+  - designation: Principal Community Architect pour les Communautés IA
+    start: Mars 2025
+    end: Présent
+    responsibilities:
+    - Aider à la gouvernance et au développement des communautés IA et LLMs chez Red Hat
+    - Contribuer au développement des communautés IA et LLMs chez Red Hat
+    - Soutenir et fournir des ressources à la communauté upstream Open Source IA et LLMs
+- company:
+    name: Zymbit
+    url: "https://zymbit.com"
+    location: Santa Barbara, CA (à distance)
+    overview: Dispositifs IoT Edge à haute sécurité.
+  positions:
+  - designation: Responsable des relations avec les développeurs
+    start: Mai 2024
+    end: Janvier 2025
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Diriger les efforts de relations avec les développeurs dans cette startup de l'IoT
+    - Création de contenu, y compris des articles de blog, des tutoriels, des vidéos et des didacticiels
+    - Présentations lors de conférences et de rencontres internationales sur l'IoT
+    - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel
+    - Définir, exécuter et mesurer la stratégie globale des relations avec les développeurs
 - company:
     name: Otterize
     url: "https://otterize.com"
     location: Tel Aviv, Israel (à distance)
-    overview: Fournir la sécurité et la facilité d'utilisation pour Kubernetes, AWS, GKE, et plus encore.
+    overview: Simplifier la sécurité et la conformité de Kubernetes.
   positions:
   - designation: Responsable des relations avec les développeurs
     start: Juin 2023
+    end: Décembre 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    end: Dec 2023
+    # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Diriger les efforts de relations avec les développeurs au sein de cette startup
-    - Création de contenu, y compris des articles de blog, des tutoriels et des vidéos.
-    - Construire la [Communauté Otterize] (https://otrz.md/slack).
+    - Création de contenu, y compris des articles de blog, des tutoriels et des vidéos
+    - Doubler la taille de la [Communauté Otterize](https://otrz.md/slack)
     - Diriger les efforts de documentation à l'échelle de l'entreprise
-    - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel.
+    - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel
 - company:
     name: StarTree
     url: "https://startree.ai"
     location: Mountain View, CA (à distance)
     # company overview
-    overview: Une société d'analyse en temps réel fournissant Apache Pinot en tant que service pour les entreprises qui ont besoin d'un volume élevé d'analyses en temps réel, en contact avec la clientèle.
+    overview: Une entreprise d'analyse en temps réel fournissant Apache Pinot en tant que service pour les entreprises nécessitant des analyses en temps réel à haut volume orientées client.
   positions:
-  - designation:  Responsable de la défense des intérêts des développeurs
+  - designation: Responsable du Developer Advocacy
     start: Août 2022
-    end: Juin 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Juin 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Diriger l'équipe de défense des intérêts des développeurs
-    - Tâches standard de DevRel articles de blog, interactions et soutien de la communauté, et soutien des parties prenantes internes.
-    - Encadrement des jeunes DevRel au sein de l'entreprise et de la communauté DevRel dans son ensemble.
-    - Soutien et fourniture de ressources à l'ensemble de la communauté DevRel.
-
+    - Diriger l'équipe Developer Advocacy
+    - Tâches DevRel standard d'articles de blog, d'interactions communautaires et de soutien, et de soutien aux parties prenantes internes
+    - Mentorat de DevRels juniors tant au sein de l'entreprise que dans la communauté DevRel dans son ensemble
+    - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel
 - company:
     name: Camunda, Inc.
     url: "https://camunda.com"
     location: Berlin, Allemagne (à distance)
     # company overview
-    overview: Une plate-forme d'automatisation des processus qui permet à des dizaines de milliers de développeurs de concevoir, d'automatiser et d'améliorer les processus et d'offrir une meilleure expérience client, de livrer des projets plus rapidement et d'augmenter l'agilité de l'entreprise.
+    overview: Une plateforme d'automatisation de processus qui permet à des dizaines de milliers de développeurs de concevoir, automatiser et améliorer les processus et fournir de meilleures expériences client, livrer des projets plus rapidement et augmenter l'agilité commerciale.
   positions:
-  - designation: Promoteur principal des développeurs (DR4)
+  - designation: Principal Developer Advocate (DR4)
     start: Octobre 2020
     end: Juillet 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Diriger l'introduction de Camunda dans la communauté IoT
-    - Tâches DevRel standard des articles de blog, interactions et support de la communauté, contributions à la base de code Open Source de la plate-forme Camunda et support des parties prenantes internes.
-    - Mentorat de jr. DevRels à la fois au sein de l'entreprise et dans la communauté DevRel dans son ensemble.
-    - Soutenir et fournir des ressources à la plus grande communauté DevRel
+    - Diriger l'introduction de Camunda à la Communauté IoT
+    - Tâches DevRel standard d'articles de blog, d'interactions communautaires et de soutien, contributions au code source open source de la Plateforme Camunda, et soutien aux parties prenantes internes
+    - Mentorat de DevRels juniors tant au sein de l'entreprise que dans la communauté DevRel dans son ensemble
+    - Soutenir et fournir des ressources à l'ensemble de la communauté DevRel
 
 
 - company:
     name: QuestDB
     url: "https://questdb.io"
     location: Londres, Royaume-Uni (à distance)
-    overview: Le démarrage de la base de données de séries temporelles s'est concentré sur des performances extrêmes avec une base de données SQL sans dépendances.
+    overview: Startup de base de données de séries temporelles axée sur des performances extrêmes avec une base de données basée sur SQL et sans dépendances.
   positions:
   - designation: Responsable des relations avec les développeurs
     start: Mai 2020
     end: Octobre 2020
     responsibilities:
-    - Développement communautaire et gestion de la communauté des développeurs open source
-    - Outillage pour les métriques et la gestion du bonheur de la communauté et des développeurs
-    - Contributions techniques régulières au [blog de l'entreprise] (https://questDB.io/blog?ref=davidgsiot).
-    - Définir et exécuter la stratégie globale des relations avec les développeurs.
-    - Conférences publiques internationales régulières lors de Meetups, conférences et événements d'entreprise. Voir mon [Notist] (https://noti.st/davidgs) pour en savoir plus.
+    - Développement et gestion de la communauté de développeurs open source
+    - Outils pour les métriques et la gestion du bonheur de la communauté et des développeurs
+    - Contributions techniques régulières au [blog de l'entreprise](https://questDB.io/blog?ref=davidgsiot)
+    - Définir et exécuter la stratégie globale des relations avec les développeurs
+    - Engagements réguliers de prise de parole publique internationale lors de Meetups, conférences et événements d'entreprise. Voir mon [Notist](https://noti.st/davidgs) pour plus d'informations
 
 - company:
     name: InfluxData
     url: "https://influxdata.com"
     location: San Francisco, CA USA (à distance)
-    overview: Société de bases de données Time Series responsable de la base de données Open Source InfluxDB et de l'agent d'ingestion de données Telegraf.
+    overview: Entreprise de base de données de séries temporelles responsable de la base de données open source InfluxDB et de l'agent d'ingestion de données Telegraf
   positions:
-  - designation: Défenseur principal des développeurs
+  - designation: Senior Developer Advocate
     start: Août 2017
     end: Avril 2020
     responsibilities:
-    - Leadership technologique sur l'IoT dans toute l'entreprise dans le développement et la direction de produits.
-    - Développement de démos complexes mettant en avant la technologie InfluxData pour l'IoT.
-    - Recrutement et formation d'autres collaborateurs chargés des relations avec les développeurs.
-    - Contributions aux produits open source de l'entreprise via les requêtes d'extraction GitHub.
-    - Diriger les efforts de collaboration et d'inclusion dans des initiatives Open Source externes comme EclipseIoT, etc.
-    - Contributions techniques régulières au blog de l'entreprise (https://influxdata.com/blog).
-    - Conférences publiques internationales régulières lors de Meetups, conférences et événements d'entreprise. Voir mon [Notist] (https://noti.st/davidgs) pour plus
+    - Leadership technologique sur l'IoT dans toute l'entreprise dans le développement et la direction des produits
+    - Développement de démos complexes mettant en valeur la technologie InfluxData pour l'IoT
+    - Recrutement et formation d'autres membres du personnel des relations avec les développeurs
+    - Contributions aux produits open source de l'entreprise via les Pull Requests GitHub
+    - Diriger les efforts de collaboration et d'inclusion dans les initiatives open source externes comme EclipseIoT, etc.
+    - Contributions techniques régulières au blog de l'entreprise (https://influxdata.com/blog)
+    - Engagements réguliers de prise de parole publique internationale lors de Meetups, conférences et événements d'entreprise. Voir mon [Notist](https://noti.st/davidgs) pour plus d'informations
 
 - company:
     name: Dragonfly IoT
     url: "https://dragonflyiot.com"
     location: Holly Springs, NC USA
-    overview: Dragonfly IoT est un cabinet de conseil IoT fournissant des ressources de développement matériel et logiciel.
+    overview: Dragonfly IoT est une consultance IoT fournissant des ressources de développement matériel et logiciel.
   positions:
-  - designation: Fondateur / Directeur de la technologie
+  - designation: Fondateur/Directeur Technique
     start: Novembre 2015
+    end: Janvier 2025
     responsibilities:
-    - J'ai fondé Dragonfly IoT pour fournir des services de conseil technique et de développement de contrats aux entreprises de l'IoT sur la base de ma vaste expérience dans le domaine.
-    - Applications de démonstration IoT ciblées, proposées et construites, y compris l'acquisition de matériel, l'approvisionnement et la programmation, le développement de middleware et de dispositifs de passerelle et l'analyse des données de la couche de présentation
-    - Contribution à des projets IoT open source comme Apache MyNewt.
-    - Rédaction de livres blancs, d'articles de blog et de documentation utilisateur pour des démos, des projets et des logiciels open-source.
+    - J'ai fondé Dragonfly IoT pour fournir des services de conseil technique et de développement contractuel aux entreprises dans l'IoT basés sur mon expérience approfondie dans le domaine
+    - Portée, proposition et construction d'applications de démonstration IoT incluant l'acquisition de matériel, le provisionnement et la programmation, le développement de middleware et d'appareils passerelles et l'analyse de données de couche de présentation
+    - Contribution à des projets IoT open source comme Apache MyNewt
+    - Rédaction de livres blancs, d'articles de blog et de documentation utilisateur pour les démos, projets et efforts de logiciels open source
 
 - company:
-    name: PsiKick (now Everactive)
+    name: PsiKick (maintenant Everactive)
     url: "https://everactive.com"
     location: Charlottesville, VA USA (à distance)
-    overview: Développe des puces et des SoC ultra basse consommation pour l'IoT.
+    overview: Développe des puces et SoCs à très faible consommation pour l'IoT.
   positions:
-  - designation: Évangéliste technique en chef
+  - designation: Chief Technical Evangelist
     start: Février 2015
     end: Octobre 2015
     responsibilities:
-    - A dirigé la définition et le développement d'une plate-forme utilisateur et développeur pour un nouveau système IoT sur puce en cours de développement, y compris la définition des API des développeurs et des points d'engagement avec les clients.
-    - Architecture de plate-forme de développeur définie pour engager les développeurs sur le nouveau SoC IoT.
-    - Testé du matériel IoT expérimental et développé des démos pour présenter les capacités en C, Python et Swift.
-    - Création d'applications Bluetooth iOS personnalisées pour les démos et une interface de développement personnalisée (basée sur C) pour le matériel développé en interne.
-    - Porté les pilotes Linux / Windows sur Mac OS X.
-    - Nous avons attiré à la fois des partenaires et des clients Fortune 50 et des entreprises émergentes grâce à des contacts directs avec l'industrie et des efforts d'évangélisation.
-    - Engagement d'un nouveau partenaire de développement matériel pour réduire les coûts de développement au niveau de la carte de plus de 50%.
+    - Dirigé la définition et le développement d'une plateforme utilisateur et développeur pour un nouveau système sur puce IoT en cours de développement, y compris la définition d'APIs développeur et de points d'engagement avec les clients
+    - Défini l'architecture de la plateforme développeur pour engager les développeurs sur de nouveaux SoCs IoT
+    - Testé du matériel IoT expérimental et développé des démos pour démontrer les capacités en C, Python et Swift
+    - Construit des applications Bluetooth iOS personnalisées pour les démos et une interface développeur personnalisée (basée sur C) pour le matériel développé en interne
+    - Porté les pilotes Linux/Windows vers Mac OS X
+    - Apporté à la fois des partenaires et clients Fortune 50 et des entreprises émergentes grâce à des contacts directs de l'industrie et des efforts d'évangélisation
+    - Engagé un nouveau partenaire de développement matériel pour réduire les coûts de développement au niveau de la carte de plus de 50%
 
 - company:
     name: Riverbed Technology
     url: "https://riverbed.com"
     location: San Francisco, CA USA (à distance)
-    overview: Riverbed fournit du matériel et des services pour maximiser les performances du réseau pour les bureaux distants et d'autres besoins basés sur le WAN.
+    overview: Riverbed fournit du matériel et des services pour maximiser les performances réseau pour les bureaux distants et autres besoins basés sur WAN.
   positions:
-  - designation: Évangéliste Technique
+  - designation: Technical Evangelist
     start: Octobre 2012
     end: Février 2015
     responsibilities:
-    - Responsable du développement et de la livraison de groupes d'utilisateurs, de sessions techniques et de webinaires pour permettre à l'organisation des ventes sur le terrain de maximiser les opportunités de vente.
-    - Évangélisation technique mondiale pour l'ensemble de la plate-forme de produits Riverbed, y compris l'optimisation WAN, l'optimisation du stockage, la gestion des performances du réseau et des applications et les solutions de stockage dans le cloud, y compris des centaines de présentations de groupes d'utilisateurs à des milliers de clients.
-    - A aidé à clôturer plus de 90 millions de dollars de ventes par an.
-    - Rédaction de livres blancs, d'articles de blog et de documentation utilisateur pour des démos, des projets et des logiciels open-source.
-    - Développer et livrer des démos pour la vidéo, le Web et les lancements de produits majeurs sur scène.
-    - Organisation et développement du contenu de la session technique pour la conférence des utilisateurs Riverbed FORCE, comprenant 60 sessions techniques, 20 laboratoires pratiques et des tests de certification continus pour plus de 1 000 participants.
-    - Développer et offrir des webinaires à plus de 2 000 participants chaque année.
+    - Responsable du développement et de la livraison de groupes d'utilisateurs, de sessions techniques et de webinaires pour permettre à l'organisation des ventes sur le terrain de maximiser les opportunités de vente
+    - Évangélisation technique mondiale pour toute la plateforme de produits Riverbed, y compris l'Optimisation WAN, l'Optimisation du Stockage, la Gestion des Performances Réseau et Applications, et les solutions de Stockage Cloud, y compris des centaines de présentations de groupes d'utilisateurs à des milliers de clients
+    - Aidé à conclure plus de 90M$ de ventes par an
+    - Rédaction de livres blancs, d'articles de blog et de documentation utilisateur pour les démos, projets et efforts de logiciels open source
+    - Développement et livraison de démos pour la vidéo, le web et les lancements majeurs de produits sur scène
+    - Organisé et développé le contenu des sessions techniques pour la conférence utilisateurs Riverbed FORCE, y compris 60 Sessions Techniques, 20 Laboratoires Pratiques et des Tests de Certification continus pour plus de 1,000 participants
+    - Développement et livraison de webinaires à plus de 2,000 participants annuellement
 
 - company:
     name: Sun Microsystems Labs (maintenant Oracle Labs)
@@ -174,15 +187,15 @@ experiences:
     location: Menlo Park, CA USA (à distance)
     overview: Leader de l'industrie dans la recherche et le développement avancés de technologies telles que Java.
   positions:
-  - designation: Ingénieur d'état-major
+  - designation: Staff Engineer
     start: Juillet 2003
     end: Avril 2012
     responsibilities:
-    - Contribution au développement et au succès global du projet Sun SPOT IoT Developer Platform.
-    - Dirigé le développement de la communauté des développeurs en ligne.
-    - Recherche et développement pour une plateforme de réseau de capteurs sans fil embarqués
-    - Développer et faire passer la communauté des utilisateurs et des développeurs de zéro à plus de 3000 participants en 3 ans
-    - Développement du logiciel d'installation et de maintenance pour l'ensemble de la plate-forme Sun SPOT, y compris le déploiement et les mises à niveau du matériel et du SDK
-    - Développer et livrer des Technical Hands On Labs à Java One - la première conférence des développeurs Java - pendant 3 années consécutives.
-    - Développement de la suite d'applications de démonstration pour la plate-forme Sun SPOT
-    - Tenue d'un blog technique régulier à fort trafic (top 50 des blogs sur blogs.sun.com).
+    - Contribué au développement et au succès global du projet Sun SPOT IoT Developer Platform
+    - Dirigé le développement de la communauté de développeurs en ligne
+    - Recherche et développement pour plateforme de réseau de capteurs sans fil embarqués
+    - Développé et fait croître la communauté d'utilisateurs et de développeurs de zéro à plus de 3,000 participants en 3 ans
+    - Développé le logiciel d'installation et de maintenance pour toute la Plateforme Sun SPOT, y compris le déploiement et les mises à niveau du matériel et du SDK
+    - Développé et livré des Laboratoires Techniques Pratiques à Java One — la conférence principale des développeurs Java — pendant 3 années consécutives
+    - Développé la Suite d'Applications de Démonstration pour la Plateforme Sun SPOT
+    - Maintenu un blog technique régulier à fort trafic (top 50 blogs sur blogs.sun.com)

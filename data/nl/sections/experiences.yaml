@@ -10,67 +10,78 @@ section:
 
 # Your experiences
 experiences:
-# - company:
-#     name: Zymbit
-#     url: "https://zymbit.com"
-#     location: Santa Barbara, CA (op afstand)
-#     overview: Goed beveiligde IoT Edge-apparaten.
-#   positions:
-#   - designation: Hoofd Relaties Ontwikkelaars
-#     start: May 2024
-#     # end: December 2023
-#     # don't provide end date if you are currently working there. It will be replaced by "Present"
-#     # end: Dec 2020
-#     # give some points about what was your responsibilities at the company.
-#     responsibilities:
-#     - Ontwikkelaarsrelaties leiden bij deze IoT-startup
-#     - Content creëren, waaronder blogposts, tutorials en video's en tutorials.
-#     - Presentaties op internationale IoT-conferenties en meetups
-#     - Ondersteunen en bieden van middelen aan de grotere DevRel-gemeenschap
-#     - Definiëren, uitvoeren en meten van de algemene Developer Relations-strategie
+- company:
+    name: Red Hat
+    url: "https://redhat.com"
+    location: Raleigh, NC
+    overview: Red Hat is een toonaangevende leverancier van open source softwareoplossingen, waaronder Linux, OpenShift en Kubernetes, met industrieleidende aanbiedingen op het gebied van AI en LLMs.
+  positions:
+  - designation: Principal Community Architect voor AI Communities
+    start: Maart 2025
+    end: Heden
+    responsibilities:
+    - Helpen bij het bestuur en de ontwikkeling van AI- en LLM-communities bij Red Hat
+    - Bijdragen aan de ontwikkeling van AI- en LLM-communities bij Red Hat
+    - Ondersteunen en bieden van middelen aan de upstream Open Source AI- en LLM-community
+- company:
+    name: Zymbit
+    url: "https://zymbit.com"
+    location: Santa Barbara, CA (op afstand)
+    overview: Hoogbeveiligde IoT Edge-apparaten.
+  positions:
+  - designation: Hoofd Relaties Ontwikkelaars
+    start: Mei 2024
+    end: Januari 2025
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leiding geven aan Developer Relations bij deze IoT-startup
+    - Content creëren, waaronder blogposts, tutorials en video's en tutorials
+    - Presentaties op internationale IoT-conferenties en meetups
+    - Ondersteunen en bieden van middelen aan de grotere DevRel-gemeenschap
+    - Definiëren, uitvoeren en meten van de algemene Developer Relations-strategie
 - company:
     name: Otterize
     url: "https://otterize.com"
     location: Tel Aviv, Israel (op afstand)
-    overview: Biedt beveiliging en gebruiksgemak voor Kubernetes, AWS, GKE en meer.
+    overview: Vereenvoudigen van Kubernetes-beveiliging en -naleving.
   positions:
   - designation: Hoofd Relaties Ontwikkelaars
     start: Juni 2023
+    end: December 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    end: Dec 2023
+    # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Leiding geven aan Developer Relations bij deze startup
-    - Content creëren, waaronder blogposts, tutorials en video's.
-    - Opbouwen van de [Otterize-gemeenschap] (https://otrz.md/slack).
-    - Leid de documentatie-inspanningen bedrijfsbreed
+    - Content creëren, waaronder blogposts, tutorials en video's
+    - Verdubbeling van de grootte van de [Otterize-gemeenschap](https://otrz.md/slack)
+    - Leiding geven aan de documentatie-inspanningen bedrijfsbreed
     - Ondersteunen en beschikbaar stellen van middelen aan de grotere DevRel-gemeenschap
-
 - company:
     name: StarTree
     url: "https://startree.ai"
     location: Mountain View, CA (op afstand)
     # company overview
-    overview: Een Real-Time Analytics bedrijf dat Apache Pinot aanbiedt als een dienst voor bedrijven die behoefte hebben aan hoge volumes, real-time, klantgerichte analytics.
+    overview: Een Real-Time Analytics-bedrijf dat Apache Pinot als service biedt voor bedrijven die hoogvolume, real-time, klantgerichte analyses nodig hebben.
   positions:
-  - designation: Hoofd voorstander van ontwikkelaars
-    start: Augustus 2020
-    end: Juni 2023
+  - designation: Hoofd Developer Advocacy
+    start: Augustus 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Juni 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Leiding geven aan Developer Advocacy team
-    - Standaard DevRel taken van Blog posts, community interacties en ondersteuning, en ondersteuning van interne stakeholders.
-    - Mentoring van jr. DevRels zowel binnen het bedrijf als in de DevRel Community als geheel.
-    - Ondersteuning en verstrekken van middelen aan de grotere DevRel-gemeenschap
-
+    - Leiding geven aan het Developer Advocacy-team
+    - Standaard DevRel-taken van blogposts, community-interacties en -ondersteuning, en ondersteuning van interne stakeholders
+    - Mentoring van jr. DevRels zowel binnen het bedrijf als in de DevRel-gemeenschap als geheel
+    - Ondersteunen en bieden van middelen aan de grotere DevRel-gemeenschap
 - company:
     name: Camunda, Inc.
     url: "https://camunda.com"
-    location: Berlin, Germany (op afstand)
+    location: Berlijn, Duitsland (op afstand)
     # company overview
-    overview: Een procesautomatiseringsplatform waarmee tienduizenden ontwikkelaars processen kunnen ontwerpen, automatiseren en verbeteren en betere klantervaringen kunnen bieden, projecten sneller kunnen opleveren en de bedrijfsflexibiliteit kunnen vergroten.
+    overview: Een procesautomatiseringsplatform dat tienduizenden ontwikkelaars in staat stelt processen te ontwerpen, automatiseren en verbeteren en betere klantervaringen te bieden, projecten sneller te leveren en bedrijfsagiliteit te vergroten.
   positions:
   - designation: Principal Developer Advocate (DR4)
     start: Oktober 2020
@@ -80,110 +91,111 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Leiding geven aan de introductie van Camunda in de IoT-gemeenschap
-    - Standaard DevRel-taken van blogposts, gemeenschapsinteracties en -ondersteuning, bijdragen aan de Camunda Platform Open Source-codebase en ondersteuning van interne belanghebbenden.
-    - Begeleiding van jr. DevRels zowel binnen het bedrijf als in de DevRel-gemeenschap als geheel.
-    - Ondersteuning en middelen bieden aan de grotere DevRel-gemeenschap
+    - Standaard DevRel-taken van blogposts, community-interacties en -ondersteuning, bijdragen aan de open source codebase van het Camunda Platform, en ondersteuning van interne stakeholders
+    - Mentoring van jr. DevRels zowel binnen het bedrijf als in de DevRel-gemeenschap als geheel
+    - Ondersteunen en bieden van middelen aan de grotere DevRel-gemeenschap
 
 
 - company:
     name: QuestDB
     url: "https://questdb.io"
-    location: London, UK (op afstand)
-    overview: Opstarten van Time Series Database gericht op extreme prestaties met een op SQL gebaseerde, afhankelijkheidsvrije database.
+    location: Londen, Verenigd Koninkrijk (op afstand)
+    overview: Time Series Database-startup gericht op extreme prestaties met een SQL-gebaseerde, afhankelijkheidsvrije database.
   positions:
-  - designation: Hoofd Developer Relations
-    start: May 2020
+  - designation: Hoofd Relaties Ontwikkelaars
+    start: Mei 2020
     end: Oktober 2020
     responsibilities:
-    - Communityontwikkeling en beheer van de open source ontwikkelaarscommunity
-    - Tooling voor maatstaven en beheer van geluk van de gemeenschap en ontwikkelaars
-    - Regelmatige technische bijdragen aan de [bedrijfsblog] (https://questDB.io/blog?ref=davidgsiot).
-    - Definiëren en uitvoeren van de algemene Developer Relations-strategie.
-    - Regelmatige internationale spreekbeurten in het openbaar op Meetups, conferenties en bedrijfsevenementen. Zie mijn [Notist] (https://noti.st/davidgs) voor meer.
+    - Community-ontwikkeling en -beheer van de open source ontwikkelaarsgemeenschap
+    - Tooling voor community- en ontwikkelaarsgeluksmetrieken en -beheer
+    - Regelmatige technische bijdragen aan de [bedrijfsblog](https://questDB.io/blog?ref=davidgsiot)
+    - Definiëren en uitvoeren van de algemene Developer Relations-strategie
+    - Regelmatige internationale publieke spreekbeurten bij Meetups, conferenties en bedrijfsevenementen. Zie mijn [Notist](https://noti.st/davidgs) voor meer informatie
 
 - company:
     name: InfluxData
     url: "https://influxdata.com"
     location: San Francisco, CA USA (op afstand)
-    overview: Time Series-databasebedrijf verantwoordelijk voor de Open Source InfluxDB-database en Telegraf-agent voor gegevensopname
+    overview: Time Series databasebedrijf verantwoordelijk voor de open source InfluxDB-database en de Telegraf data-inname agent
   positions:
   - designation: Senior Developer Advocate
     start: Augustus 2017
     end: April 2020
     responsibilities:
-    - Technologisch leiderschap op het gebied van IoT door het hele bedrijf in productontwikkeling en richting.
-    - Ontwikkeling van complexe demo's met aandacht voor InfluxData-technologie voor IoT.
-    - Werving en opleiding van ander personeel voor ontwikkelaarsrelaties.
-    - Bijdragen aan open source-producten van het bedrijf via GitHub Pull Requests.
-    - Leiding geven aan inspanningen voor samenwerking en inclusie in externe Open Source-initiatieven zoals EclipseIoT, enz.
-    - Regelmatige technische bijdragen aan de bedrijfsblog (https://influxdata.com/blog).
-    - Regelmatige internationale spreekbeurten in het openbaar op Meetups, conferenties en bedrijfsevenementen. Zie mijn [Notist] (https://noti.st/davidgs) voor meer
+    - Technologisch leiderschap op IoT door het hele bedrijf in productontwikkeling en -richting
+    - Ontwikkeling van complexe demo's die InfluxData-technologie voor IoT benadrukken
+    - Werving en training van ander Developer Relations-personeel
+    - Bijdragen aan de open source producten van het bedrijf via GitHub Pull Requests
+    - Leiding geven aan inspanningen voor samenwerking en inclusie in externe Open Source-initiatieven zoals EclipseIoT, etc.
+    - Regelmatige technische bijdragen aan de bedrijfsblog (https://influxdata.com/blog)
+    - Regelmatige internationale publieke spreekbeurten bij Meetups, conferenties en bedrijfsevenementen. Zie mijn [Notist](https://noti.st/davidgs) voor meer informatie
 
 - company:
     name: Dragonfly IoT
     url: "https://dragonflyiot.com"
     location: Holly Springs, NC USA
-    overview: Dragonfly IoT is een IoT-adviesbureau dat middelen voor hardware- en softwareontwikkeling levert.
+    overview: Dragonfly IoT is een IoT-consultancy die hardware- en softwareontwikkelingsmiddelen biedt.
   positions:
-  - designation: Founder/Chief Technology Officer
+  - designation: Oprichter/Chief Technology Officer
     start: November 2015
+    end: Januari 2025
     responsibilities:
-    - Ik heb Dragonfly IoT opgericht om technisch advies en contractontwikkelingsdiensten te leveren aan bedrijven in het IoT op basis van mijn uitgebreide ervaring in het veld.
-    - Scoped, voorgestelde en gebouwde IoT-demotoepassingen, waaronder hardware-acquisitie, provisioning en programmering, ontwikkeling van middleware en gateway-apparaten en gegevensanalyse op presentatielagen.
-    - Bijgedragen aan open-source IoT-projecten zoals Apache MyNewt.
-    - Geschreven white papers, blogposts en gebruikersdocumentatie voor demo's, projecten en open-source software-inspanningen.
+    - Ik heb Dragonfly IoT opgericht om technische adviesdiensten en contractontwikkeling te bieden aan bedrijven in IoT op basis van mijn uitgebreide ervaring op dit gebied
+    - Scope, voorstel en bouw van IoT-demo-applicaties inclusief hardware-acquisitie, provisioning en programmering, ontwikkeling van middleware en gateway-apparaten en presentatielaag data-analyse
+    - Bijdragen aan open source IoT-projecten zoals Apache MyNewt
+    - Auteur van white papers, blogposts en gebruikersdocumentatie voor demo's, projecten en open source software-inspanningen
 
 - company:
     name: PsiKick (nu Everactive)
     url: "https://everactive.com"
     location: Charlottesville, VA USA (op afstand)
-    overview: Ontwikkelt ultra-low-power chips en SoC's voor het IoT.
+    overview: Ontwikkelt ultra-laagvermogen chips en SoCs voor IoT.
   positions:
   - designation: Chief Technical Evangelist
     start: Februari 2015
     end: Oktober 2015
     responsibilities:
-    - Leidde de definitie en ontwikkeling van een gebruikers- en ontwikkelaarsplatform voor een nieuw IoT-systeem-op-chip dat wordt ontwikkeld, inclusief het definiëren van ontwikkelaar-API's en punten van betrokkenheid bij klanten.
-    - Gedefinieerde ontwikkelaarsplatformarchitectuur om ontwikkelaars te betrekken bij nieuwe IoT SoC.
-    - Experimentele IoT-hardware getest en demo's ontwikkeld om mogelijkheden in C, Python en Swift te demonstreren.
-    - Aangepaste iOS Bluetooth-applicaties gebouwd voor demo's en aangepaste (C-gebaseerde) ontwikkelaarsinterface voor in eigen huis ontwikkelde hardware.
-    - Overgedragen Linux / Windows-stuurprogramma's naar Mac OS X.
-    - Zowel Fortune 50 als partners en klanten van opkomende bedrijven binnengehaald door directe contacten met de industrie en evangelisatie-inspanningen.
-    - Nieuwe hardware-ontwikkelingspartner aangesteld om de ontwikkelingskosten op boardniveau met meer dan 50% te verlagen.
+    - Leiding geven aan de definitie en ontwikkeling van een gebruikers- en ontwikkelaarsplatform voor een nieuw IoT-systeem op chip dat werd ontwikkeld, inclusief het definiëren van ontwikkelaars-API's en aanspreekpunten met klanten
+    - Gedefinieerde ontwikkelaarsplatformarchitectuur voor het betrekken van ontwikkelaars bij nieuwe IoT-SoCs
+    - Getest experimentele IoT-hardware en ontwikkelde demo's om mogelijkheden in C, Python en Swift te tonen
+    - Gebouwde aangepaste iOS Bluetooth-applicaties voor demo's en aangepaste (C-gebaseerde) ontwikkelaarsinterface voor intern ontwikkelde hardware
+    - Geporteerde Linux/Windows-drivers naar Mac OS X
+    - Bracht zowel Fortune 50- als opkomende bedrijfspartners en klanten binnen via directe branchecontacten en evangelisatie-inspanningen
+    - Betrokken nieuwe hardware-ontwikkelingspartner om de ontwikkelingskosten op bordniveau met meer dan 50% te verlagen
 
 - company:
     name: Riverbed Technology
     url: "https://riverbed.com"
     location: San Francisco, CA USA (op afstand)
-    overview: Riverbed levert hardware en services om de netwerkprestaties te maximaliseren voor externe kantoren en andere WAN-gebaseerde behoeften.
+    overview: Riverbed biedt hardware en services om de netwerkprestaties te maximaliseren voor remote offices en andere WAN-gebaseerde behoeften.
   positions:
   - designation: Technical Evangelist
     start: Oktober 2012
     end: Februari 2015
     responsibilities:
-    - Verantwoordelijk voor de ontwikkeling en levering van gebruikersgroepen, technische sessies en webinars om de buitendienstorganisatie in staat te stellen verkoopkansen te maximaliseren.
-    - Wereldwijde technische evangelisatie voor het hele Riverbed-platform met producten, waaronder WAN-optimalisatie, opslagoptimalisatie, netwerk- en applicatieprestatiebeheer en cloudopslagoplossingen, waaronder honderden presentaties van gebruikersgroepen aan duizenden klanten.
-    - Hielp meer dan $ 90 miljoen aan verkopen per jaar.
-    - Geschreven white papers, blogposts en gebruikersdocumentatie voor demo's, projecten en open-source software-inspanningen.
-    - Demo's ontwikkeld en geleverd voor video, internet en grote productlanceringen op het podium.
-    - De inhoud van de technische sessie voor de Riverbed FORCE-gebruikersconferentie georganiseerd en ontwikkeld, waaronder 60 technische sessies, 20 praktische labs en continue certificeringstests voor meer dan 1.000 deelnemers.
-    - Jaarlijks webinars ontwikkeld en geleverd aan meer dan 2.000 deelnemers.
+    - Verantwoordelijk voor de ontwikkeling en levering van gebruikersgroepen, technische sessies en webinars om de veldverkooporganisatie in staat te stellen verkoopkansen te maximaliseren
+    - Wereldwijde technische evangelisatie voor het volledige Riverbed-platform van producten, waaronder WAN-optimalisatie, opslagoptimalisatie, netwerk- en applicatieprestatiebeheer en cloudopslagoplossingen, inclusief honderden gebruikersgroepspresentaties aan duizenden klanten
+    - Hielp meer dan $90M aan verkopen per jaar te sluiten
+    - Auteur van white papers, blogposts en gebruikersdocumentatie voor demo's, projecten en open source software-inspanningen
+    - Ontwikkelde en leverde demo's voor video, web en belangrijke productlanceringen op het podium
+    - Georganiseerd en ontwikkeld de technische sessie-inhoud voor de Riverbed FORCE-gebruikersconferentie, inclusief 60 technische sessies, 20 hands-on labs en continue certificeringstests voor meer dan 1.000 deelnemers
+    - Ontwikkelde en leverde webinars aan meer dan 2.000 deelnemers jaarlijks
 
 - company:
     name: Sun Microsystems Labs (nu Oracle Labs)
     url: "https://oracle.com"
-    location: Menlo Park, CA USA (remote)
-    overview: Marktleider in geavanceerd onderzoek en ontwikkeling van technologieën zoals Java.
+    location: Menlo Park, CA USA (op afstand)
+    overview: Industrieleider in geavanceerd onderzoek en ontwikkeling van technologieën zoals Java.
   positions:
   - designation: Staff Engineer
     start: Juli 2003
     end: April 2012
     responsibilities:
-    - Bijgedragen aan de ontwikkeling en het algehele succes van het Sun SPOT IoT Developer Platform-project.
-    - Leidde de ontwikkeling van de online ontwikkelaarsgemeenschap.
-    - Onderzoek en ontwikkeling voor een ingebed draadloos sensornetwerkplatform
-    - De gebruikers- en ontwikkelaarsgemeenschap ontwikkeld en gegroeid van nul tot meer dan 3.000 deelnemers in 3 jaar
-    - Ontwikkeling van de installatie- en onderhoudssoftware voor het volledige Sun SPOT-platform, inclusief hardware- en SDK-implementatie en upgrades
-    - Drie opeenvolgende jaren technische hands-on-labs ontwikkeld en geleverd op Java One, de belangrijkste conferentie voor Java-ontwikkelaars.
-    - Ontwikkeling van de demonstratietoepassingssuite voor het Sun SPOT-platform
-    - Een regelmatig technisch blog met veel verkeer onderhouden (top 50 blogs op blogs.sun.com).
+    - Bijdragen aan de ontwikkeling en het algehele succes van het Sun SPOT IoT Developer Platform-project
+    - Leiding geven aan de ontwikkeling van de online ontwikkelaarsgemeenschap
+    - Onderzoek en ontwikkeling voor ingebedde draadloze sensornetwerkplatform
+    - Ontwikkelde en groeide de gebruikers- en ontwikkelaarsgemeenschap van nul tot meer dan 3.000 deelnemers in 3 jaar
+    - Ontwikkelde de installatie- en onderhoudssoftware voor het volledige Sun SPOT-platform, inclusief hardware- en SDK-implementatie en -upgrades
+    - Ontwikkelde en leverde technische hands-on labs op Java One — de belangrijkste Java-ontwikkelaarsconferentie — gedurende 3 opeenvolgende jaren
+    - Ontwikkelde de Demonstratie Applicatie Suite voor het Sun SPOT-platform
+    - Onderhield een regelmatige technische blog met veel verkeer (top 50 blogs op blogs.sun.com)
