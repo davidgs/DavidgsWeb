@@ -8,79 +8,79 @@ section:
   template: sections/about.html
 
 # your designation
-designation:  Ich bin der Leiter der Entwicklerbeziehungen.
+designation: Ich bin ein Principal Community Architect für KI-Communities
 # your company information
 company:
- name: Zymbit
- url: "https://zymbit.com"
+ name: Red Hat
+ url: "https://redhat.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "Ich bin ein Pionier des Internets der Dinge (IoT) und arbeite seit über 20 Jahren in diesem Bereich. <p>Ich bin sogar noch länger im Bereich Developer Relations tätig.<p>Zurzeit bin ich Head of Developer Relations bei [Zymbit](https://zymbit.com) und war auch als Head of Developer Relations bei [Otterize](https://otterize.com) und [QuestDB](https://questdb.io) tätig. Ich habe eine kurze Zeit als Head of Developer Advocacy bei [StarTree](https://startree.ai) gearbeitet.<p> Zuvor war ich Principal Developer Advocate bei [Camunda](https://camunda.com) und Senior Developer Advocate bei [Influx Data](https://influxdata.com). <p>Wenn Sie sich fragen, was Zeitreihendatenbanken mit IoT zu tun haben, lesen Sie [Warum ein IoT-Experte sich mit Zeitreihendaten beschäftigt](https://www.influxdata.com/iot-guy-joined-influxdata/)."
-
+summary: "Ich bin ein Pionier des Internets der Dinge (IoT) und arbeite seit über 20 Jahren in diesem Bereich. <p>Ich bin sogar noch länger im Bereich Developer Relations tätig.<p>Aktuell bin ich Principal Community Architect für KI-Communities bei [Red Hat](https://redhat.com), zuvor war ich Head of Developer Relations bei [Zymbit](https://zymbit.com), ich war auch als Head of Developer Relations bei [Otterize](https://otterize.com) und [QuestDB](https://questdb.io) tätig. Ich habe eine kurze Zeit als Head of Developer Advocacy bei [StarTree](https://startree.ai) gearbeitet.<p> Zuvor war ich Principal Developer Advocate bei [Camunda](https://camunda.com) und Senior Developer Advocate bei [Influx Data](https://influxdata.com). <p>Wenn Sie sich fragen, was Zeitreihendatenbanken mit IoT zu tun haben, lesen Sie [Warum ein IoT-Experte sich mit Zeitreihendaten beschäftigt](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "davidgs@davidgs.com"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "davidgs@davidgs.com"
 
-- name: Telefon
-  icon: "fas fa-phone"
-  url: "919-534-5099"
+  - name: Telefon
+    icon: "fas fa-phone"
+    url: "919-534-5099"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/davidgs"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/davidgs"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://linkedin.com/in/davidgsimmons"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/davidgsimmons"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+  - name: Mastodon
+    icon: "fab fa-mastodon"
+    url: "https://davidgs@tty0.social"
 
-- name: Mastodon
-  icon: "fab fa-mastodon"
-  url: "https://davidgs@tty0.social"
+  - name: Bluesky
+    icon: "fab fa-brands fa-bluesky"
+    url: "https://bluesky.social/@davidgs"
 
-- name: Reddit
-  icon: "fab fa-reddit"
-  url: "https://www.reddit.com/user/santafen"
-
+  - name: Reddit
+    icon: "fab fa-reddit"
+    url: "https://www.reddit.com/user/santafen"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: DevRel
-  percentage: 100
-  color: "#00BDFF"
-- name: Einfühlungsvermögen
-  percentage: 95
-  color: pink
-- name: Öffentliches Reden
-  percentage: 80
-  color: green
-- name: Teamarbeit & Kooperation
-  percentage: 90
-  color: "#FFCF00"
-- name: Problemlösung
-  percentage: 85
-  color: "#9D42FF"
-- name: Schreiben
-  percentage: "#4D61FF"
-  color: "#4D61FF"
-- name: Gemeinschaftliches Gebäude
-  percentage: 65
-  color: "#4A7800"
-- name: Technische Fertigkeiten
-  percentage: 90
-  color: "#FF5800"
-
+  - name: DevRel
+    percentage: 100
+    color: "#00BDFF"
+  - name: Einfühlungsvermögen
+    percentage: 95
+    color: pink
+  - name: Öffentliches Reden
+    percentage: 85
+    color: green
+  - name: Teamarbeit & Kooperation
+    percentage: 90
+    color: "#FFCF00"
+  - name: Problemlösung
+    percentage: 85
+    color: "#9D42FF"
+  - name: Schreiben
+    percentage: 95
+    color: "#4D61FF"
+  - name: Gemeinschaftsaufbau
+    percentage: 85
+    color: "#4A7800"
+  - name: Technische Fertigkeiten
+    percentage: 90
+    color: "#FF5800"
+  - name: KI und LLMs
+    percentage: 75
+    color: "#00BDFF"
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
 #   percentage: 75

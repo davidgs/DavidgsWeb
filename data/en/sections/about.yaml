@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: I'm The Head of Developer Relations.
+designation: I'm a Principal Community Architect for AI Communities
 # your company information
 company:
- name: Zymbit
- url: "https://zymbit.com"
+ name: Red Hat
+ url: "https://redhat.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "I am an Internet of Things (IoT) pioneer who has been working in the field for over 20 years. <p>I have been doing Developer Relations for even longer.<p>Currently the Head of Developer Relations at [Zymbit](https://zymbit.com), I have also served as the Head of Developer Relations at [Otterize](https://otterize.com) and [QuestDB](https://questdb.io). I did a short stint as Head of Developer Advocacy at [StarTree](https://startree.ai).<p> Previously, I was Principal Developer Advocate at [Camunda](https://camunda.com), and the Senior Developer Advocate at [Influx Data](https://influxdata.com). <p>If you're wondering how Time Series Databases are related to IoT, read about [Why an IoT expert does Time Series Data](https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "I am an Internet of Things (IoT) pioneer who has been working in the field for over 20 years. <p>I have been doing Developer Relations for even longer.<p>Currently I'm a Principal Community Architect for AI Communities at [Red Hat](https://redhat.com), previously the Head of Developer Relations at [Zymbit](https://zymbit.com), I have also served as the Head of Developer Relations at [Otterize](https://otterize.com) and [QuestDB](https://questdb.io). I did a short stint as Head of Developer Advocacy at [StarTree](https://startree.ai).<p> Previously, I was Principal Developer Advocate at [Camunda](https://camunda.com), and the Senior Developer Advocate at [Influx Data](https://influxdata.com). <p>If you're wondering how Time Series Databases are related to IoT, read about [Why an IoT expert does Time Series Data](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -37,10 +37,6 @@ socialLinks:
   - name: LinkedIn
     icon: "fab fa-linkedin"
     url: "https://linkedin.com/in/davidgsimmons"
-
-  - name: Xitter
-    icon: "fab fa-twitter"
-    url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
 
   - name: Mastodon
     icon: "fab fa-mastodon"
@@ -77,11 +73,14 @@ softSkills:
     percentage: 95
     color: "#4D61FF"
   - name: Community Building
-    percentage: 65
+    percentage: 85
     color: "#4A7800"
   - name: Technical Skills
     percentage: 90
     color: "#FF5800"
+  - name: AI and LLMs
+    percentage: 75
+    color: "#00BDFF"
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
 #   percentage: 75

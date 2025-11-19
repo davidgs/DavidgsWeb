@@ -15,9 +15,6 @@
 
                 gtag('config', '{{ .id }}');
               </script>
-                <!-- {{ $privacyConfig:= dict (slice "Site" "Config" "Privacy" "GoogleAnalytics") $.Site.Config.Privacy.GoogleAnalytics }}
-                {{ $analyticsConfig := dict (slice "Site" "Params" "Analytics" "google") .id }}
-                {{ template "_internal/google_analytics.html" (merge $privacyConfig $analyticsConfig) }} -->
             {{ end }}
 
             <!-- Counter.dev -->
@@ -99,9 +96,6 @@
     {{ end }}
 {{ end }}
 
-<!-- Keep backwards compatibility and consistency with HUGO defaults -->
-{{ if .Site.Config.Services.GoogleAnalytics.ID }}
-    {{ template "_internal/google_analytics.html" . }}
-{{ end }}
+<!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5926167771603583"
   crossorigin="anonymous"></script>

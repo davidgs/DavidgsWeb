@@ -8,6 +8,8 @@
 /resources/_gen/
 hugo_stats.json
 /node_modules/
+/_vendor/
+# Note: static/sitemap.xml is kept in repo to ensure correct permissions
 
 # Executable may be added to repository
 hugo.exe

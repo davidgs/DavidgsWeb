@@ -11,35 +11,40 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Go Entwicklung
+- name: Golang
   logo: /images/sections/skills/go.jpg
   summary: "Verwendung als Hauptsprache für die berufliche Entwicklung. Kann skalierbare, testbare und wartbare Programme schreiben."
   url: "https://golang.org/"
 
-- name: Java
-  logo: /images/sections/skills/java.jpg
-  summary: "Kann Code in Produktionsqualität und wartbar schreiben. "
-  url: "https://java.com/"
+- name: TypeScript
+  logo: /images/sections/skills/ts-logo-256.png
+  summary: "Frontend- und Backend-Arbeit in TypeScript. Ich habe eine Reihe von Bibliotheken und Anwendungen in TypeScript geschrieben."
+  url: "https://www.typescriptlang.org"
+
+- name: React.js
+  logo: /images/sections/skills/React-icon.png
+  summary: "Benutzeroberflächenentwicklung in React.js. Ich habe mehrere Anwendungen mit React.js und Electron.js geschrieben."
+  url: "https://react.dev/"
 
 - name: Javascript/Node.js
   logo: /images/sections/skills/js.jpg
-  summary: "Haben sowohl clientseitiges als auch serverseitiges JavaScript geschrieben (Node.js)"
+  summary: "Habe sowohl clientseitiges als auch serverseitiges JavaScript (Node.js) geschrieben"
   url: "https://javascript.com/"
 
 - name: PHP
   logo: /images/sections/skills/php.jpg
-  summary: "Datenbankkonnektivität, interaktive Formulare usw."
+  summary: "Datenbankkonnektivität, interaktive Formulare usw. Ich habe große, komplexe PHP-basierte Webanwendungen geschrieben. Ich habe auch benutzerdefinierte Funktionen für WordPress geschrieben."
   url: "https://php.net/"
 
 
 - name: Swift/Objective C
   logo: /images/sections/skills/swift.jpg
-  summary: "iOS- und macOS Swift / Objective C-Programmierung einschließlich Bibliotheksentwicklung"
+  summary: "iOS- und macOS Swift/Objective C-Programmierung, einschließlich Bibliotheksentwicklung. Ich habe nur 2 Apps im AppStore veröffentlicht (nicht mehr verfügbar), aber ich habe eine Reihe interner Apps für verschiedene Projekte entwickelt."
   url: "https://en.wikipedia.org/wiki/Swift_(programming_language)"
 
 - name: Python
   logo: /images/sections/skills/python.jpg
-  summary: "Meistens MicroPython, aber auch andere, größere Programme geschrieben."
+  summary: "Meistens MicroPython, aber auch andere, größere Programme geschrieben. Es ist keine Sprache erster Ebene für mich, aber ich bin dennoch ziemlich kompetent darin."
   url: "https://python.org/"
 
 - name: Zeitreihendatenbanken
@@ -53,4 +58,9 @@ skills:
 
 - name: C++
   logo: /images/sections/skills/c++.jpg
-  summary: "Kennen Sie die C / C ++ - Programmierung für eingebettete Umgebungen wie EmbedOS, Arduino usw. Sie haben Arduino-Bibliotheken entwickelt."
+  summary: "Kenne C/C++-Programmierung für eingebettete Umgebungen einschließlich EmbedOS, Arduino usw. Habe Arduino-Bibliotheken entwickelt."
+
+- name: Java
+  logo: /images/sections/skills/java.jpg
+  summary: "Kann Code in Produktionsqualität und wartbar schreiben."
+  url: "https://java.com/"

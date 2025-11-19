@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Sobre
+  name: Acerca de
   id: about
   enable: true
   weight: 1
@@ -8,71 +8,79 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Soy el Jefe de Relaciones con los Desarrolladores
+designation: Soy un Principal Community Architect para Comunidades de IA
 # your company information
 company:
-  name: Zymbit
-  url: "https://zymbit.com"
+ name: Red Hat
+ url: "https://redhat.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "Soy un pionero del Internet de las Cosas (IoT) que lleva más de 20 años trabajando en este campo. <p>Actualmente soy el responsable de relaciones con los desarrolladores en [Zymbit](https://zymbit.com), y también he sido responsable de relaciones con los desarrolladores en [Otterize](https://otterize.com) y [QuestDB](https://questdb.io). Anteriormente, fui el principal defensor de los desarrolladores en [Camunda](https://camunda.com) y el principal defensor de los desarrolladores en [Influx Data](https://influxdata.com). <p>Si te estás preguntando cómo se relacionan las Bases de Datos de Series Temporales con IoT, lee sobre [Por qué un experto en IoT hace Datos de Series Temporales](https://www.influxdata.com/iot-guy-joined-influxdata/).."
+summary: "Soy un pionero del Internet de las Cosas (IoT) que ha estado trabajando en el campo durante más de 20 años. <p>He estado haciendo Developer Relations durante aún más tiempo.<p>Actualmente soy Principal Community Architect para Comunidades de IA en [Red Hat](https://redhat.com), anteriormente Head of Developer Relations en [Zymbit](https://zymbit.com), también he servido como Head of Developer Relations en [Otterize](https://otterize.com) y [QuestDB](https://questdb.io). Hice una breve estancia como Head of Developer Advocacy en [StarTree](https://startree.ai).<p> Anteriormente, fui Principal Developer Advocate en [Camunda](https://camunda.com) y Senior Developer Advocate en [Influx Data](https://influxdata.com). <p>Si te preguntas cómo se relacionan las bases de datos de series temporales con IoT, lee sobre [Por qué un experto en IoT hace datos de series temporales](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "davidgs@davidgs.com"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "davidgs@davidgs.com"
 
-- name: Phone
-  icon: "fas fa-phone"
-  url: "919-534-5099"
+  - name: Teléfono
+    icon: "fas fa-phone"
+    url: "919-534-5099"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/davidgs"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/davidgs"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://linkedin.com/in/davidgsimmons"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/davidgsimmons"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+  - name: Mastodon
+    icon: "fab fa-mastodon"
+    url: "https://davidgs@tty0.social"
 
-- name: Mastodon
-  icon: "fab fa-mastodon"
-  url: "https://davidgs@tty0.social"
+  - name: Bluesky
+    icon: "fab fa-brands fa-bluesky"
+    url: "https://bluesky.social/@davidgs"
 
-- name: Reddit
-  icon: "fab fa-reddit"
-  url: "https://www.reddit.com/user/santafen"
-
+  - name: Reddit
+    icon: "fab fa-reddit"
+    url: "https://www.reddit.com/user/santafen"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: DevRel
-  percentage: 95
-  color: blue
-- name: Empático
-  percentage: 90
-  color: pink
-- name: Presentaciones
-  percentage: 90
-  color: green
-- name: Trabajador de equipo
-  percentage: 80
-  color: yellow
-- name: Aprendiz rapido
-  percentage: 85
-  color: sky
-- name: Solucionador de problemas
-  percentage: 85
-  color: orange
+  - name: DevRel
+    percentage: 100
+    color: "#00BDFF"
+  - name: Empatía
+    percentage: 95
+    color: pink
+  - name: Hablar en Público
+    percentage: 85
+    color: green
+  - name: Trabajo en Equipo y Colaboración
+    percentage: 90
+    color: "#FFCF00"
+  - name: Resolución de Problemas
+    percentage: 85
+    color: "#9D42FF"
+  - name: Escritura
+    percentage: 95
+    color: "#4D61FF"
+  - name: Construcción de Comunidad
+    percentage: 85
+    color: "#4A7800"
+  - name: Habilidades Técnicas
+    percentage: 90
+    color: "#FF5800"
+  - name: IA y LLMs
+    percentage: 75
+    color: "#00BDFF"
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
 #   percentage: 75

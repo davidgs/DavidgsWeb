@@ -8,48 +8,47 @@ section:
   template: sections/about.html
 
 # your designation
-designation:  Je suis le responsable des relations avec les développeurs.
+designation: Je suis Principal Community Architect pour les Communautés IA
 # your company information
 company:
- name: Zymbit
- url: "https://zymbit.com"
+ name: Red Hat
+ url: "https://redhat.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume.pdf"
 
 # a summary about you
-summary: "Je suis un pionnier de l'Internet des objets (IdO) qui travaille dans ce domaine depuis plus de 20 ans. <Actuellement responsable des relations avec les développeurs chez [Zymbit] (https://zymbit.com), j'ai également été responsable des relations avec les développeurs chez [Otterize] (https://otterize.com) et [QuestDB] (https://questdb.io). Auparavant, j'ai été Principal Developer Advocate chez [Camunda](https://camunda.com), et Senior Developer Advocate chez [Influx Data](https://influxdata.com). <Si vous vous demandez comment les bases de données de séries temporelles sont liées à l'IdO, lisez [Pourquoi un expert de l'IdO utilise des données de séries temporelles] (https://www.influxdata.com/iot-guy-joined-influxdata/)."
+summary: "Je suis un pionnier de l'Internet des Objets (IoT) qui travaille dans ce domaine depuis plus de 20 ans. <p>Je fais des Relations Développeurs depuis encore plus longtemps.<p>Actuellement, je suis Principal Community Architect pour les Communautés IA chez [Red Hat](https://redhat.com), précédemment Head of Developer Relations chez [Zymbit](https://zymbit.com), j'ai également été Head of Developer Relations chez [Otterize](https://otterize.com) et [QuestDB](https://questdb.io). J'ai fait un court passage en tant que Head of Developer Advocacy chez [StarTree](https://startree.ai).<p> Auparavant, j'étais Principal Developer Advocate chez [Camunda](https://camunda.com) et Senior Developer Advocate chez [Influx Data](https://influxdata.com). <p>Si vous vous demandez comment les bases de données de séries temporelles sont liées à l'IoT, lisez [Pourquoi un expert IoT fait des données de séries temporelles](https://www.influxdata.com/iot-guy-joined-influxdata/)."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "davidgs@davidgs.com"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "davidgs@davidgs.com"
 
-- name: Phone
-  icon: "fas fa-phone"
-  url: "919-534-5099"
+  - name: Téléphone
+    icon: "fas fa-phone"
+    url: "919-534-5099"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/davidgs"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/davidgs"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://linkedin.com/in/davidgsimmons"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/davidgsimmons"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/intent/follow?screen_name=davidgsIoT"
+  - name: Mastodon
+    icon: "fab fa-mastodon"
+    url: "https://davidgs@tty0.social"
 
-- name: Mastodon
-  icon: "fab fa-mastodon"
-  url: "https://davidgs@tty0.social"
+  - name: Bluesky
+    icon: "fab fa-brands fa-bluesky"
+    url: "https://bluesky.social/@davidgs"
 
-- name: Reddit
-  icon: "fab fa-reddit"
-  url: "https://www.reddit.com/user/santafen"
-
+  - name: Reddit
+    icon: "fab fa-reddit"
+    url: "https://www.reddit.com/user/santafen"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
@@ -61,24 +60,27 @@ softSkills:
   - name: Empathie
     percentage: 95
     color: pink
-  - name: Prise de parole en public
-    percentage: 80
+  - name: Prise de Parole en Public
+    percentage: 85
     color: green
-  - name: Travail d'équipe et collaboration
+  - name: Travail d'Équipe et Collaboration
     percentage: 90
     color: "#FFCF00"
-  - name: Résolution de problèmes
+  - name: Résolution de Problèmes
     percentage: 85
     color: "#9D42FF"
-  - name: Rédaction
+  - name: Écriture
     percentage: 95
     color: "#4D61FF"
-  - name: Bâtiment communautaire
-    percentage: 65
+  - name: Construction de Communauté
+    percentage: 85
     color: "#4A7800"
-  - name: Compétences techniques
+  - name: Compétences Techniques
     percentage: 90
     color: "#FF5800"
+  - name: IA et LLMs
+    percentage: 75
+    color: "#00BDFF"
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
 #   percentage: 75

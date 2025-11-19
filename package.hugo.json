@@ -25,7 +25,7 @@
       "mark.js": "github.com/hugo-toha/toha/v4",
       "mermaid": "github.com/hugo-toha/toha/v4",
       "plyr": "github.com/hugo-toha/toha/v4",
-      "popper.js": "github.com/hugo-toha/toha/v4",
+      "@popperjs/core": "github.com/hugo-toha/toha/v4",
       "postcss": "github.com/hugo-toha/toha/v4",
       "postcss-cli": "github.com/hugo-toha/toha/v4"
     }
@@ -57,9 +57,9 @@
     "ityped": "^1.0.3",
     "katex": "^0.16.11",
     "mark.js": "^8.11.1",
-    "mermaid": "^9.2.1",
+    "mermaid": "^11.12.1",
     "plyr": "^3.7.2",
-    "popper.js": "^1.16.1",
+    "@popperjs/core": "^2.11.8",
     "postcss": "^8.4.41",
     "postcss-cli": "^11.0.0",
     "posthog-js": "^1.174.2"

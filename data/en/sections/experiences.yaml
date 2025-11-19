@@ -10,24 +10,37 @@ section:
 
 # Your experiences
 experiences:
-# - company:
-#     name: Zymbit
-#     url: "https://zymbit.com"
-#     location: Santa Barbara, CA (remote)
-#     overview: High security IoT Edge devices.
-#   positions:
-#   - designation: Head of Developer Relations
-#     start: May 2024
-#     end: January 2025
-#     # don't provide end date if you are currently working there. It will be replaced by "Present"
-#     # end: Dec 2020
-#     # give some points about what was your responsibilities at the company.
-#     responsibilities:
-#     - Leading Developer Relations efforts at this IoT startup
-#     - Content creation including blog posts, tutorials and videos and tutorials.
-#     - Presentations at international IoT conferences and meetups
-#     - Support and provide resources to the greater DevRel Community
-#     - Define, execute and measure the overall Developer Relations strategy
+- company:
+    name: Red Hat
+    url: "https://redhat.com"
+    location: Raleigh, NC
+    overview: Red Hat is a leading provider of open source software solutions, including Linux, OpenShift, and Kubernetes, with industry-leading offerings in AI and LLMs.
+  positions:
+  - designation: Principal Community Architect for AI Communities
+    start: March 2025
+    end: Present
+    responsibilities:
+    - Aiding the governance and development of AI and LLMs communities at Red Hat
+    - Contributing to the development of AI and LLMs communities at Red Hat
+    - Supporting and providing resources to upstream Open Source AI and LLMs Community
+- company:
+    name: Zymbit
+    url: "https://zymbit.com"
+    location: Santa Barbara, CA (remote)
+    overview: High security IoT Edge devices.
+  positions:
+  - designation: Head of Developer Relations
+    start: May 2024
+    end: January 2025
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leading Developer Relations efforts at this IoT startup
+    - Content creation including blog posts, tutorials and videos and tutorials.
+    - Presentations at international IoT conferences and meetups
+    - Support and provide resources to the greater DevRel Community
+    - Define, execute and measure the overall Developer Relations strategy
 - company:
     name: Otterize
     url: "https://otterize.com"

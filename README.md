@@ -23,3 +23,20 @@ It is currently offered in 5 languages:
 The translations are all done automatically using my own [Translator](https://github.com/davidgs/Translator) project which relies on Google Translate for the translations.
 
 Native-speakers are encouraged to submit Pull Requests to make the translations better!
+
+## Dependencies
+
+This project uses:
+- **Hugo** with the [Toha theme](https://github.com/hugo-toha/toha) v4.12.0
+- **Node.js** dependencies managed via npm
+- **Go modules** for Hugo theme dependencies
+
+### Key Dependencies
+- React 18.3.1
+- Next.js 15.5.6
+- Bootstrap 5.3.3
+- Mermaid 11.12.1 (for diagram rendering)
+- @popperjs/core 2.11.8 (for Bootstrap tooltips/popovers)
+
+See `package.json` and `go.mod` for complete dependency lists.
+

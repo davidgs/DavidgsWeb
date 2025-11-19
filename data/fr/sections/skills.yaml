@@ -11,15 +11,20 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Go Développement
+- name: Golang
   logo: /images/sections/skills/go.jpg
   summary: "Utilisation comme langue principale pour le développement professionnel. Capable d'écrire des programmes évolutifs, testables et maintenables."
   url: "https://golang.org/"
 
-- name: Java
-  logo: /images/sections/skills/java.jpg
-  summary: "Capable d'écrire du code maintenable de qualité production."
-  url: "https://java.com/"
+- name: TypeScript
+  logo: /images/sections/skills/ts-logo-256.png
+  summary: "Travail frontend et backend en TypeScript. J'ai écrit un certain nombre de bibliothèques et d'applications en TypeScript."
+  url: "https://www.typescriptlang.org"
+
+- name: React.js
+  logo: /images/sections/skills/React-icon.png
+  summary: "Développement d'interfaces utilisateur en React.js. J'ai écrit plusieurs applications en utilisant React.js et Electron.js."
+  url: "https://react.dev/"
 
 - name: Javascript/Node.js
   logo: /images/sections/skills/js.jpg
@@ -28,23 +33,23 @@ skills:
 
 - name: PHP
   logo: /images/sections/skills/php.jpg
-  summary: "Connectivité de la base de données, formulaires interactifs, etc."
+  summary: "Connectivité de la base de données, formulaires interactifs, etc. J'ai écrit de grandes applications web complexes basées sur PHP. J'ai également écrit des fonctions personnalisées pour WordPress."
   url: "https://php.net/"
 
 
 - name: Swift/Objective C
   logo: /images/sections/skills/swift.jpg
-  summary: "Programmation iOS et macOS Swift / Objective C, y compris le développement de bibliothèques"
+  summary: "Programmation iOS et macOS Swift/Objective C, y compris le développement de bibliothèques. J'ai seulement publié 2 applications sur l'AppStore (elles n'y sont plus) mais j'ai développé un certain nombre d'applications internes pour divers projets."
   url: "https://en.wikipedia.org/wiki/Swift_(programming_language)"
 
 - name: Python
   logo: /images/sections/skills/python.jpg
-  summary: "Principalement MicroPython, mais ont également écrit d'autres programmes plus volumineux."
+  summary: "Principalement MicroPython mais j'ai également écrit d'autres programmes plus volumineux. Ce n'est pas un langage de premier niveau pour moi, mais je suis néanmoins assez compétent."
   url: "https://python.org/"
 
-- name: Bases de données chronologiques
+- name: Bases de Données de Séries Temporelles
   logo: /images/sections/skills/TS.jpg
-  summary: "Peut-être la seule base de données IoT et Time Series DevRel sur la planète. Peut-être. Expérimenté dans la conception de solutions de données IoT à l'aide d'InfluxDB et de QuestDB."
+  summary: "Peut-être le seul DevRel IoT et Bases de Données de Séries Temporelles sur la planète. Peut-être. Expérimenté dans la conception de solutions de données IoT utilisant InfluxDB et QuestDB."
 
 - name: IoT
   logo: /images/sections/skills/IoT.jpg
@@ -53,4 +58,9 @@ skills:
 
 - name: C++
   logo: /images/sections/skills/c++.jpg
-  summary: "Connaître la programmation C / C ++ pour les environnements embarqués, y compris EmbedOS, Arduino, etc. Avoir développé des bibliothèques Arduino."
+  summary: "Connaître la programmation C/C++ pour les environnements embarqués, y compris EmbedOS, Arduino, etc. Avoir développé des bibliothèques Arduino."
+
+- name: Java
+  logo: /images/sections/skills/java.jpg
+  summary: "Capable d'écrire du code maintenable de qualité production."
+  url: "https://java.com/"
