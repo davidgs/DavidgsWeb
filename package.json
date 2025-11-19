@@ -1,9 +1,7 @@
 {
   "comments": {
     "dependencies": {
-      "@atproto/api": "project",
-      "next": "project",
-      "react": "project"
+      "@atproto/api": "project"
     },
     "devDependencies": {
       "@fontsource/mulish": "project",
@@ -39,9 +37,7 @@
     }
   },
   "dependencies": {
-    "@atproto/api": "^0.13.18",
-    "next": "^15.0.3",
-    "react": "^18.3.1"
+    "@atproto/api": "^0.13.18"
   },
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
@@ -76,5 +72,5 @@
     "typeit": "^8.8.7"
   },
   "name": "DavidgsWeb",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
