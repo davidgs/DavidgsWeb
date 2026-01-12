@@ -17,14 +17,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Web Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
         with:
           repository: davidgs/DavidgsWeb
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           path: ./DavidgsWeb
       - name: Checkout Translate
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
         with:
           repository: davidgs/Translator
           path: ./translate
@@ -34,9 +34,9 @@ jobs:
           hugo-version: '0.146.0'
           extended: true
       - name: Setup go
-        uses: actions/setup-go@v1
+        uses: actions/setup-go@v6
         with:
-          go-version: '1.25.1'
+          go-version: '1.25.5'
       - name: Build Translator
         run: cd ./translate; go build translate.go
       - name: Create Secret
