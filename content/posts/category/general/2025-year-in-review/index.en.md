@@ -4,6 +4,7 @@ date: 2026-01-06
 category: general
 slug: 2025-year-in-review
 hero: images/2025-drink.png
+reading_time: 9 minutes
 ---
 
 # What a Year!
