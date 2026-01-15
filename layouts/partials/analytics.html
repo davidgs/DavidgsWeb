@@ -3,6 +3,10 @@
     {{ if or .enable .enabled }}
 
         {{ with .services }}
+          {{ $url := absURL "" }}
+          {{ $pUrl := urls.Parse $url }}
+          {{ $hName := $pUrl.Host }}
+          {{ if and $hName ( ne $hName "localhost") }}
             <!-- Google Analytics -->
             {{ with .google }}
               <!-- Google tag (gtag.js) -->
@@ -91,7 +95,7 @@
 
             <!-- End PostHog analytics -->
             {{ end }}
-
+          {{ end }}
         {{ end }}
     {{ end }}
 {{ end }}

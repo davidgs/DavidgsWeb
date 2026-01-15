@@ -15,7 +15,14 @@ card: "/images/author/web-card.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "davidgs@davidgs.com"
-  phone: "+1 (919) 534-5099"
+  # phone: "+1 (919) 534-5099"
+  linkedin: "davidgsimmons"
+  github: "davidgs"
+  bluesky:
+    url: https://bsky.app/profile/davidgs.com
+    icon: bluesky
+    text: "@davidgs.com"
+
 
 # some summary about what you do
 summary:

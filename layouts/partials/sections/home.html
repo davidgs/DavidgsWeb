@@ -20,6 +20,10 @@
 {{ $backgroundImage = site.Params.background }}
 {{ end }}
 
+{{ $darkBackgroundImage:= $backgroundImage }}
+{{ if site.Params.darkBackground }}
+{{ $darkBackgroundImage = site.Params.darkBackground }}
+{{ end }}
 
 {{ $authorImage:= "/images/default-avatar.png" }}
 {{ if $author.image }}
@@ -78,6 +82,41 @@
 {{ $large := $src}}
 {{ end }}
 
+{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{ $darkSrc := resources.Get $darkBackgroundImage }}
+
+{{/* resize the src image to the given sizes */}}
+
+{{ $darkTiny := $darkSrc.Resize $tinyw }}
+{{ $darkSmall := $darkSrc.Resize $smallw }}
+{{ $darkMedium := $darkSrc.Resize $mediumw }}
+{{ $darkLarge := $darkSrc.Resize $largew }}
+
+{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
+{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
+
+{{ if lt $darkSrc.Width "500" }}
+{{ $darkTiny := $src}}
+{{ $darkSmall := $src}}
+{{ $darkMedium := $src}}
+{{ $darkLarge := $src}}
+{{ end }}
+
+{{ if lt $src.Width "800" }}
+{{ $darkSmall := $src}}
+{{ $darkMedium := $src}}
+{{ $darkLarge := $src}}
+{{ end }}
+
+{{ if lt $src.Width "1200" }}
+{{ $darkMedium := $src}}
+{{ $darkLarge := $src}}
+{{ end }}
+
+{{ if lt $src.Width "1500" }}
+{{ $darkLarge := $src}}
+{{ end }}
+
 <div class="container-fluid home" id="home">
   <style nonce="GfYXQKOc0WQSIBpKTPZjc9Dn/oDf7swy+RvK9FWKM9Q=">
     /* 0 to 299 */
@@ -119,6 +158,47 @@
       }
     }
 
+      html[data-theme='dark'] {
+
+      /* 0 to 299 */
+      #homePageBackgroundImageDivStyled {
+        background-image: url('{{ $darkTiny.RelPermalink }}');
+      }
+
+      /* 300 to X */
+      @media (min-width: 500px) and (max-width: 800px) {
+
+        /* or 301 if you want really the same as previously.  */
+        #homePageBackgroundImageDivStyled {
+          background-image: url('{{ $darkSmall.RelPermalink }}');
+        }
+      }
+
+      @media (min-width: 801px) and (max-width: 1200px) {
+
+        /* or 301 if you want really the same as previously.  */
+        #homePageBackgroundImageDivStyled {
+          background-image: url('{{ $darkMedium.RelPermalink }}');
+        }
+      }
+
+      @media (min-width: 1201px) and (max-width: 1500px) {
+
+        /* or 301 if you want really the same as previously.  */
+        #homePageBackgroundImageDivStyled {
+          background-image: url('{{ $darkLarge.RelPermalink }}');
+        }
+      }
+
+      @media (min-width: 1501px) {
+
+        /* or 301 if you want really the same as previously.  */
+        #homePageBackgroundImageDivStyled {
+          background-image: url('{{ $darkSrc.RelPermalink }}');
+        }
+      }
+    }
+
     /* #cf4a {
       background-image: url('{{ strings.TrimSuffix "/" site.BaseURL}}{{$authorBG}}')
     } */
@@ -134,8 +214,11 @@
     </div>
 
     <h1 class="greeting"> {{ $author.greeting }} {{ $name }}</h1>
+    {{ if $author.subtitle }}
+    <h2 class="greeting-subtitle">{{ $author.subtitle }}</h2>
+    {{ end }}
     <div class="typing-carousel">
-      <span id="ityped" class="ityped"></span>
+      <span id="typed" class="typed"></span>
       <span class="ityped-cursor"></span>
     </div>
     <ul id="typing-carousel-data">
