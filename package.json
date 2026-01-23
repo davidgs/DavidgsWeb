@@ -6,6 +6,7 @@
     "devDependencies": {
       "@fontsource/mulish": "project",
       "@fortawesome/fontawesome-free": "project",
+      "@popperjs/core": "project",
       "autoprefixer": "project",
       "bootstrap": "project",
       "eslint": "project",
@@ -24,20 +25,19 @@
       "imagesloaded": "project",
       "include-media": "project",
       "ityped": "project",
-      "typeit": "project",
       "katex": "project",
       "mark.js": "project",
       "mermaid": "project",
       "plyr": "project",
-      "popper.js": "project",
-      "@popperjs/core": "project",
+      "popper.js": "github.com/hugo-toha/toha/v4",
       "postcss": "project",
       "postcss-cli": "project",
-      "posthog-js": "project"
+      "posthog-js": "project",
+      "typeit": "github.com/hugo-toha/toha/v4"
     }
   },
   "dependencies": {
-    "@atproto/api": "^0.13.18"
+    "@atproto/api": "^0.13.18",
   },
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
