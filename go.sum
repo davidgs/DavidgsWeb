@@ -1,2 +1,4 @@
 github.com/hugo-toha/toha/v4 v4.13.0 h1:h6ZKpqSZIcNK8ufptcRbg+Bm63tBq7v+X2jCC1mlcwg=
 github.com/hugo-toha/toha/v4 v4.13.0/go.mod h1:TU/6WXz7fJ3BSrTS+K/sVctzUMF4pB4ZwKWzFBFra8g=
+github.com/hugomods/code-block-panel v0.9.0 h1:rIyoZQRsW7OCprinbZ93mC8D7x/UdciHmedb/JMIeKM=
+github.com/hugomods/code-block-panel v0.9.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
