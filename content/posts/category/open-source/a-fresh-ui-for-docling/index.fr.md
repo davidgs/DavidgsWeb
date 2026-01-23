@@ -7,19 +7,19 @@ hero: images/OCR.png
 reading_time: 12 minutes
 ---
 
-# Why would I do this? (And how)
+# Pourquoi ferais-je cela ? (Et comment)
 
-Is "because I can" a good enough answer? No, probably not. "Because I wanted to"? Still a not? Well, those are mostly going to have to do. The real reason is that I needed to use [docling](https://docling-project.github.io/docling/) to transform some documents from one format to another. I'd always used [pandoc](https://pandoc.org) but since I'm not at [Red Hat](https://redhat.com) and we are heavily involved with docling, I figured I'd give that a go.
+« Parce que je peux » est-il une réponse suffisante ? Non, probablement pas. « Parce que je le voulais » ? Toujours pas ? Bon, il faudra faire avec. La vraie raison, c'est que j'avais besoin d'utiliser [docling](https://docling-project.github.io/docling/) pour convertir des documents d'un format à un autre. J'avais toujours utilisé [pandoc](https://pandoc.org), mais comme je ne travaille pas chez [Red Hat](https://redhat.com) et que nous utilisons beaucoup Docling, je me suis dit que j'allais essayer.
 
-Much like pandoc, docling is mostly (ok, entirely) command-line driven. While this is fine for a lot of things, especially if you're automating things, it's hard to remember all the command-line flags if you don't use it that often.
+Tout comme pandoc, docling fonctionne principalement (voire entièrement) en ligne de commande. Si cela convient parfaitement à de nombreuses situations, notamment pour l'automatisation, il est difficile de mémoriser toutes les options de ligne de commande si on ne l'utilise pas fréquemment.
 
-This is going to be long, but if you're not interested in the nitty-gritty details, you can scroll past a lot of it. Especially if you just want to see what this fancy new UI looks like and how it works.
+Ce texte sera long, mais si les détails techniques ne vous intéressent pas, vous pouvez en sauter une grande partie. Surtout si vous voulez simplement voir à quoi ressemble cette nouvelle interface et comment elle fonctionne.
 
-Since I used a coding assistant to help me build this, I'm also going to go through the process I use for coding assistants as well.
+Comme j'ai utilisé un assistant de programmation pour m'aider à développer ceci, je vais également détailler le processus que j'utilise pour les assistants de programmation.
 
-## Let's look at Pandoc
+## Examinons Pandoc
 
-So my old standby for converting Markdown files to `.docx` files has always been pandoc. But every single time I have to remember how to use it. Here are the command-line flags for using pandoc:
+Mon outil de prédilection pour convertir les fichiers Markdown en fichiers `.docx` a toujours été pandoc. Mais à chaque fois, je dois me rappeler comment l'utiliser. Voici les options de ligne de commande pour utiliser pandoc :
 
 ```sh
 % pandoc --help
@@ -132,13 +132,13 @@ pandoc [OPTIONS] [FILES]
   -h                    --help
 ```
 
-Good luck remembering all (or any) of that. Yikes!
+Bon courage pour vous souvenir de tout ça (ou même d'une partie). Aïe !
 
-It works great, and I guess if I used it every day I might be able to remember at least enough to do standard conversions pretty quickly. But I don't, and I can't.
+Ça fonctionne très bien, et j'imagine que si je l'utilisais tous les jours, je pourrais au moins me souvenir de suffisamment de choses pour faire des conversions standard assez rapidement. Mais ce n'est pas le cas, et je n'y arrive pas.
 
-## What about docling?
+## Et la documentation ?
 
-First let's look at all the command line options for docling:
+
 
 ```sh
 % docling --help
@@ -231,50 +231,50 @@ First let's look at all the command line options for docling:
 ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-Ok, so I'm never going to remember those either. It is important to note, however, that docling does a _lot_ more than pandoc! It's not just a simple document format converter. Pandoc may support a larger array of document formats, but docling does so much more than just convert from format A to Format B.
 
-## What _else_ can docling do?
 
-Docling is a much more capable application that pandoc because it wasn't designed to be _only_ a document format converter. Docling is also capable of doing Optical Character Recognition (ocr) so if you're asking it to convert, say, a PDF file to a Markdown file, it can do that. docling was also designed to prepare documents to be fed into an AI engine, so it can properly 'chunk' a document (or series of documents), etc.
 
-From the docling documentation:
-  🗂️ Parsing of multiple document formats incl. PDF, DOCX, PPTX, XLSX, HTML, WAV, MP3, VTT, images (PNG, TIFF, JPEG, ...), and more
-  📑 Advanced PDF understanding incl. page layout, reading order, table structure, code, formulas, image classification, and more
-  🧬 Unified, expressive DoclingDocument representation format
-  ↪️ Various export formats and options, including Markdown, HTML, DocTags and lossless JSON
-  🔒 Local execution capabilities for sensitive data and air-gapped environments
-  🤖 Plug-and-play integrations incl. LangChain, LlamaIndex, Crew AI & Haystack for agentic AI
-  🔍 Extensive OCR support for scanned PDFs and images
-  👓 Support of several Visual Language Models (GraniteDocling)
-  🎙️ Support for Audio with Automatic Speech Recognition (ASR) models
-  🔌 Connect to any agent using the Docling MCP server
-  💻 Simple and convenient CLI
 
-## I WANT A GUI!
 
-As with most things these days, I would prefer to have a noce front-end on things. It just makes things easier most of the time. I've been playing around with Claude Code some, and decided to see if I could use it to create a proper front-end to docling that would work. Given the number of options for docling, it was not going to be easy, and I would _also_ have to implement a backend service that would serve the docling API to my shiny new frontend.
 
-Could I have written this all myself? Of course! But it seemed like a good thing to test our Claude Code some more on. So here we go!
 
-## How I use Claude Code
 
-If you're unfamiliar, Claude Code is a version of Visual Studio Code that is also integrated with a bunch of very powerful AI coding agents. While VSP uses GitHub Copilot (mostly), Claude Code allows you to choose the agent that you want to use, or even use multiple agents.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {{ <img src="images/claude-models.png align="center" > }}
 
 {{< alert type="warning" >}}
-**Note:** This is just one of many AI coding assistants available. You can use whatever you like, or none at all. Using an AI coding assistant to write applications is what people are now calling "Vibe Coding".
+
 {{< /alert >}}
 
-Simply using an AI coding assistant with no thought or structure is a recipe for disaster, but that's a completely different blog post (which I should probably write at some point).
 
-The way _I_ use coding assistants is very intentional and structured. Before I do _any_ coding, I typically write out a complete specification of what I'm attempting to build. This includes the features I want, the technologies I want to use, and any other constraints that I have. Once I have that, I can start breaking the project down into smaller pieces that I can then ask the coding assistant to help me with. One of the things I like about Claude Code is that I can set the agent into one of 4 different modes:
-- **Ask**: This allows me to simply ask questions without having the agent implement anything. I can ask it things like "what would be the best language to implement a backend service for docling?" and get some answers. (It's python, by the way).
-- **Plan**: Once I've gotten some answers to my questions, I can then switch to 'plan' mode and ask the agent to come up with a detailed plan for how to implement the project. The agent will then come up with a detailed plan that I can then review and modify as needed. I can even ask it to break down some of the steps in its plan into further plans to see how it intends to actually go about implementing various parts of the project.
-- **Agent**: This is where the agent actually starts writing code. I can give it specific tasks from my plan, and it will write the code for me. I can then review the code, make any changes I want, and then move on to the next task.
+
+
+
+
+
 {{< alert type="danger" >}}
-**Warning:** Always review the code that the agent writes. Just because it wrote it doesn't mean it's correct, secure, or even functional. This means that you should have a detailed understanding about what the code is supposed to do before you ask the agent to write it. You should know the language that the agent is using, and you should feel comfortable in writing and debugging the code the agent provides. Never just accept code blindly.
-{{< /alert >}}
-- **Debug**: When you've got some code that may not be working as. you intend, the debug mode can help you figure out why. You can ask the agent to look at your code and help you find bugs, or even suggest improvements. Again, you should be familiar with the language, and know how to write and debug the code yourself in order to make sure that you understand what the agent is suggesting.
 
-Claude Code also now provides a mechanism for ensuring that certain tasks are _always_ performed. For example, I always want to make sure that any code that is written is also properly unit tested. So I can set up a rule that says "whenever you write code, you must also write unit tests for it". This helps ensure that the code is functional and maintainable. I also have a rule to make sure that the documentation is updated, and that a proper `CHANGELOG.md` file is maintained.
+{{< /alert >}}
+
+
+

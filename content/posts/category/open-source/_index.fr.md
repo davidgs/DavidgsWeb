@@ -1,5 +1,5 @@
 ---
-title: Open Source
+title: Source libre
 menu:
   sidebar:
     name: Open Source
