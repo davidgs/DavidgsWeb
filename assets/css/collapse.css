@@ -1,0 +1,20 @@
+.collapseAnchor {
+  text-decoration:none;
+}
+/* Might want to redo something similar to ensure the arrows look right */
+/*.collapseAnchor:after {
+  content:"\25B2";
+  display:inline-block;
+  padding:0.4em 0 0 0.3em;
+  vertical-align:top;
+  font-size:0.625em;
+}
+.collapseWrap.closed + .collapseAnchor:after {
+  content:"\25BC";
+}
+*/
+.collapseWrap.closed > .hugo-collapse-below {
+  position:absolute;
+  top:-999em;
+  left:-999em;
+}
