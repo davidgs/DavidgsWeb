@@ -217,16 +217,7 @@ I have similar rules for various languages, and for making sure things like unit
 
 ## So let's get to the UI already!! {#fancy-ui}
 
-Let me start by saying that I searched the web for a docling UI and my searches came up empty. Only _after_ I had built this thing did I find out that [docling-serve](https://github.com/docling/docling-serve) existed. So I went and looked at it. I'm not going to throw shade on another project, but I didn't much like the UI.
-
-Here's the UI for converting documents:
-{{< img src="images/docling-serve-file.png" alt="an antiquated User interface for docling" align="center" >}}
-And it's the same for converting URLs:
-{{< img src="images/docling-serve-url.png" alt="The same antiquated user interface for docling" >}}
-
-Does it work? Of course. Is it pretty? Well, I don't really think so, but again, I'm not going to throw shade on someone else's hard work.
-
-Anyway, as I said, I didn't know of the existence of `docling-serve` until _after_ I had built this, so ...
+Wait, not so fast! Before we can have a nice fancy UI in front of docling, we have to have a way to _serve_ dockling! So
 
 ### A backend server
 
@@ -237,3 +228,66 @@ Here is a short list of things I wanted to be able to do:
 - Have the docling and duckling docs available in the UI itself
 - Make the various OCR engines available (and installable if they weren't installed at startup)
 - Keep a history of documents we've loaded previously
+- Be able to quickly load previously-parsed documents from history
+- Be able to see the output of the docling process in various formats (Markdown, HTML, JSON, etc.)
+- Have the full set of docling options available in the UI
+- Be able to save the output of docling in various formats
+
+Easy, right? Not really.
+
+I used Flask to build the backend server. I won't go into the details of how I built it, but it basically exposes a REST API that the frontend can call to perform various actions. The entire API is documented in the documentation, which is available at both [duckling-ui.org](https://duckling-ui.org) and internally in the application.
+
+{{< alert type="info" >}}
+The docs for docling are pulled directly from the [docling project](https://docling-project.github.io/docling/) but only a subset of those documents are included. Links to the full docling docs are included though.
+{{< /alert >}}
+
+{{< alert type="warning" >}}
+Including those documents is for convenience only and while the duckling application will always try to pull the latest documentation from docling, you should always reference the project documentation just in case.
+{{< /alert >}}
+
+The backend server also starts the complete docling process, and is able to install (or pre-install) various OCR and other plugins for more advanced uses. I wanted to make this possible so that users didn't have to re-start the server process every time they wanted to enable a new feature. Additionally, since the backend server process can run anywhere, the end user doesn't need to have direct access to the server hardware in order to use the more advanced features of docling from just about anywhere.
+
+Even more useful for remote deployments, you can adjust -- from the GUI -- the amount of memory and the number of threads to run docling on.
+
+
+{{< img src="images/performance.png" align="center" >}}
+
+You can even select the kind of hardware you want to run on.
+
+{{< img src="images/performance-cpu.png" align="center" >}}
+
+There are still some things to be aware of if you're going to run on remote hardware. Ignore them at your peril.
+
+{{< alert type="danger" >}}
+There is currently no system for user authentication built into the duckling server process, nor is there a mechanism for loading SSL certificates. I **strongly** discourage anyone from simply starting this application on an unprotected server. At this time, if you want to deploy it on a remote server, I recommend putting it behind a protected proxy.
+{{< /alert >}}
+
+### The front end
+
+_Finally_ we get to the actual GUI! I gave you a small taste of it in the previous section, but here's where I'll go through it in more detail. When you load it in your web browser, you'll see the main interface.
+
+{{< img src="images/duckling.png" align="center" >}}
+
+Clean, simple, and easy to understand. Simply drag a document into the drop zone to process it.
+
+{{< img src="images/drop-english.png" align="center" >}}
+
+> **Note**: I have provided auto-translated versions of the entire UI for English, French, Spanish, and German.
+>
+> {{< img src="images/drop-german.png" align="center" >}}
+
+Once you drop a document in any of the supported formats, it is processed and the results displayed.
+
+{{< img src="images/processing.png" align="center" >}}
+
+The result is then displayed, along with some statistics about the conversion.
+
+{{< img src="images/process-complete-md.png" align="center" >}}
+
+Since I set my default output format to be Markdown, that's what is selected in the output. You can see either the rendered Markdown, or the raw Markdown.
+
+The same is true for the other formats like HTML, etc.
+
+{{< img src="images/process-complete-html.png" align="center" >}}
+
+You can then download any of the rendered formats for use.
