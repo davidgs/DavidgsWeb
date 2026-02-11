@@ -1,0 +1,18 @@
+<!-- parameter sanity check -->
+
+{{ if not (in "open closed" (default "closed" (.Get "initState"))) }}
+  {{ errorf "Failed to handle page %q: param \"initState\" only takes [open, closed]; got %s" .Page.Path (.Get "init")}}
+{{ end }}
+
+<div class="hugo-collapse-parent
+  {{ if eq (default "closed" (.Get "initState")) "closed" }}closed{{ end }}"
+  data-text-closed={{ (default "See More ▼" (.Get "textClosed")) }}
+  data-text-open={{ (default "See Less ▲" (.Get "textOpen")) }}>
+  <!-- prevent common resources from being loaded more than once per page -->
+  {{ if not ($.Page.Scratch.Get "collapseLoaded") }}
+    {{ $.Page.Scratch.Set "collapseLoaded" 1 }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/collapse.css">
+    <script type="text/javascript" src="{{ .Site.BaseURL }}//js/collapse.js"></script>
+  {{ end}}
+  {{.Inner}}
+</div>

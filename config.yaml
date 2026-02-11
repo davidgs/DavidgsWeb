@@ -67,15 +67,30 @@ outputs:
     - RSS
     - JSON
 
+# Configure sitemap
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+  disable: false
+
 # Site parameters
 params:
   # Background image of the landing page
   background: /images/site/background.jpg
   hero-background: /images/site/blue-bg.jpg
   features:
-    darkMode:
+    theme:
       enable: true
+      services:
+        light: true # enable light theme. default "true"
+        dark: true # enable dark theme. default "true"
+        default: system # can be either light, dark or system. default "system"
+
     copyCodeButton:
+      enable: true
+    # Enable reading time support in post cards and in post pages
+    readingTime:
       enable: true
     flags:
       enable: true
@@ -89,6 +104,7 @@ params:
         reddit: true
         whatsapp: false
         email: true
+        mastodon: true
     # Enable Google Analytics
     analytics:
       enabled: true
@@ -101,7 +117,12 @@ params:
           invisible: 1
           nonce: sBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg
         posthog:
-          id: phc_xvr9iYiOKNEZdxKH8JC7PFHwCVJflLczaKNIzeoEFVy
+          apiKey: phc_xvr9iYiOKNEZdxKH8JC7PFHwCVJflLczaKNIzeoEFVy
+          host: https://app.posthog.com
+        #   # Optional configuration
+          options:
+            defaults: '2025-11-30'
+        #  id: phc_xvr9iYiOKNEZdxKH8JC7PFHwCVJflLczaKNIzeoEFVy
     comment:
       enable: true
       services:
@@ -130,10 +151,36 @@ params:
 tags:
   enable: true
   on_card: true
-  # Provide newsletter configuration. This feature hasn't been implemented yet.
-  # Currently, you can just hide it from the footer.
-  newsletter:
-    enable: false
+
+# Provide footer configuration.
+  footer:
+    enable: true
+    # You can provide your custom footer template using this option.
+    # Put your template in "layouts/partials" folder of your repo.
+    template: footer.html
+    # Show/hide navigation in the footer. Default is "true".
+    navigation:
+      enable: true
+      # show custom menus in the footer
+      customMenus: true
+    # Show/hide "Contact Me" section in the footer. Default is "true".
+    contactMe:
+      enable: true
+    # Show/hide credentials section in the footer. Default is "true".
+    credentials:
+      enable: true
+
+    # Show/hide newsletter section in the footer. Default is "true".
+    # Currently, it supports "mailchimp".
+    newsletter:
+      enable: false
+      # provider: mailchimp
+      # mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+
+    # Show/hide disclaimer notice in the footer. Default is "false".
+    disclaimer:
+      enable: true
+
 # Use Hugo modules to add theme
 module:
   imports:

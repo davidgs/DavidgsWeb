@@ -1,0 +1,102 @@
+<!-- Add Analytics if enabled in configuration -->
+{{ with site.Params.features.analytics }}
+    {{ if or .enable .enabled }}
+
+        {{ with .services }}
+          {{ if and hugo.IsProduction (or .enable .enabled)}}
+            <!-- Google Analytics -->
+            {{ with .google }}
+              <!-- Google tag (gtag.js) -->
+              <script async src="https://www.googletagmanager.com/gtag/js?id={{ .id }}"></script>
+              <script integrity="sha256-sBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAH/Yg=">
+                console.log("Google Analytics enabled");
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+
+                gtag('config', '{{ .id }}');
+              </script>
+            {{ end }}
+
+            <!-- Counter.dev -->
+            {{ with .counterDev }}
+                <script src="https://cdn.counter.dev/script.js"
+                    data-id="{{ .id }}"
+                    data-utcoffset="1"
+                ></script>
+            {{ end }}
+
+            <!-- GoatCounter -->
+            {{ with .goatCounter }}
+                {{ with .code }}
+                    <script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+                    {{ else }}
+                        <script data-goatcounter="https://{{ .instance }}/count" async src="https://{{ .instance }}/count.js"></script>
+                {{ end }}
+            {{ end }}
+
+            <!-- Piwik/Matomo -->
+            {{ with .matomo }}
+            <!-- Matomo -->
+                <script>
+                var _paq = window._paq = window._paq || [];
+                /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+                _paq.push(['trackPageView']);
+                _paq.push(['enableLinkTracking']);
+                (function() {
+                    var u="//{{ .instance }}/";
+                    _paq.push(['setTrackerUrl', u+'matomo.php']);
+                    _paq.push(['setSiteId', '{{ .siteId }}']);
+                    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+                })();
+                </script>
+            {{ end }}
+
+            {{ with .cloudflare }}
+                <!-- Cloudflare Web Analytics -->
+                <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+                    data-cf-beacon='{"token": "{{ .token }}"}'
+                ></script>
+                <!-- End Cloudflare Web Analytics -->
+            {{ end }}
+
+            {{ with .umami }}
+            <!-- Umami analytics -->
+            <script defer src='{{ or .scheme "https" }}://{{ or .instance "analytics.eu.umami.is" }}/script.js' data-website-id="{{ .id }}"></script>
+            <!-- End Umami analytics -->
+            {{end}}
+
+            {{ with .statcounter }}
+              <!-- <script type="text/javascript" nonce="{{ .nonce }}">
+                console.log("Statcounter enabled");
+                  var sc_project = {{ .project }};
+                  var sc_invisible = {{ .invisible }};
+                  var sc_security = "{{ .security }}";
+                  var scJsHost = (("https:" == document.location.protocol) ?
+                  "https://www.statcounter.com/js/" : "https://www.statcounter.com/js/");
+              </script>
+              <noscript>
+                <div class="statcounter"><a title="web counter" href="https://statcounter.com/" target="_blank"><img class="statcounter"
+                      src="https://c.statcounter.com/{{ .project }}/0/{{ .security }}/{{ .invisible }}/" alt="web counter"
+                      referrerPolicy="no-referrer-when-downgrade"></a></div>
+              </noscript> -->
+            {{ end }}
+
+            {{ with .posthog }}
+            <!-- PostHog analytics -->
+             <script>
+              !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+              posthog.init('phc_xvr9iYiOKNEZdxKH8JC7PFHwCVJflLczaKNIzeoEFVy', { api_host: 'https://us.i.posthog.com' })
+            </script>
+
+            <!-- End PostHog analytics -->
+            {{ end }}
+          {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5926167771603583"
+  crossorigin="anonymous"></script>
