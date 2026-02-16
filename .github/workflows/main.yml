@@ -22,6 +22,8 @@ jobs:
       #   with:
       #     repository: davidgs/Translator
       #     path: ./translate
+      - name: cleanup
+        run: ls -la /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/sitemap.xml; rm -f /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/sitemap.xml; ls -la /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/sitemap.xml
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
