@@ -23,36 +23,12 @@ jobs:
       #     repository: davidgs/Translator
       #     path: ./translate
       - name: cleanup
-        run: ls -la /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/sitemap.xml; rm -f /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/sitemap.xml; ls -la /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/sitemap.xml
+        run: ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/; rm -f /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/sitemap.xml; ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.154.5'
           extended: true
- #     - name: Golang
- #       uses: actions/checkout@master
-      # - name: Setup go
-      #   uses: actions/setup-go@v1
-      #   with:
-      #     go-version: '1.16.3'
-      # - name: Build Translator
-      #   run: cd ./translate; go build translate.go
-      # - name: Create Secret
-      #   uses: jsdaniell/create-json@1.1.2
-      #   with:
-      #     name: "./translate/google-secret.json"
-      #     json: ${{ secrets.TRANSLATE_SECRET }}
-      # - name: Translate
-      #   run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
-      # - name: ReCommit
-      #   uses: stefanzweifel/git-auto-commit-action@v4
-      #   with:
-      #     # Optional, but recommended
-      #     # Defaults to "Apply automatic changes"
-      #     commit_message: Auto-Translations
-      #     # branch: main
-      #     # file_pattern: index.*.md
-      #     repository: ./DavidgsWeb
       - name: Build
         run: rm -f /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/sitemap.xml; cd DavidgsWeb; hugo mod get; hugo mod npm pack; npm install; hugo --minify
       - name: rsync deployments
