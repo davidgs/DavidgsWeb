@@ -23,7 +23,7 @@ jobs:
       #     repository: davidgs/Translator
       #     path: ./translate
       - name: cleanup
-        run: mkdir ./public; chmod -R a+w ./public; ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/public;  ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/
+        run: mkdir /home/runner/work/DavidgsWeb/DavidgsWeb/public; chmod -R a+w /home/runner/work/DavidgsWeb/DavidgsWeb/public; ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/public;  ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
