@@ -23,14 +23,14 @@ jobs:
       #     repository: davidgs/Translator
       #     path: ./translate
       - name: cleanup
-        run: mkdir /home/runner/work/DavidgsWeb/DavidgsWeb/public; chmod -R a+w /home/runner/work/DavidgsWeb/DavidgsWeb/public; ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/public;  ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/
+        run: mkdir /home/runner/work/DavidgsWeb/DavidgsWeb/public; chmod -R a+w /home/runner/work/DavidgsWeb/DavidgsWeb/public; ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/public;  ls -RAGl /home/runner/work/DavidgsWeb/DavidgsWeb/public/
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.154.5'
           extended: true
       - name: Build
-        run: rm -f /home/runner/work/DavidgsWeb/DavidgsWeb/DavidgsWeb/public/sitemap.xml; cd DavidgsWeb; hugo mod get; hugo mod npm pack; npm install; hugo --minify
+        run: cd DavidgsWeb; hugo mod get; hugo mod npm pack; npm install; hugo --minify
       - name: rsync deployments
         uses: burnett01/rsync-deployments@7.0.1
         with:
