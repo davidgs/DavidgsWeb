@@ -117,8 +117,8 @@ params:
           invisible: 1
           nonce: sBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg
         posthog:
-          apiKey: phc_xvr9iYiOKNEZdxKH8JC7PFHwCVJflLczaKNIzeoEFVy
-          host: 1dbb4e0cab3dc5f68bde.cf-prod-us-proxy.proxyhog.com
+          apiKey: __POSTHOG_API_KEY__
+          host: dgs.davidgs.com
         #   # Optional configuration
           options:
             defaults: '2025-11-30'
