@@ -31,8 +31,7 @@ jobs:
           extended: true
       - name: Inject PostHog API key
         run: |
-          cd DavidgsWeb;
-          sed -i "s|__POSTHOG_API_KEY__|${{ secrets.POSTHOG_API_KEY }}|g" ./config.yml
+          cd DavidgsWeb; pwd; ls -l; sed -i "s|__POSTHOG_API_KEY__|${{ secrets.POSTHOG_API_KEY }}|g" ./config.yml
       - name: Build
         run: cd DavidgsWeb; hugo mod get; hugo mod npm pack; npm install; hugo --minify
       - name: rsync deployments
