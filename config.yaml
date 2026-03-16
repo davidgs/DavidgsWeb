@@ -122,7 +122,6 @@ params:
         #   # Optional configuration
           options:
             defaults: '2025-11-30'
-        #  id: phc_xvr9iYiOKNEZdxKH8JC7PFHwCVJflLczaKNIzeoEFVy
     comment:
       enable: true
       services:
