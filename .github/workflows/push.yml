@@ -44,6 +44,8 @@ jobs:
         with:
           name: "./translate/google-secret.json"
           json: ${{ secrets.TRANSLATE_SECRET }}
+      - name: Copy Config
+        run: cp ../DavidgsWeb/config.json ./translate/config.json
       - name: Translate
         run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
       - name: ReCommit

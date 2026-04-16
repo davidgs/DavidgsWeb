@@ -4,6 +4,7 @@ Date: 2026-04-16
 Category:
 Slug: some-big-duckling-updates
 hero: ./images/hero.png
+reading_time: 5 minutes
 ---
 
 It's been a few months since I [last wrote about Duckling](https://davidgs.com/posts/category/open-source/a-fresh-ui-for-docling/), and in that time, I've made some significant updates to the project. If you haven't heard of Duckling before, it's a web interface for IBM's [Docling](https://docling.ai/) library, which provides powerful document conversion capabilities. With Duckling, you can easily convert PDFs to text, Word documents to Markdown, and even perform OCR on scanned images.
