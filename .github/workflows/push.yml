@@ -46,6 +46,8 @@ jobs:
           json: ${{ secrets.TRANSLATE_SECRET }}
       - name: Copy Config
         run: cp ./DavidgsWeb/config.json ./config.json
+      - name: Show Config
+        run: ls -la .; ls -la ./translate; ls -la ./DavidgsWeb
       - name: Translate
         run: cd ./translate; ./translate ../DavidgsWeb/content/posts/
       - name: ReCommit
