@@ -24,6 +24,7 @@ We take security seriously and will:
 - Provide regular security updates for dependencies
 - Maintain a security audit process using `npm audit` and `go list -m -u`
 - Document security fixes in CHANGELOG.md
+- Keep CI translation workflows current so automation does not fail and bypass expected content processing steps.
 
 ## Dependency Security
 

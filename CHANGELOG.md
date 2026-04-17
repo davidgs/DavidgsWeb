@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Fixed `.github/workflows/push.yml` translation flow by copying `config.json` into `./translate/` so the translator can load its runtime config when branch pushes trigger auto-translation.
+
 ### Security
 - Updated `mermaid` from 9.2.1 to 11.12.1 to fix high-severity security vulnerabilities (DOMPurify XSS and prototype pollution)
 - Replaced deprecated `popper.js` (v1.16.1) with `@popperjs/core` (v2.11.8) for Bootstrap 5 compatibility
