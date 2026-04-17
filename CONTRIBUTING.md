@@ -57,7 +57,8 @@ Native speakers are especially encouraged to improve translations! Please:
    ```bash
    go mod download
    ```
-4. Run Hugo development server:
+4. If you are testing translation automation locally, ensure `config.json` is present in your translator runtime directory.
+5. Run Hugo development server:
    ```bash
    hugo server
    ```

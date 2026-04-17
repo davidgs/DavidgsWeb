@@ -21,6 +21,7 @@ It is currently offered in 5 languages:
 - Dutch (ML translated)
 
 The translations are all done automatically using my own [Translator](https://github.com/davidgs/Translator) project which relies on Google Translate for the translations.
+The branch-push workflow copies `config.json` into the translator working directory before execution so automated post translations run reliably.
 
 Native-speakers are encouraged to submit Pull Requests to make the translations better!
 
